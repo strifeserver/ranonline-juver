@@ -1,0 +1,59 @@
+---------------------------
+*sp_extreme bugfix
+---------------------------
+*user_verify update
+---------------------------
+single login feature
+*user_verify update
+*user_logout update
+*UserLogoutSimple update
+*UserLogoutSimple2 update
+*Table UserKey Added
+---------------------------
+*add Column ChaScaleRange in Table ChaInfo in Database RanGame1
+ChaScaleRange type float, default value 1.0, not null
+---------------------------
+*add Column ChaItemFood in Table ChaInfo in Database RanGame1
+ChaItemFood type image, allow null
+---------------------------
+*add Column ChaCP in Table ChaInfo in Database RanGame1
+ChaCP type bigint, default value 0, not null
+---------------------------
+vehicle booster update
+*add Column VehicleBooster in Table VehicleInfo in Database RanGame1
+VehicleBooster type bigint, default value 0, not null
+*sp_SelectVehicle update
+*sp_UpdateVehicleBooster added
+---------------------------
+*add Column ChaContributionPoint in Table ChaInfo in Database RanGame1
+ChaContributionPoint type money, default value 0, not null
+---------------------------
+*add Column ChaActivityPoint in Table ChaInfo in Database RanGame1
+ChaActivityPoint type int default value 0, not null
+---------------------------
+*add Column ChaBadge, ChaActivity in Table ChaInfo in Database RanGame1
+ChaBadge type varchar(33) default value (''), not null
+ChaActivity type image, allow null
+---------------------------
+*add Column VehicleColor in Table VehicleInfo in Database RanGame1
+VehicleColor type image, allow null
+------------------------------------------------------
+*add Column ChaPKScore, ChaPKDeath in Table ChaInfo in Database RanGame1
+ChaPKScore type bigint default value 0, not null
+ChaPKDeath type bigint default value 0, not null
+------------------------------------------------------
+*add Column UserSA in Table UserInfo in Database RanUser
+UserSA type varchar(50) default value (''), not nulll
+------------------------------------------------------
+*add Column PetDualSkill in Table PetInfo in Database RanGame1
+PetDualSkill type bigint default value 0, not null
+------------------------------------------------------
+*add Column ChaEquipmentLockEnable, ChaEquipmentLockStatus in Table ChaInfo in Database RanGame1
+ChaEquipmentLockEnable type bigint default value 0, not null
+ChaEquipmentLockStatus type bigint default value 0, not null
+*sp_InsertEquipmentPass added
+*sp_ChangeEquipmentPass added
+*sp_CheckEquipmentPass added
+*sp_DeleteEquipmentPass added
+*Table ChaEquipmentPass Added
+------------------------------------------------------

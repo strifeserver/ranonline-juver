@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="NPCSHOP_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="634" H="501" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPCSHOP_WINDOW_LINE">
+		<WINDOW_POS X="4" Y="21" W="626" H="476" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="NPC_SHOP_SLOT_LINE">
+		<WINDOW_POS X="7" Y="24" W="395" H="440" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_PAGE_LINE">
+		<WINDOW_POS X="7" Y="464" W="395" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_CATEGORY_LINE">
+		<WINDOW_POS X="405" Y="24" W="222" H="380" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_MONEY_LINE">
+		<WINDOW_POS X="405" Y="428" W="222" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_MONEY_STATIC">
+		<WINDOW_POS X="405" Y="428" W="80" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_MONEY_TEXT">
+		<WINDOW_POS X="487" Y="428" W="140" H="22" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="NPC_SHOP_PAGE_NUM_TEXT">
+		<WINDOW_POS X="192" Y="468" W="25" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_CATEGORY_TEXT">
+		<WINDOW_POS X="410" Y="29" W="202" H="370" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_CATEGORY_SCROLL">
+		<WINDOW_POS X="615" Y="29" W="10" H="370" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_BUTTON_PURCHASE">
+		<WINDOW_POS X="405" Y="453" W="222" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="NPC_SHOP_CONFIRM_BUTTON_TEXT">
+		<WINDOW_POS X="430" Y="408" W="100" H="15"/>
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_CONFIRM_BUTTON">
+		<WINDOW_POS X="410" Y="408" W="15" H="15"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="55" Y="14" W="14" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="NPC_SHOP_CONFIRM_BUTTON_ON">
+		<WINDOW_POS X="0" Y="0" W="14" H="14"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="69" Y="14" W="14" H="14" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT00">
+		<WINDOW_POS X="12" Y="29" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT01">
+		<WINDOW_POS X="12" Y="72" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT02">
+		<WINDOW_POS X="12" Y="115" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT03">
+		<WINDOW_POS X="12" Y="158" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT04">
+		<WINDOW_POS X="12" Y="201" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT05">
+		<WINDOW_POS X="12" Y="244" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT06">
+		<WINDOW_POS X="12" Y="287" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT07">
+		<WINDOW_POS X="12" Y="330" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT08">
+		<WINDOW_POS X="12" Y="373" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_LEFT09">
+		<WINDOW_POS X="12" Y="416" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT00">
+		<WINDOW_POS X="207" Y="29" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT01">
+		<WINDOW_POS X="207" Y="72" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT02">
+		<WINDOW_POS X="207" Y="115" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT03">
+		<WINDOW_POS X="207" Y="158" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT04">
+		<WINDOW_POS X="207" Y="201" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT05">
+		<WINDOW_POS X="207" Y="244" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT06">
+		<WINDOW_POS X="207" Y="287" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT07">
+		<WINDOW_POS X="207" Y="330" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT08">
+		<WINDOW_POS X="207" Y="373" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_RIGHT09">
+		<WINDOW_POS X="207" Y="416" W="190" H="41" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="NPC_SHOP_PRE_PAGE_BUTTON">
+		<WINDOW_POS X="173" Y="468" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="99" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_PRE_PAGE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="137" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_PRE_PAGE_BUTTON_OVER">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="118" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_NEXT_PAGE_BUTTON">
+		<WINDOW_POS X="217" Y="468" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_NEXT_PAGE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="194" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_NEXT_PAGE_BUTTON_OVER">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="175" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_CUR_PAGE_TEXT">
+		<WINDOW_POS X="173" Y="468" W="64" H="19" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_BACK"> 
+		<WINDOW_POS X="0" Y="0" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_IMAGE">
+		<WINDOW_POS X="3" Y="3" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_NAME">
+		<WINDOW_POS X="43" Y="3" W="144" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_PRICE">
+		<WINDOW_POS X="43" Y="21" W="144" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NPC_SHOP_ITEM_LIST_NODE_SELECT">
+		<WINDOW_POS X="0" Y="0" W="190" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="261" H="41" />
+	</CONTROL>
+	
+	<!--pointshop window-->
+	<CONTROL Local="Common" Id="POINT_SHOP_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="600" H="573" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ACTIVE_TAB0">
+		<WINDOW_POS X="4" Y="22" W="123" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ACTIVE_TAB1">
+		<WINDOW_POS X="129" Y="22" W="123" H="20" />
+	</CONTROL>
+	<CONTROL Local="DevLordX" Id="POINT_SHOP_BACKGROUND">
+		<WINDOW_POS X="4" Y="41" W="592" H="529" />
+		<TEXTURE SizeX="256" SizeY="128">gui_attend_record.dds</TEXTURE>
+		<TEXTURE_POS X="214" Y="0" W="9" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_MAIN">
+		<WINDOW_POS X="4" Y="42" W="592" H="528" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_UNDER_LINE">
+		<WINDOW_POS X="12" Y="468" W="572" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_POINT_TEXT">
+		<WINDOW_POS X="407" Y="448" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CUR_POINT_TEXT">
+		<WINDOW_POS X="470" Y="448" W="107" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ITEMLIST_LINE">
+		<WINDOW_POS X="9" Y="6" W="391" H="436" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="POINT_SHOP_PRE_PAGE_BUTTON">
+		<WINDOW_POS X="168" Y="448" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="99" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_PRE_PAGE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="137" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_PRE_PAGE_BUTTON_OVER">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="118" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_NEXT_PAGE_BUTTON">
+		<WINDOW_POS X="222" Y="448" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_NEXT_PAGE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="194" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_NEXT_PAGE_BUTTON_OVER">
+		<WINDOW_POS X="0" Y="0" W="19" H="15" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="175" Y="74" W="19" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CUR_PAGE_TEXT">
+		<WINDOW_POS X="187" Y="448" W="35" H="19" />
+	</CONTROL>
+	<!--category-->
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_BACK">
+		<WINDOW_POS X="402" Y="10" W="180" H="428" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_LINE">
+		<WINDOW_POS X="402" Y="400" W="180" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_TEXTBOX">
+		<WINDOW_POS X="403" Y="10" W="169" H="385" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_SCROLLBAR">
+		<WINDOW_POS X="572" Y="11" W="10" H="385" />
+	</CONTROL>
+     <!-- item node -->
+	<CONTROL Local="Common" Id="POINT_SHOP_ITEM_LIST_NODE_BACK"> 
+		<WINDOW_POS X="0" Y="0" W="190" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ITEM_LIST_NODE_BACK_LINE">
+		<WINDOW_POS X="5" Y="5" W="5" H="5" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ITEM_LIST_NODE_IMAGE">
+		<WINDOW_POS X="3" Y="3" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ITEM_LIST_NODE_NAME">
+		<WINDOW_POS X="43" Y="3" W="144" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_ITEM_LIST_NODE_PRICE">
+		<WINDOW_POS X="43" Y="21" W="144" H="17" />
+	</CONTROL>
+	<!--cart-->
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_LIST_BACK">
+		<WINDOW_POS X="16" Y="515" W="572" H="39" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_LIST_BACK_LINE">
+		<WINDOW_POS X="5" Y="5" W="5" H="5" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="60" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_ICON">
+		<WINDOW_POS X="16" Y="521" W="28" H="27" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="74" Y="20" W="28" H="27" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_ITEM_SLOT">
+		<WINDOW_POS X="44" Y="517" W="368" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_ICON_HELP_BACK">
+		<WINDOW_POS X="44" Y="548" W="230" H="50" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="102" Y="36" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_ICON_HELP_BACK_LINE">
+		<WINDOW_POS X="5" Y="5" W="5" H="5" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="95" W="20" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CART_ICON_HELP_TEXT">
+		<WINDOW_POS X="54" Y="553" W="210" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_BUY_BUTTON">
+		<WINDOW_POS X="413" Y="479" W="164" H="27" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_BUY_BUTTON_TEXT_LEFT">
+		<WINDOW_POS X="418" Y="479" W="77" H="27" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_BUY_BUTTON_TEXT_RIGHT">
+		<WINDOW_POS X="495" Y="479" W="77" H="27" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_HELP_BUTTON">
+		<WINDOW_POS X="580" Y="24" W="16" H="16" />
+		<TEXTURE SizeX="128" SizeY="128">Activities_gui.dds</TEXTURE>
+		<TEXTURE_POS X="90" Y="40" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_HELP_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="16" H="16" />
+		<TEXTURE SizeX="128" SizeY="128">Activities_gui.dds</TEXTURE>
+		<TEXTURE_POS X="106" Y="56" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_HELP_BUTTON_OVER">
+		<WINDOW_POS X="0" Y="0" W="16" H="16" />
+		<TEXTURE SizeX="128" SizeY="128">Activities_gui.dds</TEXTURE>
+		<TEXTURE_POS X="106" Y="40" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_HELP_TEXT">
+		<WINDOW_POS X="296" Y="42" W="300" H="300" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_RELOAD_BUTTON">
+		<WINDOW_POS X="563" Y="24" W="16" H="16" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="102" Y="20" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_RELOAD_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="16" H="16" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="102" Y="52" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CATEGORY_RELOAD_BUTTON_OVER">
+		<WINDOW_POS X="0" Y="0" W="16" H="16" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="102" Y="36" W="16" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CONFIRM_BUTTON_TEXT">
+		<WINDOW_POS X="30" Y="450" W="100" H="15"/>
+	</CONTROL>
+	<CONTROL Local="Common" Id="POINT_SHOP_CONFIRM_BUTTON">
+		<WINDOW_POS X="10" Y="450" W="15" H="15"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="55" Y="14" W="14" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="POINT_SHOP_CONFIRM_BUTTON_ON">
+		<WINDOW_POS X="0" Y="0" W="14" H="14"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="69" Y="14" W="14" H="14" />
+	</CONTROL>
+	
+	
+	
+</INTERFACE>

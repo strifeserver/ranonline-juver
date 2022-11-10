@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_CHANGE_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="298" H="334" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_PAGE">
+		<WINDOW_POS X="4" Y="21" W="290" H="310" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_PAGE_LINEBOX">
+		<WINDOW_POS X="0" Y="0" W="290" H="310" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_OK">
+		<WINDOW_POS X="130" Y="287" W="60" H="14" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_CANCEL">
+		<WINDOW_POS X="197" Y="287" W="60" H="14" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_IN_TEXT">
+		<WINDOW_POS X="135" Y="8" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_OUT_TEXT">
+		<WINDOW_POS X="200" Y="8" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_TEXT">
+		<WINDOW_POS X="25" Y="30" W="100" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_HEAD_TEXT">
+		<WINDOW_POS X="25" Y="55" W="100" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_TIRE_TEXT">
+		<WINDOW_POS X="25" Y="80" W="100" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_MUFFLER_TEXT">
+		<WINDOW_POS X="25" Y="105" W="100" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_SUB_SEAT_TEXT">
+		<WINDOW_POS X="25" Y="130" W="100" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_ACC_TEXT">
+		<WINDOW_POS X="25" Y="155" W="100" H="20" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_TITLE">
+		<WINDOW_POS X="28" Y="190" W="230" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_TITLE_BACK_L">
+		<WINDOW_POS X="28" Y="188" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="54" W="115" H="15" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_TITLE_BACK_R">
+	<WINDOW_POS X="143" Y="188" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="54" W="159" H="15" />
+	</CONTROL>
+
+	
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_0">
+		<WINDOW_POS X="135" Y="30" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_1">
+		<WINDOW_POS X="200" Y="30" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_2">
+		<WINDOW_POS X="135" Y="55" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_3">
+		<WINDOW_POS X="200" Y="55" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_4">
+		<WINDOW_POS X="135" Y="80" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_5">
+		<WINDOW_POS X="200" Y="80" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_6">
+		<WINDOW_POS X="135" Y="105" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_7">
+		<WINDOW_POS X="200" Y="105" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_8">
+		<WINDOW_POS X="135" Y="130" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_9">
+		<WINDOW_POS X="200" Y="130" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_10">
+		<WINDOW_POS X="135" Y="155" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_BODY_FOCUS_11">
+		<WINDOW_POS X="200" Y="155" W="60" H="20" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_USE">
+		<WINDOW_POS X="0" Y="0" W="60" H="20" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_SELECT">
+		<WINDOW_POS X="0" Y="0" W="60" H="20" />
+		<TEXTURE SizeX="512" SizeY="256">charinven02.dds</TEXTURE>
+		<TEXTURE_POS X="299" Y="160" W="60" H="20" />
+	</CONTROL>
+
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_R">
+		<WINDOW_POS X="28" Y="210" W="8" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="182" Y="0" W="8" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_G">
+		<WINDOW_POS X="28" Y="234" W="9" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="191" Y="0" W="9" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_B">
+		<WINDOW_POS X="28" Y="258" W="8" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="201" Y="0" W="8" H="12" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_R_PROGRESS">
+		<WINDOW_POS X="42" Y="210" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_R_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="181" H="12" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_G_PROGRESS">
+		<WINDOW_POS X="42" Y="234" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_G_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="13" W="181" H="12" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_B_PROGRESS">
+		<WINDOW_POS X="42" Y="258" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_B_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="26" W="181" H="12" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_R_PROGRESS_DUMMY">
+		<WINDOW_POS X="42" Y="210" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_G_PROGRESS_DUMMY">
+		<WINDOW_POS X="42" Y="234" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_B_PROGRESS_DUMMY">
+		<WINDOW_POS X="42" Y="258" W="181" H="12" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_R_EDITBOX_BACK">
+		<WINDOW_POS X="227" Y="208" W="34" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_G_EDITBOX_BACK">
+		<WINDOW_POS X="227" Y="232" W="34" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_B_EDITBOX_BACK">
+		<WINDOW_POS X="227" Y="256" W="34" H="16" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_R_EDITBOX">
+		<WINDOW_POS X="229" Y="210" W="30" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_G_EDITBOX">
+		<WINDOW_POS X="229" Y="234" W="30" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_BIKE_COLOR_B_EDITBOX">
+		<WINDOW_POS X="229" Y="258" W="30" H="13" />
+	</CONTROL>
+
+
+</INTERFACE>

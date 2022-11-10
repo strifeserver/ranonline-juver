@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_DISPLAY">
+		<WINDOW_POS X="590" Y="200" W="210" H="275" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_LINEBOX">
+		<WINDOW_POS X="0" Y="0" W="210" H="275" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_LINEBOX_HEAD">
+		<WINDOW_POS X="0" Y="26" W="210" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_LINEBOX_LOWER">
+		<WINDOW_POS X="0" Y="245" W="210" H="1" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_TEXT_BASE_RANK">
+		<WINDOW_POS X="4" Y="1" W="35" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_TEXT_BASE_CLUB">
+		<WINDOW_POS X="39" Y="1" W="90" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_TEXT_BASE_SCORE">
+		<WINDOW_POS X="129" Y="1" W="81" H="26" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_0">
+		<WINDOW_POS X="5" Y="27" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_1">
+		<WINDOW_POS X="5" Y="48" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_2">
+		<WINDOW_POS X="5" Y="69" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_3">
+		<WINDOW_POS X="5" Y="90" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_4">
+		<WINDOW_POS X="5" Y="111" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_5">
+		<WINDOW_POS X="5" Y="132" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_6">
+		<WINDOW_POS X="5" Y="153" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_7">
+		<WINDOW_POS X="5" Y="174" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_8">
+		<WINDOW_POS X="5" Y="195" W="200" H="21" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_9">
+		<WINDOW_POS X="5" Y="216" W="200" H="21" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PVP_CDM_RANKING_SLOT_OWN">
+		<WINDOW_POS X="5" Y="250" W="200" H="21" />
+	</CONTROL>
+	
+</INTERFACE>

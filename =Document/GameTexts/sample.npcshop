@@ -1,0 +1,18 @@
+;npc shop
+;DevLordX
+;
+[SHOP_BASIC]
+SHOP_TITLE	= Merchant
+SHOP_OPTION	= 0
+;
+;
+;
+;shop type(category)
+; shop id, shop name
+[SHOP_TYPE_LIST]
+SHOP_TYPE = 0, Common Set
+;
+;shop item
+;shop id, item mid, item sid, item att, item def, item res fire, item res ice, item res elect, item res poison, item res spirit, item gen RV
+[SHOP_ITEM_LIST]
+SHOP_ITEM = 0, 0, 0, [0,0,0,0,0,0,0,0]

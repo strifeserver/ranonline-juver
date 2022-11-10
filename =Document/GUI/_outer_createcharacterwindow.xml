@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="ROTATE_CHAR_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="200" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ROTATE_CHAR_LEFT">
+		<WINDOW_POS X="1" Y="1" W="44" H="16" />
+		<TEXTURE SizeX="512" SizeY="256">charinven02.dds</TEXTURE>
+		<TEXTURE_POS X="1" Y="160" W="44" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ROTATE_CHAR_LEFT_F">
+		<WINDOW_POS X="0" Y="0" W="44" H="16" />
+		<TEXTURE SizeX="512" SizeY="256">charinven02.dds</TEXTURE>
+		<TEXTURE_POS X="91" Y="176" W="44" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ROTATE_CHAR_RIGHT">
+		<WINDOW_POS X="145" Y="1" W="44" H="16" />
+		<TEXTURE SizeX="512" SizeY="256">charinven02.dds</TEXTURE>
+		<TEXTURE_POS X="46" Y="160" W="44" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ROTATE_CHAR_RIGHT_F">
+		<WINDOW_POS X="0" Y="0" W="44" H="16" />
+		<TEXTURE SizeX="512" SizeY="256">charinven02.dds</TEXTURE>
+		<TEXTURE_POS X="91" Y="160" W="44" H="16" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_INFO">
+	<WINDOW_POS X="0" Y="0" W="300" H="466" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="300" H="176" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_WINDOW_BACK">
+		<WINDOW_POS X="0" Y="0" W="300" H="176" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_NAME_TEXT">
+		<WINDOW_POS X="32" Y="2" W="266" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_INFO_TEXT">
+		<WINDOW_POS X="2" Y="34" W="296" H="140" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_WINDOW_BH">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_WINDOW_HA">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_WINDOW_SM">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="264" W="30" H="30" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_WINDOW">
+		<WINDOW_POS X="0" Y="178" W="300" H="34" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_WINDOW_BACK">
+		<WINDOW_POS X="0" Y="0" W="300" H="34" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_NAME_TEXT">
+		<WINDOW_POS X="32" Y="2" W="266" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_WINDOW_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="230" Y="264" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_WINDOW_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="264" W="30" H="30" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_WINDOW">
+		<WINDOW_POS X="0" Y="214" W="300" H="250" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_WINDOW_BACK">
+		<WINDOW_POS X="0" Y="0" W="300" H="250" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_NAME_TEXT">
+		<WINDOW_POS X="32" Y="2" W="266" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_INFO_TEXT">
+		<WINDOW_POS X="2" Y="34" W="296" H="214" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="230" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="230" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="350" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="350" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="0" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="30" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_MALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="60" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_FEMALE">
+		<WINDOW_POS X="2" Y="2" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="90" W="30" H="30" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="505" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_WINDOW_PAGE">
+		<WINDOW_POS X="0" Y="0" W="246" H="405" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_WINDOW_BACK">
+		<WINDOW_POS X="0" Y="0" W="246" H="505" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_SERVER_TEXT_BACK">
+		<WINDOW_POS X="23" Y="426" W="204" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_SERVER_TEXT">
+		<WINDOW_POS X="25" Y="428" W="200" H="15" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_SET_BUTTON">
+		<WINDOW_POS X="23" Y="451" W="100" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_STYLE_BUTTON">
+		<WINDOW_POS X="127" Y="451" W="100" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_BUTTON_CHAR_CREATE">
+		<WINDOW_POS X="23" Y="451" W="100" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_BUTTON_GAME_START">
+		<WINDOW_POS X="127" Y="451" W="100" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_BUTTON_CHAR_SELECT">
+		<WINDOW_POS X="23" Y="478" W="100" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHARACTER_CREATE_PAGE_BUTTON_SERVER_SELECT">
+		<WINDOW_POS X="127" Y="478" W="100" H="22" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCHOOL_TEXT">
+		<WINDOW_POS X="10" Y="5" W="226" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_TEXT">
+		<WINDOW_POS X="10" Y="101" W="226" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TEXT">
+		<WINDOW_POS X="10" Y="197" W="226" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_SM_FOCUS">
+		<WINDOW_POS X="10" Y="30" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_SM_OFF">
+		<WINDOW_POS X="10" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="66" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_SM_ON">
+		<WINDOW_POS X="10" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="0" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_SM_BOX">
+		<WINDOW_POS X="10" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_HA_FOCUS">
+		<WINDOW_POS X="90" Y="30" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_HA_OFF">
+		<WINDOW_POS X="90" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="266" Y="66" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_HA_ON">
+		<WINDOW_POS X="90" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="266" Y="0" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_HA_BOX">
+		<WINDOW_POS X="90" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_BH_FOCUS">
+		<WINDOW_POS X="170" Y="30" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_BH_OFF">
+		<WINDOW_POS X="170" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="66" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_BH_ON">
+		<WINDOW_POS X="170" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="0" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_MARK_BH_BOX">
+		<WINDOW_POS X="170" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_MALE_FOCUS">
+		<WINDOW_POS X="50" Y="126" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_MALE_OFF">
+		<WINDOW_POS X="50" Y="126" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="198" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_MALE_ON">
+		<WINDOW_POS X="50" Y="126" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="132" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_MALE_BOX">
+		<WINDOW_POS X="50" Y="126" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_FEMALE_FOCUS">
+		<WINDOW_POS X="130" Y="126" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_FEMALE_OFF">
+		<WINDOW_POS X="130" Y="126" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="266" Y="198" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_FEMALE_ON">
+		<WINDOW_POS X="130" Y="126" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="266" Y="132" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SEX_FEMALE_BOX">
+		<WINDOW_POS X="130" Y="126" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_MALE_FOCUS">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_MALE_OFF">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="240" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_MALE_ON">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="240" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_MALE_BOX">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_FEMALE_FOCUS">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_FEMALE_OFF">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="280" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_FEMALE_ON">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="280" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_BRAWLER_FEMALE_BOX">
+		<WINDOW_POS X="123" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_MALE_FOCUS">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_MALE_OFF">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="80" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_MALE_ON">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="80" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_MALE_BOX">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_FEMALE_FOCUS">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_FEMALE_OFF">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="120" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_FEMALE_ON">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="120" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SWORDMAN_FEMALE_BOX">
+		<WINDOW_POS X="16" Y="222" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_MALE_FOCUS">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_MALE_OFF">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="160" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_MALE_ON">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="160" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_MALE_BOX">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_FEMALE_FOCUS">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_FEMALE_OFF">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="200" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_FEMALE_ON">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="200" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ARCHER_FEMALE_BOX">
+		<WINDOW_POS X="16" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_MALE_FOCUS">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_MALE_OFF">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="320" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_MALE_ON">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="320" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_MALE_BOX">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_FEMALE_FOCUS">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_FEMALE_OFF">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="360" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_FEMALE_ON">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="360" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SHAMAN_FEMALE_BOX">
+		<WINDOW_POS X="123" Y="267" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_MALE_FOCUS">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_MALE_OFF">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="0" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_MALE_ON">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_MALE_BOX">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_FEMALE_FOCUS">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_FEMALE_OFF">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="40" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_FEMALE_ON">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="40" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_EXTREME_FEMALE_BOX">
+		<WINDOW_POS X="16" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_MALE_FOCUS">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_MALE_OFF">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="399" Y="152" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_MALE_ON">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="399" Y="72" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_MALE_BOX">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_FEMALE_FOCUS">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_FEMALE_OFF">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="399" Y="192" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_FEMALE_ON">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="399" Y="112" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_SCIENTIST_FEMALE_BOX">
+		<WINDOW_POS X="16" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_MALE_FOCUS">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_MALE_OFF">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="80" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_MALE_ON">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_MALE_BOX">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_FEMALE_FOCUS">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_FEMALE_OFF">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="120" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_FEMALE_ON">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="40" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_ASSASSIN_FEMALE_BOX">
+		<WINDOW_POS X="123" Y="312" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_MALE_FOCUS">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_MALE_OFF">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="80" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_MALE_ON">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="0" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_MALE_BOX">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_FEMALE_FOCUS">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_FEMALE_OFF">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="120" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_FEMALE_ON">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="40" W="100" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_CLASS_TRICKER_FEMALE_BOX">
+		<WINDOW_POS X="123" Y="357" W="100" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="262" H="41" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_SET_TEXT">
+		<WINDOW_POS X="10" Y="10" W="226" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_FACE_L">
+		<WINDOW_POS X="185" Y="72" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="177" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_FACE_L_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="207" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_FACE_R">
+		<WINDOW_POS X="210" Y="72" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_FACE_R_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="222" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_FACE_TEXT">
+		<WINDOW_POS X="10" Y="50" W="226" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_FACE_TYPE_TEXT">
+		<WINDOW_POS X="10" Y="70" W="166" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIR_L">
+		<WINDOW_POS X="185" Y="122" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="177" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIR_L_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="207" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIR_R">
+		<WINDOW_POS X="210" Y="122" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIR_R_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="222" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIR_TEXT">
+		<WINDOW_POS X="10" Y="100" W="226" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIR_TYPE_TEXT">
+		<WINDOW_POS X="10" Y="120" W="166" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIRCOLOR_L">
+		<WINDOW_POS X="185" Y="172" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="177" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIRCOLOR_L_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="207" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIRCOLOR_R">
+		<WINDOW_POS X="210" Y="172" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIRCOLOR_R_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="222" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIRCOLOR_TEXT">
+		<WINDOW_POS X="10" Y="150" W="226" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_HAIRCOLOR_TYPE_TEXT">
+		<WINDOW_POS X="10" Y="170" W="166" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_L">
+		<WINDOW_POS X="185" Y="222" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="177" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_L_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="207" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_R">
+		<WINDOW_POS X="210" Y="222" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_R_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="16" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="222" Y="391" W="14" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_TEXT">
+		<WINDOW_POS X="10" Y="200" W="226" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_TYPE_TEXT">
+		<WINDOW_POS X="10" Y="220" W="166" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_BAR">
+		<WINDOW_POS X="12" Y="220" W="162" H="10" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="374" W="168" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_SCALE_BAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="162" H="10" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="357" W="168" H="10" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CREATE_CHAR_NAME_EDIT_TEXT">
+		<WINDOW_POS X="100" Y="260" W="136" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_NAME_EDIT_TEXT_CARRAT">
+		<WINDOW_POS X="1" Y="3" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_NAME_TEXT">
+		<WINDOW_POS X="10" Y="260" W="76" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CREATE_CHAR_NAME_EDIT_TEXT_LINE">
+		<WINDOW_POS X="98" Y="259" W="140" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="360" W="263" H="41" />
+	</CONTROL>
+</INTERFACE>

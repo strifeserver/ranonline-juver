@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_WINDOW">
+		<WINDOW_POS X="506" Y="0" W="290" H="210" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_WINDOW_LINEBOX">
+		<WINDOW_POS X="5" Y="25" W="280" H="180" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_FOCUS_0">
+		<WINDOW_POS X="90" Y="40" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_FOCUS_1">
+		<WINDOW_POS X="90" Y="70" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_TEXT_0">
+		<WINDOW_POS X="28" Y="40" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_TEXT_1">
+		<WINDOW_POS X="28" Y="70" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_USE">
+		<WINDOW_POS X="0" Y="0" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_SELECT">
+		<WINDOW_POS X="0" Y="0" W="60" H="20" />
+		<TEXTURE SizeX="512" SizeY="256">charinven02.dds</TEXTURE>
+		<TEXTURE_POS X="299" Y="160" W="60" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_R">
+		<WINDOW_POS X="28" Y="110" W="8" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="182" Y="0" W="8" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_G">
+		<WINDOW_POS X="28" Y="134" W="9" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="191" Y="0" W="9" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_B">
+		<WINDOW_POS X="28" Y="158" W="8" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="201" Y="0" W="8" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_R_PROGRESS">
+		<WINDOW_POS X="42" Y="110" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_R_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_G_PROGRESS">
+		<WINDOW_POS X="42" Y="134" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_G_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="13" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_B_PROGRESS">
+		<WINDOW_POS X="42" Y="158" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_B_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="12" />
+		<TEXTURE SizeX="256" SizeY="64">Bar2.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="26" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_R_PROGRESS_DUMMY">
+		<WINDOW_POS X="42" Y="110" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_G_PROGRESS_DUMMY">
+		<WINDOW_POS X="42" Y="134" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_B_PROGRESS_DUMMY">
+		<WINDOW_POS X="42" Y="158" W="181" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_R_EDITBOX_BACK">
+		<WINDOW_POS X="227" Y="108" W="34" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_G_EDITBOX_BACK">
+		<WINDOW_POS X="227" Y="132" W="34" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_B_EDITBOX_BACK">
+		<WINDOW_POS X="227" Y="156" W="34" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_R_EDITBOX">
+		<WINDOW_POS X="229" Y="110" W="30" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_G_EDITBOX">
+		<WINDOW_POS X="229" Y="134" W="30" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_B_EDITBOX">
+		<WINDOW_POS X="229" Y="158" W="30" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_OK">
+		<WINDOW_POS X="130" Y="187" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CAR_COLOR_CANCEL">
+		<WINDOW_POS X="197" Y="187" W="60" H="14" />
+	</CONTROL>
+</INTERFACE>

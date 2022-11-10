@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TEXT>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN">
+<VALUE Lang="Common">%s' party and '%s' party'alliance battle begins. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN_REFUSE">
+<VALUE Lang="Common">%s' alliance rejected '%s' alliance party request'alliance battle'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_ARMISTICE">
+<VALUE Lang="Common">%s' party and '%s' party'alliance battle armistice</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_ARMISTICE_RESULT">
+<VALUE Lang="Common">alliance battle armistice result%d : %d</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_DRAW">
+<VALUE Lang="Common">%s' party and '%s' party having' alliance battle, both parties draw.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_SUBMISSION">
+<VALUE Lang="Common">%s' party'%s' party surrender.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_WIN">
+<VALUE Lang="Common">%s' party and'%s' party having 'alliance party'win.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_RESULT">
+<VALUE Lang="Common">alliance battle result:%s %dWin%dLose %dDraw</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN">
+<VALUE Lang="Common">%s'party and'%s'party begins club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN_REFUSE">
+<VALUE Lang="Common">%s' party rejected'%s' party request for club battle .</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_ARMISTICE">
+<VALUE Lang="Common">%s' party and'%s' party,club battle armistice status.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_ARMISTICE_RESULT">
+<VALUE Lang="Common">Club battle armistice result %d : %d</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_DRAW">
+<VALUE Lang="Common">During Club Battle,'%s' party and'%s' party draw.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_SUBMISSION">
+<VALUE Lang="Common">%s' party'%s' party withdraw.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_WIN">
+<VALUE Lang="Common">%s' party defeat'%s' party.winner of the club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_RESULT">
+<VALUE Lang="Common">Club battle result:%s %dWin %dLose %dDraw</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_DEATHMATCH_END_RANKING">
+<VALUE Lang="Common">%d No : '%s' ( %d / %d )</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CDRAWN">
+<VALUE Lang="Common">In '%s', the guild battle between '%s' and '%s' had ended. It's a draw !</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CWIN">
+<VALUE Lang="Common">In '%s', the guild battle between '%s' and '%s' had ended. The '%s' guild is victorious !</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PDRAWN">
+<VALUE Lang="Common">In '%s', the party battle between '%s' and '%s' had ended. It's a draw !</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PWIN">
+<VALUE Lang="Common">In '%s', the party battle between '%s' and '%s' had ended. The '%s' party is victorious !</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_START_PARTY">
+<VALUE Lang="Common">In '%s', the guild battle between '%s' and '%s' had started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCROWACT_KNOCK">
+<VALUE Lang="Common">The '%s' boss monster is appeared at '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCROWACT_REPULSE">
+<VALUE Lang="Common">The '%s' boss monster had been killed by '%s' at '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCLUB_CERTIFIED">
+<VALUE Lang="Common">The '%s' guild had obtained the certification as the lead guild of the '%s' area.</VALUE>
+</SENTENSE>
+<WORD Ver="1" Id="BRIGHT_EVENT_MSG">
+<VALUE Lang="Common" Index="0">PK Event Started</VALUE>
+<VALUE Lang="Common" Index="1">No PK Penalty</VALUE>
+<VALUE Lang="Common" Index="2">No EXP Loss when character die</VALUE>
+</WORD>
+</TEXT>

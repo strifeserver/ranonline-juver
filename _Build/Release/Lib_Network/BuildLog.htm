@@ -1,0 +1,383 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: Lib_Network, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\RSP000069.rsp" with contents
+[
+/O2 /GT /I ".\\" /I "..\Lib_Client" /I "..\Lib_Client\NpcTalk" /I "..\Lib_Client\G-Logic" /I "..\Lib_Engine" /I "..\Lib_Engine\Common" /I "..\Lib_Engine\DxCommon" /I "..\Lib_Engine\DxCommon9" /I "..\Lib_Engine\DxEffect" /I "..\Lib_Engine\DxEffect\Char" /I "..\Lib_Engine\DxEffect\EffAni" /I "..\Lib_Engine\DxEffect\EffKeep" /I "..\Lib_Engine\DxEffect\EffProj" /I "..\Lib_Engine\DxEffect\Single" /I "..\Lib_Engine\Dxframe" /I "..\Lib_Engine\DxOctree" /I "..\Lib_Engine\DxSound" /I "..\Lib_Engine\G-Logic" /I "..\Lib_Engine\GUInterface" /I "..\Lib_Engine\Meshs" /I "..\Lib_Engine\NaviMesh" /I "..\Lib_Engine\Utils" /I "..\Lib_Helper" /I "..\Lib_ClientUI" /I "..\Lib_ClientUI\Interface" /I "..\=DXInclude" /I "..\=Include" /I "..\=Lua\include" /I "..\=TbbLib\include" /I "..\=ZLIB" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "KR_PARAM" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /MD /Yu"stdafx.h" /Fp"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/Lib_Network.pch" /Fo"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/" /Fd"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/vc70.pdb" /W3 /c /Zi /TP
+.\s_NetGlobal.cpp
+.\NSPCID.cpp
+.\s_Util.cpp
+.\s_CWhiteRockXML.cpp
+.\s_CWhiteRock.cpp
+.\s_CUserChecker.cpp
+.\s_CSystemInfo.cpp
+.\s_CRandomNumber.cpp
+.\s_CMinMd5.cpp
+.\s_CMemPooler.cpp
+.\s_CLogSystem.cpp
+.\s_CLock.cpp
+.\s_CGetFileSize.cpp
+.\s_CCsvFile.cpp
+.\s_CConsoleMessage.cpp
+.\s_CClientLogSystem.cpp
+.\s_CClientLock.cpp
+.\s_CClientConsoleMsg.cpp
+.\s_CCfg.cpp
+.\s_CBit.cpp
+.\s_CAddressChecker.cpp
+.\NETCOMMENTS.cpp
+.\minUuid.cpp
+.\minTea.cpp
+.\MinLzo.cpp
+.\gamecode.cpp
+.\dhkey.cpp
+.\des.cpp
+.\ApexProxy.cpp
+.\ApexCloseList.cpp
+.\s_CIPFilter.cpp
+.\s_CSessionServerThread.cpp
+.\s_CSessionServerMsg.cpp
+.\s_CSessionServer.cpp
+.\s_CServer.cpp
+.\s_CLoginServerSession.cpp
+.\s_CLoginServerMsg.cpp
+.\s_CLoginServer.cpp
+.\s_CFieldServerThread.cpp
+.\s_CFieldServerSession.cpp
+.\s_CFieldServerMsgNPROTECT.cpp
+.\s_CFieldServerMsg.cpp
+.\s_CFieldServer.cpp
+.\s_CAgentServerThread.cpp
+.\s_CAgentServerSession.cpp
+.\s_CAgentServerMsgRegister.cpp
+.\s_CAgentServerMsgNPROTECT.cpp
+.\s_CAgentServerMsgLogin.cpp
+.\s_CAgentServerMsgCharacterDelete.cpp
+.\s_CAgentServerMsg.cpp
+.\s_CAgentServerChannel.cpp
+.\s_CAgentServerApex.cpp
+.\s_CAgentServer.cpp
+"\ranonline\juversource_ingame_features\=Include\ggsrv.cpp"
+.\SendMsgBuffer.cpp
+.\s_NetClientMsgLogin.cpp
+.\s_NetClientMsgDelCharacter.cpp
+.\s_NetClientMsg.cpp
+.\s_NetClient.cpp
+.\s_CSMsgList.cpp
+.\s_CPatch.cpp
+.\s_COverlapped.cpp
+.\s_CHttpPatch.cpp
+.\RcvMsgBuffer.cpp
+.\DaumGameCrypt.cpp
+.\DaumGameAuth.cpp
+.\s_CDbActionUserRegister.cpp
+.\s_CDbActionUser.cpp
+.\s_CDbActionLog.cpp
+.\s_CDbActionGame.cpp
+.\s_CDbAction.cpp
+.\s_OdbcGameVehicle.cpp
+.\s_COdbcUserRegister.cpp
+.\s_COdbcUserGetUserInfo.cpp
+.\s_COdbcUserCheck.cpp
+.\s_COdbcUser.cpp
+.\s_COdbcSupervisor.cpp
+.\s_COdbcSMS.cpp
+.\s_COdbcShop.cpp
+.\s_COdbcManager.cpp
+.\s_COdbcLogItem.cpp
+.\s_COdbcLogEvent.cpp
+.\s_COdbcLog.cpp
+.\s_COdbcGamePet.cpp
+.\s_COdbcGameInven.cpp
+.\s_COdbcGameFriend.cpp
+.\s_COdbcGameClub.cpp
+.\s_COdbcGameChaSave.cpp
+.\s_COdbcGameChaRename.cpp
+.\s_COdbcGameChaHair.cpp
+.\s_COdbcGameChaGet.cpp
+.\s_COdbcGameChaEquipmentLock.cpp
+.\s_COdbcGameChaDelete.cpp
+.\s_COdbcGameChaCreate.cpp
+.\s_COdbcGame.cpp
+.\s_COdbcEnv.cpp
+.\s_NetClientMsgRegister.cpp
+.\s_CNetUserNProtect.cpp
+.\s_CNetUser.cpp
+.\s_CClientSession.cpp
+.\s_CClientManager.cpp
+.\s_CClientLogin.cpp
+.\s_CClientField.cpp
+.\s_CClientAgentNProtect.cpp
+.\s_CClientAgent.cpp
+]
+Creating command line "cl.exe @D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\RSP000069.rsp /nologo"
+Creating temporary file "D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\RSP00006A.rsp" with contents
+[
+/O2 /GT /I ".\\" /I "..\Lib_Client" /I "..\Lib_Client\NpcTalk" /I "..\Lib_Client\G-Logic" /I "..\Lib_Engine" /I "..\Lib_Engine\Common" /I "..\Lib_Engine\DxCommon" /I "..\Lib_Engine\DxCommon9" /I "..\Lib_Engine\DxEffect" /I "..\Lib_Engine\DxEffect\Char" /I "..\Lib_Engine\DxEffect\EffAni" /I "..\Lib_Engine\DxEffect\EffKeep" /I "..\Lib_Engine\DxEffect\EffProj" /I "..\Lib_Engine\DxEffect\Single" /I "..\Lib_Engine\Dxframe" /I "..\Lib_Engine\DxOctree" /I "..\Lib_Engine\DxSound" /I "..\Lib_Engine\G-Logic" /I "..\Lib_Engine\GUInterface" /I "..\Lib_Engine\Meshs" /I "..\Lib_Engine\NaviMesh" /I "..\Lib_Engine\Utils" /I "..\Lib_Helper" /I "..\Lib_ClientUI" /I "..\Lib_ClientUI\Interface" /I "..\=DXInclude" /I "..\=Include" /I "..\=Lua\include" /I "..\=TbbLib\include" /I "..\=ZLIB" /D "WIN32" /D "NDEBUG" /D "_LIB" /D "KR_PARAM" /D "_AFXDLL" /D "_MBCS" /Gm /EHsc /MD /Yc"stdafx.h" /Fp"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/Lib_Network.pch" /Fo"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/" /Fd"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/vc70.pdb" /W3 /c /Zi /TP
+.\stdafx.cpp
+]
+Creating command line "cl.exe @D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\RSP00006A.rsp /nologo"
+Creating temporary file "D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\RSP00006B.rsp" with contents
+[
+/OUT:"D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network/Lib_Network.lib" /NOLOGO
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientAgent.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientAgentNProtect.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientField.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientLogin.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientManager.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientSession.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CNetUser.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CNetUserNProtect.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_NetClientMsgRegister.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcEnv.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGame.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaCreate.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaDelete.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaEquipmentLock.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaGet.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaHair.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaRename.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameChaSave.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameClub.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameFriend.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGameInven.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcGamePet.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcLog.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcLogEvent.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcLogItem.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcManager.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcShop.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcSMS.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcSupervisor.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcUser.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcUserCheck.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcUserGetUserInfo.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COdbcUserRegister.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_OdbcGameVehicle.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CDbAction.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CDbActionGame.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CDbActionLog.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CDbActionUser.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CDbActionUserRegister.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\DaumGameAuth.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\DaumGameCrypt.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\RcvMsgBuffer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CHttpPatch.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_COverlapped.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CPatch.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CSMsgList.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_NetClient.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_NetClientMsg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_NetClientMsgDelCharacter.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_NetClientMsgLogin.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\SendMsgBuffer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\ggsrv.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerApex.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerChannel.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerMsg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerMsgCharacterDelete.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerMsgLogin.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerMsgNPROTECT.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerMsgRegister.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerSession.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAgentServerThread.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CFieldServer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CFieldServerMsg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CFieldServerMsgNPROTECT.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CFieldServerSession.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CFieldServerThread.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CLoginServer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CLoginServerMsg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CLoginServerSession.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CServer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CSessionServer.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CSessionServerMsg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CSessionServerThread.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CIPFilter.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\ApexCloseList.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\ApexProxy.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\des.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\dhkey.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\gamecode.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\MinLzo.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\minTea.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\minUuid.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\NETCOMMENTS.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CAddressChecker.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CBit.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CCfg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientConsoleMsg.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientLock.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CClientLogSystem.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CConsoleMessage.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CCsvFile.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CGetFileSize.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CLock.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CLogSystem.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CMemPooler.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CMinMd5.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CRandomNumber.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CSystemInfo.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CUserChecker.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CWhiteRock.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_CWhiteRockXML.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_Util.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\NSPCID.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\s_NetGlobal.obj
+\ranonline\juversource_ingame_features\_build\release\lib_network\stdafx.obj
+]
+Creating command line "lib.exe @D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\RSP00006B.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+stdafx.cpp
+Compiling...
+s_NetGlobal.cpp
+NSPCID.cpp
+s_Util.cpp
+s_CWhiteRockXML.cpp
+s_CWhiteRock.cpp
+s_CUserChecker.cpp
+s_CSystemInfo.cpp
+s_CRandomNumber.cpp
+s_CMinMd5.cpp
+s_CMemPooler.cpp
+s_CLogSystem.cpp
+s_CLock.cpp
+s_CGetFileSize.cpp
+s_CCsvFile.cpp
+s_CConsoleMessage.cpp
+s_CClientLogSystem.cpp
+s_CClientLock.cpp
+s_CClientConsoleMsg.cpp
+s_CCfg.cpp
+s_CBit.cpp
+Generating Code...
+Compiling...
+s_CAddressChecker.cpp
+NETCOMMENTS.cpp
+minUuid.cpp
+minTea.cpp
+MinLzo.cpp
+gamecode.cpp
+dhkey.cpp
+des.cpp
+ApexProxy.cpp
+ApexCloseList.cpp
+s_CIPFilter.cpp
+s_CSessionServerThread.cpp
+s_CSessionServerMsg.cpp
+s_CSessionServer.cpp
+s_CSessionServer.cpp(345) : warning C4018: '<' : signed/unsigned mismatch
+s_CServer.cpp
+s_CServer.cpp(179) : warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+s_CLoginServerSession.cpp
+s_CLoginServerMsg.cpp
+s_CLoginServer.cpp
+s_CFieldServerThread.cpp
+s_CFieldServerSession.cpp
+Generating Code...
+Compiling...
+s_CFieldServerMsgNPROTECT.cpp
+s_CFieldServerMsg.cpp
+s_CFieldServer.cpp
+s_CFieldServer.cpp(719) : warning C4018: '<' : signed/unsigned mismatch
+s_CAgentServerThread.cpp
+s_CAgentServerThread.cpp(390) : warning C4244: 'argument' : conversion from 'float' to 'DWORD', possible loss of data
+s_CAgentServerSession.cpp
+s_CAgentServerMsgRegister.cpp
+s_CAgentServerMsgNPROTECT.cpp
+s_CAgentServerMsgLogin.cpp
+s_CAgentServerMsgCharacterDelete.cpp
+s_CAgentServerMsg.cpp
+s_CAgentServerChannel.cpp
+s_CAgentServerApex.cpp
+s_CAgentServer.cpp
+s_CAgentServer.cpp(1422) : warning C4018: '<' : signed/unsigned mismatch
+s_CAgentServer.cpp(1529) : warning C4018: '<' : signed/unsigned mismatch
+s_CAgentServer.cpp(1539) : warning C4018: '<' : signed/unsigned mismatch
+s_CAgentServer.cpp(1563) : warning C4018: '<' : signed/unsigned mismatch
+s_CAgentServer.cpp(1580) : warning C4018: '<' : signed/unsigned mismatch
+ggsrv.cpp
+SendMsgBuffer.cpp
+s_NetClientMsgLogin.cpp
+s_NetClientMsgDelCharacter.cpp
+s_NetClientMsg.cpp
+s_NetClient.cpp
+s_CSMsgList.cpp
+Generating Code...
+Compiling...
+s_CPatch.cpp
+s_COverlapped.cpp
+s_CHttpPatch.cpp
+RcvMsgBuffer.cpp
+RcvMsgBuffer.cpp(218) : warning C4018: '<' : signed/unsigned mismatch
+DaumGameCrypt.cpp
+DaumGameAuth.cpp
+s_CDbActionUserRegister.cpp
+s_CDbActionUser.cpp
+s_CDbActionLog.cpp
+s_CDbActionGame.cpp
+s_CDbAction.cpp
+s_OdbcGameVehicle.cpp
+s_COdbcUserRegister.cpp
+s_COdbcUserGetUserInfo.cpp
+s_COdbcUserGetUserInfo.cpp(529) : warning C4244: '=' : conversion from 'SQLINTEGER' to 'USHORT', possible loss of data
+s_COdbcUserGetUserInfo.cpp(530) : warning C4244: '=' : conversion from 'SQLINTEGER' to 'USHORT', possible loss of data
+s_COdbcUserGetUserInfo.cpp(339) : warning C4101: 'sLastLoginTime' : unreferenced local variable
+s_COdbcUserCheck.cpp
+s_COdbcUser.cpp
+s_COdbcSupervisor.cpp
+s_COdbcSMS.cpp
+s_COdbcShop.cpp
+s_COdbcManager.cpp
+Generating Code...
+Compiling...
+s_COdbcLogItem.cpp
+s_COdbcLogEvent.cpp
+s_COdbcLog.cpp
+s_COdbcGamePet.cpp
+s_COdbcGameInven.cpp
+s_COdbcGameInven.cpp(499) : warning C4018: '<' : signed/unsigned mismatch
+s_COdbcGameFriend.cpp
+s_COdbcGameClub.cpp
+s_COdbcGameChaSave.cpp
+s_COdbcGameChaRename.cpp
+s_COdbcGameChaHair.cpp
+s_COdbcGameChaGet.cpp
+s_COdbcGameChaGet.cpp(835) : warning C4244: '=' : conversion from 'SQLINTEGER' to 'WORD', possible loss of data
+s_COdbcGameChaEquipmentLock.cpp
+s_COdbcGameChaDelete.cpp
+s_COdbcGameChaCreate.cpp
+s_COdbcGame.cpp
+s_COdbcEnv.cpp
+s_NetClientMsgRegister.cpp
+s_CNetUserNProtect.cpp
+s_CNetUser.cpp
+s_CClientSession.cpp
+Generating Code...
+Compiling...
+s_CClientManager.cpp
+s_CClientLogin.cpp
+s_CClientField.cpp
+s_CClientAgentNProtect.cpp
+s_CClientAgent.cpp
+Generating Code...
+Creating library...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://D:\ranonline\juversource_ingame_features\_Build\Release\Lib_Network\BuildLog.htm"
+Lib_Network - 0 error(s), 15 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

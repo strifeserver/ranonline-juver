@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<!-- pet style position -->
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="64" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="192" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_E_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_E_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_E_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_E_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="0" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_F_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_F_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_F_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_F_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_F_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="64" W="64" H="64" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_G_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_G_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_G_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_G_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_G_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_H_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="194" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_H_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="194" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_H_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="194" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_H_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="194" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_H_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="194" W="64" H="64" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_I_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_I_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_I_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_I_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="64" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_J_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_J_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_J_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_J_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_J_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="192" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_K_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_K_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_K_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="384" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_K_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="448" Y="0" W="64" H="64" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="PETSTYLECARD_L_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_L_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_L_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_L_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="0" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_L_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style03.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="0" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_M_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_M_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_M_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_M_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_M_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>
+	
+	<!-- no styles just added UI to prevent crashes from wrong charset configuration -->
+	<CONTROL Local="Common" Id="PETSTYLECARD_N_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_N_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_N_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_N_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_N_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style02.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>
+	
+</INTERFACE>

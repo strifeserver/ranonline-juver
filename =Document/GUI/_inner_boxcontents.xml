@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS">
+		<WINDOW_POS X="0" Y="0" W="300" H="165" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_LINE">
+		<WINDOW_POS X="0" Y="0" W="300" H="165" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_CLOSE">
+		<WINDOW_POS X="280" Y="5" W="14" H="14" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="35" Y="416" W="14" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_CLOSE_OVER">
+		<WINDOW_POS X="0" Y="0" W="14" H="14" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="65" Y="416" W="14" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_CLOSE_F">
+		<WINDOW_POS X="0" Y="0" W="14" H="14" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="50" Y="416" W="14" H="14" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_MAIN">
+		<WINDOW_POS X="5" Y="5" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_NAME">
+		<WINDOW_POS X="42" Y="5" W="235" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_DESC">
+		<WINDOW_POS X="42" Y="30" W="235" H="40" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_MOUSE_OVER">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="36" Y="121" W="35" H="35" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_0">
+		<WINDOW_POS X="45" Y="80" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_1">
+		<WINDOW_POS X="90" Y="80" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_2">
+		<WINDOW_POS X="135" Y="80" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_3">
+		<WINDOW_POS X="180" Y="80" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_4">
+		<WINDOW_POS X="225" Y="80" W="35" H="35" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_5">
+		<WINDOW_POS X="45" Y="120" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_6">
+		<WINDOW_POS X="90" Y="120" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_7">
+		<WINDOW_POS X="135" Y="120" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_8">
+		<WINDOW_POS X="180" Y="120" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INFO_BOX_CONTENTS_ITEM_9">
+		<WINDOW_POS X="225" Y="120" W="35" H="35" />
+	</CONTROL>
+	
+</INTERFACE>

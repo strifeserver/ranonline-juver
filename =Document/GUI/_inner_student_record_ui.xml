@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<!--StudentRecord Button-->
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_NOTIFY_BUTTON">
+		<WINDOW_POS X="587" Y="514" W="35" H="59" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_NOTIFY_BUTTON_IMAGE">
+		<WINDOW_POS X="0" Y="24" W="35" H="35" />
+		<TEXTURE SizeX="128" SizeY="128">Activities_gui.dds</TEXTURE>
+		<TEXTURE_POS X="60" Y="92" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_NOTIFY_ALARM">
+		<WINDOW_POS X="0" Y="0" W="35" H="26" />
+		<TEXTURE SizeX="256" SizeY="128">Gui_Attend_Record.dds</TEXTURE>
+		<TEXTURE_POS X="208" Y="95" W="35" H="26" />
+	</CONTROL>
+
+	<!--StudentRecord-->
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="730" H="468" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_OBJECT_TAP_0">
+		<WINDOW_POS X="4" Y="23" W="123" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_OBJECT_TAP_1">
+		<WINDOW_POS X="130" Y="23" W="123" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_OBJECT_TAP_2">
+		<WINDOW_POS X="256" Y="23" W="123" H="20" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_OBJECT_PAGE">
+		<WINDOW_POS X="4" Y="42" W="722" H="422" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_STUDENTRECORD_OBJECT_LINE">
+		<WINDOW_POS X="0" Y="0" W="722" H="422" />
+	</CONTROL>
+
+	
+	
+	
+</INTERFACE>

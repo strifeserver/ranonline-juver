@@ -1,0 +1,18 @@
+;npc item exchange
+;DevLordX
+;
+[NPC_EXCHANGE_BASIC]
+NPC_EXCHANGE_TITLE	= Item Exchange
+;
+;
+;id
+;result mid, result sid, result num
+;result att, result def, result res fire, result res ice, result res elect, result res poison, result res spirit, result gen RV,
+;require item mid, required item sid, required item num
+;
+[NPC_EXCHANGE_LIST]
+NPC_EXCHANGE_ITEM=[10][111,31,1][0,0,0,0,0,0,0,0][200,1,1][11,0,5][11,1,5][65535,65535,1][65535,65535,1]
+NPC_EXCHANGE_ITEM=[11][111,30,1][0,0,0,0,0,0,0,0][200,1,1][11,0,5][11,1,5][65535,65535,1][65535,65535,1]
+NPC_EXCHANGE_ITEM=[12][111,29,1][0,0,0,0,0,0,0,0][200,1,1][11,0,5][11,1,5][65535,65535,1][65535,65535,1]
+NPC_EXCHANGE_ITEM=[13][143,3,2][0,0,0,0,0,0,0,0][200,1,1][11,4,5][11,6,5][65535,65535,1][65535,65535,1]
+

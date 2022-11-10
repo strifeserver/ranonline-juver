@@ -1,0 +1,405 @@
+/////////////////////////////////////////////////////////////////////
+VERSION		1
+/////////////////////////////////////////////////////////////////////
+//
+bTESTSERVER		1
+bBATTLEROYAL	0
+nMAX_FRIEND_NUMBER	150
+//
+wSCHOOLNUM	3
+//
+strSCHOOLNAME00		"SacredGate"
+nidSTARTMAP00		[0,0]
+dwSTARTGATE00		0
+//
+strSCHOOLNAME01		"MysticPeak"
+nidSTARTMAP01		[4,0]
+dwSTARTGATE01		0
+//
+strSCHOOLNAME02		"Phoenix"
+nidSTARTMAP02		[7,0]
+dwSTARTGATE02		0
+//
+bPARTY_2OTHERSCHOOL	0
+bCLUB_2OTHERSCHOOL	0
+//
+//
+strCLASS_INIT_0	"class00.charset", "class01.charset", "class02.charset", "class03.charset", "class04.charset", "class05.charset", "class06.charset", "class07.charset", "class08.charset", "class09.charset, "class0A.charset", "class0B.charset", "class0C.charset", "class0D.charset", "class0E.charset", "class0F.charset"
+strCLASS_INIT_1	"class10.charset", "class11.charset", "class12.charset", "class13.charset", "class14.charset", "class15.charset", "class16.charset", "class17.charset", "class18.charset", "class19.charset, "class1A.charset", "class1B.charset", "class1C.charset", "class1D.charset", "class1E.charset", "class1F.charset"
+strCLASS_INIT_2	"class20.charset", "class21.charset", "class22.charset", "class23.charset", "class24.charset", "class25.charset", "class26.charset", "class27.charset", "class28.charset", "class29.charset, "class2A.charset", "class2B.charset", "class2C.charset", "class2D.charset", "class2E.charset", "class2F.charset"
+//
+//
+fDISPRICE			0.3f
+wMAXITEM_AGE		120
+wMAXITEM_HOLD		10
+wMAXMOB_TRACKING	8
+wSERVER_NORMAL		40
+wSERVER_CONGEST	80
+wSERVER_NOVACANCY	95
+//
+//
+fCHAR_HEIGHT		21,18,17,16,20,17,17,16,20,18,18,16,17,17,17,17
+//
+sNID_STARTMAP		[0,0]
+dwSTART_GATE		0
+wMAX_LEVEL			230
+wMAX_EXTREME_LEVEL	222
+wLVL_STATS_P		3
+wLVL_2ndSTATS_P		4
+wLVL_SKILL_P		1
+wLVL_2ndSKILL_P		2
+fLVL_EXP_G			50
+fLVL_EXP_S			0.4
+//
+fREC_EXP_RATE		2.5
+fKILL_EXP_RATE		0.0f
+//
+			//1  10    20    30    40    50    60    70    80    90    100   110   120   130   140   150   160   170   180   190   200   210   220   230   240   250   260   270   280   290
+fDIE_DECEXP		{ 0, 4.5f, 3.0f, 2.2f, 1.5f, 1.5f, 1.3f, 1.3f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 0.9f, 0.9f, 0.9f, 0.9f, 0.9f, 0.9f, 0.9f, 0.8f, 0.8f, 0.8f, 0.8f, 0.8f }
+//						
+			//1  10    20    30    40    50    60    70    80    90    100   110   120   130   140   150   160   170   180   190   200   210   220   230   240   250   260   270   280   290
+fDIE_RECOVERYEXP		{ 0, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f, 0.5f }
+			//1  10    20    30    40    50    60    70    80    90    100   110   120   130   140   150   160   170   180   190   200   210   220   230   240   250   260   270   280   290
+fEXP_RATE_MONEY		{ 0, 3.0f, 4.0f, 5.0f, 7.0f, 7.0f, 7.5f, 7.5f, 7.5f, 8.5f, 8.5f, 8.5f, 8.5f, 9.5f, 9.5f, 9.5f, 9.5f, 9.5f, 11.0f, 12.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f, 5.0f }
+//
+//
+//---------------------------------------------------------------------------------------
+wGRADE_MAX			11
+			//  10   11   12   13   14   15
+wUSE_GRADE_NUM		{    1,   2,   3,   4,   6,   8   }	
+wDAMAGE_GRADE		3
+wDEFENSE_GRADE		2
+fDAMAGE_GRADE		10
+fDEFENSE_GRADE		14
+			//  10    11    12    13    14    15
+fDAMAGE_GRADE_TOP	{  1.5f, 1.7f, 1.9f, 2.1f, 2.3f, 2.5f }
+			//  10    11    12    13    14    15
+fDEFENSE_GRADE_TOP	{  1.3f, 1.7f, 1.95f, 2.2f, 2.5f, 2.8f }
+wRESIST_FIRE_GRADE		1
+wRESIST_ICE_GRADE		1
+wRESIST_ELEC_GRADE		1
+wRESIST_POISON_GRADE	1
+wRESIST_SPIRIT_GRADE	1
+//---------------------------------------------------------------------------------------
+//
+wMAXATRANGE_SHORT		3
+fPUSHPULL_VELO			60.0f
+//
+fMOB_TRACING			160.0f
+//
+fLOW_SEED_DAMAGE		0.10f
+fCONFT_SPTY_EXP			0.001f
+//
+wBODYRADIUS				4
+fREACT_VALID_SCALE		30.0f
+fUNIT_TIME				1.0
+fHP_INC_PER				0.002
+fMP_INC_PER				0.004
+fSP_INC_PER				0.004
+//
+fHP_INC					0.3
+fMP_INC					0.9
+fSP_INC					1.2
+//
+fRESIST_PHYSIC_G		0.1
+fRESIST_G				0.68
+wBASIC_DIS_SP			1
+//
+fLOWSP_MOTION			0.20f
+fLOWSP_DAMAGE			0.60f
+fLOWSP_HIT_DROP			0.25f
+fLOWSP_AVOID_DROP		0.50f
+dwACCEPT_LOWERSTATS		15
+//
+fDAMAGE_DEC_RATE		75000.0f
+fDAMAGE_GRADE_K			8.0f
+//
+dwCRITICAL_DAMAGE		120
+dwCRITICAL_MAX			40
+dwCRUSHING_BLOW_DAMAGE	150
+dwCRUSHING_BLOW_MAX		40
+fCRUSH_BLOW_RANGE		10.0f
+
+fCONFRONT_TIME			1800.0f
+fCONFRONT_ELAP			20.0f
+dwCONFRONT_MAX			999
+fCONFRONT_RESET			1.0f
+fCONFRONT_ONE_DIST		140.0f
+fCONFRONT_PY_DIST		250.0f
+fCONFRONT_CLB_DIST		350.0f
+//
+nCONFRONT_WIN_LP		0
+nCONFRONT_LOSS_LP		0
+//
+nCONFRONT_CLB_WIN_LP	0
+nCONFRONT_CLB_WIN_LP	0
+//
+wCONFRONT_SCHOOL_LIMIT_NUM		4
+wCONFRONT_SCHOOL_LIMIT_LEVEL	20
+fCONFRONT_SCHOOL_EXP_SCALE		2.2f
+wCONFRONT_SCHOOL_WIN_NUM		100
+wCONFRONT_SCHOOL_WIN_RATE		30
+fCONFRONT_SCHOOL_GENITEM		1.2f
+//
+//
+wCONFT_RC_TYPE			{ 0, 4, 6, 8, 10, 12, 16, 20, 30, 65535 }
+wCONFT_STATE_TYPE		{ 1.0f, 1.2f, 1.5f, 1.6f, 2.0f, 2.5f, 3.0f, 4.0f }
+//
+//				  -1    0    1   2  3    4    5    6    7    8
+nSTATEBLOW_LEVEL		{ +10,  +8,  +6, +3, 0,  -2,  -4,  -6,  -8,  -10 }
+//
+bOLD_EXP_GEN			0
+//
+//				 -7 -6 -5  -4  -3  -2  -1  +0  +1  +2  +3  +4  +5   +6   +7   +8
+wEXPTABLE			{ 0, 2, 6, 10, 12, 16, 20, 30, 45, 63, 84, 108, 135, 165, 198, 234 }
+//
+//				-30   -29   -28   -27   -26   -25   -24   -23   -22   -21   -20   -19   -18   -17   -16   -15   -14   -13   -12   -11   -10    -9    -8    -7    -6    -5    -4    -3    -2    -1    0     +1    +2    +3    +4    +5    +6    +7    +8    +9    +10   +11   +12   +13   +14   +15   +16   +17   +18   +19   +20   +21   +22   +23   +24   +25   +26   +27   +28   +29   +30
+fEXP_RATE_TABLE			0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.0f, 0.1f, 0.15f, 0.2f, 0.25f, 0.3f, 0.35f, 0.4f, 0.45f, 0.5f, 0.55f, 0.6f, 0.65f, 0.7f, 0.75f, 0.8f, 0.85f, 0.9f, 0.95f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f, 1.0f,1.0f,1.0f, 1.0f,1.0f,1.0f,1.0f
+//
+fPARTYEXPRANGE			140
+fPARTYEXP_S				0.006f
+//				1    2    3    4    5    6    7    8   
+aPARTYEXP_ONE			{ 100, 140, 195, 220, 250, 270, 294, 320 }
+//
+aPARTYKILLEXP_ONE		{ 1, 1, 1, 1, 1, 1, 1, 1 }
+//
+//
+dwCLUB_PARTYNUM			5
+dwCLUB_DISSOLUTION_DAY	1
+dwCLUB_JOINBLOCK_DAY	1
+dwCLUB_ALLIANCE_SEC		24
+dwCLUB_ALLIANCE_DIS		24
+dwCLUB_ALLIANCE_NUM		3
+dwMAX_CLUBRANK			6
+//
+GLCLUBRANK_1			{  30,   0, 1000000, 15 }
+GLCLUBRANK_2			{  45,   0, 2000000, 20 }
+GLCLUBRANK_3			{  60,   0, 3500000, 30 }
+GLCLUBRANK_4			{  80,   0, 5000000, 40 }
+GLCLUBRANK_5			{ 100,   0, 7000000, 60 }
+GLCLUBRANK_6			{ 120,   0, 10000000, 80 } 
+//
+//----------------------------------------------------------------	
+bCLUB_BATTLE				1
+dwCLUB_BATTLE_MAX			5	
+dwCLUB_BATTLE_RANK			5	
+dwCLUB_BATTLE_TIME			30	
+dwCLUB_BATTLE_TIMEMIN		10	
+dwCLUB_BATTLE_TIMEMAX		1440	
+dwCLUB_BATTLE_GUID_TIME		10	
+dwCLUB_BATTLE_DIS_TIME		5	
+bClub_BATTLE_ALLIANCE		0	
+//---------------------------------------------------------------- 
+fEXP_SCALE				1.0f
+fMONEY_DROP_SCALE		2.0f
+fITEM_DROP_SCALE		0.9f
+fITEM_DROP_LOWER_SCALE	0.6f
+//----------------------------------------------------------------
+//
+bPK_MODE				1
+nPK_LIMIT_LEVEL			20
+nPK_LIMIT_DX_LEVEL		10
+nPK_TRY_POINT			-1
+nPK_KILL_POINT			-9
+nPK_TRY_LIVING_POINT	0
+nPK_KILL_LIVING_POINT	0
+fNONPK_ITEM_DROP		3
+fPK_ITEM_DROP			8
+//
+dwPK_RECALL_ENABLE_LEVEL	3
+dwPK_DRUG_ENABLE_LEVEL		4
+//
+fPK_JUSTNESS_TIME		60.0f
+//
+PK_NORMAL_NAME_COLOR	255,255,255,255
+fPK_POINT_DEC_RATE		1200.0f
+fPK_POINT_DEC_PHY		0.35f 
+fPK_POINT_DEC_MAGIC		0.32f 
+//
+//		pk level, R,G,B,A, pk point, name, kill exp drop rate, item drop num, item drop rate, buy rate, sale rate
+SPLAYERKILL	{5,255,255,255,0,-20,"Normal",120.0f,1,10.0f,130.0f,90.0f}
+SPLAYERKILL	{4,255,255,178,0,-80,"Bad",140.0f,1,20.0f,130.0f,90.0f}
+SPLAYERKILL	{3,255,255,153,0,-160,"Killer",180.0f,2,30.0f,130.0f,90.0f}
+SPLAYERKILL	{2,255,255,102,0,-300,"Crazy",240.0f,2,40.0f,130.0f,90.0f}
+SPLAYERKILL	{1,255,235,0,0,-UINT_MAX,"Mad",350.0f,3,50.0f,130.0f,90.0f}
+//
+//--------------------------------------------------------------------
+//
+GUIDANCE_FILE			guid01.ini
+GUIDANCE_FILE			guid02.ini
+GUIDANCE_FILE			guid03.ini
+GUIDANCE_FILE			guid04.ini
+//
+fMAX_COMMISSION			50
+fDEFAULT_COMMISSION		5
+fEARNING_RATE			0.7f
+fEARNING_RATE_NPC		0.8f
+fCDCERTIFY_DIST			30
+fCDCERTIFY_TIME			60
+//
+//--------------------------------------------------------------------
+bSCHOOL_FREE_PK_ALWAYS		0
+bSCHOOL_FREE_PK				1
+bSCHOOL_FREE_PK_TIME_REAL	0
+bSCHOOL_FREE_PK_Z_FORCED	0
+dwSCHOOL_FREE_PK_TIME_START	21
+dwSCHOOL_FREE_PK_TIME_TERM	10
+fSCHOOL_FREE_PK_ITEM_DROP	10
+//--------------------------------------------------------------------
+bENCHANT_TERMINATE_ITEM		1
+//--------------------------------------------------------------------
+bMONEY_DROP2FIELD			0
+//--------------------------------------------------------------------
+//				  		 1       2       3       4       5       6       7       8       9       10      11      12      13      14      15
+fGRADE_RATE				{100.00f,100.00f,100.00f,100.00f, 50.00f, 40.00f, 35.00f, 27.00f, 12.00f, 10.00f,  9.00f,  7.00f,  5.00f,  3.00f,  1.00f }
+fGRADE_RESET_RATE		{  0.00f,  0.00f,  0.00f,  0.00f, 15.00f, 23.00f, 33.00f, 45.00f, 50.00f, 55.00f, 55.00f, 60.00f, 60.00f, 60.00f, 60.00f }
+fGRADE_TERMINATE_RATE	{  0.00f,  0.00f,  0.00f,  0.00f,  5.00f,  7.00f,  9.00f, 12.00f, 15.00f, 18.00f,  9.00f, 10.00f, 11.00f, 12.00f, 14.00f }
+//
+//--------------------------------------------------------------------
+strGRINDING_SUCCEED		06000199.wav
+strGRINDING_FAIL		06000195.wav
+strGRINDING_RESET		02000207.wav
+strGRINDING_BROKEN		06000211.wav
+strGAMBLING_SHUFFLE		gambleshuffle.wav
+strGAMBLING_WIN			gamblewin.wav
+strGAMBLING_LOSE		gamblelose.wav
+strITEMDROP_SUIT		07000567.wav
+strITEMDROP_WAPON		07000555.wav
+strITEMDROP_SHOES		07000565.wav
+strITEMDROP_RING		07000562.wav
+strITEMDROP_QBOX		05000202.wav
+strITEMDROP_SCROLL		07000571.wav
+strITEMDROP_COIN		07000560.wav
+strITEMDROP_DRUGS		07000568.wav
+strPICKUP_ITEM			07000570.wav
+strQITEM_FACT			05000203.wav
+//
+//--------------------------------------------------------------------
+strSELECT_CHAR				CHS_ON.egp
+strREBIRTH_EFFECT			charac_birth.egp
+strLEVELUP_EFFECT			level_up.egp
+strSRIKE_ELMT_EFFECT		sk_normal.egp,sk_fire.egp,sk_ice.egp,sk_electric.egp,sk_poison.egp,sk_stone.egp,sk_ice.egp,sk_electric.egp,sk_poison.egp
+strAMBIENT_EFFECT			ambient.effskin_a
+strERASE_EFFECT				alpha.effskin_a
+strSKILL_LEARN_EFFECT		skill_learn.egp
+strSKILL_UP_EFFECT			skill_up.egp
+strQUEST_START				Quest_In.egp
+strQUEST_END_SUCCEED		Quest_solv.egp
+strQUEST_END_FAIL			Quest_fail.egp
+strMOB_GEM_EFFECT			mob_birth.egp
+strMOB_DIE_BLOOD			mob_blood.egp
+strBLOW_NUMB_EFFECT			PAYNE_LIGHT_P.egp
+strBLOW_STUN_EFFECT			null
+strBLOW_STONE_EFFECT		payne_stone_p.egp
+strBLOW_BURN_EFFECT			PAYNE_FIRE_P.egp
+strBLOW_FROZEN_EFFECT		PAYNE_ICE_P.egp
+strBLOW_MAD_EFFECT			null
+strBLOW_POISON_EFFECT		PAYNE_POISON_P.egp
+strBLOW_CURSE_EFFECT		null
+strBLOW_BODY_NUMB_EFFECT	bodyeffect_palsy.effskin_a
+strBLOW_BODY_STUN_EFFECT	bodyeffect_faint.effskin_a
+strBLOW_BODY_STONE_EFFECT	bodyeffect_stone.effskin_a
+strBLOW_BODY_BURN_EFFECT	null
+strBLOW_BODY_FROZEN_EFFECT	bodyeffect_ice.effskin_a
+strBLOW_BODY_MAD_EFFECT		bodyeffect_distract.effskin_a
+strBLOW_BODY_POISON_EFFECT	bodyeffect_poison.effskin_a
+strBLOW_BODY_CURSE_EFFECT	null
+strCONFRONT_BOUND			confront.egp
+strHALFALPHA_EFFECT			halfalpha.effskin_a
+strPET_GEN_EFFECT			birth.egp
+strVEHICLE_GEN_EFFECT		board.egp
+strCRUSHING_BLOW_EFFECT		power_shock08.egp
+//
+//
+BRAWLER_M.SETFILE		"class0.classconst"
+SWORDSMAN_M.SETFILE		"class1.classconst"
+ARCHER_W.SETFILE		"class2.classconst"
+SHAMAN_W.SETFILE		"class3.classconst"
+EXTREME_M.SETFILE		"class4.classconst"
+EXTREME_W.SETFILE		"class5.classconst"
+BRAWLER_W.SETFILE		"class6.classconst"
+SWORDSMAN_W.SETFILE		"class7.classconst"
+ARCHER_M.SETFILE		"class8.classconst"
+SHAMAN_M.SETFILE		"class9.classconst"
+GUNNER_M.SETFILE		"classA.classconst"
+GUNNER_W.SETFILE		"classB.classconst"
+ASSASSIN_M.SETFILE		"classC.classconst"
+ASSASSIN_W.SETFILE		"classD.classconst"
+TRICKER_M.SETFILE		"classE.classconst"
+TRICKER_W.SETFILE		"classF.classconst"
+//
+//none, speedup,crazy,attackup,expup,expget,lucky,bomb,mobgen,speedupm,madness,attackupm,heal
+strQITEM_BGM	null, qboxbgm03_SpeedUp.ogg, qboxbgm04_Crazytime.ogg, qboxbgm02_PowerUp.ogg, qboxbgm01_Exptime.ogg,  null, qboxbgm01_Exptime.ogg,  null, null, qboxbgm03_SpeedUp.ogg, qboxbgm04_Crazytime.ogg, qboxbgm02_PowerUp.ogg,      null
+//
+BRAWLER_M.SKINFILE		"o_m2.chf"
+SWORDSMAN_M.SKINFILE	"o_m1.chf"
+ARCHER_W.SKINFILE		"o_w1.chf"
+SHAMAN_W.SKINFILE		"o_w2.chf"
+EXTREME_M.SKINFILE		"o_m.chf"
+EXTREME_W.SKINFILE		"o_w.chf"
+BRAWLER_W.SKINFILE		"o_w4.chf"
+SWORDSMAN_W.SKINFILE	"o_w3.chf"
+ARCHER_M.SKINFILE		"o_m3.chf"
+SHAMAN_M.SKINFILE		"o_m4.chf"
+GUNNER_M.SKINFILE		"o_m5.chf"
+GUNNER_W.SKINFILE		"o_w5.chf"
+ASSASSIN_M.SKINFILE		"o_m6.chf"
+ASSASSIN_W.SKINFILE		"o_w6.chf"
+TRICKER_M.SKINFILE		"o_m7.chf"
+TRICKER_W.SKINFILE		"o_w7.chf"
+//
+RETURN_RATE			{1.5f,2,3,4,5}
+SUCCESS_RATE		{0.5f,0.4f,0.2f,0.1f,0.05f}
+TIME_LIMIT			60
+SHUFFLE_TIME		2
+MAX_BATTING_MONEY	1000000000
+//
+strCLICK_EFFECT    move.egp
+strTARGET_EFFECT   add_target.egp
+strMINE_EFFECT    takeit.egp
+strCOMPLETE_NPC_EFFECT  clearquest.egp
+//
+wCombatPoint_MAX 8000
+wCombatPoint_PK 200
+//
+fVehicleBoosterChargeTime 20.0f
+fVehicleBoosterBoostTime 10.0f
+fVehicleBoosterAddSpeed 100.0f
+//
+fMONEY_LUCK_RATE 1.0f
+//
+TYRANNY_FILE tr1.ini
+strSCHOOLEFF00	account_sacred.egp
+strSCHOOLEFF01	account_mp.egp
+strSCHOOLEFF02	account_phoenix.egp
+//
+QUEST_RATE_EXP 		10.0f
+QUEST_RATE_MONEY 	10.0f
+//
+INT_DEF_RATE		0.6f
+//
+strSimpleWearM	m_cos_min_cap.cps, m_cos_min_body.cps, m_cos_min_leg.cps, m_bs_hand.cps, m_cos_min_foot.cps
+strSimpleWearF	w_cos_min_cap.cps, w_cos_min_body.cps, w_cos_min_leg.cps, w_bs_hand.cps, w_cos_min_foot.cps
+//
+bContributionPointBonusTimer 1
+fContributionPointBonusTime 600
+wContributionPointBonusAdd 2
+bActivityPointBonusTimer 1
+fActivityPointBonusTime 900
+wActivityPointBonusAdd 2
+//
+strCOMPLETE_ACTIVITY_EFFECT success_eff110124.egp 
+//
+SCHOOLWARS_FILE sw1.ini
+//
+bCLUB_DEATHMATCH   1
+dwCLUB_DEATHMATCH_MEM  15
+CLUB_DM_FILE    cdm1.ini
+fCDM_SAFE_TIME	60.0f
+//
+CAPTURE_THE_FLAG_FILE ctf1.ini
+strCTF_EFF00	eff_body_flag_red.egp
+strCTF_EFF01	eff_body_flag_blue.egp
+strCTF_DIR_EFF00	flag_direction_red.egp
+strCTF_DIR_EFF01	flag_direction_blue.egp
+//

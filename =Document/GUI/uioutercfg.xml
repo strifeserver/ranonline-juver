@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="SELECT_SERVER_PAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="232" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SELECT_SERVER_LIST_STATE">
+		<WINDOW_POS X="145" Y="23" W="50" H="172" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SERVER_SCROLLBAR">
+		<WINDOW_POS X="190" Y="20" W="9" H="175" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SELECT_SERVER_BOTTOM">
+		<WINDOW_POS X="0" Y="220" W="202" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="408" W="202" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COPYRIGHT">
+		<WINDOW_POS X="0" Y="550" W="800" H="50" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="CHINA_TITLE">
+		<WINDOW_POS X="0" Y="7" W="800" H="50" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_OK">
+		<WINDOW_POS X="10" Y="125" W="86" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_CANCEL">
+		<WINDOW_POS X="106" Y="125" W="86" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_REG">
+		<WINDOW_POS X="10" Y="150" W="86" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_ID">
+		<WINDOW_POS X="19" Y="30" W="51" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_PW">
+		<WINDOW_POS X="19" Y="57" W="51" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_RP">
+		<WINDOW_POS X="19" Y="84" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_ID_BACK">
+		<WINDOW_POS X="77" Y="28" W="107" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_PW_BACK">
+		<WINDOW_POS X="77" Y="54" W="107" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_RP_BACK">
+		<WINDOW_POS X="126" Y="80" W="58" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_MARK">
+		<WINDOW_POS X="0" Y="0" W="177" H="96" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="335" Y="416" W="177" H="96" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_BOTTOM">
+		<WINDOW_POS X="0" Y="105" W="202" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="408" W="202" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_EDITMAN">
+		<WINDOW_POS X="0" Y="0" W="202" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_CARRAT">
+		<WINDOW_POS X="1" Y="3" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_EDIT_ID">
+		<WINDOW_POS X="82" Y="28" W="100" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_EDIT_PW">
+		<WINDOW_POS X="82" Y="54" W="100" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_EDIT_RP">
+		<WINDOW_POS X="131" Y="80" W="51" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_IDSAVE_BACK">
+		<WINDOW_POS X="96" Y="103" W="86" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_IDSAVE_BUTTON">
+		<WINDOW_POS X="79" Y="104" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LOGIN_PAGE_IDSAVE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="OUTER_LOBBY_TITLE">
+		<WINDOW_POS X="0" Y="0" W="200" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="OUTER_LOBBY_TITLE_TEXT">
+		<WINDOW_POS X="0" Y="0" W="200" H="30" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="OUTER_UP_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="800" H="76" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="487" Y="0" W="20" H="76" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="OUTER_DN_IMAGE">
+		<WINDOW_POS X="0" Y="523" W="800" H="77" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="487" Y="77" W="20" H="77" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="WAITSERVER_DISPLAY">
+		<WINDOW_POS X="0" Y="0" W="295" H="82" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WAITSERVER_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="295" H="82" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WAITSERVER_TEXTBOX">
+		<WINDOW_POS X="0" Y="18" W="295" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WAITSERVER_OK">
+		<WINDOW_POS X="118" Y="58" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PASS_KEYBOARD">
+		<WINDOW_POS X="0" Y="0" W="339" H="126" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PASS_KEYBOARD_FORM">
+		<WINDOW_POS X="0" Y="0" W="339" H="126" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="339" H="126" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PASS_KEYBOARD_UP_CHAR">
+		<WINDOW_POS X="20" Y="15" W="196" H="96" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="127" W="196" H="96" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PASS_KEYBOARD_LOW_CHAR">
+		<WINDOW_POS X="21" Y="14" W="195" H="97" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="317" Y="127" W="195" H="97" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PASS_KEYBOARD_NUMBER">
+		<WINDOW_POS X="251" Y="15" W="67" H="98" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="231" Y="127" W="67" H="98" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_FLIP">
+		<WINDOW_POS X="0" Y="0" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="340" Y="15" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_L_FLIP">
+		<WINDOW_POS X="0" Y="0" W="85" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="340" Y="45" W="85" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_CAPSL_LED_FLIP">
+		<WINDOW_POS X="0" Y="0" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="340" Y="60" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_BACK">
+		<WINDOW_POS X="198" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="198" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_TAB">
+		<WINDOW_POS X="12" Y="100" W="85" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="12" Y="100" W="85" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_CAPSL">
+		<WINDOW_POS X="242" Y="100" W="85" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="242" Y="100" W="85" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_CAPSL_LED">
+		<WINDOW_POS X="211" Y="100" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="211" Y="100" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_0">
+		<WINDOW_POS X="273" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="273" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_1">
+		<WINDOW_POS X="242" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="242" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_2">
+		<WINDOW_POS X="273" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="273" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_3">
+		<WINDOW_POS X="304" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="304" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_4">
+		<WINDOW_POS X="242" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="242" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_5">
+		<WINDOW_POS X="273" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="273" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_6">
+		<WINDOW_POS X="304" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="304" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_7">
+		<WINDOW_POS X="242" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="242" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_8">
+		<WINDOW_POS X="273" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="273" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_9">
+		<WINDOW_POS X="304" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="304" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_A">
+		<WINDOW_POS X="12" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="12" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_B">
+		<WINDOW_POS X="43" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="43" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_C">
+		<WINDOW_POS X="74" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="74" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_D">
+		<WINDOW_POS X="105" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_E">
+		<WINDOW_POS X="136" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="136" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_F">
+		<WINDOW_POS X="167" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="167" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_G">
+		<WINDOW_POS X="198" Y="12" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="198" Y="12" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_H">
+		<WINDOW_POS X="12" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="12" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_I">
+		<WINDOW_POS X="43" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="43" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_J">
+		<WINDOW_POS X="74" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="74" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_K">
+		<WINDOW_POS X="105" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_L">
+		<WINDOW_POS X="136" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="136" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_M">
+		<WINDOW_POS X="167" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="167" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_N">
+		<WINDOW_POS X="198" Y="34" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="198" Y="34" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_O">
+		<WINDOW_POS X="12" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="12" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_P">
+		<WINDOW_POS X="43" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="43" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_Q">
+		<WINDOW_POS X="74" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="74" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_R">
+		<WINDOW_POS X="105" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_S">
+		<WINDOW_POS X="136" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="136" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_T">
+		<WINDOW_POS X="167" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="167" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_U">
+		<WINDOW_POS X="198" Y="56" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="198" Y="56" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_V">
+		<WINDOW_POS X="12" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="12" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_W">
+		<WINDOW_POS X="43" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="43" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_X">
+		<WINDOW_POS X="74" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="74" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_Y">
+		<WINDOW_POS X="105" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="KEY_BUTTON_Z">
+		<WINDOW_POS X="136" Y="78" W="23" H="14" />
+		<TEXTURE SizeX="512" SizeY="256">Pass_Keyboard.dds</TEXTURE>
+		<TEXTURE_POS X="136" Y="78" W="23" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FULLSCREEN_OUTER">
+		<WINDOW_POS X="778" Y="0" W="22" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>	
+		<TEXTURE_POS X="381" Y="1" W="22" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_CHINA_AREA_BACK">
+		<WINDOW_POS X="9" Y="374" W="85" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SELECT_SERVER_CONNECT">
+		<WINDOW_POS X="108" Y="374" W="85" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SELECT_CHANNEL_CONNECT">
+		<WINDOW_POS X="108" Y="205" W="85" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SELECT_SERVER_QUIT">
+		<WINDOW_POS X="108" Y="205" W="85" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SELECT_SERVER_LIST">
+		<WINDOW_POS X="20" Y="23" W="115" H="172" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_PAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="408" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BOTTOM">
+		<WINDOW_POS X="0" Y="390" W="202" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="408" W="202" H="18" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_UP_LINEBOX">
+		<WINDOW_POS X="5" Y="24" W="192" H="40" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_STATIC">
+		<WINDOW_POS X="10" Y="30" W="182" H="28" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_DN_LINEBOX">
+		<WINDOW_POS X="5" Y="70" W="192" H="276" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_01">
+		<WINDOW_POS X="40" Y="90" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_02">
+		<WINDOW_POS X="40" Y="122" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_03">
+		<WINDOW_POS X="40" Y="154" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_04">
+		<WINDOW_POS X="40" Y="186" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_05">
+		<WINDOW_POS X="40" Y="218" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_06">
+		<WINDOW_POS X="40" Y="250" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_07">
+		<WINDOW_POS X="40" Y="282" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_BUTTON_08">
+		<WINDOW_POS X="40" Y="314" W="122" H="22" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="SELECT_AREA_QUIT">
+		<WINDOW_POS X="108" Y="368" W="85" H="19" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="151" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_OK">
+		<WINDOW_POS X="19" Y="121" W="55" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_CANCEL">
+		<WINDOW_POS X="129" Y="121" W="55" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_ID">
+		<WINDOW_POS X="19" Y="41" W="101" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_PW">
+		<WINDOW_POS X="19" Y="68" W="101" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_PWCHECK">
+		<WINDOW_POS X="19" Y="95" W="101" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_ID_BACK">
+		<WINDOW_POS X="77" Y="39" W="107" H="16" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_PW_BACK">
+		<WINDOW_POS X="77" Y="65" W="107" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_PWCHECK_BACK">
+		<WINDOW_POS X="77" Y="91" W="107" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SETSECPASS_EDIT_MAN">
+		<WINDOW_POS X="0" Y="0" W="202" H="120" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_CARRAT">
+		<WINDOW_POS X="1" Y="3" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_EDIT_ID">
+		<WINDOW_POS X="82" Y="39" W="100" H="16" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_EDIT_PW">
+		<WINDOW_POS X="82" Y="65" W="100" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_SETPAGE_EDIT_PWCHECK">
+		<WINDOW_POS X="82" Y="91" W="100" H="16" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="124" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_OK">
+		<WINDOW_POS X="19" Y="94" W="50" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_CANCEL">
+		<WINDOW_POS X="81" Y="94" W="50" H="18" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_REINPUT">
+		<WINDOW_POS X="142" Y="94" W="50" H="18" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_ID">
+		<WINDOW_POS X="19" Y="41" W="101" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_PW">
+		<WINDOW_POS X="19" Y="68" W="101" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_ID_BACK">
+		<WINDOW_POS X="77" Y="39" W="107" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_PW_BACK">
+		<WINDOW_POS X="77" Y="65" W="107" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHECKSECPASS_EDIT_MAN">
+		<WINDOW_POS X="0" Y="0" W="202" H="120" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_CARRAT">
+		<WINDOW_POS X="1" Y="3" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_EDIT_ID">
+		<WINDOW_POS X="82" Y="39" W="100" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SECPASS_CHECKPAGE_EDIT_PW">
+		<WINDOW_POS X="82" Y="65" W="100" H="16" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="BASIC_MESSAGE_DISPLAY">
+		<WINDOW_POS X="0" Y="180" W="400" H="75" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_MESSAGE_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="400" H="75" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_MESSAGE_LINE_TEXTBOX">
+		<WINDOW_POS X="5" Y="5" W="390" H="65" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_MESSAGE_TEXTBOX">
+		<WINDOW_POS X="10" Y="10" W="380" H="60" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_MESSAGE">
+		<WINDOW_POS X="0" Y="0" W="5" H="5" />
+	</CONTROL>
+</INTERFACE>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="RN_VEHICLE_WINDOW">
+		<WINDOW_POS X="185" Y="0" W="410" H="428" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_WINDOW_LINE">
+		<WINDOW_POS X="5" Y="22" W="400" H="400" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_WINDOW_LINE_RENDER">
+		<WINDOW_POS X="10" Y="27" W="350" H="285" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_WINDOW_LINE_INFO">
+		<WINDOW_POS X="10" Y="317" W="390" H="100" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_SKIN_IMAGE_TYPE0">
+		<WINDOW_POS X="365" Y="27" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_SKIN_OVER_IMAGE_TYPE0">
+		<WINDOW_POS X="365" Y="27" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_IMAGE_TYPE0">
+		<WINDOW_POS X="365" Y="67" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_OVER_IMAGE_TYPE0">
+		<WINDOW_POS X="365" Y="67" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_IMAGE_TYPE1">
+		<WINDOW_POS X="365" Y="107" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_OVER_IMAGE_TYPE1">
+		<WINDOW_POS X="365" Y="107" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_IMAGE_TYPE2">
+		<WINDOW_POS X="365" Y="147" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_OVER_IMAGE_TYPE2">
+		<WINDOW_POS X="365" Y="147" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_IMAGE_TYPE3">
+		<WINDOW_POS X="365" Y="187" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_OVER_IMAGE_TYPE3">
+		<WINDOW_POS X="365" Y="187" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_IMAGE_TYPE4">
+		<WINDOW_POS X="365" Y="227" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_OVER_IMAGE_TYPE4">
+		<WINDOW_POS X="365" Y="227" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_IMAGE_TYPE5">
+		<WINDOW_POS X="365" Y="267" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_SLOT_PARTS_OVER_IMAGE_TYPE5">
+		<WINDOW_POS X="365" Y="267" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="RN_VEHICLE_ITEM_MOUSE_OVER">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="36" Y="121" W="35" H="35" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_TYPE_TEXT">
+		<WINDOW_POS X="15" Y="321" W="225" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_NAME_TEXT">
+		<WINDOW_POS X="15" Y="337" W="225" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="RN_VEHICLE_BATTERY_STATIC">
+		<WINDOW_POS X="15" Y="353" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_BATTERY_TEXT">
+		<WINDOW_POS X="75" Y="354" W="150" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_BATTERY_PROGRESSBAR">
+		<WINDOW_POS X="75" Y="354" W="150" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_BATTERY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="150" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="235" W="130" H="13" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RN_VEHICLE_SPEED_TEXT">
+		<WINDOW_POS X="15" Y="369" W="225" H="14" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_BOOSTER_TEXT">
+		<WINDOW_POS X="15" Y="385" W="380" H="14" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_ACCE_TEXT">
+		<WINDOW_POS X="15" Y="401" W="380" H="14" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_ARROW_TURN_LEFT_DEFAULT">
+		<WINDOW_POS X="15" Y="272" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_ARROW_TURN_LEFT_OVER">
+		<WINDOW_POS X="0" Y="0" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_ARROW_TURN_LEFT_CLICK">
+		<WINDOW_POS X="0" Y="0" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="71" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_ARROW_TURN_RIGHT_DEFAULT">
+		<WINDOW_POS X="330" Y="272" W="25" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_ARROW_TURN_RIGHT_OVER">
+		<WINDOW_POS X="0" Y="0" W="25" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="157" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_ARROW_TURN_RIGHT_CLICK">
+		<WINDOW_POS X="0" Y="0" W="25" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="71" W="50" H="71" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_RUN_BUTTON">
+		<WINDOW_POS X="110" Y="292" W="15" H="15"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="55" Y="14" W="14" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="RN_VEHICLE_RUN_BUTTON_FLIP">
+		<WINDOW_POS X="0" Y="0" W="14" H="14"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="69" Y="14" W="14" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_VEHICLE_RUN_TEXT">
+		<WINDOW_POS X="130" Y="292" W="195" H="15"/>
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_VEHICLE_BOOST_ICON">
+		<WINDOW_POS X="350" Y="327" W="40" H="40" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="35" Y="431" W="40" H="40" />
+	</CONTROL>
+</INTERFACE>

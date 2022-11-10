@@ -1,0 +1,4343 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TEXT>
+<SENTENSE Ver="1" Id="ADD_FRIEND_REQ">
+<VALUE Lang="Common">[%s] would like to add you into his/her friends list, do you want to accept?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_ADD">
+<VALUE Lang="Common">'%s' club  had joined the '%s' alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_ARMISTICE">
+<VALUE Lang="Common">Do you want to terminate the battle to '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_ARMISTICE_ASK">
+<VALUE Lang="Common">%s' Alliance Battle Request''Stop Battle'.</VALUE>
+<VALUE Lang="Common">Do you want to stop the battle?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_ASK">
+<VALUE Lang="Common">%s' Do you want to accept for the same club battle request? Time start%dHour%dMin. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN">
+<VALUE Lang="Common">Battle between '%s' and '%s' begin.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN_COUNT">
+<VALUE Lang="Common">With'%s' party 'Alliance Battle',will start in %d seconds.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_BEGIN_READY">
+<VALUE Lang="Common">Battle between '%s' and '%s' will be start in 1 minute.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_MODAL_INFO">
+<VALUE Lang="Common">Want to request for alliance battle?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_ARMISTICE">
+<VALUE Lang="Common">The battle have terminate with '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_DRAW">
+<VALUE Lang="Common">The result battle between '%s' and '%s' is draw.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_LOSE">
+<VALUE Lang="Common">Battle result with '%s' is %d : %d lose.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_SUBMISSION">
+<VALUE Lang="Common">Surrent to '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_TARSUBMISSION">
+<VALUE Lang="Common">%s surrender in Battle System</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_OVER_WIN">
+<VALUE Lang="Common">Battle result with '%s' is %d : %d win.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_BATTLE_SUBMISSION">
+<VALUE Lang="Common">Do you want to surrender to '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_DEL">
+<VALUE Lang="Common">'%s' club  had withdrawn from the Faction.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_DIS">
+<VALUE Lang="Common">'%s' alliance disbanded.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ALLIANCE_PLAYHOSTILE_ADD">
+<VALUE Lang="Common">Guild Alliance Battle “%s” Alliance's “%s” character change to enemy status.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ANNOUNCE_MAKE_MESSAGE">
+<VALUE Lang="Common">Please enter the Club Notice.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="APEX_ACTION_MESSAGE_CHATBLOCK">
+<VALUE Lang="Common">Apex Check using Block</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="APEX_ACTION_MESSAGE_KICK">
+<VALUE Lang="Common">Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="APEX_ACTION_MESSAGE_WARNING">
+<VALUE Lang="Common">APEX Warning message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ATTEND_REWARD_ITEM">
+<VALUE Lang="Common">'%s' has been  provided in your Item Bank Window</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ATTEND_REWARD_NOITEM">
+<VALUE Lang="Common">Attendance Reward Item provision has failed due to an error</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BLOCK_PROGRAM_ALARM">
+<VALUE Lang="Common">Hello, please click "Confirm" button. </VALUE>
+<VALUE Lang="Common">n</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BLOCK_PROGRAM_FOUND">
+<VALUE Lang="Common">System had detected program that might affect the game!</VALUE>
+<VALUE Lang="Common">Game Ended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BLOCK_PROGRAM_FOUND_CONSOLE">
+<VALUE Lang="Common">System had detected program that might affect the game ! Game ended. This will report back to the system, and may use as proof for account ban.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BRIGHT_EVENT_END">
+<VALUE Lang="Common">Event End</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BRIGHT_EVENT_MSG">
+<VALUE Lang="Common">Event running now. </VALUE>
+<VALUE Lang="Common">During PK time, character won't decrease attribute point and no equipment drop.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BRIGHT_EVENT_START">
+<VALUE Lang="Common">Event Start</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BUY_ITEM_CONFIRM">
+<VALUE Lang="Common">Do you want to purchase [%s]?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BUY_PILE_ITEM">
+<VALUE Lang="Common">Please enter the amount that you like to purchase.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BUYITEM_MAXIMUM">
+<VALUE Lang="Common">Purchased %s, now has %d.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BUYITEM_NOMONEY">
+<VALUE Lang="Common">Insufficient gold ! Unable to purchase item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BUYITEM_NOSPACE">
+<VALUE Lang="Common">Insufficient inventory space ! Unable to purchase item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_REGIONAL_MODE">
+<VALUE Lang="Common">Regional channel directly input : ^message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_ALLIANCE_MODE">
+<VALUE Lang="Common">Alliance channel directly input : !message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_BLOCK_MSG">
+<VALUE Lang="Common">Chat channel closed, please refer to Customer Service. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_GUILD_MODE">
+<VALUE Lang="Common">Guild chat mode, input: %message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_NORMAL_MODE">
+<VALUE Lang="Common">General chat mode.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_PAPERING_MODE">
+<VALUE Lang="Common">You are halted from chatting for 30 seconds due to flooding.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_REGIONAL_COST">
+<VALUE Lang="Common">Unable to chat, not enough gold.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_PARTY_MODE">
+<VALUE Lang="Common">Party chat mode, input: #message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_PRIVATE_FROM_MSG">
+<VALUE Lang="Common">Received PM</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_PRIVATE_MODE">
+<VALUE Lang="Common">PM chat mode, input: @character name message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_PRIVATE_TO_MSG">
+<VALUE Lang="Common">Send Private Message</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_THAI_CHECK_ERROR">
+<VALUE Lang="Common">Thai Check Error!!!</VALUE>
+<VALUE Lang="Common">Again Input String!!!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_TOALL_MODE">
+<VALUE Lang="Common">Shout chat mode, input: $message					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAT_VN_CHECK_ERROR">
+<VALUE Lang="Common">Exist VN wrong Word.</VALUE>
+<VALUE Lang="Common">Re-Try create corrected word</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_GAIN_15MINUTE">
+<VALUE Lang="Common">Try log-off in game.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_GAIN_1HOUR">
+<VALUE Lang="Common">Pass 1 hour</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_GAIN_50PERCENT">
+<VALUE Lang="Common">Decreased to 50</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_GAIN_CLOSEGAME">
+<VALUE Lang="Common">Decrease to 0.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLOSE_GAME">
+<VALUE Lang="Common">Do you wish to quit the game?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_AUTHORITY_MEMBER">
+<VALUE Lang="Common">You wan assign leader to '%s' ?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_AUTHORITY_MEMBER_ASK">
+<VALUE Lang="Common">Accept club leader invitation from '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE">
+<VALUE Lang="Common">Do you want to request '%s' Club Battle?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_ARMISTICE">
+<VALUE Lang="Common">Do you want to terminate the club battle to '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_ARMISTICE_ASK">
+<VALUE Lang="Common">Club '%s' request terminate Club Battle, do you want to accept?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_ASK">
+<VALUE Lang="Common">%s'party apply' club battle'.</VALUE>
+<VALUE Lang="Common">Time on going%d hour%d mins.</VALUE>
+<VALUE Lang="Common">Want to accept the challenge?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN">
+<VALUE Lang="Common">%s'party and'%s'party' club battle' started.</VALUE>
+<VALUE Lang="Common">Both party leader agreed,only can ended the club battle.'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN_COUNT">
+<VALUE Lang="Common">Battle with '%s' will start after '%d' seconds.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_BEGIN_READY">
+<VALUE Lang="Common">Club battle between '%s' and '%s' will be start in 1 minute.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_CERTIFY_START">
+<VALUE Lang="Common">'%s' is currently start verifying with '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_CERTIFY_START_EX">
+<VALUE Lang="Common">Current "%s" own by alliance "%s"'s "%s",club member "%s" start to verifying. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_END">
+<VALUE Lang="Common">The decisive battle of '%s' guild has ended... it's had been decided that '%s' to be the master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_LAND">
+<VALUE Lang="Common">This is a free PK zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_MIN_START">
+<VALUE Lang="Common">The decisive battle of '%s' guild will starts after '%d' minutes.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_MODAL_INFO">
+<VALUE Lang="Common">Do you want to apply for club battle system application?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_ARMISTICE">
+<VALUE Lang="Common">Terminate status with club '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_DRAW">
+<VALUE Lang="Common">The result battle between '%s' and '%s' is draw.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_LOSE">
+<VALUE Lang="Common">Club battle result with '%s' is %d : %d lose.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_SUBMISSION">
+<VALUE Lang="Common">%s' Surrender in Club Battle System.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_TARSUBMISSION">
+<VALUE Lang="Common">%s'Surrender during club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_OVER_WIN">
+<VALUE Lang="Common">Club battle result with '%s' is %d : %d win.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_START">
+<VALUE Lang="Common">The decisive battle of '%s' guild had started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BATTLE_SUBMISSION">
+<VALUE Lang="Common">Do you want to surrender to '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BREAKUP">
+<VALUE Lang="Common">Do you want to dismiss the guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_BREAKUP_CANCEL">
+<VALUE Lang="Common">Do you want to cancel the dismiss of guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_CHANGE_MARK">
+<VALUE Lang="Common">Please enter the guild icon file name.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_CHANGE_NICK">
+<VALUE Lang="Common">Please enter the nickname.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_DEATHMATCH_END">
+<VALUE Lang="Common">%s' Club challenge has ended</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_DEATHMATCH_LAND">
+<VALUE Lang="Common">Club Challenge Area</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_DEATHMATCH_MIN_START">
+<VALUE Lang="Common">%s' Club challenge will be start after %d min.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_DEATHMATCH_START">
+<VALUE Lang="Common">%s' club challenge is started</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_JOIN">
+<VALUE Lang="Common">Do you want to permit '%s' to join the guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_JOIN_ASK">
+<VALUE Lang="Common">Do you want to join the '%s' guild ? (Master: '%s')</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_KICK_MEMBER">
+<VALUE Lang="Common">Do you want to expel '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_LOADMARK_FAIL">
+<VALUE Lang="Common">Failed to read guild icon file!</VALUE>
+<VALUE Lang="Common">Please check the %s file in 'My Document' folder.</VALUE>
+<VALUE Lang="Common">Icon file must be in size 16x11, bmp, tga format only.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_MAKE_OPEN_MESSAGE">
+<VALUE Lang="Common">Please enter the guild name.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_NOTICE">
+<VALUE Lang="Common">%s Club Notice : %s</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_PLAYHOSTILE_ADD">
+<VALUE Lang="Common">Club Battle : Club "%s"'s "%s" become your enemy</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CLUB_SELFQUIT">
+<VALUE Lang="Common">Do you want to quit the guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFLICT_CLUB_QUESTION_TAR">
+<VALUE Lang="Common">Do you want to guild duel with %s guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFLICT_ONE_QUESTION_TAR">
+<VALUE Lang="Common">Do you want to duel with %s?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFLICT_PARTY_QUESTION_TAR">
+<VALUE Lang="Common">Do you want to party duel with %s party?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFLICT_QUESTION">
+<VALUE Lang="Common">Do you want to duel with %s?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFLICT_QUESTION_GUILD">
+<VALUE Lang="Common">Do you want to duel with %s guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFLICT_QUESTION_PARTY">
+<VALUE Lang="Common">Do you want to duel with %s party?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFRONT_RECOVE">
+<VALUE Lang="Common">The amount of recovery used in the duel is %d.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFT_START">
+<VALUE Lang="Common">The duel with '%s' has begun!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFTCLB_START">
+<VALUE Lang="Common">The duel with '%s' party starts!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFTPTY_START">
+<VALUE Lang="Common">The party duel with '%s' party starts!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CONFTPTY_START_NOT">
+<VALUE Lang="Common">You are unable to join the party duel.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CROW_NONDAMAGED">
+<VALUE Lang="Common">Unattackable Target.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DEFAULT_POSITION">
+<VALUE Lang="Common">Do you want to move the game window back to the default position?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DIS_BRIGHT">
+<VALUE Lang="Common">Cost '%d' Bright Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DIS_EXP">
+<VALUE Lang="Common">Cost '%d' Experience Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DIS_LIVING">
+<VALUE Lang="Common">Cost '%d' Life Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DIS_SKP">
+<VALUE Lang="Common">Cost '%d' Skill Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DIS_STATS">
+<VALUE Lang="Common">Cost '%d' Stat Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_FAIL">
+<VALUE Lang="Common">Move to friend aborted due to error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_FRIEND_BLOCK">
+<VALUE Lang="Common">Can't move to friend</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_FRIEND_CHANNEL">
+<VALUE Lang="Common">Unable to move due to the difference of your friend and your channel.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_FRIEND_CONDITION">
+<VALUE Lang="Common">Unable to move to friend due to friend's abnormal status</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_FRIEND_INSTANTMAP">
+<VALUE Lang="Common">Unable to move, because the target in Instance system currently.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_FRIEND_OFF">
+<VALUE Lang="Common">Can't move to friend</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_IMMOVABLE">
+<VALUE Lang="Common">Your firend is in the area which you are not allowed to enter.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_MAP_CONDITION">
+<VALUE Lang="Common">You don't have the right to enter the area where your friend is.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_MY_CONDITION">
+<VALUE Lang="Common">Unable to move currently.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_NO_ITEM">
+<VALUE Lang="Common">Do not have friend connect card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_OK">
+<VALUE Lang="Common">Moved to friend.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM2FRIEND_FB_PK_CONDITION">
+<VALUE Lang="Common">Unable to move due to good/bad ratio too low.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_CDMMAP">
+<VALUE Lang="Common">Alliance and terminate request fail in club war zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_DISTIME">
+<VALUE Lang="Common">After the alliance battle started, you to have to reach a required time to terminated alliance battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_FAIL">
+<VALUE Lang="Common">Fail to terminate the club battle due to some errors.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_GUIDMAP">
+<VALUE Lang="Common">Unable to request for the alliance battle termination during in the battle field.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_NOBATTLE">
+<VALUE Lang="Common">Alliance battle does not started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_NOTMASTER">
+<VALUE Lang="Common">Only Club Master can apply for the alliance battle termination.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_OFFMASTER">
+<VALUE Lang="Common">Alliance battle leader is offline.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_OK">
+<VALUE Lang="Common">Alliance battle termination accepted by the opponent club.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_ARMISTICE_FB_REFUSE">
+<VALUE Lang="Common">Alliance battle termination rejected.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_ALLIANCE">
+<VALUE Lang="Common">Opponent party is from the same alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_ALREADY">
+<VALUE Lang="Common">Alliance club is having the battle with the opponent club.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_ALREADY2">
+<VALUE Lang="Common">Already established alliance battle with the opponents club</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_CDMBATTLE">
+<VALUE Lang="Common">Alliance request fail during club war.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_CDMMAP">
+<VALUE Lang="Common">Alliance request fail in club war zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_CONFT">
+<VALUE Lang="Common">During the training session, alliance battle is unable to apply.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_DISSOLUTION">
+<VALUE Lang="Common">Party member dissolution appear in the alliance party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_DISSOLUTION2">
+<VALUE Lang="Common">Party member dissolution appear in the opponent party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_FAIL">
+<VALUE Lang="Common">Fail to request for the club battle due to some errors.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_GUIDMAP">
+<VALUE Lang="Common">Unable to request for the alliance battle during in the club battle field.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_GUIDNBATTLE">
+<VALUE Lang="Common">Unable to apply for the  alliance battle during the club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_MAX">
+<VALUE Lang="Common">Able to exceed the time of alliance battle in the alliance party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_NOTMASTER">
+<VALUE Lang="Common">Only Club Master is allow to battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_OK">
+<VALUE Lang="Common">Club battle begins now.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_RANK">
+<VALUE Lang="Common">There are some parties that are not in the alliance battle level.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_REFUSE">
+<VALUE Lang="Common">Alliance battle request is rejected by the opponent club master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_TARCONFT">
+<VALUE Lang="Common">Unable to apply for the alliance battle during the training session.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_TARMAX">
+<VALUE Lang="Common">Able to exceed the time of alliance battle in the opponent party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_TARNOTMASTER">
+<VALUE Lang="Common">Selected character is not the club master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_TARRANK">
+<VALUE Lang="Common">The opponent alliance parties are not in the battle ranking list.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_TIMEMAX">
+<VALUE Lang="Common">Maximum time can be set %d Hours %d Mins</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_REQ_FB_TIMEMIN">
+<VALUE Lang="Common">Minimum time can be set %d Hours %d Mins</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_CDMMAP">
+<VALUE Lang="Common">Surrender not allow during club challenge zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_DISTIME">
+<VALUE Lang="Common">You need pass by a required time before you can surrender in the alliance battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_FAIL">
+<VALUE Lang="Common">Fail to surrender due to some errors.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_GUIDMAP">
+<VALUE Lang="Common">You cant's surrender in the battle field.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_NOBATTLE">
+<VALUE Lang="Common">Not in the same alliance battle mode.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_NOTMASTER">
+<VALUE Lang="Common">Only Club Master can apply to surrender.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLIANCE_BATTLE_SUBMISSION_FB_OK">
+<VALUE Lang="Common">Surrender to the same alliance opponent.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMBUS_TAKE_CONDITION">
+<VALUE Lang="Common">Unable to take the bus due to your current status.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMBUS_TAKE_FAIL">
+<VALUE Lang="Common">Unable to take the bus due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMBUS_TAKE_OK">
+<VALUE Lang="Common">You had took the bus.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMBUS_TAKE_PK_LEVEL">
+<VALUE Lang="Common">Unable to take the bus due to low PK stats.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMBUS_TAKE_TICKET">
+<VALUE Lang="Common">Function not allow, because you don't have bus card. </VALUE>
+<VALUE Lang="Common">n</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_AREADY">
+<VALUE Lang="Common">Verification already been done befre.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_AREADYCERTIFY">
+<VALUE Lang="Common">Verification in progress.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_AREADYGUID">
+<VALUE Lang="Common">Currently the lead guild is another guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_BADNPC">
+<VALUE Lang="Common">The device that require for verification doesn't exists.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_COMPLETE">
+<VALUE Lang="Common">Verification completed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_DISTANCE">
+<VALUE Lang="Common">Unable to verify due to too far away from the require device					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_FAIL">
+<VALUE Lang="Common">Error while try to verify CD.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_HAVEGUIDCLUB">
+<VALUE Lang="Common">You can not autholization in one more place.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_DIE">
+<VALUE Lang="Common">Verification failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_DIE_EX">
+<VALUE Lang="Common">"%s"Process fail because club"%s"'s member "%s" was dead.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_DIE_EX_ALLI">
+<VALUE Lang="Common">"%s" Process fail because alliance "%s"'s club "%s" member "%s" was dead.  </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_DISTANCE">
+<VALUE Lang="Common">You are disconnected from the device, verification will be aborted.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_DISTANCE_EX">
+<VALUE Lang="Common">"%s" Process fail by Club"%s" due to member "%s" moving. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_DISTANCE_EX_ALLI">
+<VALUE Lang="Common">"%s" Process fail because alliance "%s"'s club "%s" member "%s" moving. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_TIMEOUT">
+<VALUE Lang="Common">Verification aborted due to over the time limit.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_TIMEOUT_EX">
+<VALUE Lang="Common">"%" Process fail by Club"%s"'s member"%s",because club war was ended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_ING_TIMEOUT_EX_ALLI">
+<VALUE Lang="Common">"%s"Process fail by alliance "%s"'s club "%s" member "%s",because club war was ended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_NOTCONDITION">
+<VALUE Lang="Common">You haven't meet the requirement for verification yet.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_NOTITEM">
+<VALUE Lang="Common">No verifiable CD. 					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_NOTMASTER">
+<VALUE Lang="Common">Only master is allows to do the verification.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_NOTTIME">
+<VALUE Lang="Common">Currently unable to verify.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_OK">
+<VALUE Lang="Common">CD verification starts. Please be patient before the verification completed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCDCERTIFY_OTHERCERTIFING">
+<VALUE Lang="Common">Currently have other guilds doing verification.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAR_GATEOUT_CLUBBATTLE">
+<VALUE Lang="Common">Club Battle end after %d minute only can join club war.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAR_GATEOUT_CLUBBATTLE2">
+<VALUE Lang="Common">Club challenge cannot process during on going Battle System.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAR_GATEOUT_CONDITION">
+<VALUE Lang="Common">[%d] doesn't have the right to move.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAR_GATEOUT_HOLD">
+<VALUE Lang="Common">You are unable to enter the area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHARGED_ITEM_GET_FB_FAIL">
+<VALUE Lang="Common">Get item failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHARGED_ITEM_GET_FB_NOINVEN">
+<VALUE Lang="Common">Insufficient inventory space for item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHARGED_ITEM_GET_FB_NOITEM">
+<VALUE Lang="Common">The item doesn't exists.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHARGED_ITEM_GET_FB_OK">
+<VALUE Lang="Common">Get item successful.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_AREA_BLOCK">
+<VALUE Lang="Common">No conversation is allowed currently.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_AREA_FAIL">
+<VALUE Lang="Common">Regional dialogue failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_AREA_NOMONEY">
+<VALUE Lang="Common">The Regional dialogue fee is insufficient.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_AREA_OK">
+<VALUE Lang="Common">The Regional dialogue has been paid %1%</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_LOUDSPEAKER_BLOCK">
+<VALUE Lang="Common">You don't have the right to use loudspeaker.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_LOUDSPEAKER_FAIL">
+<VALUE Lang="Common">Loudspeaker use failed due to common error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_LOUDSPEAKER_NOITEM">
+<VALUE Lang="Common">You don't have loudspeaker.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCHAT_LOUDSPEAKER_OK">
+<VALUE Lang="Common">Loudspeaker used.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DEL_FB_BATTLE">
+<VALUE Lang="Common">Club battle is in the progress, unable to kick party members.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DEL_FB_FAIL">
+<VALUE Lang="Common">Error in request to delete a Club  from the alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DEL_FB_GUIDMAP">
+<VALUE Lang="Common">Cannot delete alliance in club room.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DEL_FB_NOTCHIEF">
+<VALUE Lang="Common">Not a alliance Leader.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DEL_FB_NOTMASTER">
+<VALUE Lang="Common">Not a Club  Master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DEL_FB_OK">
+<VALUE Lang="Common">Deleted from the alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DIS_FB_BATTLE">
+<VALUE Lang="Common">Club battle is in the progress, unable to disband the party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DIS_FB_FAIL">
+<VALUE Lang="Common">Error while disbanding the Club alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DIS_FB_GUIDMAP">
+<VALUE Lang="Common">Cannot quit alliance in club room</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DIS_FB_NOTCHIEF">
+<VALUE Lang="Common">Not an alliance leader.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DIS_FB_NOTMASTER">
+<VALUE Lang="Common">Not a Club Master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_DIS_FB_OK">
+<VALUE Lang="Common">The Club alliance has been disbanded.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_ALREADY">
+<VALUE Lang="Common">The target's Club had already joined another alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_BOTHGUID">
+<VALUE Lang="Common">You can not alliance with other Reader Clubs.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_CLUBBATTLE">
+<VALUE Lang="Common">Unable to set up same guild during the club battle is in the progress.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_DISSOLUTION">
+<VALUE Lang="Common">Can't create allicance</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_DISSOLUTION2">
+<VALUE Lang="Common">Can't create alliance during progressing dismiss club.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_DISTIME">
+<VALUE Lang="Common">Unable to form a alliance until '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_FAIL">
+<VALUE Lang="Common">Request for Club alliance failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_GUIDMAP">
+<VALUE Lang="Common">Cannot add/create alliance during war time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_MAX">
+<VALUE Lang="Common">Already over the maximum number of allowed Club in a alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_NOTCHIEF">
+<VALUE Lang="Common">Only the alliance Leader is allow to invite Club into a alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_NOTMASTER">
+<VALUE Lang="Common">Only Club Masters are able to form a Club Factions.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_OK">
+<VALUE Lang="Common">Club alliance formed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_OTHERSCHOOL">
+<VALUE Lang="Common">Cannot alliance with other campus.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_REFUSE">
+<VALUE Lang="Common">Declined the invitation to join the alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_SECTIME">
+<VALUE Lang="Common">After being expelled from a alliance, You are prevented from joining other Factions for '%s' time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_TARCLUBBATTLE">
+<VALUE Lang="Common">Opponent party is in the Club Battle Mode.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_TARNOTMASTER">
+<VALUE Lang="Common">The target is not a Club  Master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_REQ_FB_TOSECTIME">
+<VALUE Lang="Common">After withdrawing from a alliance, You are prevented from joining other alliance for '%s' time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_SEC_FB_ALLIANCE">
+<VALUE Lang="Common">Didn't join any alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_SEC_FB_BATTLE">
+<VALUE Lang="Common">Club battle is in the progress, unable to quit party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_SEC_FB_FAIL">
+<VALUE Lang="Common">Common error in request to withdraw from the alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_SEC_FB_GUIDMAP">
+<VALUE Lang="Common">Cannot quit alliance during war time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_SEC_FB_NOTMASTER">
+<VALUE Lang="Common">Not a Club Master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_ALLIANCE_SEC_FB_OK">
+<VALUE Lang="Common">Withdrawn from the Alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_CLT">
+<VALUE Lang="Common">%s' is accept leader</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_ALLIANCE">
+<VALUE Lang="Common">Cannot assign alliance member become leader</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_CDMBATTLE">
+<VALUE Lang="Common">Leader assign fail during club war time</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_CLUBBATTLE">
+<VALUE Lang="Common">During battle war cannot assign club leader</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_CONFING">
+<VALUE Lang="Common">During duel cannot assign club leader</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_FAIL">
+<VALUE Lang="Common">Leader assign process cancel</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_GUIDNBATTLE">
+<VALUE Lang="Common">Leader assign fail during club war.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_NOMASTER">
+<VALUE Lang="Common">Only club leader have authorization</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_NOONLINE">
+<VALUE Lang="Common">Only can assign online member now</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_OK">
+<VALUE Lang="Common">Success assign club '%s' leader to '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_REFUSE">
+<VALUE Lang="Common">Opponent reject your request.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_AUTHORITY_REQ_FB_TIME">
+<VALUE Lang="Common">Leader assign cannot be complete before '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_CDMMAP">
+<VALUE Lang="Common">Terminate request fail in club war zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_DISTIME">
+<VALUE Lang="Common">Terminate can only be issued after 5 minutes</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_FAIL">
+<VALUE Lang="Common">Fail to apply for Club battle termination due to some errors.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_GUIDMAP">
+<VALUE Lang="Common">Terminate request fail in Club Battle Map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_NOBATTLE">
+<VALUE Lang="Common">There is no ongoing club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_NOTMASTER">
+<VALUE Lang="Common">Only Club Master can apply for the alliance battle termination.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_OFFMASTER">
+<VALUE Lang="Common">Opponent party leader is offline.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_OK">
+<VALUE Lang="Common">Opponent party accept to terminate the battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_ARMISTICE_FB_REFUSE">
+<VALUE Lang="Common">Opponent club refuse to terminate the battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_ALLIANCE">
+<VALUE Lang="Common">Opponents party is from the same alliance.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_ALREADY">
+<VALUE Lang="Common">Opponent party club battle already started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_ALREADY2">
+<VALUE Lang="Common">Already requested for alliance battle with the opponent club</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_CDMBATTLE">
+<VALUE Lang="Common">Battle system request fail during club war.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_CDMMAP">
+<VALUE Lang="Common">Battle system cannot request in club war zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_CONFT">
+<VALUE Lang="Common">Club Battle System cannot apply due to opponent have battle session.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_DISSOLUTION">
+<VALUE Lang="Common">Unable to request for the club battle during in the battle field.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_DISSOLUTION2">
+<VALUE Lang="Common">Because opponent party is having party dissolution, therefore club battle application rejected.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_FAIL">
+<VALUE Lang="Common">Fail to apply for Club battle due to some errors.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_GUIDMAP">
+<VALUE Lang="Common">Unable to apply for club battle while in the club war map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_GUIDNBATTLE">
+<VALUE Lang="Common">Club Battle System cannot be apply during club war.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_MAX">
+<VALUE Lang="Common">Over the time limit to proceed the club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_NOTMASTER">
+<VALUE Lang="Common">Only party leader is allow to request for the club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_OK">
+<VALUE Lang="Common">Club battle begins now.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_RANK">
+<VALUE Lang="Common">Fail to apply Club Battle due to club grade not meet requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_REFUSE">
+<VALUE Lang="Common">Opponent party refuse.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_TARCONFT">
+<VALUE Lang="Common">Club Battle System cannot start due to opponent is currently in duel.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_TARMAX">
+<VALUE Lang="Common">Opponent party already exceed the limit of time to proceed the club battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_TARNOTMASTER">
+<VALUE Lang="Common">Opponent character not the club leader.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_TARRANK">
+<VALUE Lang="Common">Fail to apply Club Battle due to opponent club grade not meet requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_TIMEMAX">
+<VALUE Lang="Common">Maximum time can be set %d Hours %d Mins</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_REQ_FB_TIMEMIN">
+<VALUE Lang="Common">Minimum time can be set %d Hours %d Mins</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_CDMMAP">
+<VALUE Lang="Common">Surrender request fail in club war zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_DISTIME">
+<VALUE Lang="Common">Surrender can only be issued after 5 minutes.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_FAIL">
+<VALUE Lang="Common">Surrender request fail due to some errors.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_GUIDMAP">
+<VALUE Lang="Common">Cannot surrender in Club Battle Map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_NOBATTLE">
+<VALUE Lang="Common">Club battle does not started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_NOTMASTER">
+<VALUE Lang="Common">Only party leader can apply to surrender.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_BATTLE_SUBMISSION_FB_OK">
+<VALUE Lang="Common">Surrender to the opponent club.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_DIS_FB_ALLIANCE">
+<VALUE Lang="Common">Guild dismiss Error due to guild is still active in alliance,please withdraw from alliance first</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_DIS_FB_CANCEL">
+<VALUE Lang="Common">Guild dismiss had been canceled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_DIS_FB_CLUBBATTLE">
+<VALUE Lang="Common">Club is processing Club Battle, please dismiss it.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_DIS_FB_FAIL">
+<VALUE Lang="Common">Guild dismiss (cancel) had been aborted due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_DIS_FB_OK">
+<VALUE Lang="Common">Guild dismiss had been scheduled. (Dismiss after %d days)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_DEL_FB_FAIL">
+<VALUE Lang="Common">Common error while expel guild member.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_DEL_FB_OK">
+<VALUE Lang="Common">Already expeled the guild member.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_NICK_FB_BADNAME">
+<VALUE Lang="Common">Unable to use the name as guild member nickname.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_NICK_FB_FAIL">
+<VALUE Lang="Common">Guild member nickname change failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_NICK_FB_OK">
+<VALUE Lang="Common">Guild member nickname changed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_NICK_FB_THAICHAR_ERROR">
+<VALUE Lang="Common">Nickname includes Thailand language.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_NICK_FB_VNCHAR_ERROR">
+<VALUE Lang="Common">Exist incorrrected word in this nickname.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_ALREADY">
+<VALUE Lang="Common">%s' had already joined the guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_CLUBBATTLE">
+<VALUE Lang="Common">Club cannot recruit member during Club Battle time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_FAIL">
+<VALUE Lang="Common">Common error while inviting '%s' to join the guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_MAXNUM">
+<VALUE Lang="Common">Maximum number of guild members reached, unable to recruit new member.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_OK">
+<VALUE Lang="Common">%s' had joined the guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_OTHERSCHOOL">
+<VALUE Lang="Common">Unable to join the Club of '%s', because he is from another school.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_REFUSE">
+<VALUE Lang="Common">'%s' had declined the invitation to join the guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_REQ_FB_SECEDED">
+<VALUE Lang="Common">Member who left the guild by himself, can only rejoin the guild after %d days.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_SECEDE_FB_FAIL">
+<VALUE Lang="Common">Quit guild failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_MEMBER_SECEDE_FB_OK">
+<VALUE Lang="Common">You had quited the guild!</VALUE>
+<VALUE Lang="Common">You can create your own guild, but can join other guild only after %d days.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_ALREADY">
+<VALUE Lang="Common">You are a member of another guild ! Unable to create guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_AVER_LIVING">
+<VALUE Lang="Common">The life points of the guild master must be %d or above.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_BADNAME">
+<VALUE Lang="Common">Unable to use the name '%s' for your guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_FAIL">
+<VALUE Lang="Common">Common error while creating guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_MASTER_LVL">
+<VALUE Lang="Common">The level of the guild master is not enough. (Require %d or above)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_MEM_ALREADY">
+<VALUE Lang="Common">Member had joined another guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_NAME">
+<VALUE Lang="Common">The guild name '%s' is already being used.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_NOTEXIST_MEM">
+<VALUE Lang="Common">Members that join the guild that going to be created are not around.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_NOTMASTER">
+<VALUE Lang="Common">Only party leader is allowed to create guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_NOTMEMBER">
+<VALUE Lang="Common">The guild to be created require %d or above members to join.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_NOTMONEY">
+<VALUE Lang="Common">Not enough gold to create guild. (Require: %d)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_OK">
+<VALUE Lang="Common">Created '%s' guild.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_OTHERSCHOOL">
+<VALUE Lang="Common">Not allow to create guild with students of other school.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_THAICHAR_ERROR">
+<VALUE Lang="Common">Club name includes wrong Thailand language.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NEW_FB_VNCHAR_ERROR">
+<VALUE Lang="Common">Exist incorrected word in this club name.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NOTICE_FB_FAIL">
+<VALUE Lang="Common">Error in changing the Guild Notice.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NOTICE_FB_NOTMATER">
+<VALUE Lang="Common">You do not have the permission to change the Club Notice.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_NOTICE_FB_OK">
+<VALUE Lang="Common">Club Notice had been successfully changed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_RANK_FB_AVER_LIVING">
+<VALUE Lang="Common">Guild master life points too low. (Require %d or above)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_RANK_FB_FAIL">
+<VALUE Lang="Common">Common error while requesting guild level upgrade.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_RANK_FB_MASTER_LVL">
+<VALUE Lang="Common">Guild master level too low. (Require %d or above)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_RANK_FB_MAX">
+<VALUE Lang="Common">Guild level already reached maximum!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_RANK_FB_NOTMONEY">
+<VALUE Lang="Common">Not enough gold for guild level upgrade. (Require: %d)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUB_RANK_FB_OK">
+<VALUE Lang="Common">Guild level upgraded!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_BATTLE">
+<VALUE Lang="Common">Unable to appoint guild Sub Master before the guild battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_CDM">
+<VALUE Lang="Common">Club challenge authorize fail during club war time</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_CDM_MEM">
+<VALUE Lang="Common">Club challenge authorize only allow %d person.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_FAIL">
+<VALUE Lang="Common">Error in appointing guild vice master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_NOTMASTER">
+<VALUE Lang="Common">Only the Club Master has the right to appoint a Sub Master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_OK">
+<VALUE Lang="Common">Club Sub Master appointed successfully.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCLUBSUBMASTER_FB_RESET">
+<VALUE Lang="Common">You had canceled the authority of Sub Master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_ALREADY_ME">
+<VALUE Lang="Common">You are currently in Duel Mode.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_ALREADY_TAR">
+<VALUE Lang="Common">The person you are challenging is currently in Duel Mode.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_DIE_ME">
+<VALUE Lang="Common">PVP proposal were cencelled,your character died.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_DIE_YOU">
+<VALUE Lang="Common">PVP proposal were cancelled,oponent is dead.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_ELAP">
+<VALUE Lang="Common">Can only duel with the same opponent after %d seconds.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CLOSS">
+<VALUE Lang="Common">Your Club Lost the Duel!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CTIME">
+<VALUE Lang="Common">Guild duel had been aborted due to the end of time limit.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_CWIN">
+<VALUE Lang="Common">Your Club won the Duel!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_DISLOSS">
+<VALUE Lang="Common">Defeat in the duel with '%s' due to the area limitations.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_DISWIN">
+<VALUE Lang="Common">The duel with '%s' has ended due to area limitation.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_FAIL">
+<VALUE Lang="Common">The duel had been aborted due to an error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_LOSS">
+<VALUE Lang="Common">You lost the duel against '%s'!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_MOVEMAP">
+<VALUE Lang="Common">The duel has been cancelled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_NOTWIN">
+<VALUE Lang="Common">You had not contributed to the victory.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PARTY">
+<VALUE Lang="Common">The duel with '%s' had been aborted due to joining a party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PLOSS">
+<VALUE Lang="Common">Your Party lost the Duel!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PTIME">
+<VALUE Lang="Common">Times Up! Party Duel has ended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_PWIN">
+<VALUE Lang="Common">Your Party won the Duel!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_TIME">
+<VALUE Lang="Common">Times Up! The duel with '%s' has ended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_END_WIN">
+<VALUE Lang="Common">You won the duel against '%s'!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_FAIL">
+<VALUE Lang="Common">Unable to make a challenge for duel due to 'common error'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_MAX">
+<VALUE Lang="Common">Unable to duel with the same opponent within %d seconds, if you had been duel with him/her for %d times.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_MENOTMASTER">
+<VALUE Lang="Common">Only party leader is able to make challenge for party duel.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_MENOTPARTY">
+<VALUE Lang="Common">You can join the party duel once done party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_OPTION">
+<VALUE Lang="Common">Data error in duel selection!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_PARTY">
+<VALUE Lang="Common">Unable to duel with someone in the same party.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_PEACE">
+<VALUE Lang="Common">Unable to duel in safe zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_REFUSE">
+<VALUE Lang="Common">The opponent has turned down your challenge.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_REFUSE_AUTO">
+<VALUE Lang="Common">'%s' had automatically turned down the challenge.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONFRONT_TARMASTER">
+<VALUE Lang="Common">Can only make challenge to party leader.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENTFACT_ASPEED">
+<VALUE Lang="Common">Start Event about upgrade attacked speed(%d)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENTFACT_ASPEED_END">
+<VALUE Lang="Common">Close Event about upgrade attacked speed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENTFACT_ATTACK">
+<VALUE Lang="Common">Close Event about upgrade attack(%d) </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENTFACT_ATTACK_END">
+<VALUE Lang="Common">Close Event about upgrade attack</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENTFACT_SPEED">
+<VALUE Lang="Common">Start Event about upgrade moving speed(%d)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENTFACT_SPEED_END">
+<VALUE Lang="Common">Close Event about upgrade moving speed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFRIENDADD_ABSENCE">
+<VALUE Lang="Common">[%s] is not online, or no such player. Unable to send invitation to be added into the friends list.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFRIENDBLOCK_FAIL">
+<VALUE Lang="Common">Blocking of PM from '%s' failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFRIENDBLOCK_OFF">
+<VALUE Lang="Common">You just unblocked '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFRIENDBLOCK_ON">
+<VALUE Lang="Common">You have blocked '%s' from PM you.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGARBAGE_RESULT_FB_FAIL">
+<VALUE Lang="Common">Can't remove the item by appear error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGARBAGE_RESULT_FB_ITEMTYPE">
+<VALUE Lang="Common">Can't remove this type item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGARBAGE_RESULT_FB_NOITEM">
+<VALUE Lang="Common">Can't search the item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGARBAGE_RESULT_FB_OK">
+<VALUE Lang="Common">Completed to remove the item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGM_MOVE2CHAR_FB_CHANNEL">
+<VALUE Lang="Common">Unable to move due to the difference of channel with target. Target is on '%d' channel.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGM_MOVE2CHAR_FB_FAIL">
+<VALUE Lang="Common">Move failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGM_MOVE2CHAR_FB_MY_CONDITION">
+<VALUE Lang="Common">Move failed due to your abnormal status.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGM_MOVE2CHAR_FB_OK">
+<VALUE Lang="Common">Move successful.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGM_MOVE2CHAR_FB_TO_CONDITION">
+<VALUE Lang="Common">Move failed due to opponents abnormal status.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGM_MOVE2CHAR_FB_TO_INSTANTMAP">
+<VALUE Lang="Common">Move failed, because the target is currently in Dungeon.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGRINDING_ANTIDISAPPEAR">
+<VALUE Lang="Common">Protected necklace protect to disappear this item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGRINDING_FAIL">
+<VALUE Lang="Common">Upgrade failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGRINDING_RESET">
+<VALUE Lang="Common">Upgrade failed! The level and stats of the item reverted to 0.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGRINDING_SUCCEED">
+<VALUE Lang="Common">Upgrade successful!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGRINDING_TERMINATE">
+<VALUE Lang="Common">Transformation failed in progress.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCOMMISSION_FB_ALREADY">
+<VALUE Lang="Common">You had scheduled a change of tax rate.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCOMMISSION_FB_BATTLE">
+<VALUE Lang="Common">Unable to change tax rate during lead guild decisive battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCOMMISSION_FB_FAIL">
+<VALUE Lang="Common">Error in the progress of changing tax rate.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCOMMISSION_FB_NOTCLUB">
+<VALUE Lang="Common">You are not the lead guild master.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCOMMISSION_FB_OK">
+<VALUE Lang="Common">You had scheduled a change of tax rate. The rate after change is %2.2f%%.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMGUIDCOMMISSION_FB_RANGE">
+<VALUE Lang="Common">Over the adjustable range of tax rate.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_DISJUNCTION_FB_BADITEM">
+<VALUE Lang="Common">The item is unable to perform the task of equipment set separation.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_DISJUNCTION_FB_FAIL">
+<VALUE Lang="Common">Common error while separating the equipment set.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_DISJUNCTION_FB_NOINVEN">
+<VALUE Lang="Common">Insufficient inventory space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_DISJUNCTION_FB_NONEED">
+<VALUE Lang="Common">The item doesn't require equipment set separation.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_DISJUNCTION_FB_OK">
+<VALUE Lang="Common">Equipment set separation successful!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_FACE_CHANGE_FB_BADCLASS">
+<VALUE Lang="Common">Unable to change face due to character type difference.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_FACE_CHANGE_FB_BADITEM">
+<VALUE Lang="Common">The item is unable to change the face.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_FACE_CHANGE_FB_FAIL">
+<VALUE Lang="Common">Common error while changing face.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_FACE_CHANGE_FB_NOITEM">
+<VALUE Lang="Common">You don't have the item to change face.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_FACE_CHANGE_FB_OK">
+<VALUE Lang="Common">Face change successful!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_GENDER_CHANGE_FB_BADCLASS">
+<VALUE Lang="Common">This class can't use change gender card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_GENDER_CHANGE_FB_FAIL">
+<VALUE Lang="Common">Failed to change Character gender</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_GENDER_CHANGE_FB_ITEMTYPE">
+<VALUE Lang="Common">Not match Item Type.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_GENDER_CHANGE_FB_NOITEM">
+<VALUE Lang="Common">Not exist changed gender card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_GENDER_CHANGE_FB_NOTVALUE">
+<VALUE Lang="Common">Not match Hair/Face set</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_GENDER_CHANGE_FB_OK">
+<VALUE Lang="Common">Succeed to change character gender</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_HAIR_CHANGE_FB_BADCLASS">
+<VALUE Lang="Common">Unable to change hair style due to character type difference.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_HAIR_CHANGE_FB_BADITEM">
+<VALUE Lang="Common">The item is unable to change the hair style.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_HAIR_CHANGE_FB_FAIL">
+<VALUE Lang="Common">Common error while changing hair style.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_HAIR_CHANGE_FB_NOITEM">
+<VALUE Lang="Common">You don't have the item to change hair style.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_HAIR_CHANGE_FB_OK">
+<VALUE Lang="Common">Hair style change successful!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_DIFFER_CARD_FAIL">
+<VALUE Lang="Common">Drag Pet skin card and right click to your pet card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_EMPTY">
+<VALUE Lang="Common">Not exist PET skin pack item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_END">
+<VALUE Lang="Common">Off PET skin Pack</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_FAIL">
+<VALUE Lang="Common">Open PET skin Pack Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_OK">
+<VALUE Lang="Common">Applied PET skin</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_PET_FAIL">
+<VALUE Lang="Common">Must Open PET</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_PETSKINPACK_FB_PETCARD_FAIL">
+<VALUE Lang="Common">Apply to PET Card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RANDOMBOXOPEN_FB_BADITEM">
+<VALUE Lang="Common">Item in the gift box doesn't exists.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RANDOMBOXOPEN_FB_EMPTY">
+<VALUE Lang="Common">Gift box is empty.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RANDOMBOXOPEN_FB_FAIL">
+<VALUE Lang="Common">Common error while opening gift box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RANDOMBOXOPEN_FB_MISS">
+<VALUE Lang="Common">The gift box displayed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RANDOMBOXOPEN_FB_NOINVEN">
+<VALUE Lang="Common">Insufficient inventory space, unable to pick up item from gift box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RANDOMBOXOPEN_FB_OK">
+<VALUE Lang="Common">Opened gift box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FB_BADITEM">
+<VALUE Lang="Common">Item cannot be use. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FB_FAIL">
+<VALUE Lang="Common">Name change failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FB_NOITEM">
+<VALUE Lang="Common">Name no changed, no item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FB_OK">
+<VALUE Lang="Common">Name changed to [%s]  </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FB_THAICHAR_ERROR">
+<VALUE Lang="Common">Name includes wrong Thailand language.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FB_VNCHAR_ERROR">
+<VALUE Lang="Common">Exist incorrected word in this name.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_RENAME_FROM_DB_FAIL">
+<VALUE Lang="Common">[%s], this name already exist.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_VIETNAM_EXPGET_FB_NOITEM">
+<VALUE Lang="Common">Not exist Get EXP Item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_VIETNAM_ITEMGET_FAILED">
+<VALUE Lang="Common">Need to re-fill GET item card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMINVEN_VIETNAM_ITEMGET_FB_NOITEM">
+<VALUE Lang="Common">NOT Exist GET ITEM Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_ERROR">
+<VALUE Lang="Common">Item material error</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_FAIL">
+<VALUE Lang="Common">Item combination failed.</VALUE>
+<VALUE Lang="Common">Item disappealed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_ITEMTYPE">
+<VALUE Lang="Common">Item type not match</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_NOINVEN">
+<VALUE Lang="Common">Your inventory is full, cannot proceed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_NOITEM">
+<VALUE Lang="Common">Without item combine material</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_NOMIX">
+<VALUE Lang="Common">Item combine not match.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_NOMIXNUM">
+<VALUE Lang="Common">Item combine not match.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_NOMONEY">
+<VALUE Lang="Common">Money not enough to proceed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_NONPC">
+<VALUE Lang="Common">Wrong NPC</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMITEM_MIX_FB_OK">
+<VALUE Lang="Common">Item combine success, will get '%s''s '%d'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_AGAIN_OK">
+<VALUE Lang="Common">start the  %uth game</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_FAIL">
+<VALUE Lang="Common">game was cancel..will be closed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_LOSE">
+<VALUE Lang="Common">failed...see u next time</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_MAXBATTING">
+<VALUE Lang="Common">betting money was over. you can try  %u. pls change the betting money</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_MAXROUND">
+<VALUE Lang="Common">Max Round reached, game will be closed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_MONEY_FAIL">
+<VALUE Lang="Common">can not start the game,money failure</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_OK">
+<VALUE Lang="Common">betting was completed. game will be start</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMMGAME_ODDEVEN_FB_WIN">
+<VALUE Lang="Common">congratulation money is %I64u.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_TRADE_FAIL">
+<VALUE Lang="Common">Item trade failed due to common error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_TRADE_INSERT_FAIL">
+<VALUE Lang="Common">Item trade failed due to insufficient inventory space!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_TRADE_ITEM_FAIL">
+<VALUE Lang="Common">Item trade failed due to no item to be traded!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_TRADE_SUCCEED">
+<VALUE Lang="Common">Item trade successful.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPARTY_LURE_CLUBBATTLE">
+<VALUE Lang="Common">Process fail due to member having Club Battle War.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPARTY_LURE_OTHERSCHOOL">
+<VALUE Lang="Common">Not allow to party with students of other school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPARTY_LURE_OTHER_TEAM">
+<VALUE Lang="Common">Not allow to party with students of other team</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMPET_NOTENOUGHINVEN">
+<VALUE Lang="Common">Inventory space problem, pet cant pickup items anymore, pet skill reset to none.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_CHANGESKILL_FB_FAIL">
+<VALUE Lang="Common">Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_COLOR_CHANGE_FB_OK">
+<VALUE Lang="Common">Success to change Color.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_GIVEFOOD_FB_OK">
+<VALUE Lang="Common">PET "%s" eat "%s" after has "%d%%"</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_LEARNSKILL_FB_ALREADY">
+<VALUE Lang="Common">obtained  skillbook.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_LEARNSKILL_FB_BADITEM">
+<VALUE Lang="Common">incorrect skillbook</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_LEARNSKILL_FB_FAIL">
+<VALUE Lang="Common">Unable to learn the skill due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_LEARNSKILL_FB_INVALIDSTORAGE">
+<VALUE Lang="Common">Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_LEARNSKILL_FB_NOITEM">
+<VALUE Lang="Common">Not Existing skill book.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_LEARNSKILL_FB_OK">
+<VALUE Lang="Common">Your Pet "%s" Learned a New Skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_RENAME_FB_FB_OK">
+<VALUE Lang="Common">Pet name changed from "%s" to "%s"</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_RENAME_FB_TOOLONG">
+<VALUE Lang="Common">Pet name modification took so long.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_REVIVE_FB_DBFAIL">
+<VALUE Lang="Common">had failed pet "%s"rebirth.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_REVIVE_FB_FAIL">
+<VALUE Lang="Common">because of normal error, can not rebirth the PET "%s" .</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_REVIVE_FB_OK">
+<VALUE Lang="Common">success the PET "%s"  rebirth. pls recall the PET by updated card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_STYLE_CHANGE_FB_OK">
+<VALUE Lang="Common">Success to change Style.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_STYLECOLOR_CHANGE_FB_BADITEM">
+<VALUE Lang="Common">Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_STYLECOLOR_CHANGE_FB_FAIL">
+<VALUE Lang="Common">Due to Normal Error Fail to change pet Style/Color</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_STYLECOLOR_CHANGE_FB_NOITEM">
+<VALUE Lang="Common">Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_STYLECOLOR_CHANGE_FB_SKINPACK">
+<VALUE Lang="Common">you can only use this pet after the "pet skin" is changed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_STYLECOLOR_CHANGE_FB_UNCHANGEABLE">
+<VALUE Lang="Common">Cant change color for this pet</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_UNUSECARD_FB_OK">
+<VALUE Lang="Common">Hide PET"%s"</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_FAIL">
+<VALUE Lang="Common">Unable to summon a pet due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_INVALIDCARD">
+<VALUE Lang="Common">Item does not support the pet summon process.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_INVALIDZONE">
+<VALUE Lang="Common">Pets are not allowed in this Area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_NODATA">
+<VALUE Lang="Common">PET Card is Reseted by incorrect PET information.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_NOITEM">
+<VALUE Lang="Common">Failed to make PET, petcard not exist.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_NOTENOUGHFULL">
+<VALUE Lang="Common">YOUR PET IS HUNGRY. PLEASE FEED YOU PET.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_OK">
+<VALUE Lang="Common">Call PET"%s" </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_FAIL">
+<VALUE Lang="Common">There is a common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_LOWMONEY">
+<VALUE Lang="Common">Not enough gold.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_NOINVEN">
+<VALUE Lang="Common">Insufficient inventory space to insert purchased item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_NOTIME">
+<VALUE Lang="Common">this is expired item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_NUM">
+<VALUE Lang="Common">Not enough for sale.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_OK">
+<VALUE Lang="Common">You had purchased item from private market.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_OK_SELLER">
+<VALUE Lang="Common">Sold '%s', total '%d'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_BUY_FB_SOLD">
+<VALUE Lang="Common">The item had been sold.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_ALREADY">
+<VALUE Lang="Common">Private market open completed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_EMPTY">
+<VALUE Lang="Common">You had not register the item to be sold in the private market.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_NOTALLOWED">
+<VALUE Lang="Common">Private market disabled. Try again later..</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_FAIL">
+<VALUE Lang="Common">Opening private market failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_NOIDLE">
+<VALUE Lang="Common">Unable to use personal shop card in this condition</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_NOMAP">
+<VALUE Lang="pe">Unable to use a Personal Store Permit at current map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_OPEN_FB_OK">
+<VALUE Lang="Common">Private market opened.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_REGITEM_FB_FAIL">
+<VALUE Lang="Common">Item selling menu registry failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_REGITEM_FB_MAXNUM">
+<VALUE Lang="Common">Exceed the item selling menu registry amount. 					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_REGITEM_FB_NOSALE">
+<VALUE Lang="Common">The item is not allow to be traded.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_REGITEM_FB_OK">
+<VALUE Lang="Common">Item selling menu registry done.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPMARKET_REGITEM_FB_REGITEM">
+<VALUE Lang="Common">The item had been registered to the selling menu.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_COMPLETE_FB_FAIL">
+<VALUE Lang="Common">Unable to complete quest '%s' due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_COMPLETE_FB_NOINVEN">
+<VALUE Lang="Common">Unable to complete quest '%s' due to insufficient inventory space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_COMPLETE_FB_NOINVEN_EX">
+<VALUE Lang="Common">Unable to complete quest '%s' due to insufficient inventory space.</VALUE>
+<VALUE Lang="Common">Please check the inventory space, and click 'complete' in the quest window.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_COMPLETE_FB_OK">
+<VALUE Lang="Common">Quest '%s' has been completed successfully!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_START_FB_ALREADY">
+<VALUE Lang="Common">Quest already started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_START_FB_CONDITION">
+<VALUE Lang="Common">Quest start requirement not match ! Unable to start quest.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_START_FB_DONAGAIN">
+<VALUE Lang="Common">Quest failed before ! Unable to try again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_START_FB_DONREPEAT">
+<VALUE Lang="Common">This quest is a 1-time only quest ! Unable to repeat.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_START_FB_FAIL">
+<VALUE Lang="Common">Quest start failed due to common error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMQUEST_START_FB_NEEDMONEY">
+<VALUE Lang="Common">You don't have sufficient gold that require to start the quest!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREBUILD_RESULT_DESTROY">
+<VALUE Lang="Common">item terminated</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREBUILD_RESULT_MONEY">
+<VALUE Lang="Common">invaild amount or not enough money</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREBUILD_RESULT_SUCCESS">
+<VALUE Lang="Common">Enchant succeed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREGEN_CHARRESET_FAIL">
+<VALUE Lang="Common">Failed to use</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREGEN_CHARRESET_ITEM_FAIL">
+<VALUE Lang="Common">You don't have any reset item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREGEN_CHARRESET_SUCCEED">
+<VALUE Lang="Common">You had used the Reset Potion</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREGEN_CURE_FAIL">
+<VALUE Lang="Common">Heal request failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREGEN_GATE_FAIL">
+<VALUE Lang="Common">Resurrection spot save failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREGEN_GATE_SUCCEED">
+<VALUE Lang="Common">Resurrection spot save successful.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_ATTEND_FB_ALREADY">
+<VALUE Lang="Common">Attendance has already been confirmed for today</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_ATTEND_FB_ATTENTIME">
+<VALUE Lang="Common">You only can sign in Attendance System after %d minutes</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_ATTEND_FB_FAIL">
+<VALUE Lang="Common">Attendance Check has failed due to common error</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_ATTEND_FB_NOTUSE">
+<VALUE Lang="Common">Attendance activities are not available now.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_ATTEND_FB_OK">
+<VALUE Lang="Common">Attended for %d consecutively days</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_EMPTY">
+<VALUE Lang="Common">The box is empty.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_FAIL">
+<VALUE Lang="Common">Unable to open the box due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_INVALIDITEM">
+<VALUE Lang="Common">There is an invalid item in the box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_NOBOX">
+<VALUE Lang="Common">This is not a box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_NOITEM">
+<VALUE Lang="Common">The specified box doesn't exists.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_NOTINVEN">
+<VALUE Lang="Common">Insufficient inventory space ! Unable to pick up item from the box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_BOXOPEN_FB_OK">
+<VALUE Lang="Common">Successfully opened the box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHARCARD_FB_FAIL">
+<VALUE Lang="Common">Common error while using character card and had been aborted.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHARCARD_FB_NOITEM">
+<VALUE Lang="Common">Didn't obtain character card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHARCARD_FB_OK">
+<VALUE Lang="Common">You had used the character card, the number of allowed new character had increased.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CLEANSER_FB_FAIL">
+<VALUE Lang="Common">Cleaning failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CLEANSER_FB_NOCLEANSER">
+<VALUE Lang="Common">no cleanser item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CLEANSER_FB_NOITEM">
+<VALUE Lang="Common">No item for cleaning.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CLEANSER_FB_NONEED">
+<VALUE Lang="Common">Do not need to clean.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CLEANSER_FB_OK">
+<VALUE Lang="Common">cleaning successful!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_ALREADY">
+<VALUE Lang="Common">You already combined with other equipment. Please separate if first.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_DEFSUIT">
+<VALUE Lang="Common">Unable to disguise due to different types of item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_FAIL">
+<VALUE Lang="Common">Disguise error due to common error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_NODISGUISE">
+<VALUE Lang="Common">This is not an item for disguise.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_NOITEM">
+<VALUE Lang="Common">You don't have the require item for disguise.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_NOTSUIT">
+<VALUE Lang="Common">Disguise is only for clothes item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DISGUISE_FB_OK">
+<VALUE Lang="Common">Disguise successful.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DRUG_PK_LEVEL">
+<VALUE Lang="Common">PK stats too low, unable to use healing potion.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_FIRECRACKER_FB_FAIL">
+<VALUE Lang="Common">Firecracker use failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_FIRECRACKER_FB_NOITEM">
+<VALUE Lang="Common">You don't have firecracker item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_FIRECRACKER_FB_OK">
+<VALUE Lang="Common">Firecracker used.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GARBAGEOPEN_FB_FAIL">
+<VALUE Lang="Common">Can't use this item by error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GARBAGEOPEN_FB_NOITEM">
+<VALUE Lang="Common">Not exist the wastebasket item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GARBAGEOPEN_FB_OK">
+<VALUE Lang="Common">Succeed to use the wastebasket item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_DISTANCE">
+<VALUE Lang="Common">Distance too far, cannot be collect</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_FAIL">
+<VALUE Lang="Common">Cannot Be Collect</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_GATHERING">
+<VALUE Lang="Common">Collecting in progress</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_NOCROW">
+<VALUE Lang="Common">It belong to other</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_NOTTYPE">
+<VALUE Lang="Common">Type cannot be collect</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_OK">
+<VALUE Lang="Common">Start Collect</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_FB_USE">
+<VALUE Lang="Common">Is already used by other users</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_RESULT_FAIL">
+<VALUE Lang="Common">Collect failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_RESULT_ITEMFAIL">
+<VALUE Lang="Common">Collect item fail.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_RESULT_SUCCESS">
+<VALUE Lang="Common">Success collect</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_GATHER_RESULT_SUCCESS_EX">
+<VALUE Lang="Common">Success collect,but due to full inventory the item is dropped infront of you.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_INVENLINE_FB_FAIL">
+<VALUE Lang="Common">Inventory new line insert failed due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_INVENLINE_FB_MAXLINE">
+<VALUE Lang="Common">The maximum space of inventory reached.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_INVENLINE_FB_NOITEM">
+<VALUE Lang="Common">You don't have item that require to insert new line in inventory.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_INVENLINE_FB_OK">
+<VALUE Lang="Common">Inventory new line insert successful!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_MUST_LEAVE_MAP_FB_FAIL">
+<VALUE Lang="Common">Fail to go start point.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPC_RECALL_FB_FAIL">
+<VALUE Lang="Common">Fail to summon NPC</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPC_RECALL_FB_NOITEM">
+<VALUE Lang="Common">'Call NPC card' does not exist</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPC_RECALL_FB_NPC">
+<VALUE Lang="Common">NPC is not exist</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPC_RECALL_FB_OK">
+<VALUE Lang="Common">NPC has been summoned.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPC_RECALL_FB_POS">
+<VALUE Lang="Common">Can't call NPC in this zone</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPCTALK_FB_DISTANCE">
+<VALUE Lang="Common">Too far from the NPC.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPCTALK_FB_FAIL">
+<VALUE Lang="Common">Incorrect conversations</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPCTALK_FB_NPC">
+<VALUE Lang="Common">Cannot find the NPC.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_NPCTALK_FB_TYPE">
+<VALUE Lang="Common">You have entered an incorrect conversation content.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_PREMIUMSET_FB_FAIL">
+<VALUE Lang="Common">Unable to set as Premium Service due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_PREMIUMSET_FB_NOITEM">
+<VALUE Lang="Common">No high level gift box item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_PREMIUMSET_FB_NOTINVEN">
+<VALUE Lang="Common">Unable to pick up item from the high level gift box due to insufficient inventory space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_PREMIUMSET_FB_OK">
+<VALUE Lang="Common">Already set as Premium Service.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_CONDITION">
+<VALUE Lang="Common">Unable to recall in current status!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_FAIL">
+<VALUE Lang="Common">Recall failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_IMMOVABLE">
+<VALUE Lang="Common">can not return</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_INSTANTMAP">
+<VALUE Lang="Common">Unable to return to Instance system.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_ITEM">
+<VALUE Lang="Common">Recall failed due to item error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_JOINCON">
+<VALUE Lang="Common">Can't move.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_NOTLASTCALL">
+<VALUE Lang="Common">You did not save the location to recall!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_OK">
+<VALUE Lang="Common">You had successfully recalled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECALL_FB_PK_LEVEL">
+<VALUE Lang="Common">PK stats too low ! Unable to use recall card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_FB_FAIL">
+<VALUE Lang="Common">Can't restore exp by error.</VALUE>
+<VALUE Lang="Common">Will move to start point</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_FB_NOMONEY">
+<VALUE Lang="Common">Can't restore this exp by not enough money.</VALUE>
+<VALUE Lang="Common">Will move to start point.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_FB_NOREEXP">
+<VALUE Lang="Common">Not exist restored exp.</VALUE>
+<VALUE Lang="Common">Will move to start point.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_FB_NOTUSE">
+<VALUE Lang="Common">Can't restore exp in this zone.</VALUE>
+<VALUE Lang="Common">Will move to start point, automatically.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_FB_OK">
+<VALUE Lang="Common">Restored '%I64d' exp</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_NPC_FB_FAIL">
+<VALUE Lang="Common">can't restore exp by error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_NPC_FB_NOMONEY">
+<VALUE Lang="Common">Need more money for restore this exp.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_NPC_FB_NOREEXP">
+<VALUE Lang="Common">Not exist exp for restore.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_NPC_FB_NOTUSE">
+<VALUE Lang="Common">Can't restore exp in this zone.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RECOVERY_NPC_FB_OK">
+<VALUE Lang="Common">Restored '%I64d' exp</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REMODELOPEN_FB_FAIL">
+<VALUE Lang="Common">can not use the ItemRebuildCard by error</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REMODELOPEN_FB_NOITEM">
+<VALUE Lang="Common">have not ItemRebuildCard</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REMODELOPEN_FB_OK">
+<VALUE Lang="Common">used ItemRebuild card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RESET_SKST_FB_FAIL">
+<VALUE Lang="Common">Stats and skills reset failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RESET_SKST_FB_NOINVEN">
+<VALUE Lang="Common">Insufficient inventory space ! Unable to insert skill spheres.</VALUE>
+<VALUE Lang="Common">Please make sure the space to insert %d spheres.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RESET_SKST_FB_NOITEM">
+<VALUE Lang="Common">You don't have the required item for reset.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_RESET_SKST_FB_OK">
+<VALUE Lang="Common">Stats and skills reseted!</VALUE>
+<VALUE Lang="Common">You get %d skill spheres.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REVIVE_FB_FAIL">
+<VALUE Lang="Common">Revive item use failed due to error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REVIVE_FB_NOITEM">
+<VALUE Lang="Common">Revive item doesn't exists.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REVIVE_FB_NOTUSE">
+<VALUE Lang="Common">Unable to use revive item in the area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REVIVE_FB_OK">
+<VALUE Lang="Common">Used revive item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_REVIVE_FB_OK2">
+<VALUE Lang="Common">Revived to base.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGE_END">
+<VALUE Lang="Common">The validity of %d storage is over.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGECARD_FB_FAIL">
+<VALUE Lang="Common">Common error while using storage card and had been aborted.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGECARD_FB_INVNUM">
+<VALUE Lang="Common">The storage card serial number doesn't match the storage.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGECARD_FB_NOITEM">
+<VALUE Lang="Common">Didn't obtain storage card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGECARD_FB_OK">
+<VALUE Lang="Common">Storage card had been used, due date had been extended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGEOPEN_FB_FAIL">
+<VALUE Lang="Common">Unable to use the storage open card due to common error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGEOPEN_FB_NOITEM">
+<VALUE Lang="Common">You don't have storage open card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_STORAGEOPEN_FB_OK">
+<VALUE Lang="Common">Storage open card used.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_CONDITION">
+<VALUE Lang="Common">Can't move to the map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_FAIL">
+<VALUE Lang="Common">Can't move to the map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_IMMOVABLE">
+<VALUE Lang="Common">Now, can't move the map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_ITEM">
+<VALUE Lang="Common">Can't move to the map by item error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_JOINCON">
+<VALUE Lang="Common">Can't move to the map. Please check your state for entry to the map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_OK">
+<VALUE Lang="Common">Completed move to map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_TELEPORT_FB_PK_LEVEL">
+<VALUE Lang="Common">Can't use this item. You need to clean your PK state.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_BRIGHT">
+<VALUE Lang="Common">Require '%s'  Bright Points in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_ITEM">
+<VALUE Lang="Common">Require item '%s' in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_LEVEL">
+<VALUE Lang="Common">Require level '%d' %s in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_LEVEL2">
+<VALUE Lang="Common">Only the characters at levels of  %d ~ %d are allowed to enter</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_LIVING">
+<VALUE Lang="Common">Require '%s' Life Points in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_QUEST_ACT">
+<VALUE Lang="Common">Can only move to the specified area when doing the %s quest.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_QUEST_COM">
+<VALUE Lang="Common">Require the completion of quest %s in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_SKILL">
+<VALUE Lang="Common">Require skill '%s' in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_ACTIVITY_POINT">
+<VALUE Lang="Common">Require %d Activity Points in order to move to the specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQUIRE_CONTRIBUTION_POINT">
+<VALUE Lang="Common">Require %d Contribution Points in order to move to the specified area.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMSIGN_ALWAYS">
+<VALUE Lang="Common">Always</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSIGN_HIGHER">
+<VALUE Lang="Common">Exceed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSIGN_LOWER">
+<VALUE Lang="Common">Below</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSIGN_SAME">
+<VALUE Lang="Common">Same</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSIGN_SAMEHIGHER">
+<VALUE Lang="Common">Above</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSIGN_SAMELOWER">
+<VALUE Lang="Common">Below</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_FB_NO_ITEM">
+<VALUE Lang="Common">Not exist SMS service card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_PHONE_NUMBER_FB_FAIL">
+<VALUE Lang="Common">Failed SMS</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_PHONE_NUMBER_FB_OK">
+<VALUE Lang="Common">changed number to [%s]</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_PHONE_NUMBER_FROM_DB_FAIL">
+<VALUE Lang="Common">Already using [%s]</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_SEND_FB_BADITEM">
+<VALUE Lang="Common">Can't use item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_SEND_FB_FAIL">
+<VALUE Lang="Common">Failed SMS</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_SEND_FB_NOITEM">
+<VALUE Lang="Common">Not exist SMS item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_SEND_FB_OK">
+<VALUE Lang="Common">Failed SMS</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSMS_SEND_FROM_DB_FAIL">
+<VALUE Lang="Common">Failed SMS</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_FB_CONFRONT">
+<VALUE Lang="Common">Dual status cannot summon.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_FB_INVALIDZONE">
+<VALUE Lang="Common">Cannot Summon Monster Here.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_FB_NODATA">
+<VALUE Lang="Common">Summon info not match.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_FB_VEHICLE">
+<VALUE Lang="Common">Vehicle status cannot summon.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_FB_FULL_TOTAL">
+<VALUE Lang="Common">Summon failed, reached maximum number for summon.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_FB_FULL_SKILL">
+<VALUE Lang="Common">Summon failed, reached maximum number for summon for this skill.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMSUMMON_REQ_SLOT_EX_HOLD_FB_FAIL">
+<VALUE Lang="Common">Fail to reset item setting.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_REQ_SLOT_EX_HOLD_FB_INVALIDITEM">
+<VALUE Lang="Common">Item not correct</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMSUMMON_REQ_SLOT_EX_HOLD_FB_NOMATCH">
+<VALUE Lang="Common">Item information not matched</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAKE_FB_DISTANCE">
+<VALUE Lang="Common">Can't get item. Please move closer to the Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_CONDITION">
+<VALUE Lang="Common">You cannot use Taxi</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_FAIL">
+<VALUE Lang="Common">Status error cannot use Taxi.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_MAPFAIL">
+<VALUE Lang="Common">Cannot get the map you wish to move.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_MONEY">
+<VALUE Lang="Common">Taxi fare is not enough.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_NPCFAIL">
+<VALUE Lang="Common">NPC Abnormal Status</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_OK">
+<VALUE Lang="Common">Was riding in the Taxi.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_STATIONFAIL">
+<VALUE Lang="Common">Cannot get the bus station you wish to move.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMTAXI_TAKE_TICKET">
+<VALUE Lang="Common">There are no items in the taxi card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_GIVE_BATTERY_FB_OK">
+<VALUE Lang="Common">'%s' did recovery '%d%%'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_SLOT_EX_HOLD_FB_FAIL">
+<VALUE Lang="Common">Failed to take Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_SLOT_EX_HOLD_FB_INVALIDITEM">
+<VALUE Lang="Common">Incorrect Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_SLOT_EX_HOLD_FB_NOMATCH">
+<VALUE Lang="Common">Incorrect Item Type.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ENTRY_POSSIBLE_INSTANT_MAP">
+<VALUE Lang="Common">can enter to [%s] Dungeon</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ADD">
+<VALUE Lang="Common">Do you want to add [%s] into the friends list?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ADD_ALREADY">
+<VALUE Lang="Common">[%s] is already added into your friends list.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ADD_FAIL">
+<VALUE Lang="Common">Adding [%s] into the friends list failed due to common error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ADD_MAX">
+<VALUE Lang="Common">Friend List is full, Max allow is:%d Member.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ADD_OK">
+<VALUE Lang="Common">Successfully added [%s] into the friends list.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ADD_REFUSE">
+<VALUE Lang="Common">[%s] refused to be added into the friends list.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_BLOCK_ADD">
+<VALUE Lang="Common">Do you want to add [%s] into the block list?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_BLOCK_ADD_ALREADY">
+<VALUE Lang="Common">Already added '%s' into the block list.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_BLOCK_DEL">
+<VALUE Lang="Common">Do you want to remove [%s] from the block list?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_BLOCK_DEL_INCORRECT">
+<VALUE Lang="Common">Please press the 'Cancel' button after made a selection.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_DEL">
+<VALUE Lang="Common">Really want to delete [%s]?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_DEL_FAIL">
+<VALUE Lang="Common">Failed to remove [%s] from friends list!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_DEL_INCORRECT">
+<VALUE Lang="Common">Please press the 'Delete' button after made a selection.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_DEL_OK">
+<VALUE Lang="Common">Successfully removed [%s] from the friends list!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_MOVE">
+<VALUE Lang="Common">Are you sure you want to move to [%s]?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_ONLINE">
+<VALUE Lang="Common">Your friend '%s' is now online</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="FRIEND_OFFLINE">
+<VALUE Lang="Common">Your friend '%s' is now offline</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GAMBLE_AGAIN_INFO_TEXT">
+<VALUE Lang="Common">do you want to try once more?</VALUE>
+<VALUE Lang="Common">betting money will be increase</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GAMBLE_SELECT_INFO_TEXT">
+<VALUE Lang="Common">pls choose the odd or even dice.</VALUE>
+<VALUE Lang="Common">this game is for catch the point sum of dice</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GAMBLE_START_INFO_TEXT">
+<VALUE Lang="Common">pls input the betting money. </VALUE>
+<VALUE Lang="Common">max betting money is 1,000,000,000</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GARBAGEINVENTORY_WINDOW_TITLE">
+<VALUE Lang="Common">Inventory</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_DEFCLASS">
+<VALUE Lang="Common">Unable to upgrade this item by using this ingredient.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_MAX">
+<VALUE Lang="Common">The item cannot be upgraded anymore.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_NOITEM">
+<VALUE Lang="Common">Unable to upgrade this item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_NOT_BEST">
+<VALUE Lang="Common">Need highest polishing item for upgrade this grade</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_NOT_BESTITEM">
+<VALUE Lang="Common">Can't upgrade to next grade by using this upgrade potion</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_NOT_HIGH">
+<VALUE Lang="Common">High level upgrade potion is require to upgrade further. 					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_NOT_LOW">
+<VALUE Lang="Common">Normal upgrade potion is require to upgrade the items of current level.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GRINDING_NOT_NUM">
+<VALUE Lang="Common">Need '%hd' polishing item for upgrade this weapon</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="HAIRCOLORCARD_TITLE">
+<VALUE Lang="Common">Please Decide Color</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INC_BRIGHT">
+<VALUE Lang="Common">Gained '%d' Bright Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INC_EXP">
+<VALUE Lang="Common">Gained '%d' Experience Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INC_EXP2">
+<VALUE Lang="Common">Obtained '%I64d'  EXP</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INC_LIVING">
+<VALUE Lang="Common">Gained '%d' Life Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INC_SKP">
+<VALUE Lang="Common">Gained '%d' Skill Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INC_STATS">
+<VALUE Lang="Common">Gained '%d' Stat Points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INVALID_KEYBOARD_INPUT">
+<VALUE Lang="Common">Unable to type message if Ctrl or Alt button is down.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INVEN_CHAR_RENAME">
+<VALUE Lang="Common">Please Insert Name</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INVEN_DEL_ITEM_TIMELMT">
+<VALUE Lang="Common">Item '%s'  had already expired.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_BANK_DELAY">
+<VALUE Lang="Common">Please wait for 5 seconds before reopen the item bank window.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_COOLTIME">
+<VALUE Lang="Common">%s' wait for item cool down time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_GARBAGE_INFO">
+<VALUE Lang="Common">Please selete item that you want to remove.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_GARBAGE_OKQUESTION">
+<VALUE Lang="Common">Do you want to remove the item?</VALUE>
+<VALUE Lang="Common">You can't undo this action, please think about it :P.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_MIX_INFO">
+<VALUE Lang="Common">Please insert material.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_MIX_INVEN_WINDOW_TITLE">
+<VALUE Lang="Common">Inventory</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_MIX_MONEY_OKQUESTION">
+<VALUE Lang="Common">Item combination require '%d' gold, you want to proceed?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_MIX_OKQUESTION">
+<VALUE Lang="Common">Combination of items going to do?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_MIX_WINDOW_TITLE">
+<VALUE Lang="Common">Item combination</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_REBUILD_CANCEL">
+<VALUE Lang="Common">Cancel</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_REBUILD_COST">
+<VALUE Lang="Common">Enchant fee: </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_REBUILD_OK">
+<VALUE Lang="Common">Enchant</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_REBUILD_OKQUESTION">
+<VALUE Lang="Common">Do you want to enchant?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_SEARCH_DELAY">
+<VALUE Lang="Common">Can search only once per 1 minute</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_SEARCHING_REQ">
+<VALUE Lang="Common">Item Searching</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEMGARBAGE_WINDOW_TITLE">
+<VALUE Lang="Common">wastebasket</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEMPUTON_ACCEPT_SP">
+<VALUE Lang="Common">Insufficient '%d' of requirement for the using item ! SP costs increased.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEMREBUILD_WINDOW_TITLE">
+<VALUE Lang="Common">Item Enchant</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LAND_TRADE_COMMISSION">
+<VALUE Lang="Common">The current tax rate for this area is %2.2f%%.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LAND_TRADE_NEW_COMMISSION">
+<VALUE Lang="Common">The current tax rate for this area is %2.2f%%.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LAND_TRADE_NEW_RV_COMMISSION">
+<VALUE Lang="Common">The tax rate for this area will be %2.2f%% after 10 minutes					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LEVELUP">
+<VALUE Lang="Common">Congratulation you reach level '%d' ! You may distribute the new stat points.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LEVELUP_MAP_REQUIRE_MSG">
+<VALUE Lang="Common">Your level not belong this map, teleporting to start point.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LIMITTIME_OVER">
+<VALUE Lang="Common">Time over, you will be sent to other place.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LIMITTIME_REMAINTIME">
+<VALUE Lang="Common">After %d you will be sent to other place.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTERY_FB_ALREADY_INPUTED">
+<VALUE Lang="Common">You already took part into lottery event.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTERY_FB_ALREADY_USED">
+<VALUE Lang="Common">The lottery ticket had been used.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTERY_FB_ERROR">
+<VALUE Lang="Common">Processing lottery ticket error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTERY_FB_NO1_6">
+<VALUE Lang="Common">Congratulation, you had won the %d prize!</VALUE>
+<VALUE Lang="Common">Please check the official website for more information.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOTTERY_FB_NOT_PCROOM">
+<VALUE Lang="Common">You are not using cyber cafe IP.</VALUE>
+<VALUE Lang="Common">Only cyber cafe members are allow to take part in the lottery event.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MAP_REQUIRE_FAIL">
+<VALUE Lang="Common">Requirements not met! Unable to move to specified area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MAPMOVE_MESSAGE">
+<VALUE Lang="Common">: Move to the area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_COMMISSION">
+<VALUE Lang="Common">Please enter the new tax rate.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_ESC_MENU_CLOSE">
+<VALUE Lang="Common">Do you wish to quit the game?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_ESC_SERVER_STAGE">
+<VALUE Lang="Common">Do you wish to move to the server selection menu?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_GENDER_CHANGE">
+<VALUE Lang="Common">Do you want to use Changed gender card?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_GENDER_CHANGE_END">
+<VALUE Lang="Common">Succeed to change your Character gender</VALUE>
+<VALUE Lang="Common">Character must relogin</VALUE>
+<VALUE Lang="Common">Press OK button to disconnect.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_HAIRCOLOR_INFO">
+<VALUE Lang="Common">Please be aware of changing hair color, as the color you have chosen on the color control menu may apply differently to your character. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_KEY_SETTING_ERROR">
+<VALUE Lang="Common">Key overlap.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_MOBILE_NUMBER">
+<VALUE Lang="Common">Please check button after you enter phone number</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_PETCOLOR_INFO">
+<VALUE Lang="Common">Please be aware of changing PET color, as the color you have chosen on the color control menu may apply differently to your PET. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_RECOVERY_EXP">
+<VALUE Lang="Common">You can restore '%I64d' exp.</VALUE>
+<VALUE Lang="Common">Need '%I64d' money for restore exp.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_RECOVERY_NPC_EXP">
+<VALUE Lang="Common">You can restore '%I64d'exp.</VALUE>
+<VALUE Lang="Common">Need '%I64d' money for restore exp.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_RESET_SKILLSTATS">
+<VALUE Lang="Common">Do you want use the oblivion item?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MONEYTO_FIELD">
+<VALUE Lang="Common">Please enter the amount of gold that you wish to drop.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NO_TRADE_PRIVATE_MARKET_OPEN">
+<VALUE Lang="Common">Unable to make trade request in private market status.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NON_REBIRTH_SKILL_MSG">
+<VALUE Lang="Common">'%s' Reborn Skill option is Off.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NON_REBIRTH_SKILL_MSG_TARGET">
+<VALUE Lang="Common">'%s' is unable to Revive you .Your "Allow reborn" option is disabled</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NOTARGET_SKILL">
+<VALUE Lang="Common">No target, unable to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ONLY_CLUB_MASTER_USE_CLUBSTORAGE">
+<VALUE Lang="Common">Only guild masters are allow to use it.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="OTHER_SCHOOL_FREEPK_OFF">
+<VALUE Lang="Common">The PK Period among schools has just ended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="OTHER_SCHOOL_FREEPK_ON">
+<VALUE Lang="Common">The PK Period among schools has began. You can only attack students outside the campus.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PARTY_AUTHORITY_CHANGE">
+<VALUE Lang="Common">Transfer Party Leader from'%s' to '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PARTY_QUESTION">
+<VALUE Lang="Common">Do you wish to party with '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PARTY_TAR">
+<VALUE Lang="Common">Do you wish to join party with '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PET_REBIRTH_TEXT">
+<VALUE Lang="Common">Please Select the pet you want to Recall</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PICKUP_ITEM">
+<VALUE Lang="Common">Pick up item '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PICKUP_ITEM_WRAP">
+<VALUE Lang="Common">Pick up item '%s %s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PICKUP_MONEY">
+<VALUE Lang="Common">Gained '%Id' gold.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PICKUP_QUESTITEM">
+<VALUE Lang="Common">Obtained quest item '%s'.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PK_PLAYHOSTILE_ADD">
+<VALUE Lang="Common">%s character starts hostile action.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PK_SUMMON_PLAYHOSTILE_ADD">
+<VALUE Lang="Common">%s character went hostile against minion.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PLAYINTERFACE_2">
+<VALUE Lang="Common">Do you wish to open the system settings menu?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PLAYINTERFACE_3">
+<VALUE Lang="Common">Do you wish to move to the server selection menu?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PLAYINTERFACE_4">
+<VALUE Lang="Common">Do you wish to move to character selection menu?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PLAYINTERFACE_5">
+<VALUE Lang="Common">Disconnected from Server!</VALUE>
+<VALUE Lang="Common">Do you wish to quit the game?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PLAYINTERFACE_8">
+<VALUE Lang="Common">Another Player is attemping to connect with the same ID!</VALUE>
+<VALUE Lang="Common">Ending Game.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PREMIUMSERVICE_END">
+<VALUE Lang="Common">The validity of Premium Service is finished.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PREMIUMSET_EX_STATE">
+<VALUE Lang="Common">Based on the time of server, Premium Service is due on year '%d' month '%d' time '%d'.</VALUE>
+<VALUE Lang="Common">According to current server time, validity is still left '%d' days.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATE_MARKET_MAKE_OPEN_MESSAGE">
+<VALUE Lang="Common">Please enter the information of the private market.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATE_MARKET_QUIT">
+<VALUE Lang="Common">Are you sure you want to close?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATE_MARKET_SELL_ITEMCOST">
+<VALUE Lang="Common">Please enter the selling price of the item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATE_MARKET_SELL_WINDOW_TEXTBOX">
+<VALUE Lang="Common">Please specify the item trade information.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QBOX_OPTION_DISABLE_MSG">
+<VALUE Lang="Common">Now option for Q box is Off.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_COMPLETE">
+<VALUE Lang="Common">You had successfully completed the '%s' quest!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_FAIL">
+<VALUE Lang="Common">Doing '%s' quest failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_GIVEUP_CONFIRM">
+<VALUE Lang="Common">Do you want to abort the current quest?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_HELPER_ADD">
+<VALUE Lang="Common">The quest '%s' is now listed on the ongoing tasks</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_HELPER_DEL">
+<VALUE Lang="Common">The quest '%s' is now released from the ongoing tasks.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_HELPER_ERROR">
+<VALUE Lang="Common">Not allowed to register more than 5 quests.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_KNOCK">
+<VALUE Lang="Common">Quest '%s' is running now. </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_KNOCK_END">
+<VALUE Lang="Common">Please open the quest window (shortcut key T) to confirm.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_LEAVEMAP">
+<VALUE Lang="Common">Can't move to other map while progressing '%s' Quest </VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_NOINFO">
+<VALUE Lang="Common">Unable to read the info of '%s' quest!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_NONDIE">
+<VALUE Lang="Common">Doing '%s' quest. You must not die!.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_START">
+<VALUE Lang="Common">'%s' quest has started!</VALUE>
+<VALUE Lang="Common">Please open the quest window (shortcut key T) to confirm.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_STEP">
+<VALUE Lang="Common">Topic '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_STEP_OBJ_COMPLETE">
+<VALUE Lang="Common">Complete '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="QUEST_TIMEOVER">
+<VALUE Lang="Common">Had passed the '%s' quest time limit.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REBIRTH_DIALOGUE_TEXT">
+<VALUE Lang="Common">Do you wish to be revived?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REBIRTH_DIALOGUE_TEXT2">
+<VALUE Lang="Common">Can't Use Reborn item in this area.</VALUE>
+<VALUE Lang="Common">Do you Reborn to start point?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REBIRTH_DIALOGUE_TEXT3">
+<VALUE Lang="Common">Can't use Reborn and recovery exp in This zone.</VALUE>
+<VALUE Lang="Common">do you reborn and move to start point?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REBUILD_MONEY_INPUT">
+<VALUE Lang="Common">input exact amount of money for enchant</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REBUILDINVENTORY_WINDOW_TITLE">
+<VALUE Lang="Common">Enchant Inventory</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RECORD_CHAT_END">
+<VALUE Lang="Common">Completed to save Chat information</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RECORD_CHAT_START">
+<VALUE Lang="Common">Save Chat information while 2 minutes</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REGEN_ENTRY_FAIL">
+<VALUE Lang="Common">Your level not meet the map requirement, will teleport to start point.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_CREATE_INSTANT_MAP_DATA_ERR">
+<VALUE Lang="Common">[%d]Fail to enter dungeon due to data load failure</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_CREATE_INSTANT_MAP_FAIL">
+<VALUE Lang="Common">[%d]Fail to enter dungeon</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_CREATE_INSTANT_MAP_FAIL_CONDITION">
+<VALUE Lang="Common">[%d]Requirement not met. Fail to enter Dungeon.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_CREATE_INSTANT_MAP_FAIL_NOT_STATE">
+<VALUE Lang="Common">[%1%] is currently unable to enter the copy of the Dungeon map. Please wait and try again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_CREATE_INSTANT_MAP_FAIL_REENTRYLIMIT">
+<VALUE Lang="Common">[%s]  can enter after "%d" minute(s) </VALUE>
+<VALUE Lang="Common">n</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_GATEOUT_FB_DATA_ERR">
+<VALUE Lang="Common">[%d]DATA error ! Movement failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_GATEOUT_FB_FAIL">
+<VALUE Lang="Common">[%d]Movement failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="REQ_GATEOUT_FB_SVR_ERR">
+<VALUE Lang="Common">[%d]Server error ! Movement failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SELL_ITEM_CONFIRM">
+<VALUE Lang="Common">Do you want sell [%s]?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVER_STOP_SOON">
+<VALUE Lang="Common">Server will shut down in 30 second, please log out.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_DELAYTIME">
+<VALUE Lang="Common">Skill cooldown time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_DOFAIL">
+<VALUE Lang="Common">Skill failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_LEVEL_UP_CONFIRM">
+<VALUE Lang="Common">Do you want to upgrade the level of skill '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTEXP">
+<VALUE Lang="Common">Insufficient experience to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTHP">
+<VALUE Lang="Common">Insufficient HP to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTITEM">
+<VALUE Lang="Common">Require certain item to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTITEM_1">
+<VALUE Lang="Common">Require (%s) to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTITEM_2">
+<VALUE Lang="Common">Require (%s, %s) to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTITEM_ARROW">
+<VALUE Lang="Common">Require arrows to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTITEM_CHARM">
+<VALUE Lang="Common">Require talisman to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTITEM_BULLET">
+<VALUE Lang="Common">Require bullet to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTMP">
+<VALUE Lang="Common">Insufficient MP to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SKILL_NOTCP">
+<VALUE Lang="Common">Insufficient Combat Point(CP) to use the skill.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SMS_SEND_STATIC">
+<VALUE Lang="Common">Can message under 64bytes</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SPLIT_ITEM">
+<VALUE Lang="Common">Please enter the amount of the item to be split.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="STORAGE_CHARGE_CARD_CONFIRM">
+<VALUE Lang="Common">Do you want to store value for [%d] storage ? 					</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="STORAGE_EX_STATE">
+<VALUE Lang="Common">Based on the time of server, '%d' storage is due on year '%d' month '%d' time '%d'.</VALUE>
+<VALUE Lang="Common">According to current server time, validity is still left '%d' days.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="STORAGE_SPAN_END">
+<VALUE Lang="Common">Unable to store item due to full storage limit.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TRADE_TAR">
+<VALUE Lang="Common">Do you wish to trade with '%s'?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UI_LOTTO">
+<VALUE Lang="Common">&gt;&gt;%s lottery calling&lt;&lt;</VALUE>
+<VALUE Lang="Common">Please enter the serial number correctly!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UNION_BREAKUP">
+<VALUE Lang="Common">Do you want to disband the Alliance?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UNION_JOIN">
+<VALUE Lang="Common">Do you want to add '%s' into the Alliance?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UNION_JOIN_ASK">
+<VALUE Lang="Common">Join the alliance of(Guild Master: %s)?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UNION_KICK_MEMBER">
+<VALUE Lang="Common">Do you want to expel the '%s' guild?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UNION_LEAVE">
+<VALUE Lang="Common">Do you want to withdraw from the Alliance?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_GET_FB_FAIL">
+<VALUE Lang="Common">Unable to read vehicle information.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_GET_FB_INVALIDITEM">
+<VALUE Lang="Common">Not Match Item type</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_GET_FB_NODATA">
+<VALUE Lang="Common">Vehicle information is not correct system need to reset vehicle data.</VALUE>
+<VALUE Lang="Common">Please remove vehicle from vehicle slot and attach it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_GET_FB_NOITEM">
+<VALUE Lang="Common">No item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_RESET_FB_OK">
+<VALUE Lang="Common">Hide Vehicle '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_SET_FB_DELAY">
+<VALUE Lang="Common">Need time to activate vehicle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_SET_FB_FAIL">
+<VALUE Lang="Common">Can't use vehicle</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_SET_FB_MAP_FAIL">
+<VALUE Lang="Common">Can't use vehicle in this area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_SET_FB_NO_ITEM">
+<VALUE Lang="Common">Not exist taken item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_SET_FB_NOTENOUGH_OIL">
+<VALUE Lang="Common">Can't use your Vehicle. The Vehicle need oil or battery.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VEHICLE_SET_FB_OK">
+<VALUE Lang="Common">Ride Vehicle '%s'</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VIETNAM_GAINTYPE_EMPTY">
+<VALUE Lang="Common">Pass to 5 hours from you play game.</VALUE>
+<VALUE Lang="Common">Can't get Item and Exp.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VIETNAM_GAINTYPE_HALF">
+<VALUE Lang="Common">Pass to 4 hours from you play game.</VALUE>
+<VALUE Lang="Common">Can Get just 50% for item and exp.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VIETNAM_TIME_ALLINIT">
+<VALUE Lang="Common">Will Reset time, after 12 hours.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VIETNAM_USE_EXPGET_ITEM">
+<VALUE Lang="Common">Used get EXP Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="VIETNAM_USE_ITEMGET_ITEM">
+<VALUE Lang="Common">Used Get Item Card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WAITSERVER_HACK_MESSAGE">
+<VALUE Lang="Common">Third party program detected !</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WAITSERVER_MESSAGE">
+<VALUE Lang="Common">Please wait...</VALUE>
+</SENTENSE>
+<WORD Ver="1" Id="BONUS_TIME_MESSAGE">
+<VALUE Lang="Common" Index="0">Display time of bonus event</VALUE>
+<VALUE Lang="Common" Index="1">Increase gain exp amount when if it change Red gauge</VALUE>
+</WORD>
+<WORD Ver="1" Id="CHAT_PRIVATE_FAIL">
+<VALUE Lang="Common" Index="0">Unable to send private message to '%s'.</VALUE>
+</WORD>
+<WORD Ver="1" Id="CLUB_BATTLE_INFO">
+<VALUE Lang="Common" Index="0">Kill:%hd(%hd) Death:%hd(%hd)</VALUE>
+<VALUE Lang="Common" Index="1">Starting Time:%04d/%02d/%02d %02d:%02d</VALUE>
+<VALUE Lang="Common" Index="2">Ending Time: %04d/%02d/%02d %02d:%02d</VALUE>
+<VALUE Lang="Common" Index="3">Terminate and Surrender time:%04d/%02d/%02d %02d:%02d</VALUE>
+<VALUE Lang="Common" Index="4">Same Club</VALUE>
+</WORD>
+<WORD Ver="1" Id="FACESTYLE_NAME_FM">
+<VALUE Lang="Common" Index="0">FaceStyle A</VALUE>
+<VALUE Lang="Common" Index="1">FaceStyle B</VALUE>
+<VALUE Lang="Common" Index="2">FaceStyle C</VALUE>
+<VALUE Lang="Common" Index="3">FaceStyle D</VALUE>
+<VALUE Lang="Common" Index="4">FaceStyle E</VALUE>
+<VALUE Lang="Common" Index="5">FaceStyle D</VALUE>
+<VALUE Lang="Common" Index="6">FaceStyle G</VALUE>
+<VALUE Lang="Common" Index="7">FaceStyle H</VALUE>
+<VALUE Lang="Common" Index="8">FaceStyle I</VALUE>
+<VALUE Lang="Common" Index="9">FaceStyle J</VALUE>
+<VALUE Lang="Common" Index="10">FaceStyle K</VALUE>
+<VALUE Lang="Common" Index="11">FaceStyle L</VALUE>
+<VALUE Lang="Common" Index="12">FaceStyle M</VALUE>
+<VALUE Lang="Common" Index="13">FaceStyle N</VALUE>
+<VALUE Lang="Common" Index="14">FaceStyle O</VALUE>
+<VALUE Lang="Common" Index="15">FaceStyle P</VALUE>
+</WORD>
+<WORD Ver="1" Id="FACESTYLE_NAME_M">
+<VALUE Lang="Common" Index="0">FaceStyle A</VALUE>
+<VALUE Lang="Common" Index="1">FaceStyle B</VALUE>
+<VALUE Lang="Common" Index="2">FaceStyle C</VALUE>
+<VALUE Lang="Common" Index="3">FaceStyle D</VALUE>
+<VALUE Lang="Common" Index="4">FaceStyle E</VALUE>
+<VALUE Lang="Common" Index="5">FaceStyle F</VALUE>
+<VALUE Lang="Common" Index="6">FaceStyle G</VALUE>
+<VALUE Lang="Common" Index="7">FaceStyle H</VALUE>
+<VALUE Lang="Common" Index="8">FaceStyle I</VALUE>
+<VALUE Lang="Common" Index="9">FaceStyle J</VALUE>
+<VALUE Lang="Common" Index="10">FaceStyle K</VALUE>
+<VALUE Lang="Common" Index="11">FaceStyle L</VALUE>
+<VALUE Lang="Common" Index="12">FaceStyle M</VALUE>
+<VALUE Lang="Common" Index="13">FaceStyle N</VALUE>
+<VALUE Lang="Common" Index="14">FaceStyle O</VALUE>
+<VALUE Lang="Common" Index="15">FaceStyle P</VALUE>
+</WORD>
+<WORD Ver="1" Id="HAIRSTYLE_NAME_FM">
+<VALUE Lang="Common" Index="0">HairStyle A</VALUE>
+<VALUE Lang="Common" Index="1">HairStyle B</VALUE>
+<VALUE Lang="Common" Index="2">HairStyle C</VALUE>
+<VALUE Lang="Common" Index="3">HairStyle D</VALUE>
+<VALUE Lang="Common" Index="4">HairStyle E</VALUE>
+<VALUE Lang="Common" Index="5">HairStyle F</VALUE>
+<VALUE Lang="Common" Index="6">HairStyle G</VALUE>
+<VALUE Lang="Common" Index="7">HairStyle H</VALUE>
+<VALUE Lang="Common" Index="8">HairStyle I</VALUE>
+<VALUE Lang="Common" Index="9">HairStyle J</VALUE>
+<VALUE Lang="Common" Index="10">HairStyle K</VALUE>
+<VALUE Lang="Common" Index="11">HairStyle L</VALUE>
+<VALUE Lang="Common" Index="12">HairStyle M</VALUE>
+<VALUE Lang="Common" Index="13">HairStyle N</VALUE>
+<VALUE Lang="Common" Index="14">HairStyle O</VALUE>
+<VALUE Lang="Common" Index="15">HairStyle P</VALUE>
+</WORD>
+<WORD Ver="1" Id="HAIRSTYLE_NAME_M">
+<VALUE Lang="Common" Index="0">HairStyle A</VALUE>
+<VALUE Lang="Common" Index="1">HairStyle B</VALUE>
+<VALUE Lang="Common" Index="2">HairStyle C</VALUE>
+<VALUE Lang="Common" Index="3">HairStyle D</VALUE>
+<VALUE Lang="Common" Index="4">HairStyle E</VALUE>
+<VALUE Lang="Common" Index="5">HairStyle F</VALUE>
+<VALUE Lang="Common" Index="6">HairStyle G</VALUE>
+<VALUE Lang="Common" Index="7">HairStyle H</VALUE>
+<VALUE Lang="Common" Index="8">HairStyle I</VALUE>
+<VALUE Lang="Common" Index="9">HairStyle J</VALUE>
+<VALUE Lang="Common" Index="10">HairStyle K</VALUE>
+<VALUE Lang="Common" Index="11">HairStyle L</VALUE>
+<VALUE Lang="Common" Index="12">HairStyle M</VALUE>
+<VALUE Lang="Common" Index="13">HairStyle N</VALUE>
+<VALUE Lang="Common" Index="14">HairStyle O</VALUE>
+<VALUE Lang="Common" Index="15">HairStyle P</VALUE>
+</WORD>
+<WORD Ver="1" Id="HAIRSTYLECARD_NAME">
+<VALUE Lang="Common" Index="0">A</VALUE>
+<VALUE Lang="Common" Index="1">B</VALUE>
+<VALUE Lang="Common" Index="2">C</VALUE>
+<VALUE Lang="Common" Index="3">D</VALUE>
+<VALUE Lang="Common" Index="4">E</VALUE>
+<VALUE Lang="Common" Index="5">F</VALUE>
+<VALUE Lang="Common" Index="6">G</VALUE>
+<VALUE Lang="Common" Index="7">H</VALUE>
+<VALUE Lang="Common" Index="8">I</VALUE>
+<VALUE Lang="Common" Index="9">J</VALUE>
+<VALUE Lang="Common" Index="10">K</VALUE>
+<VALUE Lang="Common" Index="11">L</VALUE>
+<VALUE Lang="Common" Index="12">M</VALUE>
+<VALUE Lang="Common" Index="13">N</VALUE>
+<VALUE Lang="Common" Index="14">O</VALUE>
+<VALUE Lang="Common" Index="15">P</VALUE>
+</WORD>
+<WORD Ver="1" Id="HAIRSTYLECARD_NAME_FM">
+<VALUE Lang="Common" Index="0">A</VALUE>
+<VALUE Lang="Common" Index="1">B</VALUE>
+<VALUE Lang="Common" Index="2">C</VALUE>
+<VALUE Lang="Common" Index="3">D</VALUE>
+<VALUE Lang="Common" Index="4">E</VALUE>
+<VALUE Lang="Common" Index="5">F</VALUE>
+<VALUE Lang="Common" Index="6">G</VALUE>
+<VALUE Lang="Common" Index="7">H</VALUE>
+<VALUE Lang="Common" Index="8">I</VALUE>
+<VALUE Lang="Common" Index="9">J</VALUE>
+<VALUE Lang="Common" Index="10">K</VALUE>
+<VALUE Lang="Common" Index="11">L</VALUE>
+<VALUE Lang="Common" Index="12">M</VALUE>
+<VALUE Lang="Common" Index="13">N</VALUE>
+<VALUE Lang="Common" Index="14">O</VALUE>
+<VALUE Lang="Common" Index="15">P</VALUE>
+</WORD>
+<WORD Ver="1" Id="HAIRSTYLECARD_NAME_M">
+<VALUE Lang="Common" Index="0">A</VALUE>
+<VALUE Lang="Common" Index="1">B</VALUE>
+<VALUE Lang="Common" Index="2">C</VALUE>
+<VALUE Lang="Common" Index="3">D</VALUE>
+<VALUE Lang="Common" Index="4">E</VALUE>
+<VALUE Lang="Common" Index="5">F</VALUE>
+<VALUE Lang="Common" Index="6">G</VALUE>
+<VALUE Lang="Common" Index="7">H</VALUE>
+<VALUE Lang="Common" Index="8">I</VALUE>
+<VALUE Lang="Common" Index="9">J</VALUE>
+<VALUE Lang="Common" Index="10">K</VALUE>
+<VALUE Lang="Common" Index="11">L</VALUE>
+<VALUE Lang="Common" Index="12">M</VALUE>
+<VALUE Lang="Common" Index="13">N</VALUE>
+<VALUE Lang="Common" Index="14">O</VALUE>
+<VALUE Lang="Common" Index="15">P</VALUE>
+</WORD>
+<WORD Ver="1" Id="NPCTALK_RANDOM_TIME_OVER">
+<VALUE Lang="Common" Index="0">Over time</VALUE>
+</WORD>
+<WORD Ver="1" Id="PARTY_LURE_FULL">
+<VALUE Lang="Common" Index="0">Party is full ! Unable to join '%s' party.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PARTY_LURE_OTHER">
+<VALUE Lang="Common" Index="0">'%s' is a member of another party.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PARTY_LURE_REFUSE">
+<VALUE Lang="Common" Index="0">'%s' declined the invitation to party.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PARTY_LURE_REFUSE_AUTO">
+<VALUE Lang="Common" Index="0">Automatically declined the invitation of party from '%s'.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PARTY_MBR_PICKUP_BRD">
+<VALUE Lang="Common" Index="0">'%s' obtained item '%s'.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_A">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_B">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_C">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_D">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_E">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_F">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_G">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_H">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_I">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_J">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_K">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_L">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_M">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+<WORD Ver="1" Id="PETSTYLECARD_NAME_N">
+<VALUE Lang="Common" Index="0">Style A</VALUE>
+<VALUE Lang="Common" Index="1">Style B</VALUE>
+<VALUE Lang="Common" Index="2">Style C</VALUE>
+<VALUE Lang="Common" Index="3">Style D</VALUE>
+<VALUE Lang="Common" Index="4">Style E</VALUE>
+</WORD>
+
+<WORD Ver="1" Id="PLAYER_REBIRTH">
+<VALUE Lang="Common" Index="0">Do you want to Resurrect?</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_10">
+<VALUE Lang="Common" Index="0">Item Disappeared!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_11">
+<VALUE Lang="Common" Index="0">Gold Disappeared!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_12">
+<VALUE Lang="Common" Index="0">Haven't obtain the ownership of the item yet!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_13">
+<VALUE Lang="Common" Index="0">Inventory is Full!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_14">
+<VALUE Lang="Common" Index="0">Allowed to have 1 event item only.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_15">
+<VALUE Lang="Common" Index="0">Please enter the amount of gold that you wish to deposit.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_16">
+<VALUE Lang="Common" Index="0">Please enter the amount of gold that you wish to withdraw.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_17">
+<VALUE Lang="Common" Index="0">Learning successful!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_18">
+<VALUE Lang="Common" Index="0">Unable to Level Up!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_19">
+<VALUE Lang="Common" Index="0">Requirements are not met! Unable to Level Up!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_20">
+<VALUE Lang="Common" Index="0">Unable to learn because of different class!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_21">
+<VALUE Lang="Common" Index="0">Stat Requirements does not match!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_22">
+<VALUE Lang="Common" Index="0">You already learned this skill.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_23">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_24">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_25">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_26">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_27">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_28">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_29">
+<VALUE Lang="Common" Index="0">.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_30">
+<VALUE Lang="Common" Index="0">Loading...</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_31">
+<VALUE Lang="Common" Index="0">Please enter the amount of gold to be deposit.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_32">
+<VALUE Lang="Common" Index="0">Please enter the amount of gold to be withdrawn.</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_6">
+<VALUE Lang="Common" Index="0">Amount input error!</VALUE>
+</WORD>
+<WORD Ver="1" Id="PLAYINTERFACE_9">
+<VALUE Lang="Common" Index="0">Disconnected because of error.</VALUE>
+</WORD>
+<WORD Ver="1" Id="QBOX_BUTTON_MESSAGE">
+<VALUE Lang="Common" Index="0">Control to get Q box</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_AGREE_FAIL_MYINVEN">
+<VALUE Lang="Common" Index="0">Unable to trade due to full inventory space.</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_AGREE_TIME">
+<VALUE Lang="Common" Index="0">Please try to confirm the trade again later.</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_CANCEL_MYINVEN">
+<VALUE Lang="Common" Index="0">Your have not enough inventory space!</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_CANCEL_NORMAL">
+<VALUE Lang="Common" Index="0">Trade cancelled!</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_CANCEL_OTHER">
+<VALUE Lang="Common" Index="0">The opposite side had canceled the trade.</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_CANCEL_TARINVEN">
+<VALUE Lang="Common" Index="0">The person you are trading with does not have enough inventory space!</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_COMPLETE">
+<VALUE Lang="Common" Index="0">Trade successfully!</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_FB_CANCEL">
+<VALUE Lang="Common" Index="0">'%s' had declined the trade request.</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_FB_CANCEL_AUTO">
+<VALUE Lang="Common" Index="0">'%s' had automatically declined the trade request.</VALUE>
+</WORD>
+<WORD Ver="1" Id="TRADE_MONEY">
+<VALUE Lang="Common" Index="0">Please enter the amount of gold to be trade.</VALUE>
+</WORD>
+<SENTENSE Ver="1" Id="QBOX_NOT_DROP_AREA">
+<VALUE Lang="Common">Area cannot drop Box</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_FAIL">
+<VALUE Lang="Common">Lunchbox consume failure.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_OK">
+<VALUE Lang="Common">Lunchbox consume success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_NOITEM">
+<VALUE Lang="Common">Lunchbox item failure.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_NOSLOT">
+<VALUE Lang="Common">No more slot for another Lunchbox.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_NONAREA">
+<VALUE Lang="Common">Lunchbox not allowed on this area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_COOLTIME">
+<VALUE Lang="Common">Lunchbox item cooldown.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMCONSUME_FOOD_FB_NONDATA">
+<VALUE Lang="Common">Lunchbox invalid data.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMUNLOCK_FOOD_FB_OK">
+<VALUE Lang="Common">Unlock Food success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMUNLOCK_FOOD_FB_FAIL">
+<VALUE Lang="Common">Unlock Food Failure.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMUNLOCK_FOOD_FB_NOITEM">
+<VALUE Lang="Common">Unlock Food Item Failure.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMUNLOCK_FOOD_FB_UNLOCKED">
+<VALUE Lang="Common">All slots already unlocked.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="COMBAT_POINT_DIE">
+<VALUE Lang="Common">Combat point loss.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="COMBAT_POINT_RESET">
+<VALUE Lang="Common">Map entry combat point cleared.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMREQ_DRUG_LIMIT_DRUG">
+<VALUE Lang="Common">Can't use potions on skill effect</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_DRUG_LIMIT_SKILL">
+<VALUE Lang="Common">Can't use skills on skill effect</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="INVENTOWEAR_ITEM_INFO">
+<VALUE Lang="Common">Right Click item to equip/un-equip.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INVENTOWEAR_NO_SPACE_LEFTITEM">
+<VALUE Lang="Common">No inventory space for left item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="INVENTOWEAR_REQUIRE_TIME">
+<VALUE Lang="Common">Require time to wear item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WEARTOINVEN_NO_SPACE">
+<VALUE Lang="Common">No inventory space to unwear item.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMPET_USECARD_FB_USE_DELAY">
+<VALUE Lang="Common">Require time to use pet.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_UNUSECARD_FB_WRONG_CARD">
+<VALUE Lang="Common">Use the valid card with the active pet.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMCHAR_GATEOUT_CLUBBATTLE_LOCK">
+<VALUE Lang="Common">Unable to move map during on going Club Battle.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="NPCSHOP_PURCHASE_QUESTION">
+<VALUE Lang="Common">Purchase %s ?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_INVALID_ITEM">
+<VALUE Lang="Common">Invalid Item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_INVALID_CROW">
+<VALUE Lang="Common">Invalid NPC</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_INVALID_SHOPTYPE">
+<VALUE Lang="Common">Invalid Shop Type</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_INVALID_SHOPITEM">
+<VALUE Lang="Common">Invalid Shop Item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_NOT_MONEY">
+<VALUE Lang="Common">Not enough money</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_NOT_INVEN_SPACE">
+<VALUE Lang="Common">No inventory space</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_PURCHASED">
+<VALUE Lang="Common">Item Purchased</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPCSHOP_PURCHASE_FB_DELAY">
+<VALUE Lang="Common">Require time to purchase</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_ENABLE_BOOSTER_FB_OK">
+<VALUE Lang="Common">Vehicle '%s' booster enabled</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_ENABLE_BOOSTER_FB_FAIL">
+<VALUE Lang="Common">Booster apply error</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_ENABLE_BOOSTER_FB_INVALID_CARD">
+<VALUE Lang="Common">Invalid card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_ENABLE_BOOSTER_FB_INVALID_ITEM">
+<VALUE Lang="Common">Invalid item or item is not a vehicle</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_ENABLE_BOOSTER_FB_INVALID_TYPE">
+<VALUE Lang="Common">Invalid card for this vehicle type</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMVEHICLE_REQ_ENABLE_BOOSTER_FB_ALREADY_ENABLED">
+<VALUE Lang="Common">Vehicle is already booster enabled</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="BIKE_BOOST_EXPLAIN_OVER_OFF">
+<VALUE Lang="Common">Can use the Booster Card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BIKE_BOOST_EXPLAIN_OVER_ON">
+<VALUE Lang="Common">Press "Z" key in driving mode</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BIKE_BOOSTER_EXPLAIN">
+<VALUE Lang="Common">Increase speed[Limited time]</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="BIKE_BOOSTER_START">
+<VALUE Lang="Common">Use boost function</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BIKE_BOOSTER_NOT_READY">
+<VALUE Lang="Common">Booster not ready</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BIKE_BOOSTER_RECHARGE">
+<VALUE Lang="Common">Booster recharging</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="CONTRIBUTION_POINT_UPDATE">
+<VALUE Lang="Common">Gained %I64u contribution point</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="BUYITEM_NOCONTRIBUTIONPOINT">
+<VALUE Lang="Common">Not enough Contribution Point(s) to purchase item.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="BUYITEM_NOPOINT">
+<VALUE Lang="Common">Not enough Extra Activity Points!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ACTIVITY_POINT_UPDATE">
+<VALUE Lang="Common">Gained %u activity point</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="HELP_SHOW_ITEM_TOOLTIP">
+<VALUE Lang="Common">Check contents : Alt + Mouse R Button</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="HELP_SHOW_ITEM_LINK">
+<VALUE Lang="Common">Press CTRL + Mouse R Button to chat link</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMEVENT_MOVEMAP_FB_OK">
+<VALUE Lang="Common">Moving to map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENT_MOVEMAP_FB_FAIL">
+<VALUE Lang="Common">Move to map failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMEVENT_MOVEMAP_FB_CONDITION">
+<VALUE Lang="Common">Cannot move to map at current condition.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="NOTIFYCOMPETITION_BUTTON_MESSAGE">
+<VALUE Lang="Common">Competition Events.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="PVP_TYRANNY_REG">
+<VALUE Lang="Common">Tyranny registration open.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_TYRANNY_BATTLE">
+<VALUE Lang="Common">Tyranny battle start.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_TYRANNY_REWARD">
+<VALUE Lang="Common">Tyranny battle has ended, Please wait for rankings and rewards.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_TYRANNY_ENDED">
+<VALUE Lang="Common">Thank you for participating Tyranny.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_TYRANNY_TOBATTLE">
+<VALUE Lang="Common">Tyranny will start in %d minutes.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_NOTPOSSIBLE">
+<VALUE Lang="Common">Register only possible during registration time</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_INVALID_CHANNEL">
+<VALUE Lang="Common">Register only possible in channel 0</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_INVALID_CHARID">
+<VALUE Lang="Common">Invalid register id</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_INVALID_SCHOOL">
+<VALUE Lang="Common">Invalid player school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_LEVEL_LOW">
+<VALUE Lang="Common">Player level lower than battle requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_ALREADY_REG">
+<VALUE Lang="Common">Player already registered.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_ALREADY_QUEUE">
+<VALUE Lang="Common">Player already in queue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_QUEUED">
+<VALUE Lang="Common">Player added to queue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_QUEUED_NUM">
+<VALUE Lang="Common">Queue number %d.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_REGISTERED">
+<VALUE Lang="Common">Player registered to battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_CANCEL_REG">
+<VALUE Lang="Common">Player registration cancelled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REGISTER_FB_CANCEL_FAIL">
+<VALUE Lang="Common">Player registration cancel failed.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="TYRANNY_REJOIN_FB_FAILED">
+<VALUE Lang="Common">Join battle failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REJOIN_FB_NOTPOSSIBLE">
+<VALUE Lang="Common">Join battle not possible this time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REJOIN_FB_NOT_REGISTERED">
+<VALUE Lang="Common">Not registered to battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REJOIN_FB_INVALID_CHARID">
+<VALUE Lang="Common">Join battle invalid charid.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REJOIN_FB_INBATTLE">
+<VALUE Lang="Common">Player already in battle.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="TYRANNY_LAND">
+<VALUE Lang="Common">Tyranny Area</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_TOWER_STATUS_BATTLE">
+<VALUE Lang="Common">Tyranny Under Way</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_TOWER_STATUS_COMPLETE">
+<VALUE Lang="Common">Tyranny Winner</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_REBIRTH_TIMER">
+<VALUE Lang="Common">Resurrected in %d second(s)</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="TYRANNY_CAPTURE_INFO">
+<VALUE Lang="Common">%s controller has been captured by %s school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_WINNER_INFO_FULL_CAPTURE">
+<VALUE Lang="Common">%s school won the battle! captured all the controllers!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_WINNER_INFO">
+<VALUE Lang="Common">%s school won the battle!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TYRANNY_WINNER_INFO_FAILED">
+<VALUE Lang="Common">battle ended with no winner, no rewards will be given</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMREQ_DRUG_LIMIT_HP_MAP">
+<VALUE Lang="Common">Can't use potions with hp recovery on this map</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="CHARACTER_SIMPLE_ON">
+<VALUE Lang="Common">Character sets are now simplified</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTER_SIMPLE_OFF">
+<VALUE Lang="Common">Character sets are now fully shown</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="HIDE_SKILL_EFFECT_ON">
+<VALUE Lang="Common">Hide skill effects</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="HIDE_SKILL_EFFECT_OFF">
+<VALUE Lang="Common">Show skill effects</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_DELAY">
+<VALUE Lang="Common">Require time to exchange</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_INVALID_NPC">
+<VALUE Lang="Common">Invalid NPC Data</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_INVALID_ID">
+<VALUE Lang="Common">Invalid Selected Item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_INVALID_ITEM">
+<VALUE Lang="Common">Invalid Result Item</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_NOCONTRIBUTIONPOINT">
+<VALUE Lang="Common">Not enough Contribution Point(s)!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_NOPOINT">
+<VALUE Lang="Common">Not enough Extra Activity Point(s)!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_NOT_INVEN_SPACE">
+<VALUE Lang="Common">No inventory space</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_REQUIRE_MISSING">
+<VALUE Lang="Common">Item requirement not complete</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_DELETE_FAIL">
+<VALUE Lang="Common">Delete Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_INSERT_FAIL">
+<VALUE Lang="Common">Insert Failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMNPC_ITEM_EXCHANGE_FB_OK">
+<VALUE Lang="Common">Exchange Done</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="RAN_PPRODUCT_BUTTON_MESSAGE">
+<VALUE Lang="Common">Item combination</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_PPRODUCT_BUTTON_PRODUCE_QUESTION">
+<VALUE Lang="Common">Start Produce Item?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PPRODUCT_BUTTON_CANCEL_QUESTION">
+<VALUE Lang="Common">Cancel active production?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_INVALID_ID">
+<VALUE Lang="Common">Invalid selected product.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_INVALID_COST">
+<VALUE Lang="Common">You can not make it due to lack of cost.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_INVALID_CHAR_LEVEL">
+<VALUE Lang="Common">Not enough character level.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_RESULT_ITEM_INVALID">
+<VALUE Lang="Common">Invalid result item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_RESULT_ITEM_NO_SPACE">
+<VALUE Lang="Common">No inventory space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_MATERIAL">
+<VALUE Lang="Common">You can not make it due to lack of resources.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_FAIL_COSTUME">
+<VALUE Lang="Common">The required material is combined with a costume and can't be used for compounding.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_FAIL_DELETE">
+<VALUE Lang="Common">Failure to delete material, Produce failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_FAIL_INSERT">
+<VALUE Lang="Common">Failure to insert result item, Produce failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_TASK_RUNNING">
+<VALUE Lang="Common">Existing task is running.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_STARTED">
+<VALUE Lang="Common">Produce Item Started.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_IS_OPEN">
+<VALUE Lang="Common">Action not allowed when item compound is active.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_PRODUCT_PROCESS_FB_OK">
+<VALUE Lang="Common">Product finish.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_PROCESS_FB_FAILED">
+<VALUE Lang="Common">Product failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_PROCESS_FB_FULL_INVEN">
+<VALUE Lang="Common">Product failed, no inventory space!.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_PROCESS_FB_FAILED_INSERT">
+<VALUE Lang="Common">Product failed to insert!.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_PRODUCT_FB_FEATURE_OFF">
+<VALUE Lang="Common">Product feature disabled.</VALUE>
+</SENTENSE> 
+
+<SENTENSE Ver="1" Id="RAN_ACTIVITY_COMPLETE">
+<VALUE Lang="Common">Character '%s' has completed '%s' extra activity.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ACTIVITY_SALESITEM_WINDOW_TEXT_DESC0">
+<VALUE Lang="Common">The following items can be purchased from "Jr Extra Activities Teacher, Extra Activities Teacher and Dispatched Ex Activities Teacher" through Extra Activity.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_CHAR_TITLE_FAIL">
+<VALUE Lang="Common">Title set failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHAR_TITLE_SAME">
+<VALUE Lang="Common">Title already used.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHAR_TITLE_DONE">
+<VALUE Lang="Common">Title set.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHAR_TITLE_DELAY">
+<VALUE Lang="Common">Require time to change Title.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_QUEST_HELPER_COUNT">
+<VALUE Lang="Common">Quest Registration : %d/%d</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMREQ_SHOW_CHARACTER_INVALID_TARGET">
+<VALUE Lang="Common">Invalid Target</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_SHOW_CHARACTER_TIMEDELAY">
+<VALUE Lang="Common">Require Time to check charinfo</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_BIKE_COLOR_NOT_CARD">
+<VALUE Lang="Common">Invalid bike color change card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_BIKE_COLOR_NOT_VEHICLE">
+<VALUE Lang="Common">Bike Inactive</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_BIKE_COLOR_NOT_BIKE">
+<VALUE Lang="Common">Vehicle not bike</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_BIKE_COLOR_FAIL">
+<VALUE Lang="Common">Bike color change failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_BIKE_COLOR_DONE">
+<VALUE Lang="Common">Bike color changed</VALUE>
+</SENTENSE>
+
+<WORD Ver="1" Id="BIKE_COLOR_IN_TEXT">
+<VALUE Lang="Common" Index="0">Color1</VALUE>
+</WORD>
+<WORD Ver="1" Id="BIKE_COLOR_OUT_TEXT">
+<VALUE Lang="Common" Index="0">Color2</VALUE>
+</WORD>
+<WORD Ver="1" Id="RAN_BIKE_COLOR_BODY_TEXT">
+<VALUE Lang="Common" Index="0">Body</VALUE>
+</WORD>
+<WORD Ver="1" Id="RAN_BIKE_COLOR_HEAD_TEXT">
+<VALUE Lang="Common" Index="0">Lights</VALUE>
+</WORD>
+<WORD Ver="1" Id="RAN_BIKE_COLOR_TIRE_TEXT">
+<VALUE Lang="Common" Index="0">Tire</VALUE>
+</WORD>
+<WORD Ver="1" Id="RAN_BIKE_COLOR_MUFFLER_TEXT">
+<VALUE Lang="Common" Index="0">Exhaust pipe</VALUE>
+</WORD>
+<WORD Ver="1" Id="RAN_BIKE_COLOR_SUB_SEAT_TEXT">
+<VALUE Lang="Common" Index="0">Passenger seat</VALUE>
+</WORD>
+<WORD Ver="1" Id="RAN_BIKE_COLOR_SUB_ACC_TEXT">
+<VALUE Lang="Common" Index="0">Accessories</VALUE>
+</WORD>
+<SENTENSE Ver="1" Id="RAN_BIKE_COLOR_TITLE">
+<VALUE Lang="Common">Please choose a color</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="UPDATE_PK_SCORE">
+<VALUE Lang="Common">Defeated character '%s' in PK.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="UPDATE_PK_DEATH">
+<VALUE Lang="Common">Defeated by character '%s' in PK.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_INFO_NOT_CASE_SENSITIVE">
+<VALUE Lang="Common">All info are not case sensitive!.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_USER_EMPTY">
+<VALUE Lang="Common">UserName Empty!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_USER_SIZE">
+<VALUE Lang="Common">UserName must be 4 to 11 only!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_USER_STRING">
+<VALUE Lang="Common">UserName cannot include spaces and special characters!</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS_EMPTY">
+<VALUE Lang="Common">Password Empty!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS_SIZE">
+<VALUE Lang="Common">Password must be 4 to 11 only!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS_MISMATCH">
+<VALUE Lang="Common">Password does not match</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS_STRING">
+<VALUE Lang="Common">Password cannot include spaces and special characters!</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS2_EMPTY">
+<VALUE Lang="Common">Pin Code Empty!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS2_SIZE">
+<VALUE Lang="Common">Pin Code must be 4 to 11 only!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS2_MISMATCH">
+<VALUE Lang="Common">Pin Code does not match</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_PASS2_STRING">
+<VALUE Lang="Common">Pin Code cannot include spaces and special characters!</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_MAIL_EMPTY">
+<VALUE Lang="Common">Email Empty!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_MAIL_SIZE">
+<VALUE Lang="Common">Email must be more than 4 characters!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_MAIL_STRING">
+<VALUE Lang="Common">Email cannot include spaces and special characters!</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_SA_EMPTY">
+<VALUE Lang="Common">Security Code Empty!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_SA_SIZE">
+<VALUE Lang="Common">Security Code must be 4 to 11 only!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_SA_MISMATCH">
+<VALUE Lang="Common">Security Code does not match</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_SA_STRING">
+<VALUE Lang="Common">Security Code cannot include spaces and special characters!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_CAPTCHA_STRING">
+<VALUE Lang="Common">Captcha cannot include spaces and special characters!</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_CAPTCHA_EMPTY">
+<VALUE Lang="Common">Captcha Empty!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_CAPTCHA_SIZE">
+<VALUE Lang="Common">Captcha invalid length!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_CAPTCHA_MISMATCH">
+<VALUE Lang="Common">Captcha does not match</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_ERROR_SERVER">
+<VALUE Lang="Common">Unknown Registration Error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_ERROR_NOTREG">
+<VALUE Lang="Common">Registration is not allowed!.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_ERROR_ONREGWAIT">
+<VALUE Lang="Common">Registration is still on progress!.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_GOOD_WAITING">
+<VALUE Lang="Common">Registration on progress! Please wait!.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_RESULT_ERROR">
+<VALUE Lang="Common">Unknown error! Registration exit.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_RESULT_TAKEN">
+<VALUE Lang="Common">Selected username is already taken.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="RAN_REGISTER_FB_RESULT_DONE">
+<VALUE Lang="Common">Registration Good! Log-in now!.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="MAP_MOVE_BLOCK_RECALL">
+<VALUE Lang="Common">Action not allowed in this map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MAP_MOVE_BLOCK_TELEPORT">
+<VALUE Lang="Common">Teleport not allowed in this map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MAP_MOVE_BLOCK_FRIEND_CARD">
+<VALUE Lang="Common">Buddy Teleport not allowed in this map.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MAP_MOVE_BLOCK_TAXI">
+<VALUE Lang="Common">Taxi not allowed in this map.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_INVALID_CARD_ITEM">
+<VALUE Lang="Common">Invalid Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_INVALID_TARGET_ITEM">
+<VALUE Lang="Common">Target Item Invalid.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_TARGET_NOT_SUIT">
+<VALUE Lang="Common">Target Item invalid type.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_SUIT_MISMATCH">
+<VALUE Lang="Common">Cannot use this card for this item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_TARGET_OPTION_NOT_EXIST">
+<VALUE Lang="Common">Require existing option.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_TARGET_OPTION_ALREADY_SET">
+<VALUE Lang="Common">Option already changed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_TARGET_OPTION_NOT_FREE">
+<VALUE Lang="Common">All options for this item is already set.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_RANDOM_OPTION_CHANGE_DONE_CHANGE">
+<VALUE Lang="Common">Random Option Changed.</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="EM_NONDROP_CARD_INVALID_CARD_ITEM">
+<VALUE Lang="Common">Invalid Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_NONDROP_CARD_INVALID_TARGET_ITEM">
+<VALUE Lang="Common">Target Item Invalid.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_NONDROP_CARD_TARGET_NOT_SUIT">
+<VALUE Lang="Common">Target Item invalid type.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_NONDROP_CARD_TARGET_ALREADY">
+<VALUE Lang="Common">NonDrop Already Applied</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_NONDROP_CARD_DONE_CHANGE">
+<VALUE Lang="Common">NonDrop Applied.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="ITEM_INFO_GM_GEN">
+<VALUE Lang="Common">Bound to character.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="COMPOUND_RANDOM_VALUE_POSSIBLE">
+<VALUE Lang="Common">Random Value Generate Possible.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="COMPOUND_RANDOM_VALUE_NOT_POSSIBLE">
+<VALUE Lang="Common">Random Value Not Possible.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="PETSKILL_ACTIVATE">
+<VALUE Lang="Common">'%s' PetSkill Activated.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMPET_REQ_DUALSKILL_INVALID_SKILL_SELECTED">
+<VALUE Lang="Common">Selected skill is already active</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="EMPET_REQ_ENABLE_DUAL_SKILL_FB_OK">
+<VALUE Lang="Common">PET "%s" dual skills activated</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_ENABLE_DUAL_SKILL_FB_FAIL">
+<VALUE Lang="Common">Dual Skills change failure.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_ENABLE_DUAL_SKILL_INVALID_ITEM">
+<VALUE Lang="Common">Invalid Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_ENABLE_DUAL_SKILL_INVALID_CARD">
+<VALUE Lang="Common">Invalid Target Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_ENABLE_DUAL_SKILL_NOT_ACTIVE">
+<VALUE Lang="Common">Enable pet to activate dual skills.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMPET_REQ_ENABLE_DUAL_SKILL_ALREADY_ENABLED">
+<VALUE Lang="Common">Dual skills already enabled for this pet.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="TRADE_LOCK_MESSAGE">
+<VALUE Lang="Common">Unable to change the trade content in lock trade mode</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="TRADE_LOCK_REQUIRED">
+<VALUE Lang="Common">Both trade lock required!</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="PRIVATE_MARKET_SET_ON">
+<VALUE Lang="Common">Private Market Enabled</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PRIVATE_MARKET_SET_OFF">
+<VALUE Lang="Common">Private Market Disabled</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="MEGAPHONE_SET_ON">
+<VALUE Lang="Common">LoudSpeaker Enabled</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MEGAPHONE_SET_OFF">
+<VALUE Lang="Common">LoudSpeaker Disabled</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMCHAT_LOUDSPEAKER_DISABLED">
+<VALUE Lang="Common">LoudSpeaker Disabled! try again later.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCALE_FAIL">
+<VALUE Lang="Common">Change Scale Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCALE_NOT_CARD">
+<VALUE Lang="Common">Invalid Item Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCALE_OK">
+<VALUE Lang="Common">Character Scale Changed.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_ITEM_COLOR_CHANGE_FAILED">
+<VALUE Lang="Common">Failed to change item color.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_COLOR_CHANGE_NOT_CARD">
+<VALUE Lang="Common">Item Color Card error.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_COLOR_CHANGE_SLOT_ERROR">
+<VALUE Lang="Common">Coloring for selected slot is not possible.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_COLOR_CHANGE_DONE">
+<VALUE Lang="Common">Item Color Changed.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_TARGET_NOT_VALID">
+<VALUE Lang="Common">Cannot wrap target item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_TARGET_HAVE_DISGUISE">
+<VALUE Lang="Common">Cannot wrap target item with disguise.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_HOLD_INVALID">
+<VALUE Lang="Common">Invalid Wrapper.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_HOLD_NOT_WRAPPER">
+<VALUE Lang="Common">Invalid Wrapper.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_HOLD_NOT_BOX">
+<VALUE Lang="Common">Invalid Wrapper Box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_FAILED">
+<VALUE Lang="Common">Wrap Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_DONE">
+<VALUE Lang="Common">Wrap Success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_WRAP_TARGET_NO_NEED">
+<VALUE Lang="Common">No need to wrap target item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_UNWRAP_TARGET_NOT_VALID">
+<VALUE Lang="Common">Invalid Wrapper Box.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_UNWRAP_FAILED">
+<VALUE Lang="Common">Unwrap Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_UNWRAP_DONE">
+<VALUE Lang="Common">Unwrap Success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_INFO_POSSIBLE_WRAP">
+<VALUE Lang="Common">Possible to wrap this item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_INFO_POSSIBLE_UNWRAP">
+<VALUE Lang="Common">Right Click to unwrap this item.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="MODAL_WRAP_ITEM">
+<VALUE Lang="Common">Wrap Item?.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="MODAL_UNWRAP_ITEM">
+<VALUE Lang="Common">Unwrap Item?.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_FAILED">
+<VALUE Lang="Common">Change School Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_NOT_CARD">
+<VALUE Lang="Common">Invalid Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_NOT_SELECTED">
+<VALUE Lang="Common">Invalid Selected School</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_REQ_CLEAN_QUEST">
+<VALUE Lang="Common">Please complete running quests before changing school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_REQ_CLEAN_GUILD">
+<VALUE Lang="Common">Please leave guild before changing school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_REQ_MAX_LEVEL">
+<VALUE Lang="Common">Please reach max level before changing school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_SAME_SCHOOL">
+<VALUE Lang="Common">Selected School is the same with your current school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_CHANGE_SCHOOL_DONE">
+<VALUE Lang="Common">Change School Success, Character will logout.</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="RAN_EQUIPMENT_LOCK_ENABLE_INFO">
+<VALUE Lang="Common">This system allows you to lockdown your currently equipped items in order to prevent unauthorized removal and or modification.</VALUE>
+<VALUE Lang="Common">This feature will let you set your own 4-digit KEY that you will be using as key to access your equipments.</VALUE>
+<VALUE Lang="Common">Please do take note that you must never forget your 4-digit KEY, or else you might lose your right to access on your equipments.</VALUE>
+<VALUE Lang="Common">Alternatively, you can purchase 4-digit KEY Recovery Card to recover your lost KEY.</VALUE>
+<VALUE Lang="Common">This will not prevent your item from getting dropped when killed.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_NOT_CARD">
+<VALUE Lang="Common">Invalid Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_ALREADY_ENABLED">
+<VALUE Lang="Common">Equipment Lock Already Enabled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_KEY_EMPTY">
+<VALUE Lang="Common">Key Empty</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_KEY_SIZE">
+<VALUE Lang="Common">Key must be 4 numbers only</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_KEY_NOT_SAME">
+<VALUE Lang="Common">Key mismatched</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_KEY_NUMBER_ONLY">
+<VALUE Lang="Common">Key must be numbers only</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_AGREE_MISMATCH">
+<VALUE Lang="Common">Type 'ACCEPT' to continue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_FAILED">
+<VALUE Lang="Common">Set Key Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_DONE">
+<VALUE Lang="Common">Set Key Success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_ALREADY_ENABLED_DB">
+<VALUE Lang="Common">Set Key Failure 1 Report Bug to Admin!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_ENABLE_CHAR_NOT_EXIST">
+<VALUE Lang="Common">Set Key Failure 2 Report Bug to Admin!</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="INVEN_LOCK_INPUT_KEY">
+<VALUE Lang="Common">Please Insert Key</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_EQUIPMENT_LOCK_INPUT_INFO">
+<VALUE Lang="Common">Type your key to lock or unlock equipment.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_FAILED">
+<VALUE Lang="Common">Set Key Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_NOT_ENABLED">
+<VALUE Lang="Common">Equipment Lock Not Enabled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_KEY_EMPTY">
+<VALUE Lang="Common">Key Empty</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_KEY_SIZE">
+<VALUE Lang="Common">Key must be 4 numbers only</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_KEY_NUMBER_ONLY">
+<VALUE Lang="Common">Key must be numbers only</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_TIMER">
+<VALUE Lang="Common">Require Time to Input Key</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_DATA_NOT_EXIST">
+<VALUE Lang="Common">Incorrect Key</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_FAILED">
+<VALUE Lang="Common">Key Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_DONE1">
+<VALUE Lang="Common">Equipment Locked.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_INPUT_DONE2">
+<VALUE Lang="Common">Equipment Unlocked.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_FAILED">
+<VALUE Lang="Common">Recover Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_NOT_CARD">
+<VALUE Lang="Common">Invalid Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_NOT_ENABLED">
+<VALUE Lang="Common">Equipment Lock Not Enabled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_NOT_EXIST">
+<VALUE Lang="Common">Retrieve Failed! Report to Admin.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_DONE">
+<VALUE Lang="Common">Retrieve Done.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="RAN_EQUIPMENT_LOCK_RECOVER_INFO">
+<VALUE Lang="Common">Press 'Close' if you only needed to know your current 4 digit key.</VALUE>
+<VALUE Lang="Common">Press 'Change Key' if you want to change your key.</VALUE>
+<VALUE Lang="Common">Press 'Disable Key' if you want to permanently disable equipment lock.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_FAILED">
+<VALUE Lang="Common">Change Key Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_KEY_EMPTY">
+<VALUE Lang="Common">Key Empty</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_KEY_SIZE">
+<VALUE Lang="Common">Key must be 4 numbers only</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_KEY_NOT_SAME">
+<VALUE Lang="Common">Key mismatched</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_KEY_NUMBER_ONLY">
+<VALUE Lang="Common">Key must be numbers only</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_NOT_ENABLED">
+<VALUE Lang="Common">Equipment Lock Not Enabled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_NOT_FOUND">
+<VALUE Lang="Common">Change Failed! Report to Admin.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_DONE">
+<VALUE Lang="Common">Change Key Success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CHANGE_AGREE_MISMATCH">
+<VALUE Lang="Common">Type 'CONFIRM' to continue.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_DELETE_FAILED">
+<VALUE Lang="Common">Delete Key Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_DELETE_NOT_FOUND">
+<VALUE Lang="Common">Delete Failed! Report to Admin.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_DELETE_NOT_ENABLED">
+<VALUE Lang="Common">Equipment Lock Not Enabled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_DELETE_AGREE_MISMATCH">
+<VALUE Lang="Common">Type 'CONFIRM' to continue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_DELETE_DONE">
+<VALUE Lang="Common">Equipment Lock Now Removed.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_EQUIPMENT_LOCK_RECOVER_CLOSE_AGREE_MISMATCH">
+<VALUE Lang="Common">Type 'CONFIRM' to continue.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="ACTION_EQUIPMENT_LOCKED">
+<VALUE Lang="Common">Action not allowed, equipment is locked.</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_FAILED">
+<VALUE Lang="Common">Transfer Failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_NOT_CARD">
+<VALUE Lang="Common">Invalid Card.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_INVALID_ITEM">
+<VALUE Lang="Common">Invalid Item.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_INVALID_ITEM_TYPE">
+<VALUE Lang="Common">Only Armor or Weapon is allowed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_TIME_LIMIT">
+<VALUE Lang="Common">Expiry Items are not allowed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_DISGUISE">
+<VALUE Lang="Common">Costumes not allowed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_SUIT_MISMATCH">
+<VALUE Lang="Common">Item Type Mismatch.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_ATTACK_MISMATCH">
+<VALUE Lang="Common">Weapon Type Mismatch.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_COST">
+<VALUE Lang="Common">Not enough gold.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_HAVE_DISGUISE">
+<VALUE Lang="Common">Remove disguise item first.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_NOT_TRANSFER_ITEM">
+<VALUE Lang="Common">Item not transferable.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMFB_ITEM_TRANSFER_DONE">
+<VALUE Lang="Common">Transfer Success.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_INFO_ITEM_TRANSFER">
+<VALUE Lang="Common">Item Transfer Possible.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="ITEM_TRANSFER_WINDOW_INFO">
+<VALUE Lang="Common">Transfer UPGRADE, RANDOM VALUE and NONDROP option for armors and weapons</VALUE>
+<VALUE Lang="Common">Only items with 'Item Transfer Possible' status can be transfered.</VALUE>
+<VALUE Lang="Common">Stats of the target item will be replaced.</VALUE>
+<VALUE Lang="Common">Costumes and expiry items are not allowed.</VALUE>
+<VALUE Lang="Common">Both items must be the same type.</VALUE>
+<VALUE Lang="Common">Original item will be deleted after the transfer.</VALUE>
+<VALUE Lang="Common">Make sure to have free inventory space before starting.</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_REG">
+<VALUE Lang="Common">SchoolWars registration open.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_BATTLE">
+<VALUE Lang="Common">SchoolWars battle start.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_REWARD">
+<VALUE Lang="Common">SchoolWars battle has ended, Please wait for rankings and rewards.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_ENDED">
+<VALUE Lang="Common">Thank you for participating SchoolWars.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_TOBATTLE">
+<VALUE Lang="Common">SchoolWars will start in %d minutes.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_NOTPOSSIBLE">
+<VALUE Lang="Common">Register only possible during registration time</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_INVALID_CHANNEL">
+<VALUE Lang="Common">Register only possible in channel 0</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_INVALID_CHARID">
+<VALUE Lang="Common">Invalid register id</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_INVALID_SCHOOL">
+<VALUE Lang="Common">Invalid player school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_LEVEL_LOW">
+<VALUE Lang="Common">Player level lower than battle requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_CONTRI_LOW">
+<VALUE Lang="Common">Player Contribution Points lower than battle requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_ALREADY_REG">
+<VALUE Lang="Common">Player already registered.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_ALREADY_QUEUE">
+<VALUE Lang="Common">Player already in queue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_QUEUED">
+<VALUE Lang="Common">Player added to queue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_QUEUED_NUM">
+<VALUE Lang="Common">Queue number %d.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_REGISTERED">
+<VALUE Lang="Common">Player registered to battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_CANCEL_REG">
+<VALUE Lang="Common">Player registration canceled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REGISTER_FB_CANCEL_FAIL">
+<VALUE Lang="Common">Player registration cancel failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REJOIN_FB_FAILED">
+<VALUE Lang="Common">Join battle failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REJOIN_FB_NOTPOSSIBLE">
+<VALUE Lang="Common">Join battle not possible this time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REJOIN_FB_NOT_REGISTERED">
+<VALUE Lang="Common">Not registered to battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REJOIN_FB_INVALID_CHARID">
+<VALUE Lang="Common">Join battle invalid charid.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_REJOIN_FB_INBATTLE">
+<VALUE Lang="Common">Player already in battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_REBIRTH_TIMER">
+<VALUE Lang="Common">Resurrected in %d second(s)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_WINNER_INFO_FULL_CAPTURE">
+<VALUE Lang="Common">%s school won the battle! reached maximum score!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_WINNER_INFO">
+<VALUE Lang="Common">%s school won the battle!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SCHOOLWARS_WINNER_INFO_FAILED">
+<VALUE Lang="Common">battle ended with no winner, no rewards will be given</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_DOUBLE_POINT_OFF">
+<VALUE Lang="Common">Double Point Deactivated!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_SCHOOLWARS_DOUBLE_POINT_ON">
+<VALUE Lang="Common">Double Point Activated!</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_REG">
+<VALUE Lang="Common">Capture The Flag registration open.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_BATTLE">
+<VALUE Lang="Common">Capture The Flag battle start.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_REWARD">
+<VALUE Lang="Common">Capture The Flag battle has ended, Please wait for rankings and rewards.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_ENDED">
+<VALUE Lang="Common">Thank you for participating Capture The Flag.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_TOBATTLE2">
+<VALUE Lang="Common">Capture The Flag will start in %d minute.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_TOBATTLE">
+<VALUE Lang="Common">Capture The Flag will start in %d minutes.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_INFO_TARGET">
+<VALUE Lang="Common">Get points by stealing enemy's flag and then bringing back to home base.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_NOTPOSSIBLE">
+<VALUE Lang="Common">Register only possible during registration time</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_INVALID_CHANNEL">
+<VALUE Lang="Common">Register only possible in channel 0</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_OTHER_TEAM">
+<VALUE Lang="Common">Already registered to another team</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_INVALID_CHARID">
+<VALUE Lang="Common">Invalid register id</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_INVALID_SCHOOL">
+<VALUE Lang="Common">Invalid player school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_INVALID_TEAM">
+<VALUE Lang="Common">Invalid team</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_LEVEL_LOW">
+<VALUE Lang="Common">Player level lower than battle requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_TEAM_A_FULL">
+<VALUE Lang="Common">Team Red Already Full.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_TEAM_B_FULL">
+<VALUE Lang="Common">Team Blue Already Full.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_ALREADY_REG">
+<VALUE Lang="Common">Player already registered.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_REGISTERED_A">
+<VALUE Lang="Common">Player registered to Team Red.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_REGISTERED_B">
+<VALUE Lang="Common">Player registered to Team Blue.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_CANCEL_REG">
+<VALUE Lang="Common">Player registration canceled.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_CANCEL_FAIL">
+<VALUE Lang="Common">Player registration cancel failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_TEAM_A_BALANCE">
+<VALUE Lang="Common">Too many Team Red Participants, Consider joining the other Team.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_TEAM_B_BALANCE">
+<VALUE Lang="Common">Too many Team Blue Participants, Consider joining the other Team.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REGISTER_FB_CONTRI_LOW">
+<VALUE Lang="Common">Player contribution points lower than battle requirement.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_FAILED">
+<VALUE Lang="Common">Join battle failed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_NOTPOSSIBLE">
+<VALUE Lang="Common">Join battle not possible this time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_NOT_REGISTERED">
+<VALUE Lang="Common">Not registered to battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_INVALID_CHARID">
+<VALUE Lang="Common">Join battle invalid charid.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_INBATTLE">
+<VALUE Lang="Common">Player already in battle.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_INVALID_TEAM">
+<VALUE Lang="Common">Join battle failed, invalid team</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_REJOIN_FB_OTHER_TEAM">
+<VALUE Lang="Common">Unable to join another team</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="PVP_CAPTURE_THE_FLAG_REBIRTH_TIMER">
+<VALUE Lang="Common">Resurrected in %d second(s)</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_WINNER_INFO_FULL_CAPTURE">
+<VALUE Lang="Common">%s won the battle! reached maximum score!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_WINNER_INFO">
+<VALUE Lang="Common">%s won the battle!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_WINNER_INFO_FAILED">
+<VALUE Lang="Common">battle ended with no winner, no rewards will be given</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_TIMEOUT_A">
+<VALUE Lang="Common">Red Team flag holder timeout, Blue Flag restored.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_TIMEOUT_B">
+<VALUE Lang="Common">Blue Team flag holder timeout, Red Flag restored.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_LEFT_A">
+<VALUE Lang="Common">Red Team flag holder %s left the battle, Blue Flag restored.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_LEFT_B">
+<VALUE Lang="Common">Blue Team flag holder %s left the battle, Red Flag restored.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_DEAD_A">
+<VALUE Lang="Common">Red Team flag holder %s is Dead, Blue Flag restored.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_DEAD_B">
+<VALUE Lang="Common">Blue Team flag holder %s is Dead, Red Flag restored.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_CAPTURE_A">
+<VALUE Lang="Common">Red Team %s Captured Blue Flag!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_CAPTURE_B">
+<VALUE Lang="Common">Blue Team %s Captured Red Flag!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_SCORE_A">
+<VALUE Lang="Common">Red Team %s Scored Blue Flag! Red Team gained score.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CAPTURE_THE_FLAG_FLAG_PLAYER_SCORE_B">
+<VALUE Lang="Common">Blue Team %s Scored Red Flag! Blue Team gained score.</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="EMCHAR_CREATE_INSTANT_MAP_FAIL">
+<VALUE Lang="Common">Map Entry Failed</VALUE>
+</SENTENSE>
+
+
+<SENTENSE Ver="1" Id="EMREQ_CHANGE_CAR_COLOR_FB_INVALID_CARD">
+<VALUE Lang="Common">Invalid Car color change card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHANGE_CAR_COLOR_FB_VEHICLE_INACTIVE">
+<VALUE Lang="Common">Car Inactive</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHANGE_CAR_COLOR_FB_VEHICLE_NOT_CAR">
+<VALUE Lang="Common">Vehicle not Car</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHANGE_CAR_COLOR_FB_CHANGE_FAIL">
+<VALUE Lang="Common">Car color change failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMREQ_CHANGE_CAR_COLOR_FB_CHANGE_DONE">
+<VALUE Lang="Common">Car color changed</VALUE>
+</SENTENSE>
+
+<SENTENSE Ver="1" Id="EMALLVEHICLE_REQ_ENABLE_BOOSTER_FB_OK">
+<VALUE Lang="Common">Vehicle '%s' booster enabled</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLVEHICLE_REQ_ENABLE_BOOSTER_FB_FAIL">
+<VALUE Lang="Common">Booster apply error</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLVEHICLE_REQ_ENABLE_BOOSTER_FB_INVALID_CARD">
+<VALUE Lang="Common">Invalid card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLVEHICLE_REQ_ENABLE_BOOSTER_FB_INVALID_ITEM">
+<VALUE Lang="Common">Invalid item or item is not a vehicle</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLVEHICLE_REQ_ENABLE_BOOSTER_FB_INVALID_TYPE">
+<VALUE Lang="Common">Invalid card for this vehicle type</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EMALLVEHICLE_REQ_ENABLE_BOOSTER_FB_ALREADY_ENABLED">
+<VALUE Lang="Common">Vehicle is already booster enabled</VALUE>
+</SENTENSE>
+
+</TEXT>

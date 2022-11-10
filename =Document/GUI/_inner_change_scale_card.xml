@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_WINDOW">
+<WINDOW_POS X="0" Y="0" W="200" H="130" />
+</CONTROL>	
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_WINDOW_LINEBOX">
+<WINDOW_POS X="4" Y="23" W="192" H="103" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_BAR">
+<WINDOW_POS X="16" Y="40" W="168" H="10" />
+<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+<TEXTURE_POS X="0" Y="374" W="168" H="10" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_BAR_OVERIMAGE">
+<WINDOW_POS X="0" Y="0" W="168" H="10" />
+<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+<TEXTURE_POS X="0" Y="357" W="168" H="10" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_BUTTON_L">
+<WINDOW_POS X="20" Y="60" W="14" H="16" />
+<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+<TEXTURE_POS X="177" Y="391" W="14" H="16" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_BUTTON_L_F">
+<WINDOW_POS X="0" Y="0" W="14" H="16" />
+<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+<TEXTURE_POS X="207" Y="391" W="14" H="16" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_BUTTON_R">
+<WINDOW_POS X="164" Y="60" W="14" H="16" />
+<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+<TEXTURE_POS X="192" Y="391" W="14" H="16" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_BUTTON_R_F">
+<WINDOW_POS X="0" Y="0" W="14" H="16" />
+<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+<TEXTURE_POS X="222" Y="391" W="14" H="16" />
+</CONTROL>
+	
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_OK">
+<WINDOW_POS X="60" Y="100" W="60" H="14" />
+</CONTROL>
+<CONTROL Local="Common" Id="RAN_CHANGE_SCALE_CANCEL">
+<WINDOW_POS X="127" Y="100" W="60" H="14" />
+</CONTROL>
+	
+</INTERFACE>

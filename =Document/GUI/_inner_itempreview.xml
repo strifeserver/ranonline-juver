@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<!--Item Preview-->
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW">
+		<WINDOW_POS X="506" Y="0" W="410" H="428" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_MESHRENDER">
+		<WINDOW_POS X="10" Y="28" W="390" H="390" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_BKLINE">
+		<WINDOW_POS X="9" Y="27" W="392" H="392" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="ITEMPREVIEW_STANCE_TEXT">
+		<WINDOW_POS X="320" Y="35" W="60" H="15"/>
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_STANCE_BUTTON">
+		<WINDOW_POS X="300" Y="35" W="15" H="15"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="55" Y="14" W="14" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMPREVIEW_STANCE_BUTTON_ON">
+		<WINDOW_POS X="0" Y="0" W="14" H="14"/>
+		<TEXTURE SizeX="128" SizeY="128">InGame_Description.dds</TEXTURE>
+		<TEXTURE_POS X="69" Y="14" W="14" H="14" />
+	</CONTROL>
+	
+
+	<CONTROL Local="Common" Id="ITEMPREVIEW_SLOT_HEAD">
+		<WINDOW_POS X="14" Y="32" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_SLOT_UPPER">
+		<WINDOW_POS X="14" Y="72" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_SLOT_LOWER">
+		<WINDOW_POS X="14" Y="112" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_SLOT_HAND">
+		<WINDOW_POS X="14" Y="152" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_SLOT_FOOT">
+		<WINDOW_POS X="14" Y="192" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_SLOT_WEAPON">
+		<WINDOW_POS X="14" Y="232" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="ITEMPREVIEW_TEXTBOX_HEAD">
+		<WINDOW_POS X="52" Y="48" W="70" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_TEXTBOX_UPPER">
+		<WINDOW_POS X="52" Y="88" W="70" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_TEXTBOX_LOWER">
+		<WINDOW_POS X="52" Y="128" W="70" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_TEXTBOX_HAND">
+		<WINDOW_POS X="52" Y="168" W="70" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_TEXTBOX_FOOT">
+		<WINDOW_POS X="52" Y="208" W="70" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_TEXTBOX_WEAPON">
+		<WINDOW_POS X="52" Y="248" W="70" H="19" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_ARROW_TURN_LEFT_DEFAULT">
+		<WINDOW_POS X="32" Y="335" W="52" H="71" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_ARROW_TURN_LEFT_OVER">
+		<WINDOW_POS X="0" Y="0" W="52" H="71" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_ARROW_TURN_LEFT_CLICK">
+		<WINDOW_POS X="0" Y="0" W="52" H="71" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="71" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_ARROW_TURN_RIGHT_DEFAULT">
+		<WINDOW_POS X="330" Y="335" W="50" H="71" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_ARROW_TURN_RIGHT_OVER">
+		<WINDOW_POS X="0" Y="0" W="52" H="71" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="157" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMPREVIEW_WINDOW_ARROW_TURN_RIGHT_CLICK">
+		<WINDOW_POS X="0" Y="0" W="52" H="71" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="71" W="50" H="71" />
+	</CONTROL>
+</INTERFACE>

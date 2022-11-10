@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="380" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_WINDOW_LINE">
+		<WINDOW_POS X="5" Y="23" W="240" H="350" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_TITLE_LINE">
+		<WINDOW_POS X="13" Y="100" W="224" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_DESC_LINE">
+		<WINDOW_POS X="13" Y="130" W="224" H="200" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_TITLE_TEXT">
+		<WINDOW_POS X="15" Y="102" W="220" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_DESC_TEXT">
+		<WINDOW_POS X="15" Y="132" W="220" H="196" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_SM_FOCUS">
+		<WINDOW_POS X="13" Y="30" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_SM_OFF">
+		<WINDOW_POS X="13" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="66" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_SM_ON">
+		<WINDOW_POS X="13" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="0" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_SM_BOX">
+		<WINDOW_POS X="13" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_HA_FOCUS">
+		<WINDOW_POS X="92" Y="30" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_HA_OFF">
+		<WINDOW_POS X="92" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="266" Y="66" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_HA_ON">
+		<WINDOW_POS X="92" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="266" Y="0" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_HA_BOX">
+		<WINDOW_POS X="92" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_BH_FOCUS">
+		<WINDOW_POS X="171" Y="30" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_BH_OFF">
+		<WINDOW_POS X="171" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="66" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_BH_ON">
+		<WINDOW_POS X="171" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="0" W="66" H="66" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_MARK_BH_BOX">
+		<WINDOW_POS X="171" Y="30" W="66" H="66" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="332" Y="132" W="66" H="66" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_OK">
+		<WINDOW_POS X="110" Y="340" W="60" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RAN_CHANGE_SCHOOL_CANCEL">
+		<WINDOW_POS X="177" Y="340" W="60" H="18" />
+	</CONTROL>
+	
+</INTERFACE>

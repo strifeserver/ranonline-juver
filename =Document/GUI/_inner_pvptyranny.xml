@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<!-- tyranny tower capture -->
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE">
+		<WINDOW_POS X="0" Y="45" W="420" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_BG1">
+		<WINDOW_POS X="0" Y="0" W="210" H="54" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set_ex.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="115" W="250" H="62" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_BG2">
+		<WINDOW_POS X="210" Y="0" W="210" H="54" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set_ex.dds</TEXTURE>
+		<TEXTURE_POS X="6" Y="115" W="250" H="62" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_DEVIDER_1">
+		<WINDOW_POS X="139" Y="0" W="1" H="28" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="116" Y="198" W="1" H="29" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_DEVIDER_2">
+		<WINDOW_POS X="279" Y="0" W="1" H="28" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="116" Y="198" W="1" H="29" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_STATUS_TEXT">
+		<WINDOW_POS X="5" Y="30" W="200" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_TIME_TEXT">
+		<WINDOW_POS X="205" Y="30" W="200" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_TEXT_0">
+		<WINDOW_POS X="0" Y="4" W="80" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_TEXT_1">
+		<WINDOW_POS X="140" Y="4" W="80" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_TEXT_2">
+		<WINDOW_POS X="280" Y="4" W="80" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_SG_0">
+		<WINDOW_POS X="75" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="139" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_SG_1">
+		<WINDOW_POS X="215" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="139" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_SG_2">
+		<WINDOW_POS X="355" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="139" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_MP_0">
+		<WINDOW_POS X="75" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="161" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_MP_1">
+		<WINDOW_POS X="215" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="161" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_MP_2">
+		<WINDOW_POS X="355" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="161" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_PHX_0">
+		<WINDOW_POS X="75" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="183" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_PHX_1">
+		<WINDOW_POS X="215" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="183" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_PHX_2">
+		<WINDOW_POS X="355" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="183" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_NONE_0">
+		<WINDOW_POS X="75" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="116" Y="174" W="60" H="24" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_NONE_1">
+		<WINDOW_POS X="215" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="116" Y="174" W="60" H="24" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_CAPTURE_IMAGE_NONE_2">
+		<WINDOW_POS X="355" Y="3" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="116" Y="174" W="60" H="24" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_WINNER_IMAGE_SG">
+		<WINDOW_POS X="280" Y="30" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="139" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_WINNER_IMAGE_MP">
+		<WINDOW_POS X="280" Y="30" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="161" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_WINNER_IMAGE_PHX">
+		<WINDOW_POS X="280" Y="30" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="176" Y="183" W="58" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_WINNER_IMAGE_NONE">
+		<WINDOW_POS X="280" Y="30" W="60" H="22" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="116" Y="174" W="60" H="24" />
+	</CONTROL>
+	
+	<!-- tyranny rebirth ui -->
+	<CONTROL Local="Common" Id="TYRANNY_FORCE_REBIRTH">
+		<WINDOW_POS X="0" Y="350" W="439" H="38" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_FORCE_REBIRTH_WATCH_ICON">
+		<WINDOW_POS X="0" Y="0" W="38" H="38" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set_ex.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="76" W="38" H="38" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_FORCE_REBIRTH_TEXT">
+		<WINDOW_POS X="39" Y="5" W="400" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_FORCE_REBIRTH_BLANK_LINE">
+		<WINDOW_POS X="39" Y="0" W="400" H="38" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set_ex.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="256" H="38" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TYRANNY_FORCE_REBIRTH_GAUGE_LINE">
+		<WINDOW_POS X="0" Y="0" W="400" H="38" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set_ex.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="38" W="256" H="38" />
+	</CONTROL>
+	
+	<!-- tower status -->
+	<CONTROL Local="Common" Id="TYRANNY_TOWER_PROGRESS">
+		<WINDOW_POS X="0" Y="0" W="163" H="56" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_SM">
+		<WINDOW_POS X="2" Y="2" W="52" H="52" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_HA">
+		<WINDOW_POS X="55" Y="2" W="52" H="52" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="52" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_BH">
+		<WINDOW_POS X="108" Y="2" W="52" H="52" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="104" Y="0" W="52" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_SM_OVER">
+		<WINDOW_POS X="0" Y="0" W="52" H="52" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="52" W="52" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_HA_OVER">
+		<WINDOW_POS X="0" Y="0" W="52" H="52" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="52" W="52" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_BH_OVER">
+		<WINDOW_POS X="0" Y="0" W="52" H="52" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="104" Y="52" W="52" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_SM_OWNER">
+		<WINDOW_POS X="4" Y="4" W="50" H="50" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="50" W="50" H="50" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_HA_OWNER">
+		<WINDOW_POS X="57" Y="4" W="50" H="50" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="50" W="50" H="50" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="AUTHENTICATOR_CTF_DISPLAY_IMAGE_BH_OWNER">
+		<WINDOW_POS X="110" Y="4" W="50" H="50" />
+		<TEXTURE SizeX="256" SizeY="256">sc_battle_ui_set.dds</TEXTURE>
+		<TEXTURE_POS X="156" Y="50" W="50" H="50" />
+	</CONTROL>
+	
+	<!-- capture notice -->
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_BACK">
+		<WINDOW_POS X="0" Y="140" W="390" H="174" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_BACK_1">
+		<WINDOW_POS X="0" Y="0" W="390" H="174" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="105" W="390" H="174" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_TEXT_CAPTURED_BY_0">
+		<WINDOW_POS X="119" Y="88" W="223" H="32" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="39" W="223" H="32" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_TEXT_CAPTURED_BY_1">
+		<WINDOW_POS X="119" Y="88" W="223" H="32" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="234" Y="39" W="223" H="32" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_TEXT_CAPTURED_BY_2">
+		<WINDOW_POS X="119" Y="88" W="223" H="32" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="72" W="223" H="32" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_SCHOOL_0">
+		<WINDOW_POS X="26" Y="54" W="96" H="96" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="391" Y="105" W="96" H="96" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_SCHOOL_1">
+		<WINDOW_POS X="26" Y="54" W="96" H="96" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="391" Y="202" W="96" H="96" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_SCHOOL_2">
+		<WINDOW_POS X="26" Y="54" W="96" H="96" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="391" Y="299" W="96" H="96" />
+	</CONTROL>
+
+
+	<!-- 2capture notice -->
+	<CONTROL Local="Common" Id="NOTIFY_CTF_SPURT">
+		<WINDOW_POS X="0" Y="100" W="500" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NOTIFY_CTF_SPURT_NOTICE">
+		<WINDOW_POS X="2" Y="4" W="495" H="32" />
+		<TEXTURE SizeX="512" SizeY="128">sc_battle_ui_text02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="495" H="32" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NOTIFY_CTF_SPURT_WIN_SM">
+		<WINDOW_POS X="6" Y="4" W="488" H="32" />
+		<TEXTURE SizeX="512" SizeY="128">sc_battle_ui_text02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="32" W="488" H="32" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NOTIFY_CTF_SPURT_WIN_HA">
+		<WINDOW_POS X="7" Y="4" W="486" H="32" />
+		<TEXTURE SizeX="512" SizeY="128">sc_battle_ui_text02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="64" W="486" H="32" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="NOTIFY_CTF_SPURT_WIN_BH">
+		<WINDOW_POS X="6" Y="4" W="487" H="32" />
+		<TEXTURE SizeX="512" SizeY="128">sc_battle_ui_text02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="96" W="487" H="32" />
+	</CONTROL>
+	
+	<!-- tyranny start/end notice -->
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_BACK1">
+		<WINDOW_POS X="0" Y="100" W="390" H="174" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_BACK_0">
+		<WINDOW_POS X="0" Y="0" W="390" H="174" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="280" W="390" H="174" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_TEXT_START">
+		<WINDOW_POS X="117" Y="86" W="195" H="38" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="195" H="38" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PROGRESS_DISPLAY_CTF_TEXT_STOP">
+		<WINDOW_POS X="117" Y="86" W="195" H="38" />
+		<TEXTURE SizeX="512" SizeY="512">sc_battle_ui_text.dds</TEXTURE>
+		<TEXTURE_POS X="196" Y="0" W="195" H="38" />
+	</CONTROL>
+	
+	<!-- CTF Result Window -->
+	<CONTROL Local="Common" Id="CTF_RESULT_WINDOW">
+		<WINDOW_POS X="0" Y="142" W="730" H="448" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="CTF_RESULT_SORTBUTTON_TOTAL">
+		<WINDOW_POS X="8" Y="20" W="99" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_SORTBUTTON_SM">
+		<WINDOW_POS X="112" Y="20" W="99" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_SORTBUTTON_HA">
+		<WINDOW_POS X="216" Y="20" W="99" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_SORTBUTTON_BH">
+		<WINDOW_POS X="320" Y="20" W="99" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_BUTTON_CLOSE">
+		<WINDOW_POS X="637" Y="422" W="85" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_TIME">
+		<WINDOW_POS X="183" Y="422" W="310" H="19" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKING">
+		<WINDOW_POS X="0" Y="39" W="730" H="345" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKING_LINEBOX">
+		<WINDOW_POS X="4" Y="1" W="704" H="338" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKING_LINEBOX_HEAD">
+		<WINDOW_POS X="4" Y="26" W="704" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_MYRANK_LINE_HEAD">
+		<WINDOW_POS X="2" Y="341" W="728" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_MYRANK_LINE_TAIL">
+		<WINDOW_POS X="2" Y="375" W="728" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANK_SCROLLBAR">
+		<WINDOW_POS X="713" Y="2" W="12" H="337" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANK_SCROLLBAR_BACKGROUND">
+		<WINDOW_POS X="713" Y="2" W="9" H="337" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_RANK">
+		<WINDOW_POS X="0" Y="1" W="40" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_SCHOOL">
+		<WINDOW_POS X="46" Y="1" W="46" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_CLASS">
+		<WINDOW_POS X="92" Y="1" W="51" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_NAME">
+		<WINDOW_POS X="143" Y="1" W="122" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_DAMAGE">
+		<WINDOW_POS X="265" Y="1" W="90" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_HEAL">
+		<WINDOW_POS X="355" Y="1" W="90" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_KILL">
+		<WINDOW_POS X="445" Y="1" W="45" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_DEATH">
+		<WINDOW_POS X="490" Y="1" W="48" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_REBIRTH">
+		<WINDOW_POS X="538" Y="1" W="56" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_SCORE">
+		<WINDOW_POS X="594" Y="1" W="60" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_TEXT_BASE_CONTRIBUTION">
+		<WINDOW_POS X="654" Y="1" W="50" H="26" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_0">
+		<WINDOW_POS X="1" Y="26" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_1">
+		<WINDOW_POS X="1" Y="57" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_2">
+		<WINDOW_POS X="1" Y="88" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_3">
+		<WINDOW_POS X="1" Y="119" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_4">
+		<WINDOW_POS X="1" Y="150" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_5">
+		<WINDOW_POS X="1" Y="181" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_6">
+		<WINDOW_POS X="1" Y="212" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_7">
+		<WINDOW_POS X="1" Y="243" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_8">
+		<WINDOW_POS X="1" Y="274" W="704" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_9">
+		<WINDOW_POS X="1" Y="305" W="704" H="31" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_SLOT_10">
+		<WINDOW_POS X="1" Y="343" W="704" H="31" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SCHOOL0">
+		<WINDOW_POS X="60" Y="10" W="16" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="182" Y="474" W="16" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SCHOOL1">
+		<WINDOW_POS X="60" Y="10" W="16" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="199" Y="474" W="16" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SCHOOL2">
+		<WINDOW_POS X="60" Y="10" W="16" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="216" Y="474" W="16" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_BRAWLER_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SWORDMAN_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="230" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_ARCHER_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SHAMAN_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_EXTREME_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_EXTREME_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_BRAWLER_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="290" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SWORDMAN_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="230" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_ARCHER_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="260" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SHAMAN_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SCIENTIST_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="350" Y="294" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_SCIENTIST_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">outgui_character.dds</TEXTURE>
+		<TEXTURE_POS X="350" Y="324" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_ASSASSIN_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="0" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_ASSASSIN_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="30" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_TRICKER_MALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="60" W="30" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CTF_RESULT_RANKSLOT_IMAGE_TRICKER_FEMALE">
+		<WINDOW_POS X="100" Y="1" W="30" H="30" />
+		<TEXTURE SizeX="256" SizeY="256">outgui_character_lga.dds</TEXTURE>
+		<TEXTURE_POS X="100" Y="90" W="30" H="30" />
+	</CONTROL>
+	
+
+	<!-- Competition Window TopRanking Page -->
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING">
+		<WINDOW_POS X="0" Y="0" W="269" H="407" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_LINEBOX">
+		<WINDOW_POS X="3" Y="21" W="261" H="348" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_LINEBOX_HEAD">
+		<WINDOW_POS X="3" Y="46" W="261" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_BUTTON_CLOSE">
+		<WINDOW_POS X="156" Y="380" W="85" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_TEXT_BASE_RANK">
+		<WINDOW_POS X="4" Y="21" W="40" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_TEXT_BASE_SCHOOL">
+		<WINDOW_POS X="50" Y="21" W="46" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_TEXT_BASE_CLASS">
+		<WINDOW_POS X="96" Y="21" W="51" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_TEXT_BASE_NAME">
+		<WINDOW_POS X="147" Y="21" W="122" H="26" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_0">
+		<WINDOW_POS X="5" Y="47" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_1">
+		<WINDOW_POS X="5" Y="78" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_2">
+		<WINDOW_POS X="5" Y="109" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_3">
+		<WINDOW_POS X="5" Y="140" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_4">
+		<WINDOW_POS X="5" Y="171" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_5">
+		<WINDOW_POS X="5" Y="202" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_6">
+		<WINDOW_POS X="5" Y="233" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_7">
+		<WINDOW_POS X="5" Y="264" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_8">
+		<WINDOW_POS X="5" Y="295" W="250" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="COMPETITION_TOPRANKING_SLOT_9">
+		<WINDOW_POS X="5" Y="326" W="250" H="31" />
+	</CONTROL>
+	
+	
+	
+	
+</INTERFACE>

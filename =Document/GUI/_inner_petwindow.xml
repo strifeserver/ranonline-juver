@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+
+	<!-- pet window -->
+	<CONTROL Local="Common" Id="PET_WINDOW">
+		<WINDOW_POS X="185" Y="0" W="280" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_BG_LLINEBOX">
+		<WINDOW_POS X="5" Y="24" W="50" H="170" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_BG_RLINEBOX">
+		<WINDOW_POS X="60" Y="24" W="175" H="170" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_NAME_STATIC">
+		<WINDOW_POS X="10" Y="30" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_NAME_TEXTBOX">
+		<WINDOW_POS X="65" Y="30" W="165" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_TYPE_STATIC">
+		<WINDOW_POS X="10" Y="49" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_TYPE_TEXTBOX">
+		<WINDOW_POS X="65" Y="49" W="165" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBOBOX_STATIC0">
+		<WINDOW_POS X="65" Y="112" W="10" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBOBOX_STATIC1">
+		<WINDOW_POS X="65" Y="150" W="10" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_STATIC">
+		<WINDOW_POS X="10" Y="68" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_PROGRESSBAR">
+		<WINDOW_POS X="65" Y="68" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="235" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_TEXT">
+		<WINDOW_POS X="127" Y="69" W="40" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_STATIC">
+		<WINDOW_POS X="10" Y="87" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_PROGRESSBAR">
+		<WINDOW_POS X="65" Y="87" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="249" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_TEXT">
+		<WINDOW_POS X="127" Y="88" W="40" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_BUTTON">
+		<WINDOW_POS X="7" Y="106" W="46" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBO_OPEN0">
+		<WINDOW_POS X="80" Y="110" W="150" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBO_OPEN1">
+		<WINDOW_POS X="80" Y="148" W="150" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBO_ROLLOVER0">
+		<WINDOW_POS X="80" Y="126" W="150" H="76" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBO_ROLLOVER1">
+		<WINDOW_POS X="80" Y="164" W="150" H="76" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_IMAGE0">
+		<WINDOW_POS X="240" Y="24" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_OVER_IMAGE0">
+		<WINDOW_POS X="240" Y="24" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_IMAGE1">
+		<WINDOW_POS X="240" Y="62" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_OVER_IMAGE1">
+		<WINDOW_POS X="240" Y="62" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT0">
+		<WINDOW_POS X="240" Y="100" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT1">
+		<WINDOW_POS X="240" Y="138" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT">
+		<WINDOW_POS X="240" Y="100" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_MOUSE_OVER">
+		<WINDOW_POS X="1" Y="1" W="33" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="42" Y="167" W="33" H="33" />
+	</CONTROL>
+	
+	
+	<!-- pet skill window -->
+	<CONTROL Local="Common" Id="PET_SKILL_WINDOW">
+		<WINDOW_POS X="487" Y="0" W="328" H="325" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE">
+		<WINDOW_POS X="7" Y="25" W="314" H="286" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="304" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SCROLLBAR">
+		<WINDOW_POS X="306" Y="0" W="9" H="286" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_BACK_SKILL_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="240" Y="304" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_BACK_SKILL_TEXT_L">
+		<WINDOW_POS X="36" Y="0" W="5" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="276" Y="304" W="5" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_BACK_SKILL_TEXT_M">
+		<WINDOW_POS X="41" Y="0" W="258" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="300" Y="304" W="10" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_BACK_SKILL_TEXT_R">
+		<WINDOW_POS X="299" Y="0" W="5" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="450" Y="304" W="5" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_TEXT">
+		<WINDOW_POS X="38" Y="5" W="194" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_IMAGE_NOTLEARN">
+		<WINDOW_POS X="1" Y="1" W="33" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="241" Y="305" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+	</CONTROL>
+	
+	
+	<!-- new pet window -->
+	<CONTROL Local="Common" Id="RN_PET_WINDOW">
+		<WINDOW_POS X="185" Y="0" W="630" H="335" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_WINDOW_LINEBOX">
+		<WINDOW_POS X="3" Y="22" W="624" H="310" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_WINDOW_RENDER_LINEBOX">
+		<WINDOW_POS X="5" Y="24" W="340" H="305" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_WINDOW_INFO_LINEBOX">
+		<WINDOW_POS X="345" Y="24" W="280" H="305" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SLOT_IMAGE0">
+		<WINDOW_POS X="137" Y="284" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SLOT_OVER_IMAGE0">
+		<WINDOW_POS X="137" Y="284" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SLOT_IMAGE1">
+		<WINDOW_POS X="178" Y="284" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SLOT_OVER_IMAGE1">
+		<WINDOW_POS X="178" Y="284" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_NAME_STATIC">
+		<WINDOW_POS X="350" Y="32" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_TYPE_STATIC">
+		<WINDOW_POS X="350" Y="49" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SATIETY_STATIC">
+		<WINDOW_POS X="350" Y="66" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_COMBOBOX_STATIC0">
+		<WINDOW_POS X="393" Y="96" W="10" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_COMBOBOX_STATIC1">
+		<WINDOW_POS X="393" Y="134" W="10" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_NAME_TEXTBOX">
+		<WINDOW_POS X="415" Y="32" W="200" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_TYPE_TEXTBOX">
+		<WINDOW_POS X="415" Y="49" W="200" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SATIETY_PROGRESSBAR">
+		<WINDOW_POS X="415" Y="66" W="200" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SATIETY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="200" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="235" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SATIETY_TEXT">
+		<WINDOW_POS X="415" Y="67" W="200" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_SLOT0">
+		<WINDOW_POS X="350" Y="86" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_SLOT1">
+		<WINDOW_POS X="350" Y="124" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_COMBO_OPEN0">
+		<WINDOW_POS X="415" Y="96" W="200" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_COMBO_OPEN1">
+		<WINDOW_POS X="415" Y="134" W="200" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_COMBO_ROLLOVER0">
+		<WINDOW_POS X="415" Y="112" W="200" H="76" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_SKILL_COMBO_ROLLOVER1">
+		<WINDOW_POS X="415" Y="150" W="200" H="76" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="RN_PET_SKILL_BUTTON">
+		<WINDOW_POS X="350" Y="170" W="46" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_ARROW_TURN_LEFT_DEFAULT">
+		<WINDOW_POS X="15" Y="284" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_ARROW_TURN_LEFT_OVER">
+		<WINDOW_POS X="0" Y="0" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="105" Y="0" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_ARROW_TURN_LEFT_CLICK">
+		<WINDOW_POS X="0" Y="0" W="26" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="71" W="52" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_ARROW_TURN_RIGHT_DEFAULT">
+		<WINDOW_POS X="310" Y="284" W="25" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_ARROW_TURN_RIGHT_OVER">
+		<WINDOW_POS X="0" Y="0" W="25" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="157" Y="0" W="50" H="71" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RN_PET_ARROW_TURN_RIGHT_CLICK">
+		<WINDOW_POS X="0" Y="0" W="25" H="35" />
+		<TEXTURE SizeX="256" SizeY="256">gui_item_preview.dds</TEXTURE>
+		<TEXTURE_POS X="52" Y="71" W="50" H="71" />
+	</CONTROL>
+	
+</INTERFACE>
