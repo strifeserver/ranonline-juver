@@ -160,7 +160,7 @@ HRESULT GLCharClient::Create ( GLLandManClient* pLandManClient, SDROP_CHAR* pCha
 
 	m_sVehicle.ITEM_UPDATE();
 
-	//	Note : ÇöÁ¦ ½ºÅ³ FACT ¾÷µ¥ÀÌÆ®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ FACT ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	for ( int i=0; i<SKILLFACT_SIZE; ++i )
 	{
@@ -185,7 +185,7 @@ HRESULT GLCharClient::Create ( GLLandManClient* pLandManClient, SDROP_CHAR* pCha
 		SystemBuffAdd ( sDropFact.sNATIVEID, sDropFact.wLEVEL, sDropFact.wSLOT );
 	}
 
-	//	Note : ÇöÁ¦ »óÅÂÀÌ»ó ¾÷µ¥ÀÌÆ®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	for ( int i=0; i<EMBLOW_MULTI; ++i )
 	{
@@ -217,7 +217,7 @@ HRESULT GLCharClient::Create ( GLLandManClient* pLandManClient, SDROP_CHAR* pCha
 		}
 	}
 
-	//	Note : ÄÉ¸¯ÅÍÀÇ ¿ÜÇüÀ» ¼³Á¤.
+	//	Note : ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	EMCHARINDEX emIndex = CharClassToIndex(m_CharData.emClass);
 	DxSkinCharData* pSkinChar = DxSkinCharDataContainer::GetInstance().LoadData( GLCONST_CHAR::szCharSkin[emIndex], pd3dDevice, TRUE );
 	if ( !pSkinChar )	return E_FAIL;
@@ -228,15 +228,15 @@ HRESULT GLCharClient::Create ( GLLandManClient* pLandManClient, SDROP_CHAR* pCha
 	UpdateSuit ();
 	UPDATE_ITEM();
 
-	// Note : 1.AABB Box¸¦ °¡Á®¿Â´Ù. 2.³ôÀÌ¸¦ °è»êÇØ ³õ´Â´Ù.
+	// Note : 1.AABB Boxï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â´ï¿½. 2.ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½.
 	m_pSkinChar->GetAABBBox( m_vMaxOrg, m_vMinOrg );
 	m_fHeight = m_vMaxOrg.y - m_vMinOrg.y;
 
-	//	Note : ¿¡´Ï¸ÞÀÌ¼Ç ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	ReSelectAnimation ();
 
-	//	Note : ÀÌµ¿ Á¦¾î ÃÊ±âÈ­.
+	//	Note : ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	m_strName = m_CharData.szName;
 	m_dwGaeaID = m_CharData.dwGaeaID;
 	m_dwCeID = m_CharData.dwCeID;
@@ -268,7 +268,7 @@ HRESULT GLCharClient::Create ( GLLandManClient* pLandManClient, SDROP_CHAR* pCha
 	{
 	case GLAT_MOVE:
 		{
-			//	Note : ÀÌµ¿ ½ÃÅ°±â À§ÇØ ³»ºÎ Àü´Þ ¸Þ½ÃÁö ¹ß»ý.
+			//	Note : ï¿½Ìµï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½.
 			//
 			if ( m_bPassenger ) break;
 			GLMSG::SNETPC_GOTO_BRD NetMsgGoto;
@@ -320,7 +320,7 @@ HRESULT GLCharClient::Create ( GLLandManClient* pLandManClient, SDROP_CHAR* pCha
 		m_pSkinChar->DEFAULTANI ();
 	}
 
-	//	Note : Å¬·´¸¶Å© ¹öÀü È®ÀÎ.
+	//	Note : Å¬ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 	//
 	GLGaeaClient::GetInstance().GetCharacter()->ReqClubMarkInfo ( m_CharData.dwGuild, m_CharData.dwGuildMarkVer );
 
@@ -390,7 +390,7 @@ HRESULT GLCharClient::UpdateSuit ()
 		std::string strHEAD_CPS = sCONST.strHEAD_CPS[m_CharData.wFace];
 	
 		PDXCHARPART pCharPart = NULL;
-		pCharPart = m_pSkinChar->GetPiece(PIECE_HEAD);		//	ÇöÁ¦ ÀåÂø ½ºÅ².
+		pCharPart = m_pSkinChar->GetPiece(PIECE_HEAD);		//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å².
 
 		if ( pCharPart && strcmp(strHEAD_CPS.c_str(),pCharPart->GetFileName()) )
 		{
@@ -403,7 +403,7 @@ HRESULT GLCharClient::UpdateSuit ()
 		std::string strHAIR_CPS = sCONST.strHAIR_CPS[m_CharData.wHair];
 	
 		PDXCHARPART pCharPart = NULL;
-		pCharPart = m_pSkinChar->GetPiece(PIECE_HAIR);		//	ÇöÁ¦ ÀåÂø ½ºÅ².
+		pCharPart = m_pSkinChar->GetPiece(PIECE_HAIR);		//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å².
 
 		if ( pCharPart && strcmp(strHAIR_CPS.c_str(),pCharPart->GetFileName()) )
 		{
@@ -415,7 +415,7 @@ HRESULT GLCharClient::UpdateSuit ()
 
 	for ( int i=0; i<SLOT_NSIZE_S_2; i++ )
 	{
-		// ÇöÀç ÀåÂøÁßÀÎ ¹«±â°¡ ¾Æ´Ï¸é ³Ñ¾î°£´Ù.
+		// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â°¡ ï¿½Æ´Ï¸ï¿½ ï¿½Ñ¾î°£ï¿½ï¿½.
 		if( !IsCurUseArm( EMSLOT(i) ) ) continue;
 
 		SITEMCLIENT ItemClient = m_CharData.m_PutOnItems[i];
@@ -440,10 +440,10 @@ HRESULT GLCharClient::UpdateSuit ()
 
 		if ( nidITEM == SNATIVEID(false) )
 		{
-			//	Note : ±âº» ½ºÅ²°ú Áö±Ý ÀåÂøµÈ ½ºÅ²ÀÌ Æ²¸± °æ¿ì.
+			//	Note : ï¿½âº» ï¿½ï¿½Å²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å²ï¿½ï¿½ Æ²ï¿½ï¿½ ï¿½ï¿½ï¿½.
 			//	SLOT->PIECE.
-			PDXSKINPIECE pSkinPiece = NULL;	//	±âº» ½ºÅ².
-			PDXCHARPART pCharPart = NULL;	//	ÇöÁ¦ ÀåÂø ½ºÅ².
+			PDXSKINPIECE pSkinPiece = NULL;	//	ï¿½âº» ï¿½ï¿½Å².
+			PDXCHARPART pCharPart = NULL;	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å².
 
 			/*ABL system, Juver, 2017/06/02 */
 			DxAttBoneLink* pBoneLink = NULL;
@@ -452,8 +452,8 @@ HRESULT GLCharClient::UpdateSuit ()
 			EMPIECECHAR emPiece = SLOT_2_PIECE(EMSLOT(i));
 			if ( emPiece!=PIECE_SIZE )
 			{
-				pSkinPiece = pSkinChar->GetPiece(emPiece);	//	±âº» ½ºÅ².
-				pCharPart = m_pSkinChar->GetPiece(emPiece);	//	ÇöÁ¦ ÀåÂø ½ºÅ².
+				pSkinPiece = pSkinChar->GetPiece(emPiece);	//	ï¿½âº» ï¿½ï¿½Å².
+				pCharPart = m_pSkinChar->GetPiece(emPiece);	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å².
 
 				/*ABL system, Juver, 2017/06/02 */
 				pBoneLink = pSkinChar->GetAttBone(emPiece);
@@ -620,7 +620,7 @@ HRESULT GLCharClient::UpdateSuit ()
 	}
 
 
-	//	Note : ½ºÅ³ ¹öÇÁ, »óÅÂÀÌ»ó È¿°ú »ý¼º.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ È¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	FACTEFF::ReNewEffect ( STARGETID(CROW_PC,m_dwGaeaID,m_vPos), m_pSkinChar, m_sSKILLFACT, m_sSTATEBLOWS, m_matTrans, m_vDir );
 
 	if( GLCONST_CHAR::cCONSTCLASS[emIndex].strCLASS_EFFECT.size() != 0 )
@@ -648,15 +648,15 @@ void GLCharClient::DisableSkillFact()
         PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( m_sSKILLFACT[i].sNATIVEID );
 		if ( !pSkill ) continue;
 
-		// ½ºÅ³ ÀÚ½Å ¹öÇÁ
+		// ï¿½ï¿½Å³ ï¿½Ú½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		if ( pSkill->m_sBASIC.emIMPACT_TAR != TAR_SELF || pSkill->m_sBASIC.emIMPACT_REALM != REALM_SELF ) continue;
 				
 		GLSKILL_ATT emSKILL_RITEM = pSkill->m_sBASIC.emUSE_RITEM;
 
-		// ½ºÅ³ µµ±¸ Á¾¼Ó ¾øÀ½
+		// ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		if ( emSKILL_RITEM == SKILLATT_NOCARE )	continue;
 
-		// ½ºÅ³ °ú ¹«±â°¡ ºÒÀÏÄ¡
+		// ï¿½ï¿½Å³ ï¿½ï¿½ ï¿½ï¿½ï¿½â°¡ ï¿½ï¿½ï¿½ï¿½Ä¡
 		if( !pRightItem || !CHECHSKILL_ITEM(emSKILL_RITEM,pRightItem->sSuitOp.emAttack) )
 		{
 			FACTEFF::DeleteSkillFactEffect ( STARGETID(CROW_PC,m_dwGaeaID,m_vPos), m_pSkinChar, m_sSKILLFACT[i].sNATIVEID );
@@ -682,10 +682,10 @@ void GLCharClient::ReSelectAnimation ()
 
 	m_emANISUBTYPE = CHECK_ANISUB ( pRHAND, pLHAND );
 
-	// Á¦½ºÃ³ÁßÀÌ¸é ¾Ö´Ï¸ÞÀÌ¼Ç ¸®¼Â ¾ÈÇÔ.
+	// ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	if ( IsACTION ( GLAT_TALK ) || IsACTION(GLAT_GATHERING) || !IsACTION( GLAT_SKILL ) )
 	{
-		//	Note : ¿¡´Ï¸ÞÀÌ¼Ç ÃÊ±âÈ­.
+		//	Note : ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Ê±ï¿½È­.
 		//
 		m_pSkinChar->SELECTANI ( m_pSkinChar->GETCURMTYPE(), m_emANISUBTYPE );
 	}
@@ -725,7 +725,7 @@ void GLCharClient::SetDirection ( const D3DXVECTOR3 &vDir )
 
 void GLCharClient::TurnAction ( EMACTIONTYPE toAction )
 {
-	//	Note : ÀÌÀü ¾×¼Ç Ãë¼Ò.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½×¼ï¿½ ï¿½ï¿½ï¿½.
 	//
 	switch ( m_Action )
 	{
@@ -748,7 +748,7 @@ void GLCharClient::TurnAction ( EMACTIONTYPE toAction )
 		break;
 	};
 
-	//	Note : ¾×¼Ç ÃÊ±âÈ­.
+	//	Note : ï¿½×¼ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	m_Action = toAction;
 
@@ -768,7 +768,7 @@ void GLCharClient::TurnAction ( EMACTIONTYPE toAction )
 
 	case GLAT_SKILL:
 		{
-			//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+			//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 			PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( m_idACTIVESKILL.wMainID, m_idACTIVESKILL.wSubID );
 			if ( !pSkill )								return;
 
@@ -793,7 +793,7 @@ void GLCharClient::TurnAction ( EMACTIONTYPE toAction )
 		break;
 
 	default:
-		GASSERT("GLCharacter::TurnAction() ÁØºñµÇÁö ¾ÊÀº ACTION ÀÌ µé¾î¿Ô½À´Ï´Ù.");
+		GASSERT("GLCharacter::TurnAction() ï¿½Øºï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ACTION ï¿½ï¿½ ï¿½ï¿½ï¿½Ô½ï¿½ï¿½Ï´ï¿½.");
 		break;
 	};
 
@@ -891,7 +891,7 @@ HRESULT GLCharClient::UpateAnimation ( float fTime, float fElapsedTime )
 			}
 			else
 			{
-				BOOL bPANT(FALSE); // Çæ¶±°Å¸².
+				BOOL bPANT(FALSE); // ï¿½æ¶±ï¿½Å¸ï¿½.
 
 				if ( m_pSkinChar->GETANI ( AN_GUARD_L, m_emANISUBTYPE ) )
 				{
@@ -1350,14 +1350,14 @@ HRESULT GLCharClient::UpateAnimation ( float fTime, float fElapsedTime )
 		break;
 	};
 
-	//	Note : ½ºÅ² ¾÷µ¥ÀÌÆ®.
+	//	Note : ï¿½ï¿½Å² ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	m_pSkinChar->SetPosition ( m_vPos );
 
 
 	BOOL bContinue = IsACTION(GLAT_ATTACK) || IsACTION(GLAT_SKILL);
 
-	//	Note : »óÅÂ ÀÌ»ó¿¡ µû¶ó ¸ð¼Ç ¼Óµµ¸¦ Á¶Á¤ÇÑ´Ù.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Óµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	//
 	float fSkinAniElap = fElapsedTime;
 	switch ( m_Action )
@@ -1375,7 +1375,7 @@ HRESULT GLCharClient::UpateAnimation ( float fTime, float fElapsedTime )
 
 	m_pSkinChar->FrameMove ( fTime, fSkinAniElap, bContinue, bFreeze, !bPeaceZone );
 
-	//	Note : ºñ ÀüÅõ Áö¿ªÀÏ¶§ Ç¥½Ã ¾ÈµÇ¾ß ÇÏ´Â ¾ÆÀÌÅÛ(´Ü°Ë,ÅõÃ´) ÀÎÁö °Ë»çÈÄ ·£´õ ²ô±â.
+	//	Note : ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ Ç¥ï¿½ï¿½ ï¿½ÈµÇ¾ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½Ü°ï¿½,ï¿½ï¿½Ã´) ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	if ( bPeaceZone )
 	{
@@ -1458,12 +1458,12 @@ float GLCharClient::GetMoveVelo ()
 
 void GLCharClient::UpdateSpecialSkill()
 {
-	// º¯½Å ½ºÅ³ Ã¼Å©
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ Ã¼Å©
 	if( m_dwTransfromSkill != SNATIVEID::ID_NULL )
 	{
 		if( m_sSKILLFACT[m_dwTransfromSkill].IsSpecialSkill( SKILL::EMSSTYPE_TRANSFORM ) )
 		{
-			// ¾²·¯Áö´Â ¸ð¼ÇÀÌ¸é º¯½ÅÇØÁ¦
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			STARGETID sTargetID(CROW_PC,m_dwGaeaID,m_vPos);
 			if( IsACTION( GLAT_FALLING ) )
 			{
@@ -1507,18 +1507,18 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 	HRESULT hr=S_OK;
 
 
-	// ÁöÇü È¿°ú ¾÷µ¥ÀÌÆ®
+	// ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®
 	UpdateLandEffect();
-	//	Note : »óÅÂ °»½Å.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	UPDATE_DATA ( fTime, fElapsedTime, TRUE );
 
-	//	Note : ÄÉ¸¯ ÇöÁ¦ À§Ä¡ ¾÷´ëÀÌÆ®.
+	//	Note : ï¿½É¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	m_vPos = m_actorMove.Position ();
 
-	//	Note : °ø°Ý ¸ñÇ¥ÀÇ À¯È¿¼º °Ë»ç.
-	//		(ÁÖÀÇ) Å¸°¹Á¤º¸ »ç¿ëÀü ¹Ýµå½Ã È£ÃâÇÏ¿© À¯È¿¼º °Ë»ç ÇÊ¿ä.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½È¿ï¿½ï¿½ ï¿½Ë»ï¿½.
+	//		(ï¿½ï¿½ï¿½ï¿½) Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ È£ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½È¿ï¿½ï¿½ ï¿½Ë»ï¿½ ï¿½Ê¿ï¿½.
 	//
 	GLCOPY* pTarget = GLGaeaClient::GetInstance().GetCopyActor ( m_sTargetID );
 	if ( !pTarget )
@@ -1527,7 +1527,7 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 		if ( IsACTION(GLAT_ATTACK) )	TurnAction ( GLAT_IDLE );
 	}
 
-	//	Note : ¿¡´Ï¸ÞÀÌ¼Ç, ½ºÅ² ¾÷µ¥ÀÌÆ®.
+	//	Note : ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½, ï¿½ï¿½Å² ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	UpateAnimation ( fTime, fElapsedTime );
 
@@ -1535,7 +1535,7 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 	{
 	case GLAT_MOVE:
 		{
-			//	Note : ÄÉ¸¯ÀÇ ÀÌµ¿ ¾÷µ¥ÀÌÆ®.
+			//	Note : ï¿½É¸ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 			//
 			m_actorMove.SetMaxSpeed ( GetMoveVelo () );
 			m_actorMove.Update ( fElapsedTime );
@@ -1545,11 +1545,11 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 				TurnAction ( GLAT_IDLE );
 			}
 
-			//	Note : ÄÉ¸¯ÀÇ ÇöÁ¦ À§Ä¡ ¾÷µ¥ÀÌÆ®.
+			//	Note : ï¿½É¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 			//
 			m_vPos = m_actorMove.Position();
 
-			//	Note : ÇöÁ¦ ¹æÇâ ¾÷µ¥ÀÌÆ®.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 			//
 			D3DXVECTOR3 vMovement = m_actorMove.NextPosition();
 			if ( vMovement.x != FLT_MAX && vMovement.y != FLT_MAX && vMovement.z != FLT_MAX )
@@ -1568,7 +1568,7 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 		{
 			AttackProc ( fElapsedTime );
 
-			//	Note : °ø°Ý ¹æÇâÀ¸·Î È¸Àü.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½.
 			//
 			GLCOPY* pTarget = GLGaeaClient::GetInstance().GetCopyActor ( m_sTargetID );
 			if ( pTarget )
@@ -1584,7 +1584,7 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 		{
 			SkillProc ( fElapsedTime );
 
-			//	Note : °ø°Ý ¹æÇâÀ¸·Î È¸Àü.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½.
 			//
 			m_vDir = UpdateSkillDirection ( m_vPos, m_vDir, m_idACTIVESKILL, m_vTARPOS, m_sTARIDS );
 		}
@@ -1604,17 +1604,17 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 		break;
 	};
 
-	//	Note : ½ºÅ³ ÀÌÆåÆ® ¾÷µ¥ÀÌÆ®.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	FACTEFF::UpdateSkillEffect ( STARGETID(CROW_PC,m_dwGaeaID,m_vPos), m_pSkinChar, m_sSKILLFACT, m_sSTATEBLOWS );
 
 	UpdateSpecialSkill();
 
-	//	Note : ÇöÁ¦ À§Ä¡ ¾÷µ¥ÀÌÆ®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	m_vPos = m_actorMove.Position();
 
-	//	Note : ÇöÁ¦ À§Ä¡¿Í ¹æÇâÀ¸·Î Transform ¸ÞÆ®¸¯½º °è»ê.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Transform ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	//
 	D3DXMATRIX matTrans, matYRot;
 	D3DXMatrixTranslation ( &matTrans, m_vPos.x, m_vPos.y, m_vPos.z );
@@ -1623,7 +1623,7 @@ HRESULT GLCharClient::FrameMove ( float fTime, float fElapsedTime )
 
 	m_matTrans = matYRot * matTrans;
 
-	//	Note : AABB °è»ê.
+	//	Note : AABB ï¿½ï¿½ï¿½.
 	//
 	m_vMax = m_vPos + m_vMaxOrg;
 	m_vMin = m_vPos + m_vMinOrg;
@@ -1641,7 +1641,7 @@ HRESULT GLCharClient::Render ( LPDIRECT3DDEVICEQ pd3dDevice, CLIPVOLUME &cv, BOO
 	HRESULT hr;
 	if ( !IsVisibleDetect() )			return S_FALSE;
 
-	//	Note : m_bINVISIBLE °¡ ÂüÀÏ °æ¿ì ¹ÝÅõ¸íÇÏ°Ô Ç¥ÇöÇØ¾ßÇÔ.
+	//	Note : m_bINVISIBLE ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ Ç¥ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½ï¿½.
 	//
 	if ( m_bINVISIBLE )
 	{
@@ -1652,7 +1652,7 @@ HRESULT GLCharClient::Render ( LPDIRECT3DDEVICEQ pd3dDevice, CLIPVOLUME &cv, BOO
 		DxEffcharDataMan::GetInstance().OutEffect ( m_pSkinChar, GLCONST_CHAR::strHALFALPHA_EFFECT.c_str() );
 	}
 
-	//	TODO : m_bINVISIBLE °¡ ÂüÀÏ °æ¿ì ¹ÝÅõ¸íÇÏ°Ô Ç¥ÇöÇØ¾ßÇÔ.
+	//	TODO : m_bINVISIBLE ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ Ç¥ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½ï¿½.
 
 	if ( !COLLISION::IsCollisionVolume ( cv, m_vMax, m_vMin ) )	return S_OK;
 
@@ -1916,7 +1916,7 @@ HRESULT GLCharClient::RenderShadow ( LPDIRECT3DDEVICEQ pd3dDevice, CLIPVOLUME &c
 	if ( IsACTION(GLAT_DIE) )									return S_FALSE;
 	if ( !COLLISION::IsCollisionVolume ( cv, m_vMax, m_vMin ) )	return S_OK;
 
-	//	Note : ±×¸²ÀÚ ·£´õ¸µ.
+	//	Note : ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	//
 	if ( m_pSkinChar )
 	{
@@ -1986,7 +1986,7 @@ void GLCharClient::ReceiveDamage ( WORD wDamage, DWORD dwDamageFlag, STARGETID s
 
 	if ( dwDamageFlag & DAMAGE_TYPE_CRUSHING_BLOW )
 	{
-		// °­ÇÑÅ¸°Ý ÀÌÆåÆ®
+		// ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 		D3DXVECTOR3 vDIR = sACTOR.vPos - m_vPos;
 
 		D3DXVECTOR3 vDIR_ORG(1,0,0);
@@ -1998,14 +1998,14 @@ void GLCharClient::ReceiveDamage ( WORD wDamage, DWORD dwDamageFlag, STARGETID s
 		matTrans._42 = m_vPos.y + 10.0f;
 		matTrans._43 = m_vPos.z;
 
-		//	Note : ÀÚ±â À§Ä¡ ÀÌÆåÆ® ¹ß»ý½ÃÅ´.
+		//	Note : ï¿½Ú±ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß»ï¿½ï¿½ï¿½Å´.
 		DxEffGroupPlayer::GetInstance().NewEffGroup ( GLCONST_CHAR::strCRUSHING_BLOW_EFFECT.c_str(), matTrans, &sACTOR );
 	}
 
 	m_CharData.sHP.DECREASE(wDamage);
 	m_CharData.sHP.wNow;
 
-	//	Note : ¹æ¾î½ºÅ³ÀÇ ÀÌÆåÆ®°¡ ÀÖÀ»¶§ ¹ßµ¿½ÃÅ´.
+	//	Note : ï¿½ï¿½î½ºÅ³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ßµï¿½ï¿½ï¿½Å´.
 	SKT_EFF_HOLDOUT ( sACTOR, dwDamageFlag );
 }
 
@@ -2032,7 +2032,7 @@ HRESULT GLCharClient::MsgMoveState ( NET_MSG_GENERIC* nmg )
 
 	if ( bRun != bToRun )
 	{
-		//	Note : ÀÌµ¿ »óÅÂ º¯°æ.
+		//	Note : ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( bToRun )		SetSTATE(EM_ACT_RUN);
 		else				ReSetSTATE(EM_ACT_RUN);
 
@@ -2142,7 +2142,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_ATTACK_BRD *pNetMsg = (GLMSG::SNETPC_ATTACK_BRD *) nmg;
 
-			//	Note : °ø°Ý ¼öÇà.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			m_sTargetID.emCrow = pNetMsg->emTarCrow;
 			m_sTargetID.dwID = pNetMsg->dwTarID;
 			m_dwANISUBSELECT = pNetMsg->dwAniSel;
@@ -2189,14 +2189,14 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_PUTON_RELEASE_BRD *pNetMsg = (GLMSG::SNETPC_PUTON_RELEASE_BRD *)nmg;
 
-			//	Á¦°ÅµÇ´Â ¾ÆÀÌÅÆ ¹Ý¿µ.
+			//	ï¿½ï¿½ï¿½ÅµÇ´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿ï¿½.
 			m_CharData.m_PutOnItems[pNetMsg->emSlot] = SITEMCLIENT ( SNATIVEID(false) );
 			UpdateSuit ();
 			UPDATE_ITEM();
 
 			ReSelectAnimation ();
 
-			// ¹«±â¿¡ µû¸¥ ¹öÇÁ¸¦ ÃÊ±âÈ­ ÇÑ´Ù.
+			// ï¿½ï¿½ï¿½â¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ñ´ï¿½.
 			DisableSkillFact();
 		}
 		break;
@@ -2205,18 +2205,18 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_PUTON_UPDATE_BRD *pNetMsg = (GLMSG::SNETPC_PUTON_UPDATE_BRD *)nmg;
 
-			//	Á¦°ÅµÇ´Â ¾ÆÀÌÅÆÀÌ ÀÖÀ» °æ¿ì.
+			//	ï¿½ï¿½ï¿½ÅµÇ´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 			if ( pNetMsg->emSlotRelease != SLOT_NSIZE_S_2 )
 				m_CharData.m_PutOnItems[pNetMsg->emSlotRelease] = SITEMCLIENT ( SNATIVEID(false) );
 
-			//	º¯°æµÇ´Â ¾ÆÀÌÅÆ ¹Ý¿µ.
+			//	ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿ï¿½.
 			m_CharData.m_PutOnItems[pNetMsg->emSlot] = pNetMsg->sItemClient;
 			UpdateSuit ();
 			UPDATE_ITEM();
 
 			ReSelectAnimation ();
 
-			// ¹«±â¿¡ µû¸¥ ¹öÇÁ¸¦ ÃÊ±âÈ­ ÇÑ´Ù.
+			// ï¿½ï¿½ï¿½â¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ñ´ï¿½.
 			DisableSkillFact();
 		}
 		break;
@@ -2232,7 +2232,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 			ReSelectAnimation ();
 
-			// ¹«±â¿¡ µû¸¥ ¹öÇÁ¸¦ ÃÊ±âÈ­ ÇÑ´Ù.
+			// ï¿½ï¿½ï¿½â¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ñ´ï¿½.
 			DisableSkillFact();
 		}
 		break;
@@ -2268,7 +2268,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 			else
 			{
 				memcpy ( m_sTARIDS, pNetMsg->sTARIDS, sizeof(STARID)*m_wTARNUM );
-				//	Note : ½ºÅ³ÀÌ ¹ßµ¿µÊ.
+				//	Note : ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ßµï¿½ï¿½ï¿½.
 				TurnAction ( GLAT_SKILL );
 			}
 		}
@@ -2286,7 +2286,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 			m_CharData.sHP.VARIATION ( pNetMsg->nVAR_HP );
 
-			//	µ¥¹ÌÁö ¸Þ½ÃÁö.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½.
 			if ( pNetMsg->nVAR_HP < 0 )
 			{
 				if ( pNetMsg->dwDamageFlag & DAMAGE_TYPE_SHOCK )	TurnAction ( GLAT_SHOCK );
@@ -2295,7 +2295,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 				D3DXVECTOR3 vPos = GetPosBodyHeight();
 				CInnerInterface::GetInstance().SetDamage( vPos, static_cast<WORD>(-pNetMsg->nVAR_HP), pNetMsg->dwDamageFlag, UI_UNDERATTACK );
 			
-				//	Note : ¹æ¾î½ºÅ³ÀÇ ÀÌÆåÆ®°¡ ÀÖÀ»¶§ ¹ßµ¿½ÃÅ´.
+				//	Note : ï¿½ï¿½î½ºÅ³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ßµï¿½ï¿½ï¿½Å´.
 				STARGETID sACTOR(pNetMsg->sACTOR.GETCROW(),pNetMsg->sACTOR.GETID());
 				sACTOR.vPos = GLGaeaClient::GetInstance().GetTargetPos ( sACTOR );
 				
@@ -2303,7 +2303,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 				if ( pNetMsg->dwDamageFlag & DAMAGE_TYPE_CRUSHING_BLOW )
 				{
-					// °­ÇÑÅ¸°Ý ÀÌÆåÆ®
+					// ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 
 					D3DXVECTOR3 vDIR = sACTOR.vPos - m_vPos;
 
@@ -2316,12 +2316,12 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 					matTrans._42 = m_vPos.y + 10.0f;
 					matTrans._43 = m_vPos.z;
 
-					//	Note : ÀÚ±â À§Ä¡ ÀÌÆåÆ® ¹ß»ý½ÃÅ´.
+					//	Note : ï¿½Ú±ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß»ï¿½ï¿½ï¿½Å´.
 					DxEffGroupPlayer::GetInstance().NewEffGroup ( GLCONST_CHAR::strCRUSHING_BLOW_EFFECT.c_str(), matTrans, &sACTOR );
 				}
 			}
 
-			//	Èú¸µ ¸Þ½ÃÁö.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½.
 			//if ( pNetMsg->nVAR_HP > 0 )
 			//{
 			//	CPlayInterface::GetInstance().InsertText ( GetPosition(), static_cast<WORD>(pNetMsg->nVAR_HP), pNetMsg->bCRITICAL, 1 );
@@ -2333,7 +2333,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_SKILLHOLD_BRD *pNetMsg = (GLMSG::SNETPC_SKILLHOLD_BRD *)nmg;
 
-			//	Áö¼ÓÇü ½ºÅ³ÀÇ °æ¿ì ½ºÅ³ ÆÑÅÍ Ãß°¡µÊ.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½.
 			if ( pNetMsg->skill_id != SNATIVEID(false) )
 			{
 				RECEIVE_SKILLFACT ( pNetMsg->skill_id, pNetMsg->wLEVEL, pNetMsg->wSELSLOT, pNetMsg->wCasterCrow, pNetMsg->dwCasterID );
@@ -2346,8 +2346,8 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_SKILLHOLD_RS_BRD *pNetMsg = (GLMSG::SNETPC_SKILLHOLD_RS_BRD *)nmg;
 
-			//	Note : ½ºÅ³ fact µéÀ» Á¾·á.
-			//		¹Ù·Î ¸®»û ÇÏÁö ¾Ê°í ¿©±â¼­ ½Ã°£ Á¶Á¾ÇÏ¿© Á¤»ó Á¾·áµÇ°Ô ÇÔ. ( ÀÌÆÑÆ® Á¾·á ¶§¹®. )
+			//	Note : ï¿½ï¿½Å³ fact ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+			//		ï¿½Ù·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½ ï¿½ï¿½ï¿½â¼­ ï¿½Ã°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 			for ( int i=0; i<SKILLFACT_SIZE; ++i )
 			{
 				if ( pNetMsg->bRESET[i] )
@@ -2376,7 +2376,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 			pSTATEBLOW->fSTATE_VAR1 = pNetMsg->fSTATE_VAR1;
 			pSTATEBLOW->fSTATE_VAR2 = pNetMsg->fSTATE_VAR2;
 
-			//	Note : È¿°ú »ý¼º.
+			//	Note : È¿ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			FACTEFF::NewBlowEffect ( STARGETID(CROW_PC,m_dwGaeaID,m_vPos), m_pSkinChar, pSTATEBLOW->emBLOW, m_matTrans, m_vDir );
 		}
 		break;
@@ -2405,7 +2405,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 			GLMSG::SNET_PUSHPULL_BRD *pNetMsg = (GLMSG::SNET_PUSHPULL_BRD *)nmg;
 			const D3DXVECTOR3 &vMovePos = pNetMsg->vMovePos;
 
-			//	Note : ¹Ð·Á³¯ À§Ä¡·Î ÀÌµ¿ ½Ãµµ.
+			//	Note : ï¿½Ð·ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Ìµï¿½ ï¿½Ãµï¿½.
 			//
 			BOOL bSucceed = m_actorMove.GotoLocation
 			(
@@ -2415,7 +2415,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 			if ( bSucceed )
 			{
-				//	Note : ¹Ð·Á³ª´Â ¿¢¼Ç ½ÃÀÛ.
+				//	Note : ï¿½Ð·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 				//
 				m_sTargetID.vPos = vMovePos;
 				
@@ -2435,7 +2435,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 					TurnAction ( GLAT_PUSHPULL );
 				}
 
-				//	Note : ¹Ð¸®´Â ¼Óµµ ¼³Á¤.
+				//	Note : ï¿½Ð¸ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
 				//
 				/*push pull skill logic, Juver, 2017/06/04 */
 				m_actorMove.SetMaxSpeed ( pNetMsg->fSpeed );
@@ -2616,7 +2616,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 			StringCchCopy ( m_CharData.szNick, CHAR_SZNAME, pNetMsg->szNickName );
 
-			//	Note : Å¬·´¸¶Å© ¹öÀü È®ÀÎ.
+			//	Note : Å¬ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 			//
 			GLGaeaClient::GetInstance().GetCharacter()->ReqClubMarkInfo ( m_CharData.dwGuild, m_CharData.dwGuildMarkVer );
 		}
@@ -2627,7 +2627,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 			GLMSG::SNET_CLUB_INFO_MARK_BRD *pNetMsg = (GLMSG::SNET_CLUB_INFO_MARK_BRD *)nmg;
 
 			m_CharData.dwGuildMarkVer = pNetMsg->dwMarkVer;
-			//	Note : Å¬·´¸¶Å© ¹öÀü È®ÀÎ.
+			//	Note : Å¬ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 			//
 			GLGaeaClient::GetInstance().GetCharacter()->ReqClubMarkInfo ( m_CharData.dwGuild, m_CharData.dwGuildMarkVer );
 		}
@@ -2692,21 +2692,21 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_REQ_GESTURE_BRD *pNetMsg = (GLMSG::SNETPC_REQ_GESTURE_BRD *)nmg;
 	
-			//	Note : ¸ð¼Ç Á¾·ù°¡ ÆòÈ­ ¸ðµåÀÏ °æ¿ì¸¸ Á¦½ºÃÄ¸¦ ÇÒ ¼ö ÀÖ´Ù.
+			//	Note : ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.
 			PLANDMANCLIENT pLand = GLGaeaClient::GetInstance().GetActiveMap();
 			BOOL bPeaceZone = pLand ? pLand->IsPeaceZone() : FALSE;
 			if ( !bPeaceZone && IsSTATE(EM_ACT_PEACEMODE) )		bPeaceZone = TRUE;
 
 			if ( !bPeaceZone )		return;
 
-			//	Note : ÇØ´ç Á¦½ºÃÄ ¿¡´Ï¸ÞÀÌ¼ÇÀÌ Á¸Á¦½Ã ±¸µ¿.
+			//	Note : ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			PANIMCONTNODE pNODE = m_pSkinChar->GETANI ( AN_GESTURE, EMANI_SUBTYPE(pNetMsg->dwID) );
 			if ( !pNODE )			return;
 
-			//	Note : ½ÅÃ¼°¡ Á¤»óÀûÀÏ¶§ ±¸µ¿.
+			//	Note : ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			if ( !IsValidBody() )	return;
 
-			//	Note : Á¦½ºÃÄ¸¦ ÇàÇÔ.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			m_dwANISUBGESTURE = (DWORD) pNetMsg->dwID;
 			TurnAction(GLAT_TALK);
 		}
@@ -2787,7 +2787,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 				SetSTATE(EM_ACT_PEACEMODE);
 
-				// ¹öÇÁ ½ºÅ³ Á¦°Å
+				// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½
 				for ( int i = 0; i < SKILLFACT_SIZE; ++i )
 				{
 					if ( m_sSKILLFACT[i].sNATIVEID == NATIVEID_NULL() ) continue;
@@ -2801,7 +2801,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 					}	
 				}
 
-				// Å¾½Â ÀÌÆÑÆ® Ãß°¡
+				// Å¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß°ï¿½
 				STARGETID sTargetID(CROW_PC, m_dwGaeaID, m_vPos);
 				DxEffGroupPlayer::GetInstance().NewEffGroup
 				(
@@ -2810,7 +2810,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 					&sTargetID
 				);
 
-				// Äù¼Ç ¾ÆÀÌÅÛ Á¦°Å
+				// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 				m_CharData.sQITEMFACT.RESET ();				
 				
 				UpdateSuit( );				
@@ -2836,7 +2836,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 
 				m_emANISUBTYPE = CHECK_ANISUB ( pRHAND, pLHAND  );
 
-				// ¹öÇÁ½ºÅ³ Á¦°Å
+				// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½
 				for ( int i = 0; i < SKILLFACT_SIZE; ++i )
 				{
 					if ( m_sSKILLFACT[i].sNATIVEID == NATIVEID_NULL() ) continue;
@@ -2851,7 +2851,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 				}
 
 /*
-				// ÇÏÂ÷ ÀÌÆåÆ® Ãß°¡
+				// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß°ï¿½
 				STARGETID sTargetID(CROW_PC, m_dwGaeaID, m_vPos);
 				DxEffGroupPlayer::GetInstance().NewEffGroup
 				(
@@ -2860,7 +2860,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 					&sTargetID
 				);
 */
-				// Äù¼Ç ¾ÆÀÌÅÛ Á¦°Å
+				// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 				m_CharData.sQITEMFACT.RESET ();		
 
 				UpdateSuit();				
@@ -2920,7 +2920,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNET_VEHICLE_REQ_SLOT_EX_HOLD_BRD* pNetMsg = (GLMSG::SNET_VEHICLE_REQ_SLOT_EX_HOLD_BRD*) nmg;
 
-			// ¼Õ¿¡µç ¾ÆÀÌÅÛÀ»
+			// ï¿½Õ¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			m_sVehicle.SetSlotItem ( pNetMsg->emSuit, pNetMsg->sItemCustom );
 
 			UpdateSuit();
@@ -2931,7 +2931,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNET_VEHICLE_REQ_REMOVE_SLOTITEM_BRD* pNetMsg = ( GLMSG::SNET_VEHICLE_REQ_REMOVE_SLOTITEM_BRD* ) nmg;
 	
-			// ½½·Ô¾ÆÀÌÅÛ Á¦°Å
+			// ï¿½ï¿½ï¿½Ô¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			m_sVehicle.ReSetSlotItem ( pNetMsg->emSuit );
 
 			UpdateSuit();
@@ -2954,7 +2954,7 @@ void GLCharClient::MsgProcess ( NET_MSG_GENERIC* nmg )
 		{
 			GLMSG::SNETPC_REQ_GATHERING_BRD *pNetMsg = (GLMSG::SNETPC_REQ_GATHERING_BRD *) nmg;
 
-			//	Note : °ø°Ý ¼öÇà.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			m_dwANISUBGESTURE = pNetMsg->dwAniSel;
 			TurnAction ( GLAT_GATHERING );
 		}
@@ -3142,7 +3142,7 @@ void GLCharClient::AttackEffect ( const SANIMSTRIKE &sStrikeEff )
 	if ( m_pSkinChar->m_pAttBone[sStrikeEff.m_emPiece] )	
 		m_pSkinChar->m_pAttBone[sStrikeEff.m_emPiece]->SELECTANI( AN_ABL_ATTACK, AN_SUB_NONE );
 
-	//	Å¸°ÙÀÇ À§Ä¡.
+	//	Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡.
 	D3DXVECTOR3 vTARPOS = GLGaeaClient::GetInstance().GetTargetPos ( m_sTargetID );
 
 	D3DXVECTOR3 vDir = vTARPOS - m_vPos;
@@ -3173,7 +3173,7 @@ void GLCharClient::AttackEffect ( const SANIMSTRIKE &sStrikeEff )
 	STARGETID sTargetID = m_sTargetID;
 	sTargetID.vPos = vTARPOS;
 
-	//	Note : ¹«±âÀÇ ¼Ó¼º »ìÆìº½.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ìº½.
 	//
 	EMELEMENT emELEMENT = GET_ITEM_ELMT();
 
@@ -3221,8 +3221,8 @@ void GLCharClient::AttackEffect ( const SANIMSTRIKE &sStrikeEff )
 				}
 				/*gun-bullet logic, Juver, 2017/05/27 */
 				else if ( pItem->sSuitOp.emAttack == ITEMATT_GUN ||
-					pItem->sSuitOp.emAttack == ITEMATT_RAILGUN ||
-					pItem->sSuitOp.emAttack == ITEMATT_PORTALGUN )
+					pItem->sSuitOp.emAttack == ITEMATT_RAIL_GUN ||
+					pItem->sSuitOp.emAttack == ITEMATT_PORTAL_GUN )
 				{
 					SITEM *pLHAND = NULL;
 					if ( VALID_SLOT_ITEM(SLOT_LHAND) )	pLHAND = GLItemMan::GetInstance().GetItem(GET_SLOT_ITEM(SLOT_LHAND).sNativeID);
@@ -3279,7 +3279,7 @@ BOOL GLCharClient::AttackProc ( float fElapsedTime )
 		{
 			if ( GLGaeaClient::GetInstance().IsVisibleCV(m_sTargetID) )
 			{
-				//	Note : °ø°Ý½Ã ÀÌÆÑÆ® ¹ßÈÖ..
+				//	Note : ï¿½ï¿½ï¿½Ý½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½..
 				//
 				AttackEffect ( pAnimCont->m_sStrikeEff[m_nattSTEP] );
 			}
@@ -3299,7 +3299,7 @@ void GLCharClient::StartSkillProc ()
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( m_idACTIVESKILL.wMainID, m_idACTIVESKILL.wSubID );
 	if ( !pSkill )							return;
 
-	//	Note : °ø°Ý ¹æÇâÀ¸·Î È¸Àü.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½.
 	//
 	m_vDir = UpdateSkillDirection ( m_vPos, m_vDir, m_idACTIVESKILL, m_vTARPOS, m_sTARIDS );
 
@@ -3308,7 +3308,7 @@ void GLCharClient::StartSkillProc ()
 	/*skill effect setting, Juver, 2017/10/01 */
 	if ( RANPARAM::bHideSkillEffect )	return;
 
-	//	Note : ½ºÅ³ ½ÃÀÛ°ú µ¿½Ã¿¡ ³ªÅ¸³ª´Â ÀÌÆÑÆ®. ¹ßµ¿.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½Û°ï¿½ ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®. ï¿½ßµï¿½.
 	//
 	EMELEMENT emELMT = ( pSkill->m_sAPPLY.emELEMENT==EMELEMENT_ARM ) ? GET_ITEM_ELMT() : (EMELEMENT_SPIRIT);
 	if ( pSkill->m_sEXT_DATA.emSELFBODY==SKILL::EMTIME_FIRST )
@@ -3375,7 +3375,7 @@ void GLCharClient::SKT_EFF_HOLDOUT ( STARGETID sTarget, DWORD dwDamageFlag )
 			matTrans._42 = m_vPos.y;
 			matTrans._43 = m_vPos.z;
 
-			//	Note : ÀÚ±â À§Ä¡ ÀÌÆåÆ® ¹ß»ý½ÃÅ´.
+			//	Note : ï¿½Ú±ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß»ï¿½ï¿½ï¿½Å´.
 			DxEffGroupPlayer::GetInstance().NewEffGroup ( szZONE_EFF, matTrans, &sTarget );
 		}
 	}
@@ -3386,11 +3386,11 @@ DxEffSingleGroup* GLCharClient::SK_EFF_SELFZONE ( const SANIMSTRIKE &sStrikeEff,
 {
 	D3DXMATRIX matTrans;
 
-	//	½ºÆ®¶óÀÌÅ© ÁöÁ¡¿¡¼­.
+	//	ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	BOOL bTRANS(FALSE);
 	if ( emPOS == SKILL::EMPOS_STRIKE )
 	{
-		//	Å¸°ÙÀÇ À§Ä¡.
+		//	Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡.
 		D3DXVECTOR3 vTARPOS = m_vPos + m_vDir * 60.0f;
 
 		/*ABL system, Juver, 2017/06/02 */
@@ -3405,7 +3405,7 @@ DxEffSingleGroup* GLCharClient::SK_EFF_SELFZONE ( const SANIMSTRIKE &sStrikeEff,
 		}
 	}
 
-	//	Áö¸é±âÁØ ¸ñÇ¥Á¡¿¡ È¸Àü ¼Ó¼º ³Ö¾î¼­.
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ ï¿½Ó¼ï¿½ ï¿½Ö¾î¼­.
 	if ( !bTRANS )
 	{
 		bTRANS = TRUE;
@@ -3415,7 +3415,7 @@ DxEffSingleGroup* GLCharClient::SK_EFF_SELFZONE ( const SANIMSTRIKE &sStrikeEff,
 		matTrans = matYRot * m_matTrans;
 	}
 
-	//	Note : ÀÚ±â À§Ä¡ ÀÌÆåÆ® ¹ß»ý½ÃÅ´.
+	//	Note : ï¿½Ú±ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß»ï¿½ï¿½ï¿½Å´.
 	return DxEffGroupPlayer::GetInstance().NewEffGroup ( szZONE_EFF, matTrans, pTarget );
 }
 
@@ -3425,13 +3425,13 @@ DxEffSingleGroup* GLCharClient::SK_EFF_TARZONE ( const STARGETID &_sTarget, cons
 	D3DXMATRIX matTrans;
 	STARGETID sTarget = _sTarget;
 
-	//	½ºÆ®¶óÀÌÅ© ÁöÁ¡¿¡¼­.
+	//	ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	BOOL bTRANS(FALSE);
 	if ( emPOS == SKILL::EMPOS_STRIKE )
 	{
 		DxSkinChar* pSkin = GLGaeaClient::GetInstance().GetSkinChar ( sTarget );
 
-		//	Å¸°ÙÀÇ À§Ä¡.
+		//	Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡.
 		D3DXVECTOR3 vTARPOS ( m_vPos.x, m_vPos.y+15, m_vPos.z );;
 
 		/*ABL system, Juver, 2017/06/02 */
@@ -3446,14 +3446,14 @@ DxEffSingleGroup* GLCharClient::SK_EFF_TARZONE ( const STARGETID &_sTarget, cons
 		}
 	}
 
-	//	Áö¸é±âÁØ ¸ñÇ¥Á¡.
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½.
 	if ( !bTRANS )
 	{
 		bTRANS = TRUE;
 		D3DXMatrixTranslation ( &matTrans, sTarget.vPos.x, sTarget.vPos.y, sTarget.vPos.z );
 	}
 
-	//	Note : ¸ñÇ¥ À§Ä¡ ÀÌÆåÆ® ¹ß»ý½ÃÅ´.
+	//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ß»ï¿½ï¿½ï¿½Å´.
 	return DxEffGroupPlayer::GetInstance().NewEffGroup ( szZONE_EFF, matTrans, &sTarget );
 }
 
@@ -3462,11 +3462,11 @@ void GLCharClient::SK_EFF_TARG ( const PGLSKILL pSkill, const SANIMSTRIKE &sStri
 	D3DXMATRIX matTrans;
 	STARGETID sTarget = _sTarget;
 
-	//	½ºÆ®¶óÀÌÅ© ÁöÁ¡¿¡¼­.
+	//	ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	BOOL bTRANS(FALSE);
 	if ( pSkill->m_sEXT_DATA.emTARG_POSA == SKILL::EMPOS_STRIKE )
 	{
-		//	Å¸°ÙÀÇ À§Ä¡.
+		//	Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡.
 		D3DXVECTOR3 vSTRPOS ( sTarget.vPos.x, sTarget.vPos.y+15, sTarget.vPos.z );;
 
 		D3DXVECTOR3 vDir = vSTRPOS - m_vPos;
@@ -3486,7 +3486,7 @@ void GLCharClient::SK_EFF_TARG ( const PGLSKILL pSkill, const SANIMSTRIKE &sStri
 		}
 	}
 	
-	//	Áö¸é±âÁØ È¸Àü ¼Ó¼º ³Ö¾î¼­.
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ ï¿½Ó¼ï¿½ ï¿½Ö¾î¼­.
 	if ( !bTRANS )
 	{
 		bTRANS = TRUE;
@@ -3496,17 +3496,17 @@ void GLCharClient::SK_EFF_TARG ( const PGLSKILL pSkill, const SANIMSTRIKE &sStri
 		matTrans = matYRot * m_matTrans;
 	}
 
-	//	¸ñÇ¥ ÁöÁ¡ ¼±ÅÃ
+	//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	BOOL bIMPACT(FALSE);
 	if ( pSkill->m_sEXT_DATA.emTARG_POSB == SKILL::EMPOS_STRIKE )
 	{
 		DxSkinChar* pSkin = GLGaeaClient::GetInstance().GetSkinChar ( sTarget );
 		if ( !pSkin )	return;
 
-		//	Å¸°ÙÀÇ À§Ä¡.
+		//	Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡.
 		D3DXVECTOR3 vTARPOS ( m_vPos.x, m_vPos.y+15, m_vPos.z );;
 
-		//	Å¸°Ý À§Ä¡¸¦ ¾Ë¾Æ³¿.
+		//	Å¸ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Ë¾Æ³ï¿½.
 		D3DXVECTOR3 vOUT(0.0f,0.0f,0.0f);
 		BOOL bOk = STRIKE_SELECT::SelectArrow( pSkin, vTARPOS, vOUT );
 		if ( bOk )
@@ -3525,7 +3525,7 @@ void GLCharClient::SK_EFF_TARG ( const PGLSKILL pSkill, const SANIMSTRIKE &sStri
 	DxEffSingleGroup* pEffSingleG = DxEffGroupPlayer::GetInstance().NewEffGroup ( pSkill->m_sEXT_DATA.GETTARG(emELMT), matTrans, &sTarget );
 	if ( !pEffSingleG )		return;
 
-	//	Note : ¸ñÇ¥ À§Ä¡ ÀÌÆåÆ®.
+	//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ®.
 	if ( pSkill->m_sEXT_DATA.emTARGZONE01==SKILL::EMTIME_TARG_OVR )
 		pEffSingleG->AddEffAfter ( EFFASINGLE, pSkill->m_sEXT_DATA.GETTARGZONE01(emELMT) );
 
@@ -3535,7 +3535,7 @@ void GLCharClient::SK_EFF_TARG ( const PGLSKILL pSkill, const SANIMSTRIKE &sStri
 	if ( pSkill->m_sEXT_DATA.emTARGZONE03==SKILL::EMTIME_TARG_OVR )
 		pEffSingleG->AddEffAfter ( EFFASINGLE, pSkill->m_sEXT_DATA.GETTARGZONE03(emELMT) );
 
-	//	Note : ¸ñÇ¥ ¸ö ÀÌÆåÆ®.
+	//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®.
 	if ( pSkill->m_sEXT_DATA.emTARGBODY01==SKILL::EMTIME_TARG_OVR )
 		pEffSingleG->AddEffAfter ( EFFABODY, pSkill->m_sEXT_DATA.GETTARGBODY01(emELMT) );
 
@@ -3569,7 +3569,7 @@ void GLCharClient::SkillEffect ( const SANIMSTRIKE &sStrikeEff )
 	D3DXMATRIX matTrans;
 	using namespace SKILL;
 
-	//	Note : Å¸°Ù ÀÌÆåÆ®°¡ Áö¸éÀ» ÇâÇØ ¹ß»çµÇ´Â °æ¿ì.
+	//	Note : Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½.
 	//
 	EMELEMENT emELMT = ( pSkill->m_sAPPLY.emELEMENT==EMELEMENT_ARM ) ? GET_ITEM_ELMT() : (EMELEMENT_SPIRIT);
 	if ( pSkill->m_sBASIC.emIMPACT_TAR == TAR_ZONE )
@@ -3642,8 +3642,8 @@ void GLCharClient::SkillEffect ( const SANIMSTRIKE &sStrikeEff )
 			}
 		}
 	}
-	//	Note : Å¸°Ù ÀÌÆåÆ®°¡ Áö¸éÀ» ÇâÇØ ¹ß»çµÇ´Â °æ¿ì.
-	//		ÀÚ±â À§Ä¡¿¡¼­ ´ë»ó À§Ä¡±îÁö. ( È­»ì °üÅë )
+	//	Note : Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½.
+	//		ï¿½Ú±ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½. ( È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 	else if ( pSkill->m_sBASIC.emIMPACT_TAR == TAR_SELF_TOSPEC )
 	{
 		if ( m_wTARNUM == 0 )	return;
@@ -3656,16 +3656,16 @@ void GLCharClient::SkillEffect ( const SANIMSTRIKE &sStrikeEff )
 		vDir.y = 0.f;
 		D3DXVec3Normalize ( &vDir, &vDir );
 
-		//	Note : ¸ñÇ¥ ÁöÇâ ÀÌÆåÆ®¿¡ ½Ç¾î º¸³»´Â ÀÌÆåÆ®.
-		//		( ½Ç¾î º¸³¾¶§´Â ¸ñÇ¥ À§Ä¡ ÀÌÆåÆ®ÀÇ À§Ä¡´Â ÀÚµ¿À¸·Î ÁöÇâ ÀÌÆÑÆ®ÀÇ Á¾·á ÁöÁ¡À¸·Î °íÁ¤. )
+		//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®.
+		//		( ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 		if ( pSkill->m_sEXT_DATA.VALIDTARG(emELMT) )
 		{
 			SK_EFF_TARG ( pSkill, sStrikeEff, sTarget );
 		}
-		//	´Üµ¶À¸·Î ¸ñÇ¥ ÁöÁ¡¿¡ ¹ß»ý.
+		//	ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½.
 		else
 		{
-			//	Note : ¸ñÇ¥ À§Ä¡ ÀÌÆåÆ®.
+			//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ®.
 			if ( pSkill->m_sEXT_DATA.emTARGZONE01==EMTIME_IMPACT )
 			{
 				/*skill activated effect, Juver, 2017/12/29 */
@@ -3717,18 +3717,18 @@ void GLCharClient::SkillEffect ( const SANIMSTRIKE &sStrikeEff )
 				}
 			}
 
-			//	Note : ¸ñÇ¥ ¸ö ÀÌÆåÆ®.
+			//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®.
 			if ( pSkill->m_sEXT_DATA.emTARGBODY01==EMTIME_IMPACT )
 				DxEffGroupPlayer::GetInstance().NewEffBody ( pSkill->m_sEXT_DATA.GETTARGBODY01(emELMT), &sTarget, &vDir );
 			if ( pSkill->m_sEXT_DATA.emTARGBODY02==EMTIME_IMPACT )
 				DxEffGroupPlayer::GetInstance().NewEffBody ( pSkill->m_sEXT_DATA.GETTARGBODY02(emELMT), &sTarget, &vDir );
 		}
 	}
-	//	Note : Å¸°Ù ÀÌÆåÆ®°¡ À¯´ÖÀ» ÇâÇØ ¹ß»çµÇ´Â °æ¿ì.
+	//	Note : Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½.
 	//
 	else
 	{
-		//	Note : ¸ñÇ¥ À¯´ÖÀÌ ÀÖ´Â °æ¿ì.
+		//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½.
 		//
 		if ( m_wTARNUM )
 		{
@@ -3742,16 +3742,16 @@ void GLCharClient::SkillEffect ( const SANIMSTRIKE &sStrikeEff )
 				vDir.y = 0.f;
 				D3DXVec3Normalize ( &vDir, &vDir );
 
-				//	Note : ¸ñÇ¥ ÁöÇâ ÀÌÆåÆ®¿¡ ½Ç¾î º¸³»´Â ÀÌÆåÆ®.
-				//		( ½Ç¾î º¸³¾¶§´Â ¸ñÇ¥ À§Ä¡ ÀÌÆåÆ®ÀÇ À§Ä¡´Â ÀÚµ¿À¸·Î ÁöÇâ ÀÌÆÑÆ®ÀÇ Á¾·á ÁöÁ¡À¸·Î °íÁ¤. )
+				//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®.
+				//		( ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 				if ( pSkill->m_sEXT_DATA.VALIDTARG(emELMT) )
 				{
 					SK_EFF_TARG ( pSkill, sStrikeEff, sTarget );
 				}
-				//	´Üµ¶À¸·Î ¸ñÇ¥ ÁöÁ¡¿¡ ¹ß»ý.
+				//	ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½.
 				else
 				{
-					//	Note : ¸ñÇ¥ À§Ä¡ ÀÌÆåÆ®.
+					//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Æ®.
 					if ( pSkill->m_sEXT_DATA.emTARGZONE01==EMTIME_IMPACT )
 					{
 						/*skill activated effect, Juver, 2017/12/29 */
@@ -3803,7 +3803,7 @@ void GLCharClient::SkillEffect ( const SANIMSTRIKE &sStrikeEff )
 						}
 					}
 
-					//	Note : ¸ñÇ¥ ¸ö ÀÌÆåÆ®.
+					//	Note : ï¿½ï¿½Ç¥ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®.
 					if ( pSkill->m_sEXT_DATA.emTARGBODY01==EMTIME_IMPACT )
 						DxEffGroupPlayer::GetInstance().NewEffBody ( pSkill->m_sEXT_DATA.GETTARGBODY01(emELMT), &sTarget, &vDir );
 					if ( pSkill->m_sEXT_DATA.emTARGBODY02==EMTIME_IMPACT )
@@ -3892,7 +3892,7 @@ BOOL GLCharClient::SkillProc ( float fElapsedTime )
 	{
 		if ( dwThisKey>=dwStrikeKey )
 		{
-			//	Note : ½ºÅ³ ÀÌÆåÆ® ¹ßµ¿.
+			//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ßµï¿½.
 			//
 			SkillEffect ( pAnimCont->m_sStrikeEff[m_nattSTEP] );
 		
@@ -3922,7 +3922,7 @@ void GLCharClient::UPDATE_ITEM ( )
 		SITEM* sItem = GET_SLOT_ITEMDATA( emSLOT );
 		if ( !sItem ) continue;
 
-		//	Note : º¯È­À² È¿°ú.
+		//	Note : ï¿½ï¿½È­ï¿½ï¿½ È¿ï¿½ï¿½.
 		switch ( sItem->sSuitOp.sVARIATE.emTYPE )
 		{
 		case EMVAR_HP:
@@ -3943,7 +3943,7 @@ void GLCharClient::UPDATE_ITEM ( )
 			break;
 		};
 
-		// º¯È­·® È¿°ú
+		// ï¿½ï¿½È­ï¿½ï¿½ È¿ï¿½ï¿½
 		switch ( sItem->sSuitOp.sVOLUME.emTYPE )
 		{
 		case EMVAR_HP:
@@ -3965,7 +3965,7 @@ void GLCharClient::UPDATE_ITEM ( )
 		};
 
 
-		// ÀÌµ¿¼Óµµ ·£´ý¿É¼Ç Àû¿ë( ÆÄÃ÷´Â À§¿¡¼­ Àû¿ë m_sVehicle.GetSpeedRate(); ) 
+		// ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ m_sVehicle.GetSpeedRate(); ) 
 //		if ( emSLOT != SLOT_VEHICLE )	m_fITEM_MOVE += sItemCustom.GETOptVALUE( EMR_OPT_MOVE_SPEED );
 //		else if ( m_bVehicle ) m_fITEM_MOVE += sItemCustom.GETOptVALUE( EMR_OPT_MOVE_SPEED );
 
@@ -3981,7 +3981,7 @@ void GLCharClient::UpdateLandEffect()
 	if( !pLevelEtcFunc ) return;
 	if( !pLevelEtcFunc->m_bUseFunction[EMETCFUNC_LANDEFFECT] ) return;
 
-	// ¸ðµç ¹öÇÁ¸¦ Ãë¼ÒÇØ¾ßÇÒ °æ¿ìÀÇ Ã³¸®
+	// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
 	for( int i = 0; i < EMLANDEFFECT_MULTI; i++ )
 	{
 		SLANDEFFECT landEffect = m_sLandEffect[i];
@@ -4037,7 +4037,7 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 				break;
 
 			case EMSPECA_ATTACKVELO:
-				//	°ø°Ý ¼Óµµ °è³äÀÌ¹Ç·Î ( °ø°Ý ½Ã°£À» -0.1 (-10%) °¨¼Ò ½ÃÅ°±â À§ÇØ¼­´Â ºÎÈ£ ¹ÝÀüÀ» ÇÏ¿©¾ßÇÔ. )
+				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ -0.1 (-10%) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½. )
 				m_fATTVELO -= sSKEFF.sSpecs[nSpec].fSPECVAR1;
 				break;
 
@@ -4047,7 +4047,7 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 		}
 		
 
-		//	Å¬¶óÀÌ¾ðÆ®°¡ ¾Æ´Ò °æ¿ì ¿©±â¼­ ½ºÅ³ ÀÌÆåÆ®¸¦ ºñÈ°¼ºÈ­, Å¬¶óÀÌ¾ðÆ®´Â UpdateSkillEffect()¿¡¼­ ÇÔ.
+		//	Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â¼­ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­, Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ UpdateSkillEffect()ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 		if ( !bClient && sSKEFF.fAGE <= 0.0f )		DISABLESKEFF(i);
 	}
 
@@ -4061,25 +4061,25 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 		switch ( sSTATEBLOW.emBLOW )
 		{
 		case EMBLOW_NUMB:
-			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ÀÌµ¿¼Óµµ °¨¼Ò.
-			m_fSTATE_DELAY = 1.0f + sSTATEBLOW.fSTATE_VAR2;		//	µô·¡ÀÌ Áõ°¡.
+			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
+			m_fSTATE_DELAY = 1.0f + sSTATEBLOW.fSTATE_VAR2;		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			break;
 
 		case EMBLOW_STUN:
-			m_fSTATE_MOVE = 0.0f;								//	±âÀý.
+			m_fSTATE_MOVE = 0.0f;								//	ï¿½ï¿½ï¿½ï¿½.
 			m_bSTATE_PANT = true;
 			m_bSTATE_STUN = true;
 			break;
 
 		case EMBLOW_STONE:
-			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ÀÌµ¿¼Óµµ °¨¼Ò.
+			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
 			break;
 
 		case EMBLOW_BURN:
 			break;
 
 		case EMBLOW_FROZEN:
-			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ÀÌµ¿¼Óµµ °¨¼Ò.
+			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
 			break;
 
 		case EMBLOW_MAD:
@@ -4128,7 +4128,7 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 	};
 
 
-	// ÁöÇü È¿°ú Ã³¸®
+	// ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ Ã³ï¿½ï¿½
 	for( int i = 0; i < EMLANDEFFECT_MULTI; i++ )
 	{
 		SLANDEFFECT landEffect = m_sLandEffect[i];
@@ -4136,19 +4136,19 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 
 		switch( landEffect.emLandEffectType ) 
 		{
-		case EMLANDEFFECT_ATK_SPEED: // °ø°Ý¼Óµµ
+		case EMLANDEFFECT_ATK_SPEED: // ï¿½ï¿½ï¿½Ý¼Óµï¿½
 			m_fATTVELO	  += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_MOVE_SPEED: // ÀÌµ¿¼Óµµ
+		case EMLANDEFFECT_MOVE_SPEED: // ï¿½Ìµï¿½ï¿½Óµï¿½
 			m_fSKILL_MOVE += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_MP_RATE:	  // HP º¯È­À²
-		case EMLANDEFFECT_HP_RATE:    // MP º¯È­À²
-		case EMLANDEFFECT_RECOVER_RATE: // È¸º¹À²
-		case EMLANDEFFECT_DAMAGE_RATE:	// °ø°ÝÄ¡ º¯È­À²
-		case EMLANDEFFECT_DEFENSE_RATE:	// ¹æ¾îÄ¡ º¯È­À²
-		case EMLANDEFFECT_RESIST_RATE:	// ÀúÇ× ¼öÄ¡			
-		case EMLANDEFFECT_CANCEL_ALLBUFF: // ¸ðµç ¹öÇÁ Ãë¼Ò
+		case EMLANDEFFECT_MP_RATE:	  // HP ï¿½ï¿½È­ï¿½ï¿½
+		case EMLANDEFFECT_HP_RATE:    // MP ï¿½ï¿½È­ï¿½ï¿½
+		case EMLANDEFFECT_RECOVER_RATE: // È¸ï¿½ï¿½ï¿½ï¿½
+		case EMLANDEFFECT_DAMAGE_RATE:	// ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½È­ï¿½ï¿½
+		case EMLANDEFFECT_DEFENSE_RATE:	// ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½È­ï¿½ï¿½
+		case EMLANDEFFECT_RESIST_RATE:	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡			
+		case EMLANDEFFECT_CANCEL_ALLBUFF: // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			break;
 		case EMLANDEFFECT_SAFE_ZONE:
 			int fValue = landEffect.fValue;
@@ -4257,11 +4257,11 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 		}
 	}
 
-	//	Memo :	? ¾ÆÀÌÅÛ ÀÌº¥Æ® Àû¿ë
+	//	Memo :	? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 	if( m_CharData.sEVENTFACT.IsACTIVE( EMGM_EVENT_SPEED ) )	m_fSKILL_MOVE += (m_CharData.sEVENTFACT.wSpeed/100.0f);
 	if( m_CharData.sEVENTFACT.IsACTIVE( EMGM_EVENT_ASPEED) )	m_fATTVELO += (m_CharData.sEVENTFACT.wASpeed/100.0f);
 
-	//	°ø°Ý/ÀÌµ¿ ¼Óµµ. ( Áö¼Ó skill ¼Ó¼º °¡»êµÈ ºÎºÐ¿¡ state, passive skill ¼Ó¼º °¡»ê. )
+	//	ï¿½ï¿½ï¿½ï¿½/ï¿½Ìµï¿½ ï¿½Óµï¿½. ( ï¿½ï¿½ï¿½ï¿½ skill ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ÎºÐ¿ï¿½ state, passive skill ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 	m_fATTVELO += m_fSTATE_MOVE + m_CharData.sPASSIVE_SKILL.m_fATTVELO;
 	m_fSKILL_MOVE += m_CharData.sPASSIVE_SKILL.m_fMOVEVELO;
 
@@ -4271,7 +4271,7 @@ void GLCharClient::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient )
 
 BOOL GLCharClient::RECEIVE_SKILLFACT ( const SNATIVEID skill_id, const WORD wlevel, const DWORD dwSELECT, WORD _wCasterCrow, DWORD _dwCasterID, float fAge )
 {
-	//	½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )				return FALSE;
 	if ( wlevel >= SKILL::MAX_LEVEL )	return FALSE;
@@ -4349,7 +4349,7 @@ BOOL GLCharClient::RECEIVE_SKILLFACT ( const SNATIVEID skill_id, const WORD wlev
 		};
 	}
 
-	//	Note : Áö¼ÓÇü ½ºÅ³ÀÏ °æ¿ì ÃÖÀû ½½·ÔÀ» Ã£¾Æ¼­ ½ºÅ³ È¿°ú¸¦ ³Ö¾îÁÜ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ã£ï¿½Æ¼ï¿½ ï¿½ï¿½Å³ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½.
 	//
 	if ( bHOLD )
 	{
@@ -4385,7 +4385,7 @@ BOOL GLCharClient::RECEIVE_SKILLFACT ( const SNATIVEID skill_id, const WORD wlev
 		return TRUE;
 	}
 
-	GASSERT ( 0 && "Áö¼Ó ½ºÅ³Á¤º¸°¡ À¯È¿ÇÏÁö ¾ÊÀ½." );
+	GASSERT ( 0 && "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½." );
 	return FALSE;
 }
 
@@ -4589,7 +4589,7 @@ BOOL GLCharClient::ItemFoodAdd ( SNATIVEID skill_id, WORD wLevel, WORD wSLOT, fl
 		return TRUE;
 	}
 
-	GASSERT ( 0 && "Áö¼Ó ½ºÅ³Á¤º¸°¡ À¯È¿ÇÏÁö ¾ÊÀ½." );
+	GASSERT ( 0 && "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½." );
 	return FALSE;
 }
 

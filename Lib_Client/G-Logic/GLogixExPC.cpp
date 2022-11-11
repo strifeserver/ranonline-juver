@@ -23,7 +23,7 @@ namespace GLOGICEX
 		WORD wDefenserLev = pActor->GetLevel();
 		DWORD dwBonusExp = pActor->GetBonusExp();
 
-		//	Note : °æÇèÄ¡ »êÃâ	
+		//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½	
 		return GLOGICEX::GLKILLEXP(wAttackerLev,wDefenserLev,dwBonusExp);
 	}
 
@@ -36,7 +36,7 @@ namespace GLOGICEX
 		DWORD dwTAR_MAXHP = pActor->GetMaxHP ();
 		DWORD dwBONUSEXP = pActor->GetBonusExp ();
 
-		//	Note : °æÇèÄ¡ »êÃâ
+		//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
 		return GLOGICEX::GLATTACKEXP ( wMYLEVEL, wTAR_LEVEL, dwDamage, dwTAR_MAXHP, dwBONUSEXP );
 	}
 };
@@ -189,9 +189,9 @@ void GLCHARLOGIC::INIT_NEW_CHAR ( const EMCHARINDEX _emCIndex, const DWORD dwUse
 	SCHARDATA2::Assign ( CharData2 );
 	m_cInventory.SetItemGenTime();
 
-	m_dwUserID		= dwUserID;			// À¯Àú¹øÈ£.
-	m_dwServerID	= dwServerID;		// ¼­¹ö±×·ì.
-	StringCchCopy ( m_szName, CHAR_SZNAME, szCharName );	// Ä³¸¯ÅÍ¸í.
+	m_dwUserID		= dwUserID;			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£.
+	m_dwServerID	= dwServerID;		// ï¿½ï¿½ï¿½ï¿½ï¿½×·ï¿½.
+	StringCchCopy ( m_szName, CHAR_SZNAME, szCharName );	// Ä³ï¿½ï¿½ï¿½Í¸ï¿½.
 
 	m_wSchool		= wSchool;
 	m_wHair			= wHair;
@@ -207,7 +207,7 @@ void GLCHARLOGIC::INIT_NEW_CHAR ( const EMCHARINDEX _emCIndex, const DWORD dwUse
 	if ( cCONST.dwHAIRNUM <= m_wHair )				m_wHair = 0;
 	if ( cCONST.dwHEADNUM <= m_wFace )				m_wFace = 0;
 	
-	//	Note : ÃÊ±â ½ÃÀÛ À§Ä¡ ¼³Á¤. ( ÇÐ±³¿¡ µû¶ó Æ²¸². )
+	//	Note : ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½. ( ï¿½Ð±ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Æ²ï¿½ï¿½. )
 	//
 	if ( GLCONST_CHAR::wSCHOOLNUM <= m_wSchool )	m_wSchool = 0;
 
@@ -247,55 +247,55 @@ void GLCHARLOGIC::OptionMoveDown()
 void GLCHARLOGIC::SUM_ADDITION ( float fCONFT_POINT_RATE )
 {
 	int i=0;
-	int nLEVEL = GETLEVEL();												//	ÄÉ¸¯ÅÍÀÇ ·¡º§.
-	EMCHARINDEX emCI = GETCHARINDEX ();										//	ÄÉ¸¯ÅÍÀÇ Á¾·ù ÀÎµ¦½º.
-	const GLCONST_CHARCLASS &cCHARCONST = GLCONST_CHAR::cCONSTCLASS[emCI];	//	ÄÉ¸¯ÅÍÀÇ »ó¼öµé.
+	int nLEVEL = GETLEVEL();												//	ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	EMCHARINDEX emCI = GETCHARINDEX ();										//	ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½.
+	const GLCONST_CHARCLASS &cCHARCONST = GLCONST_CHAR::cCONSTCLASS[emCI];	//	ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 	int ZBLEVEL = (nLEVEL-1);												//	Zero base Level.
 
-	//	Note : Æä½Ãºê ½ºÅ³ °¡»ê°ª ÇÕ»ê.
+	//	Note : ï¿½ï¿½Ãºï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ê°ª ï¿½Õ»ï¿½.
 	//
 	SUM_PASSIVE ();
 
-	//	Note : ¾ÆÀÌÅÛ¿¡ ºÙÀº ºÎ°¡ È¿°úµé ÇÕ»ê.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½Õ»ï¿½.
 	//
 	SUM_ITEM ();
 
-	//	Note : ±âº» ½ºÅÝ °ª °è»ê.
-	//		STATS = ÃÊ±â¼öÄ¡ + ·¡º§¿¡ µû¸¥ ÀÚµ¿Áõ°¡¼öÄ¡ + Ä³¸¯ÅÍ °¡¿ëÆ÷ÀÎÆ®·Î ºÐº£µÈ ¼öÄ¡ + ¾ÆÀÌÅÛ ¿É¼Ç.
+	//	Note : ï¿½âº» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½.
+	//		STATS = ï¿½Ê±ï¿½ï¿½Ä¡ + ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ + Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ðºï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ + ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½.
 	//
 	m_sSUMSTATS.RESET();
 	m_sSUMSTATS = cCHARCONST.sBEGIN_STATS + cCHARCONST.sLVLUP_STATS*ZBLEVEL + m_sStats + m_sSUMITEM.sStats;
 	
-	//	Note : ±â°ø, ±â¹æ °è»ê.
+	//	Note : ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	m_wSUM_AP = WORD ( ( cCHARCONST.wBEGIN_AP + cCHARCONST.fLVLUP_AP*ZBLEVEL ) * cCHARCONST.fCONV_AP );
 	m_wSUM_DP = WORD ( ( cCHARCONST.wBEGIN_DP + cCHARCONST.fLVLUP_DP*ZBLEVEL ) * cCHARCONST.fCONV_DP );
 	
-	//	Note : °ÝÅõÄ¡, »ç°ÝÄ¡.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡, ï¿½ï¿½ï¿½Ä¡.
 	m_wPA = WORD ( ( cCHARCONST.wBEGIN_PA + cCHARCONST.fLVLUP_PA*ZBLEVEL ) * cCHARCONST.fCONV_PA );
 	m_wSA = WORD ( ( cCHARCONST.wBEGIN_SA + cCHARCONST.fLVLUP_SA*ZBLEVEL ) * cCHARCONST.fCONV_SA );
 
-	//	Note : °ÝÅõÄ¡, »ç°ÝÄ¡, ¸¶·ÂÄ¡¿¡ STATS °ª ¹Ý¿µ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡, ï¿½ï¿½ï¿½Ä¡, ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ STATS ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	m_wPA += WORD ( m_sSUMSTATS.wPow * cCHARCONST.fPA_POW + m_sSUMSTATS.wDex * cCHARCONST.fPA_DEX );
 	m_wSA += WORD ( m_sSUMSTATS.wPow * cCHARCONST.fSA_POW + m_sSUMSTATS.wDex * cCHARCONST.fSA_DEX );
 	m_wMA = WORD ( m_sSUMSTATS.wDex * cCHARCONST.fMA_DEX + m_sSUMSTATS.wSpi * cCHARCONST.fMA_SPI + m_sSUMSTATS.wInt * cCHARCONST.fMA_INT );
 
-	//	Note : °ÝÅõÄ¡, »ç°ÝÄ¡, ¸¶·ÂÄ¡¿¡ SUM_ITEM °ª ¹Ý¿µ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡, ï¿½ï¿½ï¿½Ä¡, ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ SUM_ITEM ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	int nSUM_PA = m_sSUMITEM.nPA + m_sSUM_PASSIVE.m_nPA;
-	GLOGICEX::VARIATION ( m_wPA, USHRT_MAX, nSUM_PA );	// º¯È­µÇ´Â °ªÀ» 0 <= x < 0xffff ±îÁö·Î Á¦ÇÑ.
+	GLOGICEX::VARIATION ( m_wPA, USHRT_MAX, nSUM_PA );	// ï¿½ï¿½È­ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ 0 <= x < 0xffff ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
 	int nSUM_SA = m_sSUMITEM.nSA + m_sSUM_PASSIVE.m_nSA;
-	GLOGICEX::VARIATION ( m_wSA, USHRT_MAX, nSUM_SA );	// º¯È­µÇ´Â °ªÀ» 0 <= x < 0xffff ±îÁö·Î Á¦ÇÑ.
+	GLOGICEX::VARIATION ( m_wSA, USHRT_MAX, nSUM_SA );	// ï¿½ï¿½È­ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ 0 <= x < 0xffff ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
 	int nSUM_MA = m_sSUMITEM.nMA + m_sSUM_PASSIVE.m_nMA;
-	GLOGICEX::VARIATION ( m_wMA, USHRT_MAX, nSUM_MA );	// º¯È­µÇ´Â °ªÀ» 0 <= x < 0xffff ±îÁö·Î Á¦ÇÑ.
+	GLOGICEX::VARIATION ( m_wMA, USHRT_MAX, nSUM_MA );	// ï¿½ï¿½È­ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ 0 <= x < 0xffff ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	//	Note : ÇÕ»ê ¼öÄ¡ ¼³Á¤.
+	//	Note : ï¿½Õ»ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 	//
 	m_wSUM_PA = m_wPA;
 	m_wSUM_SA = m_wSA;
 	m_wSUM_MA = m_wMA;
 
-	//	Note : HP, MP, SP ÃÑ·® È®Á¤.
+	//	Note : HP, MP, SP ï¿½Ñ·ï¿½ È®ï¿½ï¿½.
 	//
 	m_sHP.wMax = WORD ( ( m_sSUMSTATS.wStr*cCHARCONST.fHP_STR + m_sSUMITEM.nHP + m_sSUM_PASSIVE.m_nHP ) );
 	m_sHP.wMax = WORD ( m_sHP.wMax * (1+m_sSUM_PASSIVE.m_fHP_RATE) * fCONFT_POINT_RATE );
@@ -313,7 +313,7 @@ void GLCHARLOGIC::SUM_ADDITION ( float fCONFT_POINT_RATE )
 	m_sCombatPoint.wMax = GLCONST_CHAR::wCombatPoint_MAX;
 	m_sCombatPoint.LIMIT();
 	
-	//	Note : ¸íÁßÀ², È¸ÇÇÀ² °è»ê.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	m_nHIT = int ( m_sSUMSTATS.wDex*cCHARCONST.fHIT_DEX + m_sSUMITEM.nHitRate + m_sSUM_PASSIVE.m_nHIT );
 	m_nAVOID = int ( m_sSUMSTATS.wDex*cCHARCONST.fAVOID_DEX + m_sSUMITEM.nAvoidRate + m_sSUM_PASSIVE.m_nAVOID );
 
@@ -323,10 +323,10 @@ void GLCHARLOGIC::SUM_ADDITION ( float fCONFT_POINT_RATE )
 	m_nAVOID = int ( m_nAVOID * ( 100.0f + m_sSUMITEM.fRateAvoid_Per )*0.01f );
 	m_nDEFENSE_BODY = int ( m_wSUM_DP + m_sSUMSTATS.wDex*cCHARCONST.fDEFENSE_DEX );
 
-	//	Note : ¹æ¾î·Â ( DP + POW*°è¼ö + ITEM_DEF ) * °ø°£ÀûÀÀ º¸Á¤.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ( DP + POW*ï¿½ï¿½ï¿½ + ITEM_DEF ) * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	m_nDEFENSE_SKILL = m_nDEFENSE = int ( m_nDEFENSE_BODY + m_sSUMITEM.nDefense + m_sSUM_PASSIVE.m_nDEFENSE );
 
-	//	Note : °ø°Ý·Â.
+	//	Note : ï¿½ï¿½ï¿½Ý·ï¿½.
 	m_gdDAMAGE.wMax = m_gdDAMAGE.wLow = int ( m_wSUM_AP + m_sSUM_PASSIVE.m_nDAMAGE );
 	m_gdDAMAGE_SKILL = m_gdDAMAGE;
 
@@ -334,14 +334,14 @@ void GLCHARLOGIC::SUM_ADDITION ( float fCONFT_POINT_RATE )
 	m_gdDAMAGE_PHYSIC.wLow += m_sSUMITEM.gdDamage.wLow;
 	m_gdDAMAGE_PHYSIC.wMax += m_sSUMITEM.gdDamage.wMax;
 
-	if ( ISLONGRANGE_ARMS() )	m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_SA );	//	Àå°Å¸® °ø°Ý.
-	else						m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_PA );	//	±ÙÁ¢ °ø°Ý.
+	if ( ISLONGRANGE_ARMS() )	m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_SA );	//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	else						m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_PA );	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	//	Note : ÀúÇ×·Â. ( ÇöÁ¦´Â ¾ÆÀÌÅÆ¿¡¸¸ ¿µÇâÀ» ¹ÞÀ½. )
+	//	Note : ï¿½ï¿½ï¿½×·ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 	m_sSUMRESIST.RESET();
 	m_sSUMRESIST = m_sSUM_PASSIVE.m_sSUMRESIST + m_sSUMITEM.sResist;
 
-	//	Note : HP, MP, SP È¸º¹À² »êÃâ.
+	//	Note : HP, MP, SP È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	m_fINCR_HP = GLCONST_CHAR::fHP_INC_PER + m_sSUMITEM.fIncR_HP + m_sSUM_PASSIVE.m_fINCR_HP;
 	m_fINCR_MP = GLCONST_CHAR::fMP_INC_PER + m_sSUMITEM.fIncR_MP + m_sSUM_PASSIVE.m_fINCR_MP;
 	m_fINCR_SP = GLCONST_CHAR::fSP_INC_PER + m_sSUMITEM.fIncR_SP + m_sSUM_PASSIVE.m_fINCR_SP;
@@ -365,13 +365,13 @@ void GLCHARLOGIC::SUM_ADDITION ( float fCONFT_POINT_RATE )
 		m_wATTRANGE = GLCONST_CHAR::wMAXATRANGE_SHORT;
 	}
 
-	//	Note : ¸ðÀÚ¶ó´Â ¼öÄ¡µé ÇÕ»ê. ( STATS, LEVEL )
+	//	Note : ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Õ»ï¿½. ( STATS, LEVEL )
 	//
 	m_wACCEPTP = 0;
 	m_wACCEPTP += CALC_ACCEPTP ( GET_SLOT_NID(emLHand) );
 	m_wACCEPTP += CALC_ACCEPTP ( GET_SLOT_NID(emRHand) );
 
-	//	Note : "SP¼Òºñ·Î Ãæ´çµÇ´Â ¿ä±¸¼öÄ¡" + "¾ÆÀÌÅÛ »ç¿ë½Ã ¼Òºñ SP ÇÕ»ê"
+	//	Note : "SPï¿½Òºï¿½ï¿½ ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ä±¸ï¿½ï¿½Ä¡" + "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Òºï¿½ SP ï¿½Õ»ï¿½"
 	//
 	m_wSUM_DisSP = m_wACCEPTP;
 
@@ -399,7 +399,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 
 		SITEM &sItem = *m_pITEMS[emSLOT];
 
-		//	ºÎÀûÀº ¹°¸® °ø°Ý¿¡´Â °¡»êÀÌ µÇÁö ¾ÊÀ½.
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( sItem.sBasicOp.emItemType==ITEM_CHARM )	continue;
 
 		for ( DWORD addon=0; addon<ITEM::SSUIT::ADDON_SIZE; ++addon )
@@ -459,7 +459,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 			case EMADD_SA:
 				m_sSUMITEM.nSA	+= sItem.sSuitOp.sADDON[addon].nVALUE;
 				break;
-			//case EMADD_MA:	//	ÀÌ ¿É¼ÇÀº GETMaDAMAGE() À¸·Î ÃÑÇÕÀ» ±¸ÇÑµÚ Ã³¸®.
+			//case EMADD_MA:	//	ï¿½ï¿½ ï¿½É¼ï¿½ï¿½ï¿½ GETMaDAMAGE() ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñµï¿½ Ã³ï¿½ï¿½.
 			//	m_sSUMITEM.nMA	+= sItem.sSuitOp.sADDON[addon].nVALUE;
 			//	break;
 			};
@@ -469,7 +469,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 		m_sSUMITEM.nMP += (int) sItemCustom.GETOptVALUE(EMR_OPT_MP);
 		m_sSUMITEM.nSP += (int) sItemCustom.GETOptVALUE(EMR_OPT_SP);
 
-		//	Note : º¯È­À² È¿°ú.
+		//	Note : ï¿½ï¿½È­ï¿½ï¿½ È¿ï¿½ï¿½.
 		switch ( sItem.sSuitOp.sVARIATE.emTYPE )
 		{
 		case EMVAR_HP:
@@ -488,7 +488,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 			m_sSUMITEM.fIncR_SP += sItem.sSuitOp.sVARIATE.fVariate;
 			break;
 		case EMVAR_MOVE_SPEED:
-			// ³ªÁß¿¡ ÇÕ»êÀ¸·Î º¯°æ
+			// ï¿½ï¿½ï¿½ß¿ï¿½ ï¿½Õ»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			if ( emSLOT != SLOT_VEHICLE ) m_sSUMITEM.fIncR_MoveSpeed += sItemCustom.GETMOVESPEEDR();
 			else if ( m_bVehicle ) m_sSUMITEM.fIncR_MoveSpeed += m_fVehicleSpeedRate + sItemCustom.GETMOVESPEEDR();;
 			break;
@@ -507,7 +507,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 		m_sSUMITEM.fIncR_MP += sItemCustom.GETOptVALUE(EMR_OPT_MP_INC) + sItemCustom.GETOptVALUE(EMR_OPT_HMS_INC);
 		m_sSUMITEM.fIncR_SP += sItemCustom.GETOptVALUE(EMR_OPT_SP_INC) + sItemCustom.GETOptVALUE(EMR_OPT_HMS_INC);
 
-		//	Note : º¯È­·® È¿°ú.
+		//	Note : ï¿½ï¿½È­ï¿½ï¿½ È¿ï¿½ï¿½.
 		switch ( sItem.sSuitOp.sVOLUME.emTYPE )
 		{
 		case EMVAR_HP:
@@ -526,7 +526,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 			m_sSUMITEM.fInc_SP += sItem.sSuitOp.sVOLUME.fVolume;
 			break;
 		case EMVAR_MOVE_SPEED:
-			// ³ªÁß¿¡ ÇÕ»êÀ¸·Î º¯°æ
+			// ï¿½ï¿½ï¿½ß¿ï¿½ ï¿½Õ»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 			if ( emSLOT != SLOT_VEHICLE ) m_sSUMITEM.fInc_MoveSpeed += sItemCustom.GETMOVESPEED();
 			else if	( m_bVehicle ) m_sSUMITEM.fInc_MoveSpeed += m_fVehicleSpeedVol + sItemCustom.GETMOVESPEED();
 			break;
@@ -541,11 +541,11 @@ void GLCHARLOGIC::SUM_ITEM ()
 			break;
 		};
 
-		// ÀÌµ¿¼Óµµ ·£´ý¿É¼Ç Àû¿ë( ÆÄÃ÷´Â À§¿¡¼­ Àû¿ë m_fVehicleSpeedVol ) 
+		// ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ m_fVehicleSpeedVol ) 
 //		if ( emSLOT != SLOT_VEHICLE ) m_sSUMITEM.fInc_MoveSpeed += sItemCustom.GETOptVALUE( EMR_OPT_MOVE_SPEED );
 //		else if ( m_bVehicle ) m_sSUMITEM.fInc_MoveSpeed += sItemCustom.GETOptVALUE( EMR_OPT_MOVE_SPEED );
 
-		//	Note : ¾ÆÀÌÅÛ ±âº» ´É·Â ADD ¼öÄ¡.
+		//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½âº» ï¿½É·ï¿½ ADD ï¿½ï¿½Ä¡.
 		//
 
 		// Add latest Random Values
@@ -560,7 +560,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 		m_sSUMITEM.nHitRate			+= sItemCustom.GETHITRATE();
 
 
-		//	 Note : ¿¬¸¶·Î ÀÎÇÑ [+] ¼öÄ¡ ÇÕ»ê.
+		//	 Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ [+] ï¿½ï¿½Ä¡ ï¿½Õ»ï¿½.
 		//
 		m_sSUMITEM.sResist.nElectric	+= sItemCustom.GETRESIST_ELEC();
 		m_sSUMITEM.sResist.nFire		+= sItemCustom.GETRESIST_FIRE();
@@ -582,7 +582,7 @@ void GLCHARLOGIC::SUM_ITEM ()
 		m_sSUMITEM.fRateAvoid_Per += sItemCustom.GETAVOIDRATE_PER();
 		m_sSUMITEM.fRateHit_Per += sItemCustom.GETHITRATE_PER();
 
-		//	Note : ±â·ÂÄ¡¿¡ °ø°Ý·Â °¡»ê.
+		//	Note : ï¿½ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		//
 		m_sSUMITEM.nMA	+= sItemCustom.GETMaDAMAGE();
 
@@ -732,7 +732,7 @@ void GLCHARLOGIC::SUM_PASSIVE ()
 		if ( !pSkill )											continue;
 		if ( pSkill->m_sBASIC.emROLE != SKILL::EMROLE_PASSIVE )	continue;
 
-		//	Note : ¾ÆÀÌÅÛ Âø¿ë Á¶°Ç °Ë»ç.
+		//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 		//
 		bool bvalid_left(true), bvalid_right(true);
 		GLITEM_ATT emITEM_LEFT = ITEMATT_NOTHING;
@@ -954,7 +954,7 @@ void GLCHARLOGIC::SUM_PASSIVE ()
 				break;
 
 			case EMSPECA_ATTACKVELO:
-				//	°ø°Ý ¼Óµµ °è³äÀÌ¹Ç·Î ( °ø°Ý ½Ã°£À» -0.1 (-10%) °¨¼Ò ½ÃÅ°±â À§ÇØ¼­´Â ºÎÈ£ ¹ÝÀüÀ» ÇÏ¿©¾ßÇÔ. )
+				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ -0.1 (-10%) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½. )
 				m_sSUM_PASSIVE.m_fATTVELO -= sSPEC.fVAR1;
 				break;
 
@@ -1029,7 +1029,7 @@ void GLCHARLOGIC::RELEASE_SLOT_ITEM ( EMSLOT _slot )
 {
 	m_PutOnItems[_slot] = SITEMCUSTOM ( SNATIVEID(false) );
 	
-	//	Note : ¾ÆÀÌÅÛ Æ÷ÀÎÅÍ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	m_pITEMS[_slot] = NULL;
 }
@@ -1038,7 +1038,7 @@ void GLCHARLOGIC::SLOT_ITEM ( const SITEMCUSTOM &sItemCustom, EMSLOT _slot )
 {
 	m_PutOnItems[_slot] = sItemCustom;
 
-	//	Note : ¾ÆÀÌÅÛ Æ÷ÀÎÅÍ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	if ( VALID_SLOT_ITEM(_slot) )
 		m_pITEMS[_slot] =  GLItemMan::GetInstance().GetItem ( m_PutOnItems[_slot].sNativeID );
@@ -1048,7 +1048,7 @@ void GLCHARLOGIC::HOLD_ITEM ( const SITEMCUSTOM &sItemCustom )
 {
 	m_PutOnItems[SLOT_HOLD] = sItemCustom;
 
-	//	Note : ¾ÆÀÌÅÛ Æ÷ÀÎÅÍ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	if ( VALID_SLOT_ITEM(SLOT_HOLD) )
 		m_pITEMS[SLOT_HOLD] =  GLItemMan::GetInstance().GetItem ( m_PutOnItems[SLOT_HOLD].sNativeID );
@@ -1068,13 +1068,13 @@ void GLCHARLOGIC::RELEASE_HOLD_ITEM ()
 {
 	m_PutOnItems[SLOT_HOLD] = SITEMCUSTOM ( SNATIVEID(false) );
 
-	//	Note : ¾ÆÀÌÅÛ Æ÷ÀÎÅÍ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	m_pITEMS[SLOT_HOLD] = NULL;
 }
 
 
-//	¿Þ¼Õ, ¿À¸¥¼Õ ¾ÆÀÌÅÛÁß¿¡¼­ 'BLOW' ¼Ó¼ºÀÌ ÀÖ´Â ¾ÆÀÌÅÛÀ» ¹ÝÈ¯.
+//	ï¿½Þ¼ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¿ï¿½ï¿½ï¿½ 'BLOW' ï¿½Ó¼ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯.
 SITEM* GLCHARLOGIC::GET_ELMT_ITEM ()
 {
 	EMSLOT emRHand = GetCurRHand();
@@ -1101,7 +1101,7 @@ BOOL GLCHARLOGIC::INIT_DATA ( BOOL bNEW, BOOL bReGen, float fCONFT_POINT_RATE, b
 	m_CHARINDEX = GETCHARINDEX ();
 	const GLCONST_CHARCLASS &cCHARCONST = GLCONST_CHAR::cCONSTCLASS[m_CHARINDEX];
 
-	//	Note : ¾ÆÀÌÅÛ Æ÷ÀÎÅÍ °¡Á®¿À±â.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	//
 	memset ( m_pITEMS, 0x00, sizeof(SITEM*)*SLOT_TSIZE );
 	for ( int i=0; i<SLOT_TSIZE; i++ )
@@ -1110,12 +1110,12 @@ BOOL GLCHARLOGIC::INIT_DATA ( BOOL bNEW, BOOL bReGen, float fCONFT_POINT_RATE, b
 		{
 			m_pITEMS[i] = GLItemMan::GetInstance().GetItem ( m_PutOnItems[i].sNativeID );
 
-			//	¾ÆÀÌÅÛ Å×ÀÌºí¿¡ ¾ø´Â ¾ÆÀÌÅÛÀº »èÁ¦.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			if ( !m_pITEMS[i] )		RELEASE_SLOT_ITEM ( EMSLOT(i) );
 		}
 	}
 
-	//	Note : ADD °ª °è»ê.
+	//	Note : ADD ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	SUM_ADDITION( fCONFT_POINT_RATE );
 
 	if ( bNEW )
@@ -1147,7 +1147,7 @@ BOOL GLCHARLOGIC::INIT_DATA ( BOOL bNEW, BOOL bReGen, float fCONFT_POINT_RATE, b
 	if ( emRHAtt==ITEMATT_NOTHING )		m_wATTRANGE = GLCONST_CHAR::wMAXATRANGE_SHORT;
 	else								m_wATTRANGE = m_pITEMS[emRHand]->sSuitOp.wAttRange;
 
-	//	ÇöÀç ·¹º§¿¡¼­ º¸À¯°¡´ÉÇÑ ÃÖ´ë °æÇèÄ¡ °è»ê.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½.
 	m_sExperience.lnMax = GET_LEVELUP_EXP();
 	if( bInitNowExp ) m_sExperience.LIMIT();
 	
@@ -1207,7 +1207,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE(
 #endif
 }
 
-// 2006-03-28 Jgkim ±âÈ¹ÆÀ ¿äÃ»À¸·Î µ¥¹ÌÁö °ø½Ä º¯°æÇÔ
+// 2006-03-28 Jgkim ï¿½ï¿½È¹ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 	int& rResultDAMAGE,
 	const DWORD dwGaeaID,
@@ -1234,7 +1234,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 
 	int nLEVEL = pActor->GetLevel ();
 	float fSTATE_DAMAGE = pActor->GETSTATE_DAMAGE ();
-	const SRESIST &sRESIST = pActor->GETRESIST (); // »ó´ëÀÇ ¹æ¾î±¸ ÀúÇ×°ª
+	const SRESIST &sRESIST = pActor->GETRESIST (); // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½×°ï¿½
 
 	EMSLOT emRHand = GetCurRHand();
 	EMSLOT emLHand = GetCurLHand();
@@ -1266,7 +1266,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 		const SKILL::CDATA_LVL &sSKILL_DATA = pSkill->m_sAPPLY.sDATA_LVL[dwskill_lev];
 		
 
-		//	Note : ½ºÅ³ »ç¿ë½Ã ºÎÀûÀÌ ¼Ò¸ðµÇ¸é, ºÎÀûÀÇ °ø°ÝÄ¡ °¡»ê.
+		//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½Ç¸ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 		//
 		if ( sSKILL_DATA.wUSE_CHARMNUM > 0 )
 		{
@@ -1282,41 +1282,41 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 		float fRESIST_G = 0;
 		switch ( pSkill->m_sBASIC.emAPPLY )
 		{
-			//	±ÙÁ¢ °ø°Ý.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		case SKILL::EMAPPLY_PHY_SHORT:
 			gdDamage.wLow += m_sSUMITEM.gdDamage.wLow;
 			gdDamage.wMax += m_sSUMITEM.gdDamage.wMax;
 			
 			gdDamage.VAR_PARAM ( m_wSUM_PA );
-			// ¹°¸® °ø°Ý½Ã ¼Ó¼º ÀúÇ×Ä¡ Àû¿ë ºñÀ²
-			// default.charset ¿¡¼­ °¡Á®¿Â
-			// fRESIST_PHYSIC_G ÀÇ °ª
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý½ï¿½ ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			// default.charset ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			// fRESIST_PHYSIC_G ï¿½ï¿½ ï¿½ï¿½
 			fRESIST_G = GLCONST_CHAR::fRESIST_PHYSIC_G;
 			break;
 
-			//	Àå°Å¸® °ø°Ý.
+			//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		case SKILL::EMAPPLY_PHY_LONG:
 			gdDamage.wLow += m_sSUMITEM.gdDamage.wLow;
 			gdDamage.wMax += m_sSUMITEM.gdDamage.wMax;
 
 			gdDamage.VAR_PARAM ( m_wSUM_SA );
-			// ¹°¸® °ø°Ý½Ã ¼Ó¼º ÀúÇ×Ä¡ Àû¿ë ºñÀ²
-			// default.charset ¿¡¼­ °¡Á®¿Â
-			// fRESIST_PHYSIC_G ÀÇ °ª
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý½ï¿½ ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			// default.charset ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			// fRESIST_PHYSIC_G ï¿½ï¿½ ï¿½ï¿½
 			fRESIST_G = GLCONST_CHAR::fRESIST_PHYSIC_G;
 			fDamageReflection = 0.0f;
 			fDamageReflectionRate = 0.0f;			
 			break;
 
-			//	¸¶¹ý °ø°Ý.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
     	case SKILL::EMAPPLY_MAGIC:
-			nDEFENSE = 0;						//	¸¶¹ý °ø°ÝÀÏ¶§´Â ÀÏ¹Ý ¹æ¾î·Â ¹«½ÃµÊ.
-			nDEFAULT_DEFENSE = 0;				//	¸¶¹ý °ø°ÝÀÏ¶§´Â ÀÏ¹Ý ¹æ¾î·Â ¹«½ÃµÊ.
-			nITEM_DEFENSE = 0;					//	¸¶¹ý °ø°ÝÀÏ¶§´Â ÀÏ¹Ý ¹æ¾î·Â ¹«½ÃµÊ.
+			nDEFENSE = 0;						//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½.
+			nDEFAULT_DEFENSE = 0;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½.
+			nITEM_DEFENSE = 0;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½.
 			gdDamage.VAR_PARAM ( m_wSUM_MA );
-			// ¸¶¹ý °ø°Ý½Ã ¼Ó¼º ÀúÇ×Ä¡ Àû¿ë ºñÀ²
-			// default.charset ¿¡¼­ °¡Á®¿Â
-			// fRESIST_G ÀÇ °ª
+			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý½ï¿½ ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			// default.charset ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			// fRESIST_G ï¿½ï¿½ ï¿½ï¿½
 			fRESIST_G = GLCONST_CHAR::fRESIST_G;
 			fDamageReduce = sDamageSpec.m_fMagicDamageReduce;
 			fDamageReflection = sDamageSpec.m_fMagicDamageReflection;
@@ -1326,7 +1326,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 			break;
 
 		default:
-			GASSERT(0&&"CALCDAMAGE() ¹°¸® µ¥¹ÌÁö°¡ »êÃâµÇÁö ¾Ê´Â ½ºÅ³.");
+			GASSERT(0&&"CALCDAMAGE() ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½ï¿½Å³.");
 			break;
 		};
 
@@ -1355,37 +1355,37 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 		if ( nRESIST>699 )	nRESIST = 699;
 		float fPOWER = GLOGICEX::WEATHER_ELEMENT_POW ( emELMT, dwWeatherFlag, pLandMan->IsWeatherActive() );
 
-		//	½ºÅ³ÀÇ µ¥¹ÌÁö °è»ê¿¡ ¿µÇâÀ» ÁÖ´Â °ªÀÌ ±âº»ÀÎÁö Æ¯¼öÀÎÁö °Ë»ç.
+		//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ê¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½âº»ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 		float fSKILL_VAR = sSKILL_DATA.fBASIC_VAR;
 
-		// 2006-03-28 Jgkim±âÈ¹ÆÀ ¿äÃ»À¸·Î ÁÖ¼®Ã³¸®, µ¥¹ÌÁö °ø½Äº¯°æµÊ
+		// 2006-03-28 Jgkimï¿½ï¿½È¹ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½Ã³ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½ï¿½
 		// int nVAR = abs ( int(fSKILL_VAR*fPOWER) );
 		// nVAR = nVAR - (int) ( nVAR*nRESIST/100.0f*fRESIST_G );
 		// if ( nVAR<0 )	nVAR = 0;
 
-		// //	Note : ´ë¹ÌÁö°¡ Áõ»êµÈ´Ù, ´ë¹ÌÁö ¹Ý¿µÀ².
+		// //	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È´ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿ï¿½ï¿½ï¿½.
 		// gdDamage.wLow += WORD ( nVAR + (gdDamage.wLow*wGRADE)/GLCONST_CHAR::fDAMAGE_GRADE_K );
 		// gdDamage.wHigh += WORD ( nVAR + (gdDamage.wHigh*wGRADE)/GLCONST_CHAR::fDAMAGE_GRADE_K );
 		
 		
-		// ½ºÅ³µ¥¹ÌÁö = ±âº»½ºÅ³µ¥¹ÌÁö*³¯¾¾¿¡ µû¸¥ µ¥¹ÌÁö¹Ý¿µÀ²
+		// ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = ï¿½âº»ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½
 		int nVAR = abs ( int(fSKILL_VAR*fPOWER) );
 
-		// ¹Ý¿µÀ²
+		// ï¿½Ý¿ï¿½ï¿½ï¿½
 		float fGrade = (float) wGRADE / GLCONST_CHAR::fDAMAGE_GRADE_K;
 
-		// ÃÖ¼Ò/ÃÖ´ë µ¥¹ÌÁö =  ½ºÅ³µ¥¹ÌÁö + (ÃÖ¼Ò/ÃÖ´ë µ¥¹ÌÁö) * ¹Ý¿µÀ²
+		// ï¿½Ö¼ï¿½/ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ =  ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ + (ï¿½Ö¼ï¿½/ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) * ï¿½Ý¿ï¿½ï¿½ï¿½
 		gdDamage.wLow  += WORD (nVAR + ((float) gdDamage.wLow  * fGrade));
 		gdDamage.wHigh += WORD (nVAR + ((float) gdDamage.wHigh * fGrade));
 		
-		// ÀüÃ¼ÀúÇ×°ª = »ó´ëÀÇ ÀúÇ×°ª / 100 * ¼Ó¼ºÀúÇ×Ä¡ Àû¿ëºñÀ²
+		// ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½×°ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×°ï¿½ / 100 * ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		float fResistTotal = (float) ((float) nRESIST * 0.01f * fRESIST_G);
 
-		// ÃÖ¼Ò/ÃÖ´ë µ¥¹ÌÁö = µ¥¹ÌÁö-(µ¥¹ÌÁö*ÀüÃ¼ÀúÇ×°ª)
+		// ï¿½Ö¼ï¿½/ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½-(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½×°ï¿½)
 		gdDamage.wLow  -= (WORD) ((float) gdDamage.wLow  * fResistTotal);
 		gdDamage.wHigh -= (WORD) ((float) gdDamage.wHigh * fResistTotal);
 		
-		// µ¥¹ÌÁö°¡ 0 º¸´Ù ÀÛÀ¸¸é 0 À¸·Î °íÀúÇÑ´Ù.
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		if (gdDamage.wLow <0) gdDamage.wLow  = 0;
 		if (gdDamage.wHigh<0) gdDamage.wHigh = 0;
 	}
@@ -1394,24 +1394,24 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 		gdDamage.wLow += m_sSUMITEM.gdDamage.wLow;
 		gdDamage.wMax += m_sSUMITEM.gdDamage.wMax;
 
-		if ( ISLONGRANGE_ARMS() )	gdDamage.VAR_PARAM ( m_wSUM_SA );	//	Àå°Å¸® °ø°Ý.
-		else						gdDamage.VAR_PARAM ( m_wSUM_PA );	//	±ÙÁ¢ °ø°Ý.
+		if ( ISLONGRANGE_ARMS() )	gdDamage.VAR_PARAM ( m_wSUM_SA );	//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		else						gdDamage.VAR_PARAM ( m_wSUM_PA );	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	}
 
-	//	°ø°Ý·Â. º¯È­À² ¹Ý¿µ.
+	//	ï¿½ï¿½ï¿½Ý·ï¿½. ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	gdDamage.wLow  = WORD ( gdDamage.wLow  * m_fDamageRate );
 	gdDamage.wHigh = WORD ( gdDamage.wHigh * m_fDamageRate );
 
-	//	Note : Ãß°¡ º¸Á¤Ä¡ »êÃâ.
+	//	Note : ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 	int nExtFORCE = 0;
 	int ndxLvl = nLEVEL - GETLEVEL();
 	if ( ndxLvl > 0 )			nExtFORCE = int(RANDOM_POS*ndxLvl/10);
 
-	//	Note : Critical ¹ß»ý È®À².
+	//	Note : Critical ï¿½ß»ï¿½ È®ï¿½ï¿½.
 	if ( ndxLvl > 5 )		ndxLvl = 5;
 	if ( ndxLvl < -5 )		ndxLvl = -5;
 
-	//	Note : Critical ¹ß»ý È®À².
+	//	Note : Critical ï¿½ß»ï¿½ È®ï¿½ï¿½.
 	int nPerHP = ((GETHP()*100)/GETMAXHP());
 	if ( nPerHP <= 10 )	nPerHP = 10;
 	int nPercentCri = 1000 / nPerHP - 10 + ndxLvl;
@@ -1420,26 +1420,26 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 	if ( nPercentCri > (int)GLCONST_CHAR::dwCRITICAL_MAX )		nPercentCri = GLCONST_CHAR::dwCRITICAL_MAX;
 	if ( nPercentCri < 0 )	nPercentCri = 0;
 
-	//	Å©¸®Æ¼ÄÃ ¹ß»ý ¿©ºÎ ÆÇ´Ü.
+	//	Å©ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ß»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
 	if ( nPercentCri > (RANDOM_POS*100) )	bCritical = true;
 
-	//	°­ÇÑÅ¸°Ý ¹ß»ý ¿©ºÎ ÆÇ´Ü
+	//	ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ß»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½
     if ( nCrushingBlow > GLCONST_CHAR::dwCRUSHING_BLOW_MAX )		nCrushingBlow = GLCONST_CHAR::dwCRUSHING_BLOW_MAX;	
 	if ( nCrushingBlow > (RANDOM_POS*100) )	bCrushingBlow = true;
 
-	//	´ë¹ÌÁö ÃÖ´ë ÃÖ¼Ò°ª »çÀÌÀÇ ·£´ý ´ë¹ÌÁö °áÁ¤.
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½Ö¼Ò°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	int  nDAMAGE_NOW = 0;
 	nDAMAGE_NOW = int ( gdDamage.wLow + (gdDamage.wHigh-gdDamage.wLow)*RANDOM_POS );
-	int nDAMAGE_OLD = ( nDAMAGE_NOW + nExtFORCE );	//	º¸Á¤Ä¡ ÇÕ»ê.
+	int nDAMAGE_OLD = ( nDAMAGE_NOW + nExtFORCE );	//	ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½Õ»ï¿½.
 
-	//	ÃÖÀú ¼ö¿ë ´ë¹ÌÁö »êÃâ.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	int nNetDAMAGE = int ( nDAMAGE_OLD*(1.0f-GLCONST_CHAR::fLOW_SEED_DAMAGE) - nDEFENSE );
 
 	if ( nNetDAMAGE > 0 )	rResultDAMAGE = int ( nDAMAGE_OLD - nDEFENSE );
 	else					rResultDAMAGE = int ( (nDAMAGE_OLD*GLCONST_CHAR::fLOW_SEED_DAMAGE)*RANDOM_POS );
 	rResultDAMAGE = int(rResultDAMAGE*fSTATE_DAMAGE);
 
-	//	¹æ¾î±¸ ´ë¹ÌÁö Èí¼öÀ² ¹Ý¿µ.
+	//	ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	float fRATE = ( 1.0f - nDEFAULT_DEFENSE*nITEM_DEFENSE / GLCONST_CHAR::fDAMAGE_DEC_RATE );
 	if ( fRATE > 1.0f )		fRATE = 1.0f;
 	if ( fRATE < 0.0f )		fRATE = 0.0f;
@@ -1453,7 +1453,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 		if ( bCrushingBlow ) rResultDAMAGE = int ( rResultDAMAGE* GLCONST_CHAR::dwCRUSHING_BLOW_DAMAGE / 100 );
 	}
 	
-	//	µ¥¹ÌÁö Èí¼ö
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	if ( fDamageReduce > 0.0f ) 
 	{
 		int nDamageReduce = (int) ( ( (rResultDAMAGE * fDamageReduce) * nLEVEL ) / GLCONST_CHAR::wMAX_LEVEL );
@@ -1464,7 +1464,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 	}
 
 
-	//	µ¥¹ÌÁö ¹Ý»ç °è»ê
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý»ï¿½ ï¿½ï¿½ï¿½
 	if ( fDamageReflectionRate > 0.0f )
 	{
 		if ( fDamageReflectionRate > (RANDOM_POS*1) )
@@ -1476,14 +1476,14 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 				if ( bPsyDamage ) dwDamageFlag += DAMAGE_TYPE_PSY_REFLECTION;
 				else dwDamageFlag += DAMAGE_TYPE_MAGIC_REFLECTION;
 				
-				// ÇÇ°ÝÀÚ ÀÔÀå¿¡¼­ µ¥¹ÌÁö¸¦ ´Ù½Ã º¸³½´Ù.
+				// ï¿½Ç°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½å¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 				STARGETID sActor(CROW_PC,dwGaeaID);
 				pActor->DamageReflectionProc( nDamageReflection, sActor );
 			}
 		}
 	}
 
-	//	¹ßµ¿ ½ºÅ³
+	//	ï¿½ßµï¿½ ï¿½ï¿½Å³
 	if ( sDefenseSkill.m_dwSkillID != NATIVEID_NULL() )
 	{
 		if ( sDefenseSkill.m_fRate > (RANDOM_POS*1) )
@@ -1516,7 +1516,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_20060328(
 	return dwDamageFlag;
 }
 
-// ±âÁ¸ÀÇ µ¥¹ÌÁö °ø½Ä
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 	int& rResultDAMAGE,
 	const DWORD dwGaeaID,
@@ -1574,7 +1574,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 		const SKILL::CDATA_LVL &sSKILL_DATA = pSkill->m_sAPPLY.sDATA_LVL[dwskill_lev];
 		
 
-		//	Note : ½ºÅ³ »ç¿ë½Ã ºÎÀûÀÌ ¼Ò¸ðµÇ¸é, ºÎÀûÀÇ °ø°ÝÄ¡ °¡»ê.
+		//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½Ç¸ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 		//
 		if ( sSKILL_DATA.wUSE_CHARMNUM > 0 )
 		{
@@ -1590,7 +1590,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 		float fRESIST_G = 0;
 		switch ( pSkill->m_sBASIC.emAPPLY )
 		{
-			//	±ÙÁ¢ °ø°Ý.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		case SKILL::EMAPPLY_PHY_SHORT:
 			gdDamage.wLow += m_sSUMITEM.gdDamage.wLow;
 			gdDamage.wMax += m_sSUMITEM.gdDamage.wMax;
@@ -1599,7 +1599,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 			fRESIST_G = GLCONST_CHAR::fRESIST_PHYSIC_G;
 			break;
 
-			//	Àå°Å¸® °ø°Ý.
+			//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		case SKILL::EMAPPLY_PHY_LONG:
 			gdDamage.wLow += m_sSUMITEM.gdDamage.wLow;
 			gdDamage.wMax += m_sSUMITEM.gdDamage.wMax;
@@ -1612,11 +1612,11 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 
 			break;
 
-			//	¸¶¹ý °ø°Ý.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
     	case SKILL::EMAPPLY_MAGIC:
-			nDEFENSE = 0;						//	¸¶¹ý °ø°ÝÀÏ¶§´Â ÀÏ¹Ý ¹æ¾î·Â ¹«½ÃµÊ.
-			nDEFAULT_DEFENSE = 0;				//	¸¶¹ý °ø°ÝÀÏ¶§´Â ÀÏ¹Ý ¹æ¾î·Â ¹«½ÃµÊ.
-			nITEM_DEFENSE = 0;					//	¸¶¹ý °ø°ÝÀÏ¶§´Â ÀÏ¹Ý ¹æ¾î·Â ¹«½ÃµÊ.
+			nDEFENSE = 0;						//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½.
+			nDEFAULT_DEFENSE = 0;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½.
+			nITEM_DEFENSE = 0;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ï¿½ï¿½ ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½.
 			gdDamage.VAR_PARAM ( m_wSUM_MA );
 			fRESIST_G = GLCONST_CHAR::fRESIST_G;
 			
@@ -1627,7 +1627,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 			break;
 
 		default:
-			GASSERT(0&&"CALCDAMAGE() ¹°¸® µ¥¹ÌÁö°¡ »êÃâµÇÁö ¾Ê´Â ½ºÅ³.");
+			GASSERT(0&&"CALCDAMAGE() ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½ ï¿½ï¿½Å³.");
 			break;
 		};
 
@@ -1655,14 +1655,14 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 		if ( nRESIST>699 )	nRESIST = 699;
 		float fPOWER = GLOGICEX::WEATHER_ELEMENT_POW ( emELMT, dwWeatherFlag, pLandMan->IsWeatherActive() );
 
-		//	½ºÅ³ÀÇ µ¥¹ÌÁö °è»ê¿¡ ¿µÇâÀ» ÁÖ´Â °ªÀÌ ±âº»ÀÎÁö Æ¯¼öÀÎÁö °Ë»ç.
+		//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ê¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½âº»ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 		float fSKILL_VAR = sSKILL_DATA.fBASIC_VAR;
 
 		int nVAR = abs ( int(fSKILL_VAR*fPOWER) );
 		nVAR = nVAR - (int) ( nVAR*nRESIST*0.01f*fRESIST_G );
 		if ( nVAR<0 )	nVAR = 0;
 
-		//	Note : ´ë¹ÌÁö°¡ Áõ»êµÈ´Ù, ´ë¹ÌÁö ¹Ý¿µÀ².
+		//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È´ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿ï¿½ï¿½ï¿½.
 		gdDamage.wLow += WORD ( nVAR + (gdDamage.wLow*wGRADE)/GLCONST_CHAR::fDAMAGE_GRADE_K );
 		gdDamage.wHigh += WORD ( nVAR + (gdDamage.wHigh*wGRADE)/GLCONST_CHAR::fDAMAGE_GRADE_K );
 	}
@@ -1671,50 +1671,50 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 		gdDamage.wLow += m_sSUMITEM.gdDamage.wLow;
 		gdDamage.wMax += m_sSUMITEM.gdDamage.wMax;
 
-		if ( ISLONGRANGE_ARMS() )	gdDamage.VAR_PARAM ( m_wSUM_SA );	//	Àå°Å¸® °ø°Ý.
-		else						gdDamage.VAR_PARAM ( m_wSUM_PA );	//	±ÙÁ¢ °ø°Ý.
+		if ( ISLONGRANGE_ARMS() )	gdDamage.VAR_PARAM ( m_wSUM_SA );	//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		else						gdDamage.VAR_PARAM ( m_wSUM_PA );	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	}
 
-	//	°ø°Ý·Â. º¯È­À² ¹Ý¿µ.
+	//	ï¿½ï¿½ï¿½Ý·ï¿½. ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	gdDamage.wLow = WORD ( gdDamage.wLow * m_fDamageRate );
 	gdDamage.wHigh = WORD ( gdDamage.wHigh * m_fDamageRate );
 
-	//	Note : Ãß°¡ º¸Á¤Ä¡ »êÃâ.
+	//	Note : ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 	int nExtFORCE = 0;
 	int ndxLvl = nLEVEL - GETLEVEL();
 	if ( ndxLvl > 0 )			nExtFORCE = int(RANDOM_POS*ndxLvl*0.1f);
 
-	//	Note : Critical ¹ß»ý È®À².
+	//	Note : Critical ï¿½ß»ï¿½ È®ï¿½ï¿½.
 	if ( ndxLvl > 5 )		ndxLvl = 5;
 	if ( ndxLvl < -5 )		ndxLvl = -5;
 
-	//	Note : Critical ¹ß»ý È®À².
+	//	Note : Critical ï¿½ß»ï¿½ È®ï¿½ï¿½.
 	int nPerHP = ((GETHP()*100)/GETMAXHP());
 	if ( nPerHP <= 10 )	nPerHP = 10;
 	int nPercentCri = 1000 / nPerHP - 10 + ndxLvl;
 	if ( nPercentCri > (int)GLCONST_CHAR::dwCRITICAL_MAX )		nPercentCri = GLCONST_CHAR::dwCRITICAL_MAX;
 	if ( nPercentCri < 0 )	nPercentCri = 0;
 
-	//	Å©¸®Æ¼ÄÃ ¹ß»ý ¿©ºÎ ÆÇ´Ü.
+	//	Å©ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ß»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
 	if ( nPercentCri > (RANDOM_POS*100) )	bCritical = true;
 
-	//	°­ÇÑÅ¸°Ý ¹ß»ý ¿©ºÎ ÆÇ´Ü
+	//	ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ß»ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½
     if ( nCrushingBlow > GLCONST_CHAR::dwCRUSHING_BLOW_MAX )		nCrushingBlow = GLCONST_CHAR::dwCRUSHING_BLOW_MAX;	
 	if ( nCrushingBlow > (RANDOM_POS*100) )	bCrushingBlow = true;
 
-	//	´ë¹ÌÁö ÃÖ´ë ÃÖ¼Ò°ª »çÀÌÀÇ ·£´ý ´ë¹ÌÁö °áÁ¤.
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½Ö¼Ò°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	int  nDAMAGE_NOW = 0;
 	nDAMAGE_NOW = int ( gdDamage.wLow + (gdDamage.wHigh-gdDamage.wLow)*RANDOM_POS );
-	int nDAMAGE_OLD = ( nDAMAGE_NOW + nExtFORCE );	//	º¸Á¤Ä¡ ÇÕ»ê.
+	int nDAMAGE_OLD = ( nDAMAGE_NOW + nExtFORCE );	//	ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½Õ»ï¿½.
 
-	//	ÃÖÀú ¼ö¿ë ´ë¹ÌÁö »êÃâ.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	int nNetDAMAGE = int ( nDAMAGE_OLD*(1.0f-GLCONST_CHAR::fLOW_SEED_DAMAGE) - nDEFENSE );
 
 	if ( nNetDAMAGE > 0 )	rResultDAMAGE = int ( nDAMAGE_OLD - nDEFENSE );
 	else					rResultDAMAGE = int ( (nDAMAGE_OLD*GLCONST_CHAR::fLOW_SEED_DAMAGE)*RANDOM_POS );
 	rResultDAMAGE = int(rResultDAMAGE*fSTATE_DAMAGE);
 
-	//	¹æ¾î±¸ ´ë¹ÌÁö Èí¼öÀ² ¹Ý¿µ.
+	//	ï¿½ï¿½î±¸ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	float fRATE = ( 1.0f - nDEFAULT_DEFENSE*nITEM_DEFENSE / GLCONST_CHAR::fDAMAGE_DEC_RATE );
 	if ( fRATE > 1.0f )		fRATE = 1.0f;
 	if ( fRATE < 0.0f )		fRATE = 0.0f;
@@ -1728,7 +1728,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 		if ( bCrushingBlow ) rResultDAMAGE = int ( rResultDAMAGE* GLCONST_CHAR::dwCRUSHING_BLOW_DAMAGE / 100 );
 	}
 
-	//	µ¥¹ÌÁö Èí¼ö
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	if ( fDamageReduce > 0.0f ) 
 	{
 		int nDamageReduce = (int) ( ( (rResultDAMAGE * fDamageReduce) * nLEVEL ) / GLCONST_CHAR::wMAX_LEVEL );
@@ -1739,7 +1739,7 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 	}
 
 
-	//	µ¥¹ÌÁö ¹Ý»ç °è»ê
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý»ï¿½ ï¿½ï¿½ï¿½
 	if ( fDamageReflectionRate > 0.0f )
 	{
 		if ( fDamageReflectionRate > (RANDOM_POS*1) )
@@ -1751,14 +1751,14 @@ DWORD GLCHARLOGIC::CALCDAMAGE_2004(
 				if ( bPsyDamage ) dwDamageFlag += DAMAGE_TYPE_PSY_REFLECTION;
 				else dwDamageFlag += DAMAGE_TYPE_MAGIC_REFLECTION;		
 
-				// ÇÇ°ÝÀÚ ÀÔÀå¿¡¼­ µ¥¹ÌÁö¸¦ ´Ù½Ã º¸³½´Ù.
+				// ï¿½Ç°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½å¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 				STARGETID sActor(CROW_PC,dwGaeaID);
 				pActor->DamageReflectionProc( nDamageReflection, sActor );
 			}
 		}
 	}
 
-	//	¹ßµ¿ ½ºÅ³
+	//	ï¿½ßµï¿½ ï¿½ï¿½Å³
 	if ( sDefenseSkill.m_dwSkillID != NATIVEID_NULL() )
 	{
 		if ( sDefenseSkill.m_fRate > (RANDOM_POS*1) )
@@ -1840,8 +1840,8 @@ void GLCHARLOGIC::RECEIVE_EVENTFACT_END ( const EMGM_EVENT_TYPE emType )
 	m_sEVENTFACT.ResetEVENT( emType );
 }
 
-//	Note : ? ¾ÆÀÌÅÛÀÇ À¯È¿ ½Ã°£À» °»½Å½ÃÅ²´Ù.
-//			¸®ÅÏ ÄÚµå´Â Á¾·á½ÃÁ¡¿¡ false, ±×¿Ü »çÇ×¿¡ true
+//	Note : ? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¿ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å½ï¿½Å²ï¿½ï¿½.
+//			ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ false, ï¿½×¿ï¿½ ï¿½ï¿½ï¿½×¿ï¿½ true
 //
 bool GLCHARLOGIC::UPDATE_QITEMFACT ( float fElapsedTime )
 {
@@ -1859,8 +1859,8 @@ bool GLCHARLOGIC::UPDATE_QITEMFACT ( float fElapsedTime )
 
 void GLCHARLOGIC::UPDATE_MAX_POINT ( float fCONFT_POINT_RATE )
 {
-	EMCHARINDEX emCI = GETCHARINDEX ();										//	ÄÉ¸¯ÅÍÀÇ Á¾·ù ÀÎµ¦½º.
-	const GLCONST_CHARCLASS &cCHARCONST = GLCONST_CHAR::cCONSTCLASS[emCI];	//	ÄÉ¸¯ÅÍÀÇ »ó¼öµé.
+	EMCHARINDEX emCI = GETCHARINDEX ();										//	ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½.
+	const GLCONST_CHARCLASS &cCHARCONST = GLCONST_CHAR::cCONSTCLASS[emCI];	//	ï¿½É¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 
 	m_sHP.wMax = WORD ( m_sSUMSTATS.wStr*cCHARCONST.fHP_STR + m_sSUMITEM.nHP + m_sSUM_PASSIVE.m_nHP );
 	m_sHP.wMax = WORD ( m_sHP.wMax * (1+m_sSUM_PASSIVE.m_fHP_RATE+m_fHP_RATE ) * fCONFT_POINT_RATE );
@@ -1885,7 +1885,7 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 	//	m_fAutoPotsAttemptTimer = 0.0f;
 	//}
 
-	//	»ç¿ëµÈ ½ºÅ³ µô·¡ÀÌ °»½Å.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	UPDATESKILLDELAY ( fElapsedTime );
 
 	m_nDEFENSE_SKILL = m_nDEFENSE;
@@ -1965,7 +1965,7 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 
 		sSKEFF.fAGE -= fElapsedTime;
 
-		//	Å¬¶óÀÌ¾ðÆ®°¡ ¾Æ´Ò °æ¿ì ¿©±â¼­ ½ºÅ³ ÀÌÆåÆ®¸¦ ºñÈ°¼ºÈ­, Å¬¶óÀÌ¾ðÆ®´Â UpdateSkillEffect()¿¡¼­ ÇÔ.
+		//	Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â¼­ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­, Å¬ï¿½ï¿½ï¿½Ì¾ï¿½Æ®ï¿½ï¿½ UpdateSkillEffect()ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 		if ( !bClient && sSKEFF.fAGE <= 0.0f )		DISABLESKEFF(i);
 
 		switch ( sSKEFF.emTYPE )
@@ -2034,7 +2034,7 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 			case EMSPECA_MOVEVELO:		m_fSKILL_MOVE += sSKEFF.sSpecs[nSpec].fSPECVAR1;		break;
 			case EMSPECA_INVISIBLE:		m_bINVISIBLE = true;						break;
 			case EMSPECA_RECVISIBLE:	m_bRECVISIBLE = true;						break;
-				//	°ø°Ý ¼Óµµ °è³äÀÌ¹Ç·Î ( °ø°Ý ½Ã°£À» -0.1 (-10%) °¨¼Ò ½ÃÅ°±â À§ÇØ¼­´Â ºÎÈ£ ¹ÝÀüÀ» ÇÏ¿©¾ßÇÔ. )
+				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ -0.1 (-10%) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½. )
 			case EMSPECA_ATTACKVELO:	m_fATTVELO -= sSKEFF.sSpecs[nSpec].fSPECVAR1;			break;
 			case EMSPECA_SKILLDELAY:	m_fSKILLDELAY += sSKEFF.sSpecs[nSpec].fSPECVAR1;		break;
 
@@ -2138,18 +2138,18 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 		switch ( sSTATEBLOW.emBLOW )
 		{
 		case EMBLOW_NUMB:
-			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ÀÌµ¿¼Óµµ °¨¼Ò.
-			m_fSTATE_DELAY += sSTATEBLOW.fSTATE_VAR2;			//	µô·¡ÀÌ Áõ°¡.
+			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
+			m_fSTATE_DELAY += sSTATEBLOW.fSTATE_VAR2;			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			break;
 
 		case EMBLOW_STUN:
-			m_fSTATE_MOVE = 0.0f;								//	±âÀý.
+			m_fSTATE_MOVE = 0.0f;								//	ï¿½ï¿½ï¿½ï¿½.
 			m_bSTATE_PANT = true;
 			m_bSTATE_STUN = true;
 			break;
 
 		case EMBLOW_STONE:
-			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ÀÌµ¿¼Óµµ °¨¼Ò.
+			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
 			m_fIncHP += sSTATEBLOW.fSTATE_VAR2*fElapsedTime;
 			break;
 
@@ -2158,8 +2158,8 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 			break;
 
 		case EMBLOW_FROZEN:
-			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ÀÌµ¿¼Óµµ °¨¼Ò.
-			m_fSTATE_DAMAGE += sSTATEBLOW.fSTATE_VAR2;			//	´ë¹ÌÁö Áõ°¡.
+			m_fSTATE_MOVE += sSTATEBLOW.fSTATE_VAR1;			//	ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½.
+			m_fSTATE_DAMAGE += sSTATEBLOW.fSTATE_VAR2;			//	ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			break;
 
 		case EMBLOW_MAD:
@@ -2200,66 +2200,66 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 		};
 	}
 
-	//	Memo :	? ¾ÆÀÌÅÛ ÀÌº¥Æ® Àû¿ë
+	//	Memo :	? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½
 	if( m_sEVENTFACT.IsACTIVE( EMGM_EVENT_SPEED ) )		m_fSKILL_MOVE += (m_sEVENTFACT.wSpeed/100.0f);
 	if( m_sEVENTFACT.IsACTIVE( EMGM_EVENT_ASPEED ) )	m_fATTVELO += (m_sEVENTFACT.wASpeed/100.0f);
 	if( m_sEVENTFACT.IsACTIVE( EMGM_EVENT_ATTACK ) )	m_fDamageRate += (m_sEVENTFACT.wAttack/100.0f);
 
-	// ÆÖÀÇ º¸Á¶½ºÅ³ Ã³¸®
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ Ã³ï¿½ï¿½
 	/*dual pet skill, Juver, 2017/12/27 */
 	if ( m_sPETSKILLFACT_A.sNATIVEID !=NATIVEID_NULL() )
 	{
 		switch ( m_sPETSKILLFACT_A.emTYPE )
 		{
-		case SKILL::EMFOR_PET_HEAL:				//	ÁÖÀÎÀÇ HP È¸º¹ ¼Óµµ »ó½Â
+		case SKILL::EMFOR_PET_HEAL:				//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ HP È¸ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½
 			fINCR_HP += m_sPETSKILLFACT_A.fMVAR;
 			break;
-		case SKILL::EMFOR_PET_SUPPROT:			//	ÁÖÀÎÀÇ HP, MP, SP È¸º¹·ü »ó½Â
+		case SKILL::EMFOR_PET_SUPPROT:			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ HP, MP, SP È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			fINCR_HP += m_sPETSKILLFACT_A.fMVAR;
 			fINCR_MP += m_sPETSKILLFACT_A.fMVAR;
 			fINCR_SP += m_sPETSKILLFACT_A.fMVAR;
 			break;
-		case SKILL::EMFOR_PET_BACKUP_ATK:		//	ÁÖÀÎÀÇ °ø°Ý·Â(À²) »ó½Â
+		case SKILL::EMFOR_PET_BACKUP_ATK:		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý·ï¿½(ï¿½ï¿½) ï¿½ï¿½ï¿½
 			m_fDamageRate += m_sPETSKILLFACT_A.fMVAR/100.0f;
 			break;
-		case SKILL::EMFOR_PET_BACKUP_DEF:		//	ÁÖÀÎÀÇ ¹æ¾î·Â(À²) »ó½Â
+		case SKILL::EMFOR_PET_BACKUP_DEF:		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½) ï¿½ï¿½ï¿½
 			m_fDefenseRate += m_sPETSKILLFACT_A.fMVAR/100.0f;
 			break;
 		};
 
-		// ½ºÅ³ ¶óÀÌÇÁÅ¸ÀÓ °»½Å
+		// ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		m_sPETSKILLFACT_A.fAGE -= fElapsedTime;
 	}
 
-	// ÆÖÀÇ º¸Á¶½ºÅ³ Ã³¸®
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³ Ã³ï¿½ï¿½
 	/*dual pet skill, Juver, 2017/12/27 */
 	if ( m_sPETSKILLFACT_B.sNATIVEID !=NATIVEID_NULL() )
 	{
 		switch ( m_sPETSKILLFACT_B.emTYPE )
 		{
-		case SKILL::EMFOR_PET_HEAL:				//	ÁÖÀÎÀÇ HP È¸º¹ ¼Óµµ »ó½Â
+		case SKILL::EMFOR_PET_HEAL:				//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ HP È¸ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½
 			fINCR_HP += m_sPETSKILLFACT_B.fMVAR;
 			break;
-		case SKILL::EMFOR_PET_SUPPROT:			//	ÁÖÀÎÀÇ HP, MP, SP È¸º¹·ü »ó½Â
+		case SKILL::EMFOR_PET_SUPPROT:			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ HP, MP, SP È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 			fINCR_HP += m_sPETSKILLFACT_B.fMVAR;
 			fINCR_MP += m_sPETSKILLFACT_B.fMVAR;
 			fINCR_SP += m_sPETSKILLFACT_B.fMVAR;
 			break;
-		case SKILL::EMFOR_PET_BACKUP_ATK:		//	ÁÖÀÎÀÇ °ø°Ý·Â(À²) »ó½Â
+		case SKILL::EMFOR_PET_BACKUP_ATK:		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý·ï¿½(ï¿½ï¿½) ï¿½ï¿½ï¿½
 			m_fDamageRate += m_sPETSKILLFACT_B.fMVAR/100.0f;
 			break;
-		case SKILL::EMFOR_PET_BACKUP_DEF:		//	ÁÖÀÎÀÇ ¹æ¾î·Â(À²) »ó½Â
+		case SKILL::EMFOR_PET_BACKUP_DEF:		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½) ï¿½ï¿½ï¿½
 			m_fDefenseRate += m_sPETSKILLFACT_B.fMVAR/100.0f;
 			break;
 		};
 
-		// ½ºÅ³ ¶óÀÌÇÁÅ¸ÀÓ °»½Å
+		// ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		m_sPETSKILLFACT_B.fAGE -= fElapsedTime;
 	}
 
 
 
-	// ÁöÇü È¿°ú Ã³¸®
+	// ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ Ã³ï¿½ï¿½
 	for( int i = 0; i < EMLANDEFFECT_MULTI; i++ )
 	{
 		SLANDEFFECT landEffect = m_sLandEffect[i];
@@ -2267,37 +2267,37 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 
 		switch( landEffect.emLandEffectType ) 
 		{
-		case EMLANDEFFECT_ATK_SPEED: // °ø°Ý¼Óµµ
+		case EMLANDEFFECT_ATK_SPEED: // ï¿½ï¿½ï¿½Ý¼Óµï¿½
 			m_fATTVELO	  += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_MOVE_SPEED: // ÀÌµ¿¼Óµµ
+		case EMLANDEFFECT_MOVE_SPEED: // ï¿½Ìµï¿½ï¿½Óµï¿½
 			m_fSKILL_MOVE += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_MP_RATE:	  // HP º¯È­À²
+		case EMLANDEFFECT_MP_RATE:	  // HP ï¿½ï¿½È­ï¿½ï¿½
 			m_fHP_RATE    += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_HP_RATE:    // MP º¯È­À²
+		case EMLANDEFFECT_HP_RATE:    // MP ï¿½ï¿½È­ï¿½ï¿½
 			m_fMP_RATE    += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_RECOVER_RATE: // È¸º¹À²
+		case EMLANDEFFECT_RECOVER_RATE: // È¸ï¿½ï¿½ï¿½ï¿½
 			fINCR_HP	  += landEffect.fValue;
 			fINCR_MP	  += landEffect.fValue;
 			fINCR_SP	  += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_DAMAGE_RATE:	// °ø°ÝÄ¡ º¯È­À²
+		case EMLANDEFFECT_DAMAGE_RATE:	// ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½È­ï¿½ï¿½
 			m_fDamageRate += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_DEFENSE_RATE:	// ¹æ¾îÄ¡ º¯È­À²
+		case EMLANDEFFECT_DEFENSE_RATE:	// ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½È­ï¿½ï¿½
 			m_fDefenseRate += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_RESIST_RATE:	// ÀúÇ× ¼öÄ¡			
+		case EMLANDEFFECT_RESIST_RATE:	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡			
 			m_sSUM_PASSIVE.m_sSUMRESIST.nFire += landEffect.fValue;
 			m_sSUM_PASSIVE.m_sSUMRESIST.nIce += landEffect.fValue;
 			m_sSUM_PASSIVE.m_sSUMRESIST.nElectric += landEffect.fValue;
 			m_sSUM_PASSIVE.m_sSUMRESIST.nPoison += landEffect.fValue;
 			m_sSUM_PASSIVE.m_sSUMRESIST.nSpirit += landEffect.fValue;
 			break;
-		case EMLANDEFFECT_CANCEL_ALLBUFF: // ¸ðµç ¹öÇÁ Ãë¼Ò
+		case EMLANDEFFECT_CANCEL_ALLBUFF: // ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 //			for ( i=0; i<EMBLOW_MULTI; ++i )		DISABLEBLOW ( i );
 //			for ( i=0; i<SKILLFACT_SIZE; ++i )		DISABLESKEFF ( i );
 			break;
@@ -2422,7 +2422,7 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 			case EMSPECA_MOVEVELO:		m_fSKILL_MOVE += sFITEMEFF.sSpecs[nSpec].fSPECVAR1;		break;
 			case EMSPECA_INVISIBLE:		m_bINVISIBLE = true;						break;
 			case EMSPECA_RECVISIBLE:	m_bRECVISIBLE = true;						break;
-				//	°ø°Ý ¼Óµµ °è³äÀÌ¹Ç·Î ( °ø°Ý ½Ã°£À» -0.1 (-10%) °¨¼Ò ½ÃÅ°±â À§ÇØ¼­´Â ºÎÈ£ ¹ÝÀüÀ» ÇÏ¿©¾ßÇÔ. )
+				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ -0.1 (-10%) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½. )
 			case EMSPECA_ATTACKVELO:	m_fATTVELO -= sFITEMEFF.sSpecs[nSpec].fSPECVAR1;			break;
 			case EMSPECA_SKILLDELAY:	m_fSKILLDELAY += sFITEMEFF.sSpecs[nSpec].fSPECVAR1;		break;
 
@@ -2542,7 +2542,7 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 			case EMSPECA_MOVEVELO:		m_fSKILL_MOVE += ssystem_buff.sSpecs[nSpec].fSPECVAR1;		break;
 			case EMSPECA_INVISIBLE:		m_bINVISIBLE = true;						break;
 			case EMSPECA_RECVISIBLE:	m_bRECVISIBLE = true;						break;
-				//	°ø°Ý ¼Óµµ °è³äÀÌ¹Ç·Î ( °ø°Ý ½Ã°£À» -0.1 (-10%) °¨¼Ò ½ÃÅ°±â À§ÇØ¼­´Â ºÎÈ£ ¹ÝÀüÀ» ÇÏ¿©¾ßÇÔ. )
+				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½Ì¹Ç·ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ -0.1 (-10%) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½ ï¿½ï¿½È£ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½. )
 			case EMSPECA_ATTACKVELO:	m_fATTVELO -= ssystem_buff.sSpecs[nSpec].fSPECVAR1;			break;
 			case EMSPECA_SKILLDELAY:	m_fSKILLDELAY += ssystem_buff.sSpecs[nSpec].fSPECVAR1;		break;
 
@@ -2593,49 +2593,49 @@ void GLCHARLOGIC::UPDATE_DATA ( float fTime, float fElapsedTime, BOOL bClient, f
 	/*vehicle booster system, Juver, 2017/08/11 */
 	if ( m_bBoosterStart )	m_fSKILL_MOVE += ( GLCONST_CHAR::fVehicleBoosterAddSpeed /100.0f );
 
-	//	Note : HP, MP, SP ÃÑ·® È®Á¤.
+	//	Note : HP, MP, SP ï¿½Ñ·ï¿½ È®ï¿½ï¿½.
 	//
 	UPDATE_MAX_POINT ( fCONFT_POINT_RATE );
 
-	//	°ÝÅõÄ¡ »ç°ÝÄ¡ ¸¶·ÂÄ¡ ¼³Á¤.
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 	m_wSUM_PA = m_wPA + nSUM_PA;
 	m_wSUM_SA = m_wSA + nSUM_SA;
 	m_wSUM_MA = m_wMA + nSUM_MA;
 
-	//	¹æ¾î·Â. º¯È­À² ¹Ý¿µ.
+	//	ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	m_nDEFENSE_SKILL = int ( m_nDEFENSE_SKILL * m_fDefenseRate );
 	if ( m_nDEFENSE_SKILL < 0 )			m_nDEFENSE_SKILL = 1;
 
 	m_sSUMRESIST_SKILL.LIMIT();
 
-	//	°ø°Ý ¼Óµµ. ( Áö¼Ó skill ¼Ó¼º °¡»êµÈ ºÎºÐ¿¡ state, passive skill ¼Ó¼º °¡»ê. )
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½Óµï¿½. ( ï¿½ï¿½ï¿½ï¿½ skill ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ÎºÐ¿ï¿½ state, passive skill ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 	m_fATTVELO += m_fSTATE_MOVE + m_sSUM_PASSIVE.m_fATTVELO;
 
 	m_fSTATE_DELAY += m_fSKILLDELAY + m_sSUM_PASSIVE.m_fSKILLDELAY;
 
-	//	°ø°Ý °¡´É°Å¸®.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É°Å¸ï¿½.
 	m_wSUM_ATTRANGE = m_wATTRANGE;
 
-	//	MP Áõ°¡À²ÀÌ ¾øÀ»¶§.
+	//	MP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	if ( (m_fINCR_MP==0.0f) && (m_fIncMP>0) )		m_fIncMP = 0;
 
 
 
 
 
-	//	½ºÅ³ È¿°ú·Î º¯°æµÈ µ¥¹ÌÁö Àû¿ë.
+	//	ï¿½ï¿½Å³ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	m_gdDAMAGE_PHYSIC = m_gdDAMAGE_SKILL;
 	m_gdDAMAGE_PHYSIC.wLow += m_sSUMITEM.gdDamage.wLow;
 	m_gdDAMAGE_PHYSIC.wMax += m_sSUMITEM.gdDamage.wMax;
 
-	if ( ISLONGRANGE_ARMS() )	m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_SA );	//	Àå°Å¸® °ø°Ý.
-	else						m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_PA );	//	±ÙÁ¢ °ø°Ý.
+	if ( ISLONGRANGE_ARMS() )	m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_SA );	//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	else						m_gdDAMAGE_PHYSIC.VAR_PARAM ( m_wSUM_PA );	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	//	°ø°Ý·Â. º¯È­À² ¹Ý¿µ.
+	//	ï¿½ï¿½ï¿½Ý·ï¿½. ï¿½ï¿½È­ï¿½ï¿½ ï¿½Ý¿ï¿½.
 	m_gdDAMAGE_PHYSIC.wLow = WORD ( m_gdDAMAGE_PHYSIC.wLow * m_fDamageRate );
 	m_gdDAMAGE_PHYSIC.wHigh = WORD ( m_gdDAMAGE_PHYSIC.wHigh * m_fDamageRate );
 
-	//	Note : Ã¼·Â º¯È­.
+	//	Note : Ã¼ï¿½ï¿½ ï¿½ï¿½È­.
 	//
 	float fElap = (fElapsedTime/GLCONST_CHAR::fUNIT_TIME);
 	float fINC_HP = fElap* ( m_sHP.wMax*fINCR_HP + GLCONST_CHAR::fHP_INC + m_sSUMITEM.fInc_HP );
@@ -2701,7 +2701,7 @@ float GLCHARLOGIC::GETMOVE_ITEM ()
 	return fMOVE<0.0f?0.0f:fMOVE;
 }
 
-//	´Ü¼øÈ÷ ÀåÂøÀ§Ä¡ ÀÎÁö¸¸ °Ë»ç.
+//	ï¿½Ü¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 BOOL GLCHARLOGIC::CHECKSLOT_ITEM ( SNATIVEID sNativeID, EMSLOT emSlot )
 {
 	if ( sNativeID==NATIVEID_NULL() )		return FALSE;
@@ -2720,7 +2720,7 @@ BOOL GLCHARLOGIC::CHECKSLOT_ITEM ( SNATIVEID sNativeID, EMSLOT emSlot )
 		sItem.sBasicOp.emItemType!=ITEM_VEHICLE )
 		return FALSE;
 
-	//	ÇØ´ç ½½·Ô¿¡ ÀåÂø°¡´ÉÇÑ SUITÁ¾·ù.
+	//	ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½Ô¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ SUITï¿½ï¿½ï¿½ï¿½.
 	EMSUIT emSuit= SLOT_2_SUIT ( emSlot );
 	if ( sItem.sSuitOp.emSuit != emSuit )	return FALSE;
 
@@ -2749,21 +2749,21 @@ BOOL GLCHARLOGIC::CHECKSLOT_ITEM ( SNATIVEID sNativeID, EMSLOT emSlot )
 			return FALSE;
 	}
 
-	//	¼Õ¿¡ µå´Â µµ±¸Áß ÇÑ¼Õ¿ëÀÏ¶§.
+	//	ï¿½Õ¿ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¼Õ¿ï¿½ï¿½Ï¶ï¿½.
 	if ( emSuit==SUIT_HANDHELD )
 	{
-		//	¾ç¼Õ ¹«±â·ù.
+		//	ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 		//
 		if ( sItem.sSuitOp.IsBOTHHAND() )
 		{
 			if ( emSlot!=emRHand )											
 				return FALSE;
 		}
-		//	ÇÑ¼Õ ¹«±â·ù.
+		//	ï¿½Ñ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 		//
 		else
 		{
-			if ( sItem.sSuitOp.emHand!=HAND_BOTH )	//	¾ç¼Õ ¸ðµÎ °¡´ÉÇÏ¸é Á¡°Ë ¾ÈÇÔ.
+			if ( sItem.sSuitOp.emHand!=HAND_BOTH )	//	ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			{
 				if ( sItem.sSuitOp.emHand==HAND_RIGHT && emSlot!=emRHand )	return FALSE;
 				if ( sItem.sSuitOp.emHand==HAND_LEFT && emSlot!=emLHand )	return FALSE;
@@ -2771,13 +2771,13 @@ BOOL GLCHARLOGIC::CHECKSLOT_ITEM ( SNATIVEID sNativeID, EMSLOT emSlot )
 
 			if ( sItem.sBasicOp.emItemType==ITEM_ARROW )
 			{
-				//	È­»ì Âø¿ë½Ã¿¡´Â ¿À¸¥¼Õ¿¡ È°À» °¡Áö°í ÀÖÁö ¾Ê´Ù¸é Âø¿ë ºÒ°¡´É.
+				//	È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ¿ï¿½ È°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ï¿½ï¿½.
 				if ( !m_pITEMS[emRHand] || m_pITEMS[emRHand]->sSuitOp.emAttack!=ITEMATT_BOW )	
 					return FALSE;
 			}
 			else if ( sItem.sBasicOp.emItemType==ITEM_CHARM )
 			{
-				//	ºÎÀû Âø¿ë½Ã¿¡´Â ¿À¸¥¼Õ¿¡ Ã¢À» °¡Áö°í ÀÖÁö ¾Ê´Ù¸é Âø¿ë ºÒ°¡´É.
+				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ¿ï¿½ Ã¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ï¿½ï¿½.
 				if ( !m_pITEMS[emRHand] || m_pITEMS[emRHand]->sSuitOp.emAttack!=ITEMATT_SPEAR )	
 					return FALSE;
 			}
@@ -2785,8 +2785,8 @@ BOOL GLCHARLOGIC::CHECKSLOT_ITEM ( SNATIVEID sNativeID, EMSLOT emSlot )
 			else if ( sItem.sBasicOp.emItemType==ITEM_BULLET )
 			{
 				if ( !m_pITEMS[emRHand] || !( m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_GUN ||
-											m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_RAILGUN ||
-											m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_PORTALGUN ) )	
+											m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_RAIL_GUN ||
+											m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_PORTAL_GUN ) )	
 					return FALSE;
 			}
 		}
@@ -2795,8 +2795,8 @@ BOOL GLCHARLOGIC::CHECKSLOT_ITEM ( SNATIVEID sNativeID, EMSLOT emSlot )
 	return TRUE;
 }
 
-//	³ÖÀ»·Á´Â ½½·ÔÀÌ ºñ¿´´ÂÁö °Ë»çÇÑ´Ù.
-//	´Ü, È°ÀÌ ¾ç¼Õ ¹«±âÀÌÁö¸¸ ¿Þ¼Õ¿¡ È­»ìÀ» ÀåÂøÇÒ¼ö ÀÖ´Ù.
+//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ñ¿´´ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Ñ´ï¿½.
+//	ï¿½ï¿½, È°ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼Õ¿ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ ï¿½Ö´ï¿½.
 BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 {
 	SITEM* pItem = GLItemMan::GetInstance().GetItem ( sNativeID );
@@ -2810,7 +2810,7 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 		EMSLOT emRHand = GetCurRHand();
 		EMSLOT emLHand = GetCurLHand();
 
-		//	³ÖÀ»·Á°í ÇÏ´Â ¾ÆÀÌÅÆÀÌ ¾ç¼Õµµ±¸ÀÏ ¶§.
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 		if ( pItem->sSuitOp.IsBOTHHAND() )
 		{
 			if ( m_pITEMS[emRHand] || m_pITEMS[emLHand] )
@@ -2818,7 +2818,7 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 				bEmptySlot = FALSE;
 			}
 
-			//	¸¸¾à ³ÖÀ»·Á´Â°Ô È°ÀÌ¶ó¸é. ¿Þ¼Õ¿¡ È­»ìÀÌ ÀÖ¾îµµ µÊ. ´Ü ¿À¸¥¼ÕÀº ºñ¾î ÀÖ¾î¾ß.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â°ï¿½ È°ï¿½Ì¶ï¿½ï¿½. ï¿½Þ¼Õ¿ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾îµµ ï¿½ï¿½. ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½.
 			if ( pItem->sSuitOp.emAttack==ITEMATT_BOW )
 			{
 				if ( !m_pITEMS[emRHand] && m_pITEMS[emLHand] )
@@ -2830,7 +2830,7 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 				}
 			}
 
-			//	³ÖÀ¸·Á´Â °ÍÀÌ Ã¢ Á¾·ùÀÏ¶§ ¿Þ¼Õ¿¡ ºÎÀûÀÌ ÀÖ¾îµµ µÊ.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¢ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½Þ¼Õ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾îµµ ï¿½ï¿½.
 			if ( pItem->sSuitOp.emAttack==ITEMATT_SPEAR )
 			{
 				if ( !m_pITEMS[emRHand] && m_pITEMS[emLHand] )
@@ -2844,8 +2844,8 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 
 			/*gun-bullet logic, Juver, 2017/05/27 */
 			if ( pItem->sSuitOp.emAttack==ITEMATT_GUN ||
-				pItem->sSuitOp.emAttack==ITEMATT_RAILGUN ||
-				 pItem->sSuitOp.emAttack==ITEMATT_PORTALGUN )
+				pItem->sSuitOp.emAttack==ITEMATT_RAIL_GUN ||
+				 pItem->sSuitOp.emAttack==ITEMATT_PORTAL_GUN )
 			{
 				if ( !m_pITEMS[emRHand] && m_pITEMS[emLHand] )
 				{
@@ -2856,21 +2856,21 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 				}
 			}
 		}
-		//	³ÖÀ»·Á´Â ¾ÆÀÌÅÆÀÌ ÇÑ¼Õµµ±¸ÀÏ ¶§.
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¼Õµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 		else
 		{
-			//	±âÁ¸ ¹«±â°¡ ¾ç¼ÕÀÏ¶§.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â°¡ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 			if ( m_pITEMS[emRHand] && m_pITEMS[emRHand]->sSuitOp.IsBOTHHAND() )
 			{
 				bEmptySlot = FALSE;
 			}
-			//	±âÁ¸ ¹«±â°¡ ÇÑ¼ÕÀÏ¶§.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â°¡ ï¿½Ñ¼ï¿½ï¿½Ï¶ï¿½.
 			else
 			{
 				if ( m_pITEMS[emSlot] )		bEmptySlot = FALSE;
 			}
 
-			//	³ÖÀ»·Á´Â ¾ÆÀÌÅÆÀÌ È­»ìÀÏ¶§.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½Ï¶ï¿½.
 			if ( pItem->sBasicOp.emItemType==ITEM_ARROW )
 			{
 				bEmptySlot = FALSE;
@@ -2880,7 +2880,7 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 				}
 			}
 
-			//	³ÖÀ»·Á´Â ¾ÆÀÌÅÆÀÌ ºÎÀûÀÏ¶§.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 			if ( pItem->sBasicOp.emItemType==ITEM_CHARM )
 			{
 				bEmptySlot = FALSE;
@@ -2897,8 +2897,8 @@ BOOL GLCHARLOGIC::ISEMPTY_SLOT ( SNATIVEID sNativeID, EMSLOT emSlot )
 				if ( m_pITEMS[emRHand] && !m_pITEMS[emLHand] )
 				{
 					if ( m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_GUN ||
-						m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_RAILGUN ||
-						m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_PORTALGUN )		
+						m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_RAIL_GUN ||
+						m_pITEMS[emRHand]->sSuitOp.emAttack==ITEMATT_PORTAL_GUN )		
 						bEmptySlot = TRUE;
 				}
 			}
@@ -2999,8 +2999,8 @@ BOOL GLCHARLOGIC::SIMPLE_CHECK_ITEM ( SNATIVEID sNativeID, SNATIVEID sDisguiseID
 	BOOL bArmor = (( sItem.sSuitOp.emSuit==SUIT_HANDHELD )&&sItem.sBasicOp.emItemType==ITEM_SUIT);
 	WORD wAPT = bArmor ? (WORD) GLCONST_CHAR::dwACCEPT_LOWERSTATS : 0;
 
-	//	Memo : ÄÚ½ºÆ¬°ú ¹æ¾î±¸ÀÇ ÀÚ°Ý¿ä°ÇÀ» Ã¼Å©ÇÑ´Ù.
-	//		µÎ ¹æ¾î±¸ÀÇ ±³ÁýÇÕÀÌ Âø¿ë°¡´É Á¶°ÇÀÌ´Ù.
+	//	Memo : ï¿½Ú½ï¿½Æ¬ï¿½ï¿½ ï¿½ï¿½î±¸ï¿½ï¿½ ï¿½Ú°Ý¿ï¿½ï¿½ï¿½ï¿½ Ã¼Å©ï¿½Ñ´ï¿½.
+	//		ï¿½ï¿½ ï¿½ï¿½î±¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
 	if( !(sItem.sBasicOp.dwReqCharClass&m_emClass) ||
 		!(sItemDisguise.sBasicOp.dwReqCharClass&m_emClass) )	return FALSE;
 	if ( !(sItem.sBasicOp.dwReqSchool&index2school(m_wSchool)) ) return FALSE;
@@ -3027,8 +3027,8 @@ BOOL GLCHARLOGIC::ACCEPT_ITEM ( SNATIVEID sNativeID, SNATIVEID sDisguiseID )
 	BOOL bArmor = (( sItem.sSuitOp.emSuit==SUIT_HANDHELD )&&sItem.sBasicOp.emItemType==ITEM_SUIT);
 	WORD wAPT = bArmor ? (WORD) GLCONST_CHAR::dwACCEPT_LOWERSTATS : 0;
 
-	//	Memo : ÄÚ½ºÆ¬°ú ¹æ¾î±¸ÀÇ ÀÚ°Ý¿ä°ÇÀ» Ã¼Å©ÇÑ´Ù.
-	//		µÎ ¹æ¾î±¸ÀÇ ±³ÁýÇÕÀÌ Âø¿ë°¡´É Á¶°ÇÀÌ´Ù.
+	//	Memo : ï¿½Ú½ï¿½Æ¬ï¿½ï¿½ ï¿½ï¿½î±¸ï¿½ï¿½ ï¿½Ú°Ý¿ï¿½ï¿½ï¿½ï¿½ Ã¼Å©ï¿½Ñ´ï¿½.
+	//		ï¿½ï¿½ ï¿½ï¿½î±¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì´ï¿½.
 	if( !(sItem.sBasicOp.dwReqCharClass&m_emClass) ||
 		!(sItemDisguise.sBasicOp.dwReqCharClass&m_emClass) )	return FALSE;
 	if ( !(sItem.sBasicOp.dwReqSchool&index2school(m_wSchool)) ) return FALSE;
@@ -3105,7 +3105,7 @@ EMBEGINATTACK_FB GLCHARLOGIC::BEGIN_ATTACK ( WORD wStrikeNum )
 	{
 		if ( !pLHAND || pLHAND->sBasicOp.emItemType != ITEM_ARROW )			return EMBEGINA_ARROW;
 
-		//	»ç¿ë°¡´É¼ö °¨¼Ò ½ÃÅ´.
+		//	ï¿½ï¿½ë°¡ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å´.
 		WORD &wTurnNum = m_PutOnItems[emLHand].wTurnNum;
 		if ( wTurnNum >= wStrikeNum )	wTurnNum -= wStrikeNum;
 		else							wTurnNum = 0;
@@ -3113,8 +3113,8 @@ EMBEGINATTACK_FB GLCHARLOGIC::BEGIN_ATTACK ( WORD wStrikeNum )
 
 	/*gun-bullet logic, Juver, 2017/05/27 */
 	if ( pRHAND && ( pRHAND->sSuitOp.emAttack==ITEMATT_GUN || 
-		pRHAND->sSuitOp.emAttack==ITEMATT_RAILGUN || 
-		pRHAND->sSuitOp.emAttack==ITEMATT_PORTALGUN ) )
+		pRHAND->sSuitOp.emAttack==ITEMATT_RAIL_GUN || 
+		pRHAND->sSuitOp.emAttack==ITEMATT_PORTAL_GUN ) )
 	{
 		if ( !pLHAND || pLHAND->sBasicOp.emItemType != ITEM_BULLET )			return EMBEGINA_BULLET;
 
@@ -3127,7 +3127,7 @@ EMBEGINATTACK_FB GLCHARLOGIC::BEGIN_ATTACK ( WORD wStrikeNum )
 	if ( pRHAND )	wDisSP += pRHAND->sSuitOp.wReqSP;
 	if ( pLHAND )	wDisSP += pLHAND->sSuitOp.wReqSP;
 
-	//	SP ¿©·Â Ã¤Å©.
+	//	SP ï¿½ï¿½ï¿½ï¿½ Ã¤Å©.
 	if ( m_sSP.wNow < (wDisSP*wStrikeNum) )	return EMBEGINA_SP;
 
 	return EMBEGINA_OK;
@@ -3135,7 +3135,7 @@ EMBEGINATTACK_FB GLCHARLOGIC::BEGIN_ATTACK ( WORD wStrikeNum )
 
 BOOL GLCHARLOGIC::VALID_LEVELUP () const
 {
-	// ±Ø°­ºÎ´Â ÃÖ´ë ·¹º§ Ã¼Å©¸¦ ´Ù¸£°Ô ÇÑ´Ù.
+	// ï¿½Ø°ï¿½ï¿½Î´ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¼Å©ï¿½ï¿½ ï¿½Ù¸ï¿½ï¿½ï¿½ ï¿½Ñ´ï¿½.
 	if( m_CHARINDEX == GLCI_EXTREME_M || m_CHARINDEX == GLCI_EXTREME_W )
 	{
 		if ( m_wLevel >= GLCONST_CHAR::wMAX_EXTREME_LEVEL )	return FALSE;
@@ -3170,14 +3170,14 @@ void GLCHARLOGIC::LEVLEUP ( bool bInitNowExp )
 
 	if ( /*m_wLevel < GLCONST_CHAR::wMAX_LEVEL*/bMaxLevel )
 	{
-		//	ÇöÁ¦ °æÇèÄ¡ °¨»ê.
+		//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 		//GASSERT(m_sExperience.lnNow>=GET_LEVELUP_EXP());
 		m_sExperience.lnNow -= GET_LEVELUP_EXP();
 
-		//	·¦¾÷µÊ.
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 		++m_wLevel;
 
-		//	·¦¾÷½Ã º¸³Ê½º Æ÷ÀÎÆ®
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®
 		if( m_CHARINDEX == GLCI_EXTREME_M || m_CHARINDEX == GLCI_EXTREME_W )
 		{
 			m_wStatsPoint += GLCONST_CHAR::wLVL_2ndSTATS_P;
@@ -3189,10 +3189,10 @@ void GLCHARLOGIC::LEVLEUP ( bool bInitNowExp )
 			m_dwSkillPoint += GLCONST_CHAR::wLVL_SKILL_P;
 		}
 
-		//	¸ðµç ¼öÄ¡¸¦ ´Ù½Ã ÃÊ±âÈ­ ÇÑ´Ù.
+		//	ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ñ´ï¿½.
 		INIT_DATA(FALSE,FALSE,1.0f,bInitNowExp);
 
-		//	Ã¤·ÂÀ» ¸ðµÎ È¸º¹ ½ÃÄÑÁØ´Ù.
+		//	Ã¤ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½.
 		m_sHP.TO_FULL ();
 		m_sMP.TO_FULL ();
 		m_sSP.TO_FULL ();	
@@ -3277,14 +3277,14 @@ void GLCHARLOGIC::STATSUP ( SCHARSTATS sStats )
 	INIT_DATA(FALSE,FALSE);
 }
 // *****************************************************
-// Desc: ½ºÅ³Á¤º¸ ¸®¼Â
+// Desc: ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 // *****************************************************
 bool GLCHARLOGIC::RESET_SKILL ()
 {
 	EMCHARINDEX emINDEX = CharClassToIndex(m_emClass);
 	const SCHARDATA2& sCHARDATA = GLCONST_CHAR::GET_CHAR_DATA2(m_wSchool,emINDEX);
 
-	//	Note : Äù½ºÆ®¿¡¼­ È¹µæÇÑ ½ºÅ³ Æ÷ÀÎÆ®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ®.
 	//
 	DWORD dwGiftSkill(0);
 
@@ -3300,7 +3300,7 @@ bool GLCHARLOGIC::RESET_SKILL ()
 		dwGiftSkill += pQUEST->m_dwGiftSKILLPOINT;
 	}
 
-	//	Note : ½ºÅ³ Æ÷ÀÎÆ® ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ê±ï¿½È­.
 	//
 	if( m_CHARINDEX == GLCI_EXTREME_M || m_CHARINDEX == GLCI_EXTREME_W )
 	{
@@ -3311,7 +3311,7 @@ bool GLCHARLOGIC::RESET_SKILL ()
 		m_dwSkillPoint = sCHARDATA.m_dwSkillPoint + (m_wLevel-1)*GLCONST_CHAR::wLVL_SKILL_P + dwGiftSkill;
 	}
 
-	//	Note : ½ºÅ³°ú ¿¬°áµÈ »çÀü Á¤º¸ ¸®¼Â.
+	//	Note : ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	m_wSKILLQUICK_ACT = 0;
 	for ( int i=0; i<EMSKILLQUICK_SIZE; ++i )
@@ -3320,13 +3320,13 @@ bool GLCHARLOGIC::RESET_SKILL ()
 	}
 
 
-	//	Note : ½ÀµæÇÑ ½ºÅ³ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½Ê±ï¿½È­.
 	//
 
 	m_ExpSkills.clear();
 //	m_ExpSkills = sCHARDATA.m_ExpSkills;
 
-	//	Note : ¸ðµç ¼öÄ¡¸¦ ´Ù½Ã ÃÊ±âÈ­ ÇÑ´Ù.
+	//	Note : ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ñ´ï¿½.
 	//
 	INIT_DATA(FALSE,FALSE);
 
@@ -3334,17 +3334,17 @@ bool GLCHARLOGIC::RESET_SKILL ()
 }
 
 // *****************************************************
-// Desc: ½ºÅÝÁ¤º¸ ¸®¼Â
+// Desc: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 // *****************************************************
 bool GLCHARLOGIC::RESET_STATS ( const WORD wDIS )
 {
 	EMCHARINDEX emINDEX = CharClassToIndex(m_emClass);
 	const SCHARDATA2& sCHARDATA = GLCONST_CHAR::GET_CHAR_DATA2(m_wSchool,emINDEX);
 
-	// ÀüÃ¼ ½ºÅÝ Æ÷ÀÎÆ® ÃÊ±âÈ­
+	// ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ê±ï¿½È­
 	if ( wDIS==USHRT_MAX )
 	{
-		//	Note : Äù½ºÆ®¿¡¼­ È¹µæÇÑ ½ºÅÝ Æ÷ÀÎÆ®.
+		//	Note : ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®.
 		//
 		WORD wGiftStats(0);
 
@@ -3374,14 +3374,14 @@ bool GLCHARLOGIC::RESET_STATS ( const WORD wDIS )
 		return true;
 	}
 
-	// ¸Á°¢¾à µî±Þ¿¡ µû¸¥ ÃÊ±âÈ­
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Þ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­
 	WORD wNOW_DIS(0);
 	while(1)
 	{
 		if ( wNOW_DIS>=wDIS )		break;
 		if ( m_sStats.IsZERO() )	break;
 
-		// °¢ ½ºÅÝº°·Î ÇÏ³ª¾¿ Â÷°¨
+		// ï¿½ï¿½ ï¿½ï¿½ï¿½Ýºï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for ( int i=0; i<EMSIZE; ++i )
 		{
 			if ( wNOW_DIS>=wDIS )		break;
@@ -3395,10 +3395,10 @@ bool GLCHARLOGIC::RESET_STATS ( const WORD wDIS )
 		}
 	}
 
-	//	Note : ÇöÀç ÀÜ¿© ½ºÅÝ Æ÷ÀÎÆ®¿¡ °¡»ê.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½Ü¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	m_wStatsPoint += wNOW_DIS;
 
-	//	Note : ¸ðµç ¼öÄ¡¸¦ ´Ù½Ã ÃÊ±âÈ­ ÇÑ´Ù.
+	//	Note : ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ñ´ï¿½.
 	//
 	INIT_DATA(FALSE,FALSE);
 
@@ -3407,7 +3407,7 @@ bool GLCHARLOGIC::RESET_STATS ( const WORD wDIS )
 
 bool GLCHARLOGIC::RESET_STATS_SKILL ( const WORD wDIS_STAT )
 {
-	//	Note : ¸®¼Â È£Ãâ ¼ø¼­°¡ stats, skill¼øÀÌ¿©¾ß ÇÑ´Ù.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ stats, skillï¿½ï¿½ï¿½Ì¿ï¿½ï¿½ï¿½ ï¿½Ñ´ï¿½.
 	RESET_STATS ( wDIS_STAT );
 	RESET_SKILL();
 
@@ -3433,11 +3433,11 @@ void GLCHARLOGIC::UPDATESKILLDELAY ( float fElapsedTime )
 
 void GLCHARLOGIC::LEARN_SKILL ( SNATIVEID skill_id )
 {
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )											return;
 
-	//	Note : °æÇèÄ¡ °¨¼Ò½ÃÅ´.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½Ò½ï¿½Å´.
 	//
 	SKILL::SLEARN_LVL &sSKILL_LEARN_LVL = pSkill->m_sLEARN.sLVL_STEP[0];
 	if ( m_dwSkillPoint < sSKILL_LEARN_LVL.dwSKP )			return;
@@ -3446,11 +3446,11 @@ void GLCHARLOGIC::LEARN_SKILL ( SNATIVEID skill_id )
 	m_dwSkillPoint -= sSKILL_LEARN_LVL.dwSKP;
 
 	//m_lnMoney -= sSKILL_LEARN_LVL.dwMoneyReq;
-	//	Note : ¹è¿î ½ºÅ³·Î µî·ÏÇÔ.
+	//	Note : ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 	//
 	m_ExpSkills.insert ( std::make_pair(skill_id.dwID,SCHARSKILL(skill_id,0)) );
 
-	//	Note : Æä½Ãºê ½ºÅ³ÀÌ º¯È­ ÇÒ¶§ ÃÊ±â ¼öÄ¡µéÀ» ¸ðµÎ Àç °è»êÇÑ´Ù.
+	//	Note : ï¿½ï¿½Ãºï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½È­ ï¿½Ò¶ï¿½ ï¿½Ê±ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	//
 	if ( pSkill->m_sBASIC.emROLE == SKILL::EMROLE_PASSIVE )
 	{
@@ -3460,15 +3460,15 @@ void GLCHARLOGIC::LEARN_SKILL ( SNATIVEID skill_id )
 
 bool GLCHARLOGIC::LEARN_SKILL_QUEST ( SNATIVEID skill_id )
 {
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )	return false;
 
-	//	Note : ¹è¿î ½ºÅ³·Î µî·ÏÇÔ.
+	//	Note : ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 	//
 	
 	m_ExpSkills.insert ( std::make_pair(skill_id.dwID,SCHARSKILL(skill_id,0)) );
-	//	Note : Æä½Ãºê ½ºÅ³ÀÌ º¯È­ ÇÒ¶§ ÃÊ±â ¼öÄ¡µéÀ» ¸ðµÎ Àç °è»êÇÑ´Ù.
+	//	Note : ï¿½ï¿½Ãºï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½È­ ï¿½Ò¶ï¿½ ï¿½Ê±ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	//
 	if ( pSkill->m_sBASIC.emROLE == SKILL::EMROLE_PASSIVE )
 	{
@@ -3479,7 +3479,7 @@ bool GLCHARLOGIC::LEARN_SKILL_QUEST ( SNATIVEID skill_id )
 
 VOID GLCHARLOGIC::LVLUP_SKILL ( SNATIVEID skill_id, WORD wToLevel )
 {
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )											return;
 
@@ -3488,7 +3488,7 @@ VOID GLCHARLOGIC::LVLUP_SKILL ( SNATIVEID skill_id, WORD wToLevel )
 
 	SCHARSKILL &sSkill = (*learniter).second;
 
-	//	Note : °æÇèÄ¡ °¨¼Ò½ÃÅ´.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½Ò½ï¿½Å´.
 	//
 	SKILL::SLEARN_LVL &sSKILL_LEARN_LVL = pSkill->m_sLEARN.sLVL_STEP[wToLevel];
 	if ( m_dwSkillPoint < sSKILL_LEARN_LVL.dwSKP )			return;
@@ -3497,11 +3497,11 @@ VOID GLCHARLOGIC::LVLUP_SKILL ( SNATIVEID skill_id, WORD wToLevel )
 	m_dwSkillPoint -= sSKILL_LEARN_LVL.dwSKP;
 
 //	m_lnMoney -= sSKILL_LEARN_LVL.dwMoneyReq;
-	//	Note : ½ºÅ³ ·¹º§ ¾÷.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 	//
 	++sSkill.wLevel;
 
-	//	Note : Æä½Ãºê ½ºÅ³ÀÌ º¯È­ ÇÒ¶§ ÃÊ±â ¼öÄ¡µéÀ» ¸ðµÎ Àç °è»êÇÑ´Ù.
+	//	Note : ï¿½ï¿½Ãºï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½È­ ï¿½Ò¶ï¿½ ï¿½Ê±ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	//
 	if ( pSkill->m_sBASIC.emROLE == SKILL::EMROLE_PASSIVE )
 	{
@@ -3511,11 +3511,11 @@ VOID GLCHARLOGIC::LVLUP_SKILL ( SNATIVEID skill_id, WORD wToLevel )
 
 BOOL GLCHARLOGIC::ISLEARNED_SKILL ( SNATIVEID skill_id, WORD wLEVEL )
 {
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )											return FALSE;
 
-	//	Note : ÀÍÈù ½ºÅ³ÀÎÁö °Ë»ç.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	SKILL_MAP_ITER learniter = m_ExpSkills.find ( skill_id.dwID );
 	if ( learniter==m_ExpSkills.end() )			return FALSE;
@@ -3528,11 +3528,11 @@ BOOL GLCHARLOGIC::ISLEARNED_SKILL ( SNATIVEID skill_id, WORD wLEVEL )
 
 BOOL GLCHARLOGIC::ISMASTER_SKILL ( SNATIVEID skill_id )
 {
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )												return FALSE;
 
-	//	Note : ÀÍÈù ½ºÅ³ÀÎÁö °Ë»ç.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	SKILL_MAP_ITER learniter = m_ExpSkills.find ( skill_id.dwID );
 	if ( learniter==m_ExpSkills.end() )							return FALSE;
@@ -3547,7 +3547,7 @@ BOOL GLCHARLOGIC::ISMASTER_SKILL ( SNATIVEID skill_id )
 
 SCHARSKILL* GLCHARLOGIC::GETLEARNED_SKILL ( SNATIVEID skill_id )
 {
-	//	Note : ÀÍÈù ½ºÅ³ÀÎÁö °Ë»ç.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	SKILL_MAP_ITER learniter = m_ExpSkills.find ( skill_id.dwID );
 	if ( learniter==m_ExpSkills.end() )			return NULL;
@@ -3559,17 +3559,17 @@ EMSKILL_LEARNCHECK GLCHARLOGIC::CHECKLEARNABLE_SKILL ( SNATIVEID skill_id )
 {
 	WORD wSKILL_LEVEL = 0;
 
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )								return EMSKILL_LEARN_UNKNOWN;
 
-	//	Note : ÀÍÈù ½ºÅ³ÀÎÁö °Ë»ç.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	SKILL_MAP_ITER learniter = m_ExpSkills.find ( skill_id.dwID );
 	if ( learniter!=m_ExpSkills.end() )
 	{
 		SCHARSKILL &sSkill = (*learniter).second;
-		wSKILL_LEVEL = sSkill.wLevel + 1;			//	ÇöÁ¦ ½ºÅ³ LEVEL
+		wSKILL_LEVEL = sSkill.wLevel + 1;			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ LEVEL
 
 		if ( wSKILL_LEVEL == SKILL::MAX_LEVEL )				return EMSKILL_LEARN_MAX;
 		if ( wSKILL_LEVEL == pSkill->m_sBASIC.dwMAXLEVEL )	return EMSKILL_LEARN_MAX;
@@ -3578,7 +3578,7 @@ EMSKILL_LEARNCHECK GLCHARLOGIC::CHECKLEARNABLE_SKILL ( SNATIVEID skill_id )
 	SKILL::SLEARN &sSKILL_LEARN = pSkill->m_sLEARN;
 	SKILL::SLEARN_LVL &sSKILL_LEARN_LVL = pSkill->m_sLEARN.sLVL_STEP[wSKILL_LEVEL];
 
-	//	Note : ½ºÅ³ ½ÀµæÁ¶°Ç °Ë»ç.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	if ( !(m_emClass&sSKILL_LEARN.dwCLASS) )					return EMSKILL_LEARN_NOTCLASS;
 	
@@ -3592,7 +3592,7 @@ EMSKILL_LEARNCHECK GLCHARLOGIC::CHECKLEARNABLE_SKILL ( SNATIVEID skill_id )
 	if ( !m_sSUMSTATS.CHECK_REQ ( sSKILL_LEARN_LVL.sSTATS ) )	return EMSKILL_LEARN_NOTTERM;
 
 	//if ( m_lnMoney < sSKILL_LEARN_LVL.dwMoneyReq )				return EMSKILL_LEARN_NOTTERM;
-	//	¿ä±¸½ºÅ³ Á¶°Ç °Ë»ç.
+	//	ï¿½ä±¸ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	if ( NATIVEID_NULL()!=sSKILL_LEARN.sSKILL )
 	{
 		if ( !ISLEARNED_SKILL(sSKILL_LEARN.sSKILL,WORD(sSKILL_LEARN_LVL.dwSKILL_LVL)) )	return EMSKILL_LEARN_NOTTERM;
@@ -3612,7 +3612,7 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 	/*pvp capture the flag, Juver, 2018/02/08 */
 	if ( m_bProhibitSkill || m_bCaptureTheFlagHoldFlag )	return EMSKILL_PROHIBIT;
 
-	//	Note : ÀÍÈù ½ºÅ³ÀÎÁö °Ë»ç.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	SCHARSKILL sSkill;
 	if ( bNotLearn )
@@ -3624,28 +3624,28 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 	else
 	{
 		SKILL_MAP_ITER learniter = m_ExpSkills.find ( skill_id.dwID );
-		if ( learniter==m_ExpSkills.end() )										return EMSKILL_NOTLEARN; // ¹è¿î ½ºÅ³ÀÌ ¾Æ´Ò °æ¿ì.
+		if ( learniter==m_ExpSkills.end() )										return EMSKILL_NOTLEARN; // ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½.
 		sSkill = (*learniter).second;
 
-		//	Note : ½ºÅ³ µô·¡ÀÌ Å¸ÀÓÀÌ Áö³´´ÂÁö Á¡°Ë.
+		//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		//
 		DELAY_MAP_ITER delayiter = m_SKILLDELAY.find ( skill_id.dwID );
-		if ( delayiter!=m_SKILLDELAY.end() )									return EMSKILL_DELAYTIME; // ½ºÅ³ µô·¡ÀÌ ½Ã°£ÀÌ Áö³ªÁö ¾ÊÀ½.
+		if ( delayiter!=m_SKILLDELAY.end() )									return EMSKILL_DELAYTIME; // ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	}
 
-	//	Note : ½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id );
 	if ( !pSkill )															return EMSKILL_UNKNOWN;
 	SKILL::CDATA_LVL &sSKILL_DATA = pSkill->m_sAPPLY.sDATA_LVL[sSkill.wLevel];
 	
 
-	//	Note : »ç¿ëÇÒ ¼ö ÀÖ´Â ½ºÅ³Á¾·ùÀÎÁö °Ë»ç.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	if ( pSkill->m_sBASIC.emROLE!=SKILL::EMROLE_NORMAL )					return EMSKILL_UNKNOWN;
 
 	EMSLOT emRHand = GetCurRHand();
 	EMSLOT emLHand = GetCurLHand();
 
-	//	Note : ½ºÅ³ »ç¿ë½Ã Âø¿ëÇØ¾ß ÇÏ´Â ¾ÆÀÌÅÛ Á¶°Ç °Ë»ç.
+	//	Note : ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
 	//
 	GLSKILL_ATT emSKILL_LITEM = pSkill->m_sBASIC.emUSE_LITEM;
 	GLSKILL_ATT emSKILL_RITEM = pSkill->m_sBASIC.emUSE_RITEM;
@@ -3665,8 +3665,8 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 		if ( !CHECHSKILL_ITEM(emSKILL_RITEM,pItem->sSuitOp.emAttack) )		return EMSKILL_NOTITEM;
 	}
 
-	//	Note : È­»ì ¼Ò¸ð½Ã ¼Ò¸ð·® ¿©À¯ Ã¼Å©.
-	//		--> ¼Ò¸ð·®ÀÌ 2 °³ÀÎ´ë ÇÑ°³¸¸ ³²¾ÆÀÖ´Â »óÈ²? ¿¡´Â ³²Àº ¼ýÀÚ¸¸ ¼ÒÁøÇÏ°í ½ºÅ³Àº ¹ßµ¿µÇ°Ô ÇØÁÜ.
+	//	Note : È­ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½ ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¼Å©.
+	//		--> ï¿½Ò¸ï¿½ï¿½ï¿½ 2 ï¿½ï¿½ï¿½Î´ï¿½ ï¿½Ñ°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½È²? ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ßµï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	if ( sSKILL_DATA.wUSE_ARROWNUM!=0 )
 	{
@@ -3675,11 +3675,11 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 
 		if ( pItem->sBasicOp.emItemType != ITEM_ARROW )						return EMSKILL_NOTARROW;
 
-		//	°¹¼ö´Â Á¡°ËÇÏÁö ¾Ê´Â´Ù. ¸ðÀÚ¶ö °æ¿ì ÀÖ´Â°Å ÇÑµµ¿¡¼­¸¸ ¼Ò¸ð½ÃÅ´.
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½. ï¿½ï¿½ï¿½Ú¶ï¿½ ï¿½ï¿½ï¿½ ï¿½Ö´Â°ï¿½ ï¿½Ñµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½Å´.
 	}
 
-	//	Note : ºÎÀû ¼Ò¸ð½Ã ¼Ò¸ð·® ¿©À¯ Ã¼Å©.
-	//		--> ¼Ò¸ð·®ÀÌ 2 °³ÀÎ´ë ÇÑ°³¸¸ ³²¾ÆÀÖ´Â »óÈ²? ¿¡´Â ³²Àº ¼ýÀÚ¸¸ ¼ÒÁøÇÏ°í ½ºÅ³Àº ¹ßµ¿µÇ°Ô ÇØÁÜ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½ ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¼Å©.
+	//		--> ï¿½Ò¸ï¿½ï¿½ï¿½ 2 ï¿½ï¿½ï¿½Î´ï¿½ ï¿½Ñ°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½È²? ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ßµï¿½ï¿½Ç°ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	if ( sSKILL_DATA.wUSE_CHARMNUM!=0 )
 	{
@@ -3688,7 +3688,7 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 
 		if ( pItem->sBasicOp.emItemType != ITEM_CHARM )						return EMSKILL_NOTCHARM;
 
-		//	°¹¼ö´Â Á¡°ËÇÏÁö ¾Ê´Â´Ù. ¸ðÀÚ¶ö °æ¿ì ÀÖ´Â°Å ÇÑµµ¿¡¼­¸¸ ¼Ò¸ð½ÃÅ´.
+		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½. ï¿½ï¿½ï¿½Ú¶ï¿½ ï¿½ï¿½ï¿½ ï¿½Ö´Â°ï¿½ ï¿½Ñµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½Å´.
 	}
 
 	/*gun-bullet logic, Juver, 2017/05/27 */
@@ -3700,13 +3700,13 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 		if ( pItem->sBasicOp.emItemType != ITEM_BULLET )					return EMSKILL_NOTBULLET;
 	}
 
-	//	Note : ±âÃÊ Ã¼·Â ¼Ò¸ð·® Á¡°Ë.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ Ã¼ï¿½ï¿½ ï¿½Ò¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	if ( m_sHP.wNow <= sSKILL_DATA.wUSE_HP*wStrikeNum )						return EMSKILL_NOTHP;
 	if ( m_sMP.wNow < sSKILL_DATA.wUSE_MP*wStrikeNum )						return EMSKILL_NOTMP;
 
 	//if ( m_sExperience.lnNow < sSKILL_DATA.wUSE_EXP*wStrikeNum )			return EMSKILL_NOTEXP;
 
-	//	NEED : ÇâÈÄ ÆÄÆ¼½ºÅ³ÀÌ ±¸¼ºµÇ¾úÀ»¶§.
+	//	NEED : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ¼ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½.
 	//
 	//sSKILL_DATA.wUSE_HP_PTY;
 	//sSKILL_DATA.wUSE_MP_PTY;
@@ -3724,7 +3724,7 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 	/*combatpoint logic, Juver, 2017/05/28 */
 	if ( m_sCombatPoint.wNow < sSKILL_DATA.wUSE_CP*wStrikeNum )				return EMSKILL_NOTCP;
 
-	//	NEED : ÇâÈÄ ÆÄÆ¼½ºÅ³ÀÌ ±¸¼ºµÇ¾úÀ»¶§.
+	//	NEED : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ¼ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½.
 	//
 	//sSKILL_DATA.wUSE_SP_PTY;
 
@@ -3733,8 +3733,8 @@ EMSKILLCHECK GLCHARLOGIC::CHECHSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool
 
 void GLCHARLOGIC::ACCOUNTSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool bServer )
 {
-	//	Note : Ä³¸¯ÅÍ°¡ ¹è¿î ½ºÅ³ Á¤º¸ °¡Á®¿È.
-	// ¹ßµ¿½ºÅ³Àº ¹è¿î½ºÅ³ ¸ñ·Ï¿¡ ¾øÀ½
+	//	Note : Ä³ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	// ï¿½ßµï¿½ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½î½ºÅ³ ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½
 	SCHARSKILL sSkill;
 
 	if ( IsDefenseSkill() )
@@ -3746,51 +3746,51 @@ void GLCHARLOGIC::ACCOUNTSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool bServ
 	else
 	{
 		SKILL_MAP_ITER learniter = m_ExpSkills.find ( skill_id.dwID );
-		if( learniter==m_ExpSkills.end() )										return;	// ¹è¿î ½ºÅ³ÀÌ ¾Æ´Ò °æ¿ì.
+		if( learniter==m_ExpSkills.end() )										return;	// ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Æ´ï¿½ ï¿½ï¿½ï¿½.
 		sSkill = (*learniter).second;
 	}
 
-	//	½ºÅ³ Á¤º¸ °¡Á®¿È.
+	//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( skill_id.wMainID, skill_id.wSubID );
 	if ( !pSkill )															return;
 	SKILL::CDATA_LVL &sSKILL_DATA = pSkill->m_sAPPLY.sDATA_LVL[sSkill.wLevel];
 
 
-	//	½ºÅ³ µô·¡ÀÌ µî·Ï.
+	//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	float fDelayTime = GLOGICEX::SKILLDELAY(pSkill->m_sBASIC.dwGRADE,sSkill.wLevel,GETLEVEL(),sSKILL_DATA.fDELAYTIME);
 	
-	//	Note : »óÅÂÀÌ»óÀÇ µô·¡ÀÌ °¨¾È.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	fDelayTime = fDelayTime * m_fSTATE_DELAY;
 
-	//	Note : ¼­¹ö¿¡¼­´Â ¸Þ½ÃÁö µô·¡ÀÌ ¸¹Å­ °¨¼Ò½ÃÄÑ ÁØ´Ù.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å­ ï¿½ï¿½ï¿½Ò½ï¿½ï¿½ï¿½ ï¿½Ø´ï¿½.
 	if ( bServer )		APPLY_MSGDELAY ( fDelayTime );
 
 	m_SKILLDELAY.insert ( std::make_pair(skill_id.dwID,fDelayTime) );
 
 	EMSLOT emLHand = GetCurLHand();
 
-	//	È­»ì ¼Ò¸ð.
+	//	È­ï¿½ï¿½ ï¿½Ò¸ï¿½.
 	if ( sSKILL_DATA.wUSE_ARROWNUM!= 0 )
 	{
 		SITEM* pItem = GET_SLOT_ITEMDATA(emLHand);
 		if ( pItem )
 		{
-			//	È­»ì ¼Ò¸ðÇÏ´Â ½ºÅ³¿¡¼­´Â È­»ìÅëÀÌ ¹Ýµå½Ã ÀÖ¾î¾ß ÇÏÁö¸¸ ½½·ÔÀÇ Á¶ÀÛÀ¸·Î ¾ø¾î Áú¼öµµ ÀÖÀ½.
-			//	È­»ì ³²Àº °¹¼ö´Â Á¡°ËÇÏÁö ¾Ê´Â´Ù.
+			//	È­ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+			//	È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½.
 			WORD &wTurnNum = m_PutOnItems[emLHand].wTurnNum;
 			if ( wTurnNum >= sSKILL_DATA.wUSE_ARROWNUM )	wTurnNum -= sSKILL_DATA.wUSE_ARROWNUM;
 			else											wTurnNum = 0;
 		}
 	}
 
-	//	ºÎÀû ¼Ò¸ð.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½.
 	if ( sSKILL_DATA.wUSE_CHARMNUM!= 0 )
 	{
 		SITEM* pItem = GET_SLOT_ITEMDATA(emLHand);
 		if ( pItem )
 		{
-			//	ºÎÀû ¼Ò¸ðÇÏ´Â ½ºÅ³¿¡¼­´Â È­»ìÅëÀÌ ¹Ýµå½Ã ÀÖ¾î¾ß ÇÏÁö¸¸ ½½·ÔÀÇ Á¶ÀÛÀ¸·Î ¾ø¾î Áú¼öµµ ÀÖÀ½.
-			//	ºÎÀû ³²Àº °¹¼ö´Â Á¡°ËÇÏÁö ¾Ê´Â´Ù.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½.
 			WORD &wTurnNum = m_PutOnItems[emLHand].wTurnNum;
 			if ( wTurnNum >= sSKILL_DATA.wUSE_CHARMNUM )	wTurnNum -= sSKILL_DATA.wUSE_CHARMNUM;
 			else											wTurnNum = 0;
@@ -3809,7 +3809,7 @@ void GLCHARLOGIC::ACCOUNTSKILL ( SNATIVEID skill_id, WORD wStrikeNum, bool bServ
 		}
 	}
 
-	//	±âÃÊ Ã¼·Â ¼Ò¸ð.
+	//	ï¿½ï¿½ï¿½ï¿½ Ã¼ï¿½ï¿½ ï¿½Ò¸ï¿½.
 	m_sHP.DECREASE ( sSKILL_DATA.wUSE_HP*wStrikeNum );
 	m_sMP.DECREASE ( sSKILL_DATA.wUSE_MP*wStrikeNum );
 
@@ -3853,15 +3853,15 @@ BOOL GLCHARLOGIC::DOGRINDING(	SITEMCUSTOM &sCusItem,
 	}
 	else
 	{
-		//	4´Ü°è ÀÌ»óºÎÅÍ ½ÇÆÐ È®À² Á¸Á¦.
+		//	4ï¿½Ü°ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( cGRADE >= GRADE_NORMAL )
 		{
-			//	¼º°ø È®À².
+			//	ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 			float fRATE = GLCONST_CHAR::fGRADE_RATE[cGRADE];
 			BOOL bOK = RANDOM_GEN ( fRATE );
 			if ( !bOK )
 			{
-				//	¸®»û È®À².
+				//	ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 				float fRESET = GLCONST_CHAR::fGRADE_RESET_RATE[cGRADE];
 				bOK = RANDOM_GEN ( fRESET );
 				if ( bOK )
@@ -3869,7 +3869,7 @@ BOOL GLCHARLOGIC::DOGRINDING(	SITEMCUSTOM &sCusItem,
 					_bRESET = true;
 					sCusItem.ResetGrind(emGRINDING);
 
-					//	ÆÄ¼Õ È®À².
+					//	ï¿½Ä¼ï¿½ È®ï¿½ï¿½.
 					bool bTER = GLCONST_CHAR::bENCHANT_TERMINATE_ITEM && ( emGRINDING==EMGRINDING_DAMAGE || emGRINDING==EMGRINDING_DEFENSE );
 					if ( bTER )
 					{
@@ -3877,14 +3877,14 @@ BOOL GLCHARLOGIC::DOGRINDING(	SITEMCUSTOM &sCusItem,
 						bOK = RANDOM_GEN ( fTERMINATE );
 						if ( bOK )
 						{
-							// ¼Ò¹æÁÖ¸¦ °¡Áö°í ÀÖ´Ù¸é
+							// ï¿½Ò¹ï¿½ï¿½Ö¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´Ù¸ï¿½
 							if( emANTIDISAPPEAR == EMANTIDISAPPEAR_ON )
 							{
-								emANTIDISAPPEAR = EMANTIDISAPPEAR_USE; // ¼Ò¹æÁÖ¸¦ »ç¿ëÇß´Ù.
+								emANTIDISAPPEAR = EMANTIDISAPPEAR_USE; // ï¿½Ò¹ï¿½ï¿½Ö¸ï¿½ ï¿½ï¿½ï¿½ï¿½ß´ï¿½.
 							}
 							else
 							{
-								_bTERMINATE = true;		// ¾ÆÀÌÅÛÀÌ ¼Ò¸êµÇ¾ú´Ù.
+								_bTERMINATE = true;		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò¸ï¿½Ç¾ï¿½ï¿½ï¿½.
 							}
 						}
 					}
@@ -3897,7 +3897,7 @@ BOOL GLCHARLOGIC::DOGRINDING(	SITEMCUSTOM &sCusItem,
 
 	
 
-	//	Note : ¿¬¸¶¿¡ ¼º°ø.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	switch ( pHold->sGrindingOp.emTYPE )
 	{
@@ -3913,9 +3913,9 @@ BOOL GLCHARLOGIC::DOGRINDING(	SITEMCUSTOM &sCusItem,
 	return TRUE;
 }
 
-//	Note : ÄÉ¸¯ÅÍ°¡ ¾ÆÀÌÅÛÀ» ¼ÒÁöÇÏ°í ÀÖ´ÂÁö °Ë»ç.
-//		Âø¿ëº¹Àå, ÀÎº¥Åä¸®¿¡¼­ °Ë»ö.
-//		°ãÄ§°¡´É ¾ÆÀÌÅÛÀÇ °æ¿ì full ·Î ÀÖÀ» °æ¿ì¸¸ ¼ÒÁöÇÑ °ÍÀ¸·Î ÆÇ´Ü.
+//	Note : ï¿½É¸ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
+//		ï¿½ï¿½ï¿½ëº¹ï¿½ï¿½, ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½.
+//		ï¿½ï¿½Ä§ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ full ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¸¸ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
 //
 BOOL GLCHARLOGIC::ISHAVEITEM ( SNATIVEID &sNID, DWORD *pNum )
 {
@@ -3980,7 +3980,7 @@ WORD GLCHARLOGIC::GETSKILLRANGE_APPLY ( const GLSKILL &sSKILL, const WORD dwLEVE
 	return (WORD)nRANGE;
 }
 
-//	Note : ÇöÀç pk ·¹º§À» ¾Ë¾Æº»´Ù. ( UINT_MAX ÀÏ°æ¿ì pk ÇØ´ç»çÇ× ¾øÀ½. )
+//	Note : ï¿½ï¿½ï¿½ï¿½ pk ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾Æºï¿½ï¿½ï¿½. ( UINT_MAX ï¿½Ï°ï¿½ï¿½ pk ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 DWORD GLCHARLOGIC::GET_PK_LEVEL ()
 {
 	if ( m_nBright >= 0 )	return UINT_MAX;
@@ -4067,7 +4067,7 @@ bool GLCHARLOGIC::ISPLAYKILLING ()
 	return !m_mapPlayHostile.empty();
 }
 
-//	Note : ÀÚ½ÅÀÌ ¹üÁËÀÚÀÎ°¡?
+//	Note : ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½?
 bool GLCHARLOGIC::ISOFFENDER ()
 {
 	return ( m_nBright < GLCONST_CHAR::sPK_STATE[0].nPKPOINT );
@@ -4087,7 +4087,7 @@ bool GLCHARLOGIC::IS_HOSTILE_ACTOR ( DWORD dwCHARID )
 	return false;
 }
 
-//	Note : Àû´ëÀÚ µî·Ï. ( pk °ü·Ã ),	true : ½Å±Ô µî·Ï½Ã, false : ±âÁ¸ µî·Ï °»½Å½Ã.
+//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½. ( pk ï¿½ï¿½ï¿½ï¿½ ),	true : ï¿½Å±ï¿½ ï¿½ï¿½Ï½ï¿½, false : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å½ï¿½.
 bool GLCHARLOGIC::ADD_PLAYHOSTILE ( DWORD dwCHARID, BOOL bBAD )
 {
 	if ( m_dwCharID == dwCHARID )
@@ -4099,12 +4099,12 @@ bool GLCHARLOGIC::ADD_PLAYHOSTILE ( DWORD dwCHARID, BOOL bBAD )
 	bool bResult = true;
 
 	MAPPLAYHOSTILE_ITER pos = m_mapPlayHostile.find ( dwCHARID );
-	// ÀÌ¹Ì µî·ÏµÇ¾î ÀÖÀ»¶§...
+	// ï¿½Ì¹ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½...
 	if ( pos!=m_mapPlayHostile.end() )
 	{
 		bResult = false;
 
-		//	Note : ½Ã°£¸¸ °»½Å. Àû´ë bBAD´Â °»½ÅÇÏÁö ¾ÊÀ½. ( Ã³À½ °ø°ÝÀÚÀÇ °ª À¯Áö. )
+		//	Note : ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ï¿½ï¿½ï¿½ï¿½ bBADï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ( Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 		if( pos->second )
 		{
 			pos->second->fTIME = GLCONST_CHAR::fPK_JUSTNESS_TIME;
@@ -4112,14 +4112,14 @@ bool GLCHARLOGIC::ADD_PLAYHOSTILE ( DWORD dwCHARID, BOOL bBAD )
 		}
 		else
 		{
-			// ÀÌ¹Ì µî·ÏµÇ¾î ÀÖ¾úÁö¸¸ °ªÀÌ À¯È¿ÇÏÁö ¾Ê¾Æ¼­ »èÁ¦ÇÑ´Ù.
+			// ï¿½Ì¹ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Æ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 			CDebugSet::ToLogFile ("GLCHARLOGIC::ADD_PLAYHOSTILE, pos->second = NULL");
 			m_mapPlayHostile.erase (pos);
 		}
 	}
 
-	// µî·ÏµÇ¾î ÀÖÁö ¾Ê°Å³ª À¯È¿ÇÏÁö ¾ÊÀº °ªÀÌ¾ú±â ¶§¹®¿¡
-	// ½Å±Ô·Î µî·ÏÇÑ´Ù.
+	// ï¿½ï¿½ÏµÇ¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°Å³ï¿½ ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	// ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	SPLAYHOSTILE* pHOSTILE = new SPLAYHOSTILE;
 	pHOSTILE->bBAD = bBAD;
 	pHOSTILE->fTIME = GLCONST_CHAR::fPK_JUSTNESS_TIME;

@@ -48,7 +48,7 @@ BOOL GLSKILL::SaveFile ( CSerialFile &SFile )
 		SFile << (DWORD)sizeof(SKILL::SSKILLBASIC);
 
 		CString cstrName;
-		cstrName.Format( _T("SN_%03d_%03d"), m_sBASIC.sNATIVEID.wMainID, m_sBASIC.sNATIVEID.wSubID ); // by °æ´ë
+		cstrName.Format( _T("SN_%03d_%03d"), m_sBASIC.sNATIVEID.wMainID, m_sBASIC.sNATIVEID.wSubID ); // by ï¿½ï¿½ï¿½
 		StringCchCopy( m_sBASIC.szNAME, SKILL::MAX_SZNAME, cstrName.GetString() );
 		SFile.WriteBuffer ( &m_sBASIC, sizeof(SKILL::SSKILLBASIC) );
 	}
@@ -73,7 +73,7 @@ BOOL GLSKILL::SaveFile ( CSerialFile &SFile )
 		SFile << (DWORD)sizeof(SKILL::SEXT_DATA);
 		
 		CString cstrName;
-		cstrName.Format( _T("SD_%03d_%03d"), m_sBASIC.sNATIVEID.wMainID , m_sBASIC.sNATIVEID.wSubID ); // by °æ´ë
+		cstrName.Format( _T("SD_%03d_%03d"), m_sBASIC.sNATIVEID.wMainID , m_sBASIC.sNATIVEID.wSubID ); // by ï¿½ï¿½ï¿½
 		m_sEXT_DATA.strCOMMENTS = cstrName.GetString();
 		m_sEXT_DATA.SAVE ( SFile );
 	}
@@ -529,7 +529,7 @@ VOID GLSKILL::LoadCsv ( CStringArray &StrArray, int iLine )
 	}
 }
 
-//	Áö¼Ó¼º ½ºÅ³
+//	ï¿½ï¿½ï¿½Ó¼ï¿½ ï¿½ï¿½Å³
 bool GLSKILL::IsSkillFact ()
 {
 	bool bFact(false);
@@ -906,7 +906,7 @@ bool GLSkillMan::ValidData ()
 
 HRESULT GLSkillMan::SyncUpdateData ()
 {
-	//	Note : µ¥ÀÌÅÍ µ¿±âÈ­ Á¡°ËÀ» À§ÇÑ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	CString strAppPath;
 	char szAppPath[MAX_PATH] = {0};
@@ -914,23 +914,23 @@ HRESULT GLSkillMan::SyncUpdateData ()
 	strAppPath = GetAppPath ();
 	StringCchCopy ( szAppPath, MAX_PATH, strAppPath.GetString () );
 
-	//	Note : DxBoneCollector ±âº» Æú´õ ÁöÁ¤.
+	//	Note : DxBoneCollector ï¿½âº» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	StringCchCopy ( szFullPath, MAX_PATH, szAppPath );
 	StringCchCat ( szFullPath, MAX_PATH, SUBPATH::OBJ_FILE_SKELETON );
 	DxBoneCollector::GetInstance().OneTimeSceneInit ( szFullPath );
 
-	//	Note : µð¹ö±×»ûÀÇ ÃÊ±âÈ­.
+	//	Note : ï¿½ï¿½ï¿½ï¿½×»ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­.
 	//
 	CDebugSet::OneTimeSceneInit ( szAppPath );
 
-	//	Note : Animation ±âº» Æú´õ ÁöÁ¤.
+	//	Note : Animation ï¿½âº» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	StringCchCopy ( szFullPath, MAX_PATH, szAppPath );
 	StringCchCat ( szFullPath, MAX_PATH, SUBPATH::OBJ_FILE_ANIMATION );
 	DxSkinAniMan::GetInstance().OneTimeSceneInit ( szFullPath );
 
-	//	Note : SkinObject ±âº» Æú´õ ÁöÁ¤.
+	//	Note : SkinObject ï¿½âº» ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	StringCchCopy ( szFullPath, MAX_PATH, szAppPath );
 	StringCchCat ( szFullPath, MAX_PATH, SUBPATH::OBJ_FILE_SKINOBJECT );
@@ -991,12 +991,12 @@ HRESULT GLSkillMan::SyncUpdateData ()
 		{
 			if ( sSKILL.m_sAPPLY.sDATA_LVL[k].wAPPLYNUM==0 )
 			{
-				CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d] ·¹º§(%d) Àû¿ëÈ½¼ö°¡ 0 ÀÔ´Ï´Ù.", i, j, k );
+				CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d] ï¿½ï¿½ï¿½ï¿½(%d) ï¿½ï¿½ï¿½ï¿½È½ï¿½ï¿½ï¿½ï¿½ 0 ï¿½Ô´Ï´ï¿½.", i, j, k );
 			}
 
 			if ( sSKILL.m_sAPPLY.sDATA_LVL[k].wTARNUM==0 )
 			{
-				CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d] ·¹º§(%d) Å¸°Ù°¹¼ö°¡ 0 ÀÔ´Ï´Ù.", i, j, k );
+				CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d] ï¿½ï¿½ï¿½ï¿½(%d) Å¸ï¿½Ù°ï¿½ï¿½ï¿½ï¿½ï¿½ 0 ï¿½Ô´Ï´ï¿½.", i, j, k );
 			}
 		}
 
@@ -1010,7 +1010,7 @@ HRESULT GLSkillMan::SyncUpdateData ()
 
 				if ( sANILIST.empty() )
 				{
-					CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d][%s] ÁöÁ¤µÈ '½ºÅ³¸ð¼Ç'ÀÌ Á¸Á¦ÇÏÁö ¾ÊÀ½ .", i, j, sSKILL.GetName() );
+					CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d][%s] ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 'ï¿½ï¿½Å³ï¿½ï¿½ï¿½'ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ .", i, j, sSKILL.GetName() );
 					continue;
 				}
 
@@ -1018,7 +1018,7 @@ HRESULT GLSkillMan::SyncUpdateData ()
 
 				if ( sANI.m_wDivCount==0 )
 				{
-					CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d][%s] '½ºÅ³¸ð¼Ç'¿¡ 'Å¸°ÝÁöÁ¡'ÀÌ ¾øÀ½.", i, j, sSKILL.GetName() );
+					CDebugSet::ToFile ( _LOGFILE, "[%03d][%03d][%s] 'ï¿½ï¿½Å³ï¿½ï¿½ï¿½'ï¿½ï¿½ 'Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.", i, j, sSKILL.GetName() );
 				}
 			}
 		}
@@ -1042,7 +1042,7 @@ HRESULT GLSkillMan::SyncStringTable()
 	std::string::size_type idx;
 
 	strBuffer = "// File : Skill String Table\r\n";
-	strBuffer += "// Note : Å°(ID)¿Í ³»¿ëÀº ¹Ýµå½Ã ÅÇÀ¸·Î ±¸ºÐµÇ¾î¾ß ÇÕ´Ï´Ù.\r\n//\r\n";
+	strBuffer += "// Note : Å°(ID)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÐµÇ¾ï¿½ï¿½ ï¿½Õ´Ï´ï¿½.\r\n//\r\n";
 		
 	for ( int i = 0; i < EMSKILLCLASS_NSIZE; i++ )
 	for ( int j = 0; j < MAX_CLASSSKILL; j++ )
@@ -1072,8 +1072,8 @@ HRESULT GLSkillMan::SyncStringTable()
 	}
 
 	CFile file;
-	file.Open( _T(szFullPathFileName), CFile::modeCreate|CFile::modeWrite ); // ÆÄÀÏ ¿­±â
-	file.Write( strBuffer.GetString(), strBuffer.GetLength()-2 ); // ÆÄÀÏ ¾²±â
+	file.Open( _T(szFullPathFileName), CFile::modeCreate|CFile::modeWrite ); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	file.Write( strBuffer.GetString(), strBuffer.GetLength()-2 ); // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	file.Close();
 
 	//delete [] szEncode;

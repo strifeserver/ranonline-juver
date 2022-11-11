@@ -75,7 +75,6 @@ namespace SKILL
 		GLSKILL_ATT emAttack;
 		switch ( emOld )
 		{
-		case gloldskill_110::SKILLATT_NOTHING:	emAttack = SKILLATT_NOTHING;	break;
 		case gloldskill_110::SKILLATT_SWORD:	emAttack = SKILLATT_SWORD;	break;
 		case gloldskill_110::SKILLATT_BLADE:	emAttack = SKILLATT_BLADE;	break;
 		case gloldskill_110::SKILLATT_SWORDBLADE:	emAttack = SKILLATT_SWORDBLADE;	break;
@@ -83,16 +82,22 @@ namespace SKILL
 		case gloldskill_110::SKILLATT_SPEAR:	emAttack = SKILLATT_SPEAR;	break;
 		case gloldskill_110::SKILLATT_STICK:	emAttack = SKILLATT_STICK;	break;
 		case gloldskill_110::SKILLATT_GAUNT:	emAttack = SKILLATT_GAUNT;	break;
-		case gloldskill_110::SKILLATT_BOW:		emAttack = SKILLATT_BOW;	break;
+		case gloldskill_110::SKILLATT_BOW:	emAttack = SKILLATT_BOW;	break;
 		case gloldskill_110::SKILLATT_THROW:	emAttack = SKILLATT_THROW;	break;
-
-		case gloldskill_110::SKILLATT_GUN:				emAttack = SKILLATT_GUN;		break;
-		case gloldskill_110::SKILLATT_RAILGUN:			emAttack = SKILLATT_RAILGUN;	break;
-		case gloldskill_110::SKILLATT_PORTALGUN:		emAttack = SKILLATT_PORTALGUN;	break;
-		case gloldskill_110::SKILLATT_SHOTGUN:			emAttack = SKILLATT_SHOTGUN;	break;
+		case gloldskill_110::SKILLATT_GUN:	emAttack = SKILLATT_GUN;	break;
+		case gloldskill_110::SKILLATT_RAILGUN:	emAttack = SKILLATT_RAILGUN;	break;
+		case gloldskill_110::SKILLATT_PORTALGUN:	emAttack = SKILLATT_PORTALGUN;	break;
+		case gloldskill_110::SKILLATT_SHOTGUN:	emAttack = SKILLATT_SHOTGUN;	break;
 		case gloldskill_110::SKILLATT_RAILPORTALGUN:	emAttack = SKILLATT_RAILPORTALGUN;	break;
-
+		case gloldskill_110::SKILLATT_SCYTHE:	emAttack = SKILLATT_SCYTHE;	break;
+		case gloldskill_110::SKILLATT_DUALSPEAR:	emAttack = SKILLATT_DUALSPEAR;	break;
+		case gloldskill_110::SKILLATT_SHURIKEN:	emAttack = SKILLATT_SHURIKEN;	break;
+		case gloldskill_110::SKILLATT_FIST:	emAttack = SKILLATT_FIST;	break;
+		case gloldskill_110::SKILLATT_WAND:	emAttack = SKILLATT_WAND;	break;
+		case gloldskill_110::SKILLATT_CUBE:	emAttack = SKILLATT_CUBE;	break;
+		case gloldskill_110::SKILLATT_WHIP:	emAttack = SKILLATT_WHIP;	break;
 		case gloldskill_110::SKILLATT_NOCARE:	emAttack = SKILLATT_NOCARE;	break;
+
 		default:	emAttack = SKILLATT_NOTHING;		break;
 		};
 
@@ -342,7 +347,7 @@ namespace SKILL
 
 		SFile << "szNAME" << ",";
 
-//		±âÈ¹ÆÀ ¿äÃ»À¸·Î Á¦°ÅÇÔ
+//		ï¿½ï¿½È¹ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //		SFile << "szNAME" << ",";
 
 		SFile << "dwGRADE" << ",";
@@ -375,7 +380,7 @@ namespace SKILL
 		std::string str = szNAME;
 		STRUTIL::OutputStrCsv( SFile, str );
 
-//		±âÈ¹ÆÀ ¿äÃ»À¸·Î Á¦°ÅÇÔ
+//		ï¿½ï¿½È¹ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*
 		if( szNAME )
 		{
@@ -417,7 +422,7 @@ namespace SKILL
 		memset( szNAME, 0, sizeof(char) * MAX_SZNAME );
 		StringCchCopy( szNAME, MAX_SZNAME, str.c_str() );
 
-//		±âÈ¹ÆÀ ¿äÃ»À¸·Î Á¦°ÅÇÔ
+//		ï¿½ï¿½È¹ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //		++iCsvCur;	// Item Name
 
 		dwGRADE = (DWORD)atol( StrArray[ iCsvCur++ ] );
@@ -459,25 +464,29 @@ namespace COMMENT
 
 	std::string SKILLATTACK[SKILLATT_NSIZE+1] =
 	{
-		"Nothing",
+		"Don't Install",
 		"Sword",
 		"Blade",
-		"Sword/Blade",
 		"Dagger",
 		"Spear",
-		"Stick",
-		"Gaunt",
+		"Club",
+		"Gauntlet",
 		"Bow",
 		"Throw",
-		"Gun",
+		"Dual Gun",
 		"Rail Gun",
 		"Portal Gun",
-		"Shotgun",
-		"Rail-gun/Portal-gun",
 		"Scythe",
-		"DualSpear",
+		"Dual Spear",
 		"Shuriken",
-		"No Weapon Requirements",
+		"Fist",
+		"Wand",
+		"Cube",
+		"Whip",
+		"Hammer",
+		"Shield",
+		"Umbrella",
+		"No Type Check",
 	};
 
 	std::string SKILL_ACTION_TYPE[SKILL::EMACTION_NSIZE] = 

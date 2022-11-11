@@ -7,7 +7,7 @@
 
 //
 //
-//	Note : xFile ¿¡´Ï¸ÞÀÌ¼Ç µ¥ÀÌÅÍÀÇ ±¸Á¶Ã¼.
+//	Note : xFile ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼.
 //
 //
 //
@@ -219,41 +219,39 @@ enum EMANI_MAINTYPE
 
 enum EMANI_SUBTYPE
 {
-	AN_SUB_NONE			= 0,
-	AN_SUB_ONEHSWORD	= 1,
-	AN_SUB_TWOHSWORD	= 2,
-	AN_SUB_EITHERSWORD	= 3,
-	AN_SUB_DAGGER		= 4,
-	AN_SUB_SPEAR		= 5,
-	AN_SUB_BOW			= 6,
-	AN_SUB_THROW		= 7,
-	AN_SUB_MANA			= 8,
-	AN_SUB_BIGHSWORD	= 9,
-	AN_SUB_STICK		= 10,
-	AN_SUB_ONEBLADE		= 11,
-	AN_SUB_TWOBLADE		= 12,
-	AN_SUB_BIGBLADE		= 13,
-	AN_SUB_EITHERBLADE	= 14,
-	AN_SUB_GAUNT		= 15,
-	AN_SUB_BROOM		= 16,
-	AN_SUB_HOVERBOARD	= 17,
+	//character weapon animations
+	AN_SUB_NONE			= 0,	//	ï¿½Ç¼ï¿½.
+	AN_SUB_ONEHSWORD	= 1,	//	ï¿½Ñ¼Õ°ï¿½.
+	AN_SUB_TWOHSWORD	= 2,	//	ï¿½ï¿½Õ°ï¿½.
+	AN_SUB_EITHERSWORD	= 3,	//	ï¿½Ö°ï¿½.
+	AN_SUB_DAGGER		= 4,	//	ï¿½Ü°ï¿½.
+	AN_SUB_SPEAR		= 5,	//	Ã¢.
+	AN_SUB_BOW			= 6,	//	È°.
+	AN_SUB_THROW		= 7,	//	ï¿½ï¿½Ã´.
+	AN_SUB_MANA			= 8,	//	ï¿½ï¿½ï¿½ï¿½.
+	AN_SUB_BIGHSWORD	= 9,	//	ï¿½ï¿½Õ°ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	AN_SUB_STICK		= 10,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	AN_SUB_ONESABER		= 11,	//	ï¿½Ñ¼Õµï¿½.
+	AN_SUB_TWOSABER		= 12,	//	ï¿½ï¿½Õµï¿½.
+	AN_SUB_BIGSABER		= 13,	//	ï¿½ï¿½Õµï¿½ ï¿½ï¿½ï¿½ï¿½.
+	AN_SUB_EITHERSABER	= 14,	//	ï¿½Öµï¿½.
+	AN_SUB_GAUNT		= 15,	//	ï¿½Ç¹ï¿½.
+	AN_SUB_BROOM		= 16,	//	ï¿½ï¿½ï¿½Ú·ï¿½.
+	AN_SUB_HOVERBOARD	= 17,	//	ï¿½ï¿½ï¿½ï¿½
+	AN_SUB_DUALGUN		= 18, //dual gun
+	AN_SUB_GUN			= 19, //portal ,rail gun
+	AN_SUB_SCYTHE		= 20, //scythe
+	AN_SUB_DUALSPEAR	= 21, //dual spear
+	AN_SUB_SHURIKEN		= 22, //shuriken
+	AN_SUB_EX_FIST		= 23,  //IDK
+	AN_SUB_WAND			= 24, //Wand
+	AN_SUB_BOX			= 25, //Box
+	AN_SUB_WHIP			= 26, //Whip
+	AN_SUB_SHIELD		= 27,
+	AN_SUB_HAMMER		= 28,
+	AN_SUB_UMBRELLA		= 29,
 
-	AN_SUB_DUALGUN		= 18, //gunner dual gun
-	AN_SUB_GUN			= 19, //gunner portal, rail gun
-
-	AN_SUB_SCYTHE		= 20, //assassin scythe
-	AN_SUB_DUALSPEAR	= 21, //assassin dual spear
-	AN_SUB_SHURIKEN		= 22, //assassin Shuriken
-
-	AN_SUB_EXTREME_FIST	= 23, //extreme fist
-
-	AN_SUB_TRICKER_WAND	= 24, //magician Wand
-	AN_SUB_TRICKER_CUBE	= 25, //magician Cube
-	AN_SUB_TRICKER_ROPE	= 26, //magician Rope
-
-	AN_SUB_SHAPER_HAMMER	= 27, //shaper Hammer
-	AN_SUB_SHAPER_SHIELD	= 28, //shaper Shield
-	AN_SUB_SHAPER_UMBRELLA	= 29, //shaper Umbrella
+	AN_SUB_SIZE			= 30,
 
 	//vehicle animations
 	AN_SUB_VEHICLE_01_BOARD		= 0,

@@ -6,9 +6,9 @@
 #endif // _MSC_VER > 1000
 
 // GLCHARLOGIC, GLCROWLOGIC
-//	µÎ Å¬·¡½º°¡ °øÅëÀ¸·Î °¡Áö´Â ÇÔ¼öµéÀº µ¥ÀÌÅÍÀÇ ±Ù¿ø "ÄÉ¸¯ÅÍ µ¥ÀÌÅÍ", "NPC µ¥ÀÌÅÍ" ¿¡¼­
-//	°¢°¢ ¹Þ¾Æ¼­ °°Àº ³»¿ëÀ» ÇÔ¼ö·Î Á¦ÀÛÇÏ°ÔµÊ. ½ÇÁ¦ ÇÔ¼ö ºÎºÐÀº °¢°¢ µû·Î ÀÖÀ½. ( µ¿ÀÛ È¿À²¼º °í·Á. )
-//	´Ü, ÇÔ¼ö ³»¿ëÀº µ¿ÀÏÇÏ°Ô À¯Áö. ( ´Ù¸¥ µ¥ÀÌÅÍ ±Ù¿ø¿¡¼­ °¡Á®¿À´õ¶óµµ ÀÎ¶óÀÎ ÇÔ¼ö Á¤ÀÇ¸¦ µ¿ÀÏÇÏ°ÔÇÏ¿© ¸ÂÃã. )
+//	ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½ "ï¿½É¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", "NPC ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ï¿½ï¿½ï¿½ï¿½
+//	ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¾Æ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°Ôµï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
+//	ï¿½ï¿½, ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½. ( ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î¶ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½ ï¿½ï¿½ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 //
 //
 //
@@ -80,7 +80,7 @@ public:
 	}
 };
 
-//	Àû´ëÀÚ.
+//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 struct SPLAYHOSTILE
 {
 	BOOL	bBAD;
@@ -187,56 +187,56 @@ namespace GLOGICEX
 {
 	EM_BRIGHT_FB GLSPACEGAP ( const EMBRIGHT emACTOR, const EMBRIGHT emRECEP, const EMBRIGHT emSPACE );
 
-	//	°ø°Ý ¼º°øÀ² °è»ê.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	int GLHITRATE ( const int nHit, const int nAvoid, const EM_BRIGHT_FB bFB );
 
-	//	¿ÏÀü ¼îÅ© È®À².
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© È®ï¿½ï¿½.
 	BOOL CHECKSHOCK ( const int AttackerLev, const int DefenserLev, const int nDamage, const bool bCritical );
 
-	//	¹æ¾î·Â °è»ê.
+	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	int GLDEFENSE ( const int nDEFENSE, const EMBRIGHT emACTOR, const EMBRIGHT emRecep, const EMBRIGHT emSPACE );
 
-	//	°æÇèÄ¡ È¹µæ ( Å¸°Ý½Ã )
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ È¹ï¿½ï¿½ ( Å¸ï¿½Ý½ï¿½ )
 	int GLATTACKEXP ( int AttackerLev, int DefenserLev, DWORD dwDamage, DWORD wMaxHP, DWORD dwBonusExp=0 );
 
-	//	°æÇèÄ¡ È¹µæ ( Á¦°Å½Ã )
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ È¹ï¿½ï¿½ ( ï¿½ï¿½ï¿½Å½ï¿½ )
 	int	GLKILLEXP ( int AttackerLev, int DefenserLev, DWORD dwBonusExp=0 );
 
-	//	°æÇèÄ¡ È¹µæ ( Å¸°Ý½Ã )
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ È¹ï¿½ï¿½ ( Å¸ï¿½Ý½ï¿½ )
 	int CALCATTACKEXP ( WORD wMYLEVEL, const STARGETID &cTargetID, const GLLandMan* pLandMan, DWORD dwDamage );
 	
-	//	°æÇèÄ¡ È¹µæ ( Á¦°Å½Ã )
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ È¹ï¿½ï¿½ ( ï¿½ï¿½ï¿½Å½ï¿½ )
 	int CALCKILLEXP ( WORD wMYLEVEL, const STARGETID &cTargetID, const GLLandMan* pLandMan );
 
-	//	Á×¾úÀ»¶§ °æÇèÄ¡ °¨¼Ò.
+	//	ï¿½×¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 	float GLDIE_DECEXP ( WORD wACTLEV );
 
-	//	°æÇèÄ¡ º¹±¸ ºñÀ²
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	float GLDIE_RECOVERYEXP ( WORD wACTLEV );
 
-	//  °æÇèÄ¡1´ç µ·
+	//  ï¿½ï¿½ï¿½ï¿½Ä¡1ï¿½ï¿½ ï¿½ï¿½
 	float GLDIE_EXPMONEY ( WORD wACTLEV );
 
-	//	LevelUpÀ» ÇÏ±â À§ÇÑ °æÇèÄ¡
+	//	LevelUpï¿½ï¿½ ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡
 	LONGLONG GLNEEDEXP ( WORD wLev );
 	LONGLONG GLNEEDEXP2 ( WORD wLev );
 
-	//	»óÅÂÀÌ»ó ¹ß»ýÇÒ ¼ö ÀÖ´Â È®À² »êÃâ.
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½ß»ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	BOOL CHECKSTATEBLOW ( float fACTRATE, WORD wACTLEVEL, WORD wLEVEL, WORD wRESIST );
 
-	//	½ºÅ³ µô·¹ÀÌ »êÃâ.
+	//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	float SKILLDELAY ( DWORD dwSKILL_GRADE, WORD wSKILL_LEV, WORD wCHAR_LEVEL, float fDelay );
 
-	//	Note : ÆÄ¶ó¸ÞÅ¸ º¯°æ.
-	//		°è»ê½Ã¿¡´Â int ÇüÀ¸·Î °è»êÀ» ¼öÇàÇÏ¿© ¿¬»ê½Ã ¼Õ½ÇÀ» ¸·´Â´Ù.
-	//		°ª Àû¿ë½Ã¿¡´Â WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+	//	Note : ï¿½Ä¶ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½.
+	//		ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ int ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½.
+	//		ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	inline WORD VARIATION ( WORD &wNow, const WORD wMax, const int nValue )
 	{
 		int nOld = int(wNow);
 
 		int nNew = nOld + nValue;
 
-		//	WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+		//	WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( nNew < 0 )					nNew = 0;
 		if ( nNew > USHRT_MAX )			nNew = USHRT_MAX;
 
@@ -247,16 +247,16 @@ namespace GLOGICEX
 		return wDX;
 	}
 
-	//	Note : ÆÄ¶ó¸ÞÅ¸ º¯°æ.
-	//		°è»ê½Ã¿¡´Â int ÇüÀ¸·Î °è»êÀ» ¼öÇàÇÏ¿© ¿¬»ê½Ã ¼Õ½ÇÀ» ¸·´Â´Ù.
-	//		°ª Àû¿ë½Ã¿¡´Â WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+	//	Note : ï¿½Ä¶ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½.
+	//		ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ int ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½.
+	//		ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	inline DWORD VARIATION ( DWORD &dwNow, const DWORD dwMax, const int nValue )
 	{
 		int nOld = int(dwNow);
 
 		int nNew = nOld + nValue;
 
-		//	WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+		//	WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( nNew < 0 )					nNew = 0;
 
 		dwNow = nNew;
@@ -266,21 +266,21 @@ namespace GLOGICEX
 		return dwDX;
 	}
 
-	//	³¯¾¾¿Í ¼Ó¼º°£ ÁõÆøÀ².
+	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	float WEATHER_ELEMENT_POW ( EMELEMENT emElement, DWORD dwWeather, BOOL bWeatherActive );
 
 	float WEATHER_BLOW_POW ( EMSTATE_BLOW emBlow, DWORD dwWeather, BOOL bWeatherActive );
 
-	//	Note : Ã¼·Â °°Àº ¼öÄ¡µéÀ» º¯È­À²¿¡ µû¶ó °»½ÅÇØÁØ´Ù.
-	//		°è»ê½Ã¿¡´Â int ÇüÀ¸·Î °è»êÀ» ¼öÇàÇÏ¿© ¿¬»ê½Ã ¼Õ½ÇÀ» ¸·´Â´Ù.
-	//		°ª Àû¿ë½Ã¿¡´Â WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+	//	Note : Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½.
+	//		ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ int ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½.
+	//		ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	inline void UPDATE_POINT ( GLPADATA &sPOINT, float &fELP_VAR, const float fVAR, const WORD wLOW_LMT )
 	{
 		fELP_VAR += fVAR;
 		int nNEWP = int(sPOINT.wNow) + int(fELP_VAR);
 		fELP_VAR -= int(fELP_VAR);
 
-		//	WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+		//	WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( nNEWP < 0 )			nNEWP = 0;
 		if ( nNEWP > USHRT_MAX )	nNEWP = USHRT_MAX;
 
@@ -290,16 +290,16 @@ namespace GLOGICEX
 		sPOINT.LIMIT ();
 	}
 
-	//	Note : Ã¼·Â °°Àº ¼öÄ¡µéÀ» º¯È­À²¿¡ µû¶ó °»½ÅÇØÁØ´Ù.
-	//		°è»ê½Ã¿¡´Â int ÇüÀ¸·Î °è»êÀ» ¼öÇàÇÏ¿© ¿¬»ê½Ã ¼Õ½ÇÀ» ¸·´Â´Ù.
-	//		°ª Àû¿ë½Ã¿¡´Â WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+	//	Note : Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½.
+	//		ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ int ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Â´ï¿½.
+	//		ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	inline void UPDATE_POINT ( DWORD &dwNowP, float &fELP_VAR, const DWORD MaxP, const float fVAR, const DWORD dwLOW_LMT )
 	{
 		fELP_VAR += fVAR;
 		int nNEWP = int(dwNowP) + int(fELP_VAR);
 		fELP_VAR -= int(fELP_VAR);
 
-		//	WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+		//	WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( nNEWP < 0 )				nNEWP = 0;
 		if ( nNEWP < (int)dwLOW_LMT )	nNEWP = dwLOW_LMT;
 
@@ -313,7 +313,7 @@ namespace GLOGICEX
 		int nNEWP = int(wNowP) + int(fELP_VAR);
 		fELP_VAR -= int(fELP_VAR);
 
-		//	WORD Çü °ªÀÇ ¿µ¿ª ÀÌ³»·Î Á¦ÇÑ.
+		//	WORD ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 		if ( nNEWP < 0 )			nNEWP = 0;
 		if ( nNEWP > USHRT_MAX )	nNEWP = USHRT_MAX;
 
@@ -333,127 +333,127 @@ enum EMBEGINATTACK_FB
 };
 
 
-//	Note : º¯¼ö Ãß°¡½Ã¿¡. RESET_DATA() ÇÔ¼ö¿¡ º¯¼ö ÃÊ±âÈ­ ³Ö¾î¾ßµÊ.
+//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ã¿ï¿½. RESET_DATA() ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ö¾ï¿½ßµï¿½.
 //
 struct GLCHARLOGIC :public SCHARDATA2
 {	
 	EMCHARINDEX			m_CHARINDEX;
-	DELAY_MAP			m_SKILLDELAY;					//	»ç¿ëµÈ ½ºÅ³ÀÇ µô·¡ÀÌ.
+	DELAY_MAP			m_SKILLDELAY;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-	SSKILLFACT			m_sSKILLFACT[SKILLFACT_SIZE];	//	½ºÅ³È¿°úµé.
+	SSKILLFACT			m_sSKILLFACT[SKILLFACT_SIZE];	//	ï¿½ï¿½Å³È¿ï¿½ï¿½ï¿½ï¿½.
 
 	/*dual pet skill, Juver, 2017/12/27 */
-	SSKILLFACT			m_sPETSKILLFACT_A;				//  ÆÖÀÇ º¸Á¶½ºÅ³È¿°ú
-	SSKILLFACT			m_sPETSKILLFACT_B;				//  ÆÖÀÇ º¸Á¶½ºÅ³È¿°ú
+	SSKILLFACT			m_sPETSKILLFACT_A;				//  ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³È¿ï¿½ï¿½
+	SSKILLFACT			m_sPETSKILLFACT_B;				//  ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å³È¿ï¿½ï¿½
 	
-	SLANDEFFECT			m_sLandEffect[EMLANDEFFECT_MULTI];	//  ÁöÇü ÀÌ»ó È¿°úµé
+	SLANDEFFECT			m_sLandEffect[EMLANDEFFECT_MULTI];	//  ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ È¿ï¿½ï¿½ï¿½ï¿½
 
-	DWORD				m_dwTransfromSkill;				//  º¯½Å ½ºÅ³ ³Ñ¹ö
+	DWORD				m_dwTransfromSkill;				//  ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å³ ï¿½Ñ¹ï¿½
 
 
-	float				m_fHP_RATE;						//	active ½ºÅ³ÀÇ HP ÁõÆøÀ².
-	float				m_fMP_RATE;						//	active ½ºÅ³ÀÇ MP ÁõÆøÀ².
-	float				m_fSP_RATE;						//	active ½ºÅ³ÀÇ SP ÁõÆøÀ².
+	float				m_fHP_RATE;						//	active ï¿½ï¿½Å³ï¿½ï¿½ HP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	float				m_fMP_RATE;						//	active ï¿½ï¿½Å³ï¿½ï¿½ MP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	float				m_fSP_RATE;						//	active ï¿½ï¿½Å³ï¿½ï¿½ SP ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-	DWORD				m_dwHOLDBLOW;					//	»óÅÂÀÌ»óÀÌ ¹æÁöµÊ.
-	BOOL				m_bSTATEBLOW;					//	»óÅÂÀÌ»óÀÌ ÇÏ³ª ÀÌ»ó ¹ß»ýÇßÀ»¶§.
-	SSTATEBLOW			m_sSTATEBLOWS[EMBLOW_MULTI];	//	»óÅÂÀÌ»ó.
-	float				m_fSTATE_MOVE;					//	»óÅÂ ÀÌ»ó ÀÌµ¿¼Óµµ. ( 1.0f == 100% )
-	float				m_fSTATE_DELAY;					//	»óÅÂ ÀÌ»ó µô·¡ÀÌ. ( 1.0f == 100% ) (+)
-	float				m_fSTATE_DAMAGE;				//	»óÅÂ ÀÌ»ó ´ë¹ÌÁö Áõ°¡.
+	DWORD				m_dwHOLDBLOW;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	BOOL				m_bSTATEBLOW;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½Ì»ï¿½ ï¿½ß»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	SSTATEBLOW			m_sSTATEBLOWS[EMBLOW_MULTI];	//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½.
+	float				m_fSTATE_MOVE;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½Ìµï¿½ï¿½Óµï¿½. ( 1.0f == 100% )
+	float				m_fSTATE_DELAY;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. ( 1.0f == 100% ) (+)
+	float				m_fSTATE_DAMAGE;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	SQITEM_FACT			m_sQITEMFACT;					//	? ¾ÆÀÌÅÛ Àû¿ë°ª.
-	SEVENT_FACT			m_sEVENTFACT;					//	ÀÌº¥Æ® ? ¾ÆÀÌÅÛ Àû¿ë°ª.
+	SQITEM_FACT			m_sQITEMFACT;					//	? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë°ª.
+	SEVENT_FACT			m_sEVENTFACT;					//	ï¿½Ìºï¿½Æ® ? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ë°ª.
 	//SEventState			m_sEventState;
 
 	SPKCOMBO_COUNT		m_sPKCOMBOCOUNT;
 
 
-	bool				m_bSTATE_PANT;					//	»óÅÂÀÌ»ó Çæ¶±ÀÓ.
-	bool				m_bSTATE_STUN;					//	»óÅÂÀÌ»ó ±âÀý.
-	bool				m_bINVISIBLE;					//	Åõ¸í.
-	bool				m_bRECVISIBLE;					//	Åõ¸í È®ÀÎ.
+	bool				m_bSTATE_PANT;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½æ¶±ï¿½ï¿½.
+	bool				m_bSTATE_STUN;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	bool				m_bINVISIBLE;					//	ï¿½ï¿½ï¿½ï¿½.
+	bool				m_bRECVISIBLE;					//	ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 
-	float				m_fSKILL_MOVE;					//	½ºÅ³ ÀÌµ¿¼Óµµ.
-	float				m_fOPTION_MOVE;					//	Ãß°¡ÀûÀÎ ÀÌµ¿¼Óµµ. ¿ùµå¿¡µðÅÍ¿¡¼­ »ç¿ë.
+	float				m_fSKILL_MOVE;					//	ï¿½ï¿½Å³ ï¿½Ìµï¿½ï¿½Óµï¿½.
+	float				m_fOPTION_MOVE;					//	ï¿½ß°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½Óµï¿½. ï¿½ï¿½ï¿½å¿¡ï¿½ï¿½ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 
 
-	DEFENSE_SKILL		m_sDefenseSkill;				//  ¹ßµ¿Çü ½ºÅ³
-	SCHARSTATS			m_sSUMSTATS;					//	ÇÕ»ê Stats.
+	DEFENSE_SKILL		m_sDefenseSkill;				//  ï¿½ßµï¿½ï¿½ï¿½ ï¿½ï¿½Å³
+	SCHARSTATS			m_sSUMSTATS;					//	ï¿½Õ»ï¿½ Stats.
 
-	WORD				m_wSUM_AP;						//	±âº» °ø°Ý·Â.
-	WORD				m_wSUM_DP;						//	±âº» ¹æ¾î·Â.
+	WORD				m_wSUM_AP;						//	ï¿½âº» ï¿½ï¿½ï¿½Ý·ï¿½.
+	WORD				m_wSUM_DP;						//	ï¿½âº» ï¿½ï¿½ï¿½ï¿½.
 
-	WORD				m_wSUM_PA;						//	°ÝÅõÄ¡.
-	WORD				m_wSUM_SA;						//	»ç°ÝÄ¡.
-	WORD				m_wSUM_MA;						//	¸¶¹ýÄ¡.
+	WORD				m_wSUM_PA;						//	ï¿½ï¿½ï¿½ï¿½Ä¡.
+	WORD				m_wSUM_SA;						//	ï¿½ï¿½ï¿½Ä¡.
+	WORD				m_wSUM_MA;						//	ï¿½ï¿½ï¿½ï¿½Ä¡.
 
-	SRESIST				m_sSUMRESIST;					//	ÀúÇ×°ª. ( ¾ÆÀÌÅÛ + ÆÐ½Ãºê )
-	SRESIST				m_sSUMRESIST_SKILL;				//  ½ºÅ³ ÀúÇ×°ª ( ¾ÆÀÌÅÛ + ÆÐ½Ãºê + ¹öÇÁ ) 
-	SSUM_ITEM			m_sSUMITEM;						//	¾ÆÀÌÅÛ °¡»ê°ª.
-	SPASSIVE_SKILL_DATA	m_sSUM_PASSIVE;					//	Æä½Ãºê °¡»ê°ª.
+	SRESIST				m_sSUMRESIST;					//	ï¿½ï¿½ï¿½×°ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ + ï¿½Ð½Ãºï¿½ )
+	SRESIST				m_sSUMRESIST_SKILL;				//  ï¿½ï¿½Å³ ï¿½ï¿½ï¿½×°ï¿½ ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ + ï¿½Ð½Ãºï¿½ + ï¿½ï¿½ï¿½ï¿½ ) 
+	SSUM_ITEM			m_sSUMITEM;						//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ê°ª.
+	SPASSIVE_SKILL_DATA	m_sSUM_PASSIVE;					//	ï¿½ï¿½Ãºï¿½ ï¿½ï¿½ï¿½ê°ª.
 
-	int					m_nSUM_PIERCE;					//	°üÅë Á¤µµ ÇÕ»ê.
-	float				m_fSUM_TARRANGE;				//	°ø°Ý °¡´É°Å¸® ÇÕ»ê.
+	int					m_nSUM_PIERCE;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Õ»ï¿½.
+	float				m_fSUM_TARRANGE;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É°Å¸ï¿½ ï¿½Õ»ï¿½.
 
 	/*skill range spec logic, Juver, 2017/06/06 */
 	float				m_fSUM_SKILL_ATTACKRANGE;
 	float				m_fSUM_SKILL_APPLYRANGE;
 
-	WORD				m_wACCEPTP;						//	¹«±â ¾ÆÀÌÅÛ¿¡ ´É·ÂÁ¦ÇÑ Çã¿ë ¼öÄ¡.
-	WORD				m_wSUM_DisSP;					//	¼Ò¸ð SP ÇÕ»ê.
+	WORD				m_wACCEPTP;						//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½É·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡.
+	WORD				m_wSUM_DisSP;					//	ï¿½Ò¸ï¿½ SP ï¿½Õ»ï¿½.
 
-	int					m_nHIT;							//	¸íÁßÀ².
-	int					m_nSUM_HIT;						//	¸íÁßÀ² + ½ºÅ³È¿°ú.
-	int					m_nAVOID;						//	È¸ÇÇÀ².
-	int					m_nSUM_AVOID;					//	È¸ÇÇÀ² + ½ºÅ³È¿°ú.
+	int					m_nHIT;							//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	int					m_nSUM_HIT;						//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Å³È¿ï¿½ï¿½.
+	int					m_nAVOID;						//	È¸ï¿½ï¿½ï¿½ï¿½.
+	int					m_nSUM_AVOID;					//	È¸ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Å³È¿ï¿½ï¿½.
 
-	int					m_nDEFENSE_BODY;				//	¹æ¾î·Â ( DP + DEX+°è¼ö ).
-	int					m_nDEFENSE;						//	¹æ¾î·Â ( DP + DEX*°è¼ö + ITEM_DEF ) * °ø°£ÀûÀÀ º¸Á¤.
-	int					m_nDEFENSE_SKILL;				//	¹æ¾î·Â ( DP + DEX*°è¼ö + ITEM_DEF ) * °ø°£ÀûÀÀ º¸Á¤ + ½ºÅ³.
+	int					m_nDEFENSE_BODY;				//	ï¿½ï¿½ï¿½ï¿½ ( DP + DEX+ï¿½ï¿½ï¿½ ).
+	int					m_nDEFENSE;						//	ï¿½ï¿½ï¿½ï¿½ ( DP + DEX*ï¿½ï¿½ï¿½ + ITEM_DEF ) * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	int					m_nDEFENSE_SKILL;				//	ï¿½ï¿½ï¿½ï¿½ ( DP + DEX*ï¿½ï¿½ï¿½ + ITEM_DEF ) * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Å³.
 
-	GLPADATA			m_gdDAMAGE;						//	±âº» °ø°Ý·Â. ( AP + Æä½Ãºê ½ºÅ³·Î °¡»êµÈ °ø¾÷ )
-	GLPADATA			m_gdDAMAGE_SKILL;				//	±âº» °ø°Ý·Â + temp ½ºÅ³È¿°ú.
-	GLPADATA			m_gdDAMAGE_PHYSIC;				//	±âº» °ø°Ý·Â + ¹«±â°ø¾÷ + (°ÝÅõÄ¡or»ç°ÝÄ¡).
+	GLPADATA			m_gdDAMAGE;						//	ï¿½âº» ï¿½ï¿½ï¿½Ý·ï¿½. ( AP + ï¿½ï¿½Ãºï¿½ ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+	GLPADATA			m_gdDAMAGE_SKILL;				//	ï¿½âº» ï¿½ï¿½ï¿½Ý·ï¿½ + temp ï¿½ï¿½Å³È¿ï¿½ï¿½.
+	GLPADATA			m_gdDAMAGE_PHYSIC;				//	ï¿½âº» ï¿½ï¿½ï¿½Ý·ï¿½ + ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ + (ï¿½ï¿½ï¿½ï¿½Ä¡orï¿½ï¿½ï¿½Ä¡).
 
-	float				m_fDamageRate;					//	°ø°Ý·Â º¯È­À².
-	float				m_fDefenseRate;					//	¹æ¾î·Â º¯È­À².
+	float				m_fDamageRate;					//	ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½È­ï¿½ï¿½.
+	float				m_fDefenseRate;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½.
 
-	DAMAGE_SPEC			m_sDamageSpec;					//	µ¥¹ÌÁö Èí¼ö ¹× ¹Ý»ç
+	DAMAGE_SPEC			m_sDamageSpec;					//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ý»ï¿½
 
-	float				m_fINCR_HP;						//	HP È¸º¹À².
-	float				m_fINCR_MP;						//	MP È¸º¹À².
-	float				m_fINCR_SP;						//	SP È¸º¹À².
+	float				m_fINCR_HP;						//	HP È¸ï¿½ï¿½ï¿½ï¿½.
+	float				m_fINCR_MP;						//	MP È¸ï¿½ï¿½ï¿½ï¿½.
+	float				m_fINCR_SP;						//	SP È¸ï¿½ï¿½ï¿½ï¿½.
 
-	float				m_fATTVELO;						//	½ºÅ³ °ø°Ý¼Óµµ º¯È­.
-	WORD				m_wATTRANGE;					//	°ø°Ý °¡´É °Å¸®.
-	WORD				m_wSUM_ATTRANGE;				//	°ø°Ý °¡´É °Å¸®.
-	GLITEM_ATT			m_emITEM_ATT;					//	¾ÆÀÌÅÆ °ø°Ý ¼Ó¼º.
+	float				m_fATTVELO;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½Ý¼Óµï¿½ ï¿½ï¿½È­.
+	WORD				m_wATTRANGE;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+	WORD				m_wSUM_ATTRANGE;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+	GLITEM_ATT			m_emITEM_ATT;					//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 
 	float				m_fSKILLDELAY;
 
-	float				m_fEXP_RATE;					//	°æÇèÄ¡ ¼ö½ÅÀ².
-	float				m_fGEN_RATE;					//	¾ÆÀÌÅÛ ¹ß»ýÀ².
+	float				m_fEXP_RATE;					//	ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	float				m_fGEN_RATE;					//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½ï¿½.
 
-	EMANI_SUBTYPE		m_emANISUBTYPE;					//	Item Âø¿ë¿¡ µû¸¥ ¿¡´Ï¸ÞÀÌ¼Ç Á¾·ù.
+	EMANI_SUBTYPE		m_emANISUBTYPE;					//	Item ï¿½ï¿½ï¿½ë¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	SNATIVEID			m_idACTIVESKILL;				//	ÇöÁ¦ ¾×Æ¼ºêµÈ ½ºÅ³.
-	EMANI_MAINTYPE		m_emANIMAINSKILL;				//	½ºÅ³¿¡ µû¸¥ ¿¡´Ï¸ÞÀÌ¼Ç.
-	EMANI_SUBTYPE		m_emANISUBSKILL;				//	½ºÅ³¿¡ µû¸¥ ¿¡´Ï¸ÞÀÌ¼Ç.
+	SNATIVEID			m_idACTIVESKILL;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ¼ï¿½ï¿½ï¿½ ï¿½ï¿½Å³.
+	EMANI_MAINTYPE		m_emANIMAINSKILL;				//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½.
+	EMANI_SUBTYPE		m_emANISUBSKILL;				//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½.
 
 	SITEM*				m_pITEMS[SLOT_TSIZE];
 
-	BOOL				m_bUseArmSub;					// ±Ø°­ºÎ¸¦ À§ÇÑ º¸Á¶ ¹«±â »ç¿ë¿©ºÎ
+	BOOL				m_bUseArmSub;					// ï¿½Ø°ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ë¿©ï¿½ï¿½
 
-	//	Note : È¸º¹µÇ´Â ¼öÄ¡ »êÃâ¿ë ÀÓ½Ã º¯¼ö.
+	//	Note : È¸ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ó½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	float				m_fIncHP;
 	float				m_fIncMP;
 	float				m_fIncSP;
 
-	MAPPLAYHOSTILE		m_mapPlayHostile;				//	Àû´ë ÇàÀ§ÀÚ. ( ½Ö¹æ )
+	MAPPLAYHOSTILE		m_mapPlayHostile;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. ( ï¿½Ö¹ï¿½ )
 
-//	Å»°Í Ãß°¡
-	BOOL				m_bVehicle;						//  Å»°Í È°¼ºÈ­ ¿©ºÎ
+//	Å»ï¿½ï¿½ ï¿½ß°ï¿½
+	BOOL				m_bVehicle;						//  Å»ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½
 	float				m_fVehicleSpeedRate;
 	float				m_fVehicleSpeedVol;
 	
@@ -622,7 +622,7 @@ public:
 	int GETFORCE_HIGH () const		{ return m_gdDAMAGE_PHYSIC.wHigh; }
 	int GETDEFENSE () const			{ return m_nDEFENSE_SKILL; }
 	
-	float GETSUM_TARRANGE () const	{ return m_fSUM_TARRANGE; }		//	Àå°Å¸® ¹«±â(½ºÅ³)¿¡¸¸ °¡»ê.
+	float GETSUM_TARRANGE () const	{ return m_fSUM_TARRANGE; }		//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½Å³)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	int GETSUM_PIERCE () const		{ return m_nSUM_PIERCE; }
 
 	WORD GETBODYRADIUS () const		{ return GLCONST_CHAR::wBODYRADIUS; }
@@ -669,7 +669,7 @@ public:
 	BOOL ISHAVEITEM ( SNATIVEID &sNID, DWORD *pNum=NULL );
 	BOOL ISREVIVE ();
 
-	SITEM* GET_ELMT_ITEM ();	//	¿Þ¼Õ, ¿À¸¥¼Õ ¾ÆÀÌÅÛÁß¿¡¼­ 'BLOW' ¼Ó¼ºÀÌ ÀÖ´Â ¾ÆÀÌÅÛÀ» ¹ÝÈ¯.
+	SITEM* GET_ELMT_ITEM ();	//	ï¿½Þ¼ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¿ï¿½ï¿½ï¿½ 'BLOW' ï¿½Ó¼ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯.
 
 	WORD GETSKILLRANGE_TAR ( const GLSKILL &sSKILL ) const;
 	WORD GETSKILLRANGE_APPLY ( const GLSKILL &sSKILL, const WORD dwLEVEL ) const;
@@ -720,7 +720,7 @@ public:
 	BOOL CHECKHIT ( const STARGETID &cTargetID, const GLLandMan* pLandMan, const BOOL bLowSP );
 
 	/**
-	* Ä³¸¯ÅÍ°¡ ¸÷À» °ø°ÝÇßÀ»¶§ µ¥¹ÌÁö °è»ê °ø½Ä
+	* Ä³ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	*/
 	DWORD CALCDAMAGE(
 		int &rResultDAMAGE,
@@ -759,9 +759,9 @@ public:
 public:
 	/*qbox check, Juver, 2017/12/05 */
 	BOOL RECEIVE_QITEMFACT ( const SNATIVEID &nidITEM, BOOL bMobGen );
-	//	Memo :	ÀÌº¥Æ®·Î ÀÎÇØ ¹Þ´Â ?¾ÆÀÌÅÛ È¿°ú¸¦ ¼³Á¤ÇÑ´Ù.
+	//	Memo :	ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	void RECEIVE_EVENTFACT_BEGIN ( const EMGM_EVENT_TYPE emType, const WORD wValue );
-	//	Memo :	ÀÌº¥Æ®·Î ÀÎÇØ ¹Þ´Â ?¾ÆÀÌÅÛ È¿°ú¸¦ ÇØÁ¦ÇÑ´Ù.
+	//	Memo :	ï¿½Ìºï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 	void RECEIVE_EVENTFACT_END ( const EMGM_EVENT_TYPE emType );
 	BOOL RECEIVE_PKCOMBO ( int nCount );
 
@@ -779,30 +779,30 @@ public:
 public:
 	float GETATTVELO ();
 	float GETMOVEVELO ();
-	float GETATT_ITEM (); // Àý´ëÄ¡ Áõ°¡
-	float GETMOVE_ITEM (); // Àý´ëÄ¡ Áõ°¡ % 
+	float GETATT_ITEM (); // ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
+	float GETMOVE_ITEM (); // ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ % 
 
 public:
-	//	Note : Àû´ëÀÚ µî·Ï. ( pk °ü·Ã ),	true : ½Å±Ô µî·Ï½Ã, false : ±âÁ¸ µî·Ï °»½Å½Ã.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½. ( pk ï¿½ï¿½ï¿½ï¿½ ),	true : ï¿½Å±ï¿½ ï¿½ï¿½Ï½ï¿½, false : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å½ï¿½.
 	bool ADD_PLAYHOSTILE ( DWORD dwCHARID, BOOL bBAD );
 	bool DEL_PLAYHOSTILE ( DWORD dwCHARID );
 	void DEL_PLAYHOSTILE_ALL ();
 
 public:
-	//	Note : Àû´ë ¸®½ºÆ®¿¡ µî·Ï µÇ¾î ÀÖ´Â°¡?
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ ï¿½Ö´Â°ï¿½?
 	bool IS_PLAYHOSTILE ( DWORD dwCHARID );
-	//	Note : Àû´ëÇàÀ§ÀÚ?
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?
 	bool IS_HOSTILE_ACTOR ( DWORD dwCHARID );
-	//	Note : ÀÚ½ÅÀÌ ¹üÁËÀÚÀÎ°¡?
+	//	Note : ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½?
 	bool ISOFFENDER ();
 
 	bool ISPLAYKILLING ();
 
 public:
-	//	Note : ÇöÁ¦ pk ·¹º§À» ¾Ë¾Æº»´Ù. ( UINT_MAX ÀÏ°æ¿ì pk ÇØ´ç»çÇ× ¾øÀ½. )
+	//	Note : ï¿½ï¿½ï¿½ï¿½ pk ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¾Æºï¿½ï¿½ï¿½. ( UINT_MAX ï¿½Ï°ï¿½ï¿½ pk ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
 	DWORD GET_PK_LEVEL ();
 
-	//	Note : Á×À»¶§ °æÇèÄ¡ °¨¼Ò pk ¹è¼ö.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ pk ï¿½ï¿½ï¿½.
 	float GET_PK_DECEXP_RATE ();
 	std::string GET_PK_NAME ();
 	DWORD GET_PK_COLOR ();
@@ -860,69 +860,69 @@ public:
 	virtual void ReSelectAnimation ()	{}
 };
 
-//	Note : º¯¼ö Ãß°¡½Ã¿¡. RESET_DATA() ÇÔ¼ö¿¡ º¯¼ö ÃÊ±âÈ­ ³Ö¾î¾ßµÊ.
+//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ã¿ï¿½. RESET_DATA() ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ö¾ï¿½ßµï¿½.
 //
 struct GLCROWLOGIC
 {
 	SNATIVEID			m_sNativeID;					//	Crow NativeID.
-	PCROWDATA			m_pCrowData;					//	Crow ±âº» Á¤º¸.
+	PCROWDATA			m_pCrowData;					//	Crow ï¿½âº» ï¿½ï¿½ï¿½ï¿½.
 
-	float				m_fACTIONDELAY[SCROWDATA::EMMAXATTACK];	//	µ¿ÀÛ cool time;
+	float				m_fACTIONDELAY[SCROWDATA::EMMAXATTACK];	//	ï¿½ï¿½ï¿½ï¿½ cool time;
 
-	SSKILLFACT			m_sSKILLFACT[SKILLFACT_SIZE];	//	½ºÅ³È¿°úµé.
+	SSKILLFACT			m_sSKILLFACT[SKILLFACT_SIZE];	//	ï¿½ï¿½Å³È¿ï¿½ï¿½ï¿½ï¿½.
 
-	DWORD				m_dwHOLDBLOW;					//	»óÅÂÀÌ»óÀÌ ¹æÁöµÊ.
+	DWORD				m_dwHOLDBLOW;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-	SSTATEBLOW			m_sSTATEBLOWS[EMBLOW_MULTI];	//	»óÅÂÀÌ»ó.
-	float				m_fSTATE_MOVE;					//	»óÅÂ ÀÌ»ó ÀÌµ¿¼Óµµ. ( 1.0f == 100% )
-	float				m_fSTATE_DELAY;					//	»óÅÂ ÀÌ»ó µô·¡ÀÌ. ( 1.0f == 100% ) (+)
-	float				m_fSTATE_DAMAGE;				//	»óÅÂ ÀÌ»ó ´ë¹ÌÁö Áõ°¡.
+	SSTATEBLOW			m_sSTATEBLOWS[EMBLOW_MULTI];	//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½.
+	float				m_fSTATE_MOVE;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½Ìµï¿½ï¿½Óµï¿½. ( 1.0f == 100% )
+	float				m_fSTATE_DELAY;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½. ( 1.0f == 100% ) (+)
+	float				m_fSTATE_DAMAGE;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	
-	bool				m_bSTATE_PANT;					//	»óÅÂÀÌ»ó Çæ¶±ÀÓ.
-	bool				m_bSTATE_STUN;					//	»óÅÂÀÌ»ó ±âÀý.
-	bool				m_bINVISIBLE;					//	Åõ¸í.
-	bool				m_bRECVISIBLE;					//	Åõ¸í È®ÀÎ.
+	bool				m_bSTATE_PANT;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½æ¶±ï¿½ï¿½.
+	bool				m_bSTATE_STUN;					//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	bool				m_bINVISIBLE;					//	ï¿½ï¿½ï¿½ï¿½.
+	bool				m_bRECVISIBLE;					//	ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½.
 
-	float				m_fATTVELO;						//	°ø°Ý¼Óµµ.
-	float				m_fSKILL_MOVE;					//	½ºÅ³ ÀÌµ¿¼Óµµ.
+	float				m_fATTVELO;						//	ï¿½ï¿½ï¿½Ý¼Óµï¿½.
+	float				m_fSKILL_MOVE;					//	ï¿½ï¿½Å³ ï¿½Ìµï¿½ï¿½Óµï¿½.
 
 
-	int					m_nSUM_HIT;						//	¸íÁßÀ² + ½ºÅ³È¿°ú.
-	int					m_nSUM_AVOID;					//	È¸ÇÇÀ² + ½ºÅ³È¿°ú.
+	int					m_nSUM_HIT;						//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Å³È¿ï¿½ï¿½.
+	int					m_nSUM_AVOID;					//	È¸ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Å³È¿ï¿½ï¿½.
 
-	int					m_nSUM_DEFENSE;					//	¹æ¾î·Â ( DP + POW*°è¼ö + ITEM_DEF ) * °ø°£ÀûÀÀ º¸Á¤ + ½ºÅ³.
-	int					m_nDX_DAMAGE;					//	±âº» °ø°Ý·Â. + ½ºÅ³È¿°ú.
+	int					m_nSUM_DEFENSE;					//	ï¿½ï¿½ï¿½ï¿½ ( DP + POW*ï¿½ï¿½ï¿½ + ITEM_DEF ) * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Å³.
+	int					m_nDX_DAMAGE;					//	ï¿½âº» ï¿½ï¿½ï¿½Ý·ï¿½. + ï¿½ï¿½Å³È¿ï¿½ï¿½.
 	
-	SRESIST				m_sSUMRESIST;					//	ÀúÇ×°ª.
+	SRESIST				m_sSUMRESIST;					//	ï¿½ï¿½ï¿½×°ï¿½.
 
-	int					m_nSUM_PIERCE;					//	Ãß°¡ °üÅë Á¤µµ.
-	float				m_fSUM_TARRANGE;				//	°ø°Ý °¡´É°Å¸® ÇÕ»ê.
+	int					m_nSUM_PIERCE;					//	ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	float				m_fSUM_TARRANGE;				//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½É°Å¸ï¿½ ï¿½Õ»ï¿½.
 
 	/*skill range spec logic, Juver, 2017/06/06 */
 	float				m_fSUM_SKILL_ATTACKRANGE;
 	float				m_fSUM_SKILL_APPLYRANGE;
 
-	float				m_fDamageRate;					//	°ø°Ý·Â º¯È­À².
-	float				m_fDefenseRate;					//	¹æ¾î·Â º¯È­À².
+	float				m_fDamageRate;					//	ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½È­ï¿½ï¿½.
+	float				m_fDefenseRate;					//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­ï¿½ï¿½.
 
-	DAMAGE_SPEC			m_sDamageSpec;					//	µ¥¹ÌÁö Èí¼ö ¹× ¹Ý»ç
-	DEFENSE_SKILL		m_sDefenseSkill;				//  ¹ßµ¿Çü ½ºÅ³
+	DAMAGE_SPEC			m_sDamageSpec;					//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ý»ï¿½
+	DEFENSE_SKILL		m_sDefenseSkill;				//  ï¿½ßµï¿½ï¿½ï¿½ ï¿½ï¿½Å³
 
-	DWORD				m_dwAType;						//	°ø°Ý ¼Ó¼º ¼ø¹ø.
+	DWORD				m_dwAType;						//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	
-	DWORD				m_dwNowHP;						//	»ý¸í·®.
-	WORD				m_wNowMP;						//	Á¤½Å·®.
-	WORD				m_wNowSP;						//	Á¤½Å·®.
+	DWORD				m_dwNowHP;						//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	WORD				m_wNowMP;						//	ï¿½ï¿½ï¿½Å·ï¿½.
+	WORD				m_wNowSP;						//	ï¿½ï¿½ï¿½Å·ï¿½.
 
-	SNATIVEID			m_idACTIVESKILL;				//	È°¼º ½ºÅ³.
-	WORD				m_wACTIVESKILL_LVL;				//	È°¼º ½ºÅ³  ·¡º§.
+	SNATIVEID			m_idACTIVESKILL;				//	È°ï¿½ï¿½ ï¿½ï¿½Å³.
+	WORD				m_wACTIVESKILL_LVL;				//	È°ï¿½ï¿½ ï¿½ï¿½Å³  ï¿½ï¿½ï¿½ï¿½.
 
-	//	Note : È¸º¹µÇ´Â ¼öÄ¡ »êÃâ¿ë ÀÓ½Ã º¯¼ö.
+	//	Note : È¸ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ó½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	float				m_fIncHP;
 	float				m_fIncMP;
 	float				m_fIncSP;
 
-	//	Note : º¯¼ö Ãß°¡½Ã¿¡. RESET_DATA() ÇÔ¼ö¿¡ º¯¼ö ÃÊ±âÈ­ ³Ö¾î¾ßµÊ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Ã¿ï¿½. RESET_DATA() ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ö¾ï¿½ßµï¿½.
 	//
 
 	bool				m_bProhibitPotion; /*prohibit potion skill logic, Juver, 2017/06/06 */
@@ -1078,7 +1078,7 @@ struct GLCROWLOGIC
 	int GETFORCE_HIGH () const;
 	int GETDEFENSE () const			{ return m_nSUM_DEFENSE; }
 
-	float GETSUM_TARRANGE () const	{ return m_fSUM_TARRANGE; }		//	Àå°Å¸® ¹«±â(½ºÅ³)¿¡¸¸ °¡»ê.
+	float GETSUM_TARRANGE () const	{ return m_fSUM_TARRANGE; }		//	ï¿½ï¿½Å¸ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½Å³)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	int GETSUM_PIERCE () const		{ return m_nSUM_PIERCE; }
 
 	WORD GETBODYRADIUS () const		{ return m_pCrowData->m_sAction.m_wBodyRadius; }
@@ -1126,13 +1126,13 @@ struct GLCROWLOGIC
 EMANI_SUBTYPE CHECK_ANISUB ( SITEM* pRHAND, SITEM* pLHAND );
 EMANI_SUBTYPE CHECK_ATTACK_ANISUB ( SITEM* pRHAND, SITEM* pLHAND );
 
-//! ¾ÆÀÌÅÛ È¹µæ ±ÇÇÑÀ» ÁÖ±âÀ§ÇÑ...
-//! µ¥¹ÌÁö ·Î±×¸¦ ±â·ÏÇÏ±â À§ÇÑ ±¸Á¶Ã¼
+//! ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½...
+//! ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î±×¸ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
 struct SDAMAGELOG
 {
 	DWORD dwUserID; ///< User ID
-	DWORD dwGaeaID; ///< °¡ÀÌ¾Æ ID
-	DWORD dwDamage; ///< ÁØ µ¥¹ÌÁö	
+	DWORD dwGaeaID; ///< ï¿½ï¿½ï¿½Ì¾ï¿½ ID
+	DWORD dwDamage; ///< ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½	
 
 	SDAMAGELOG () 
 		: dwUserID(0)
@@ -1166,12 +1166,12 @@ inline void AddDamageLog ( DAMAGELOG &cDamageLog, DWORD dwGaeaID, DWORD dwUserID
 	cDamageLog[dwUserID] = SDAMAGELOG(dwUserID,dwGaeaID,dwDamage);
 }
 
-//! Ãß°¡:2006-04-12 Jgkim
-//! ÆÄÆ¼ µ¥¹ÌÁö ·Î±×±â·ÏÀ» À§ÇÑ ±¸Á¶Ã¼
+//! ï¿½ß°ï¿½:2006-04-12 Jgkim
+//! ï¿½ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î±×±ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¼
 struct SDAMAGELOGPARTY
 {
-	DWORD m_dwPartyID; ///< ÆÄÆ¼ °íÀ¯¹øÈ£
-	DWORD m_dwDamage; ///< ÆÄÆ¼°¡ ÁØ µ¥¹ÌÁö
+	DWORD m_dwPartyID; ///< ï¿½ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£
+	DWORD m_dwDamage; ///< ï¿½ï¿½Æ¼ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	SDAMAGELOGPARTY()
 		: m_dwPartyID(0)
@@ -1208,55 +1208,110 @@ inline void AddDamageLogParty(DAMAGELOGPARTY &cDamageLogParty, DWORD dwPartyID, 
 
 inline bool CHECHSKILL_ITEM ( GLSKILL_ATT emSKILL, GLITEM_ATT emITEM )
 {
-	switch ( emSKILL )
-	{
-	case SKILLATT_NOTHING:			
-		return ( emITEM == ITEMATT_NOTHING );
-	case SKILLATT_SWORD:			
-		return ( emITEM == ITEMATT_SWORD );
-	case SKILLATT_BLADE:			
-		return ( emITEM == ITEMATT_BLADE );
-	case SKILLATT_SWORDBLADE:		
-		return ( emITEM == ITEMATT_SWORD || emITEM == ITEMATT_BLADE );
-	case SKILLATT_DAGGER:			
-		return ( emITEM == ITEMATT_DAGGER );
-	case SKILLATT_SPEAR:			
-		return ( emITEM == ITEMATT_SPEAR );
-	case SKILLATT_STICK:			
-		return ( emITEM == ITEMATT_STICK );
-	case SKILLATT_GAUNT:			
-		return ( emITEM == ITEMATT_GAUNT );
-	case SKILLATT_BOW:				
-		return ( emITEM == ITEMATT_BOW );
-	case SKILLATT_THROW:			
-		return ( emITEM == ITEMATT_THROW );
+	//Conditionally Check Skills before execution
+	
+	// 	switch( emSKILL )
+	// 	{
+	// 	case SKILLATT_NOTHING:
+	// 		return (emITEM == ITEMATT_NOTHING);
+	// 		break;
+	// 	case SKILLATT_SWORD:
+	// 		return (emITEM == ITEMATT_SWORD);
+	// 		break;
+	// 	case SKILLATT_BLADE:
+	// 		return (emITEM == ITEMATT_SABER);
+	// 		break;
+	// 	case SKILLATT_SWORDBLADE:
+	// 		return ( emITEM == ITEMATT_SWORD || emITEM == ITEMATT_SABER );
+	// 		break;
+	// 	case SKILLATT_DAGGER:
+	// 		return (emITEM == ITEMATT_DAGGER);
+	// 		break;
+	// 	case SKILLATT_SPEAR:
+	// 		return (emITEM == ITEMATT_SPEAR);
+	// 		break;
+	// 	case SKILLATT_STICK:
+	// 		return (emITEM == ITEMATT_STICK);
+	// 		break;
+	// 	case SKILLATT_GAUNT:
+	// 		return (emITEM == ITEMATT_GAUNT);
+	// 		break;
+	// 	case SKILLATT_BOW:
+	// 		return (emITEM == ITEMATT_BOW);
+	// 		break;
+	// 	case SKILLATT_THROW:
+	// 		return (emITEM == ITEMATT_THROW);
+	// 		break;
 
-		/*gun-bullet logic, Juver, 2017/05/27 */
-	case SKILLATT_GUN:			
-		return ( emITEM == ITEMATT_GUN);
-	case SKILLATT_RAILGUN:			
-		return ( emITEM == ITEMATT_RAILGUN);
-	case SKILLATT_PORTALGUN:			
-		return ( emITEM == ITEMATT_PORTALGUN);
-	case SKILLATT_SHOTGUN:			
-		return ( emITEM == ITEMATT_GUN || emITEM == ITEMATT_RAILGUN || emITEM == ITEMATT_PORTALGUN );
-	case SKILLATT_RAILPORTALGUN:			
-		return ( emITEM == ITEMATT_RAILGUN || emITEM == ITEMATT_PORTALGUN );
+	// 	case SKILLATT_GUN:
+	// 		return (emITEM == ITEMATT_DUAL_GUN);
+	// 		break;
+	// 	case SKILLATT_RAILGUN:
+	// 		return (emITEM == ITEMATT_RAIL_GUN);
+	// 		break;
+	// 	case SKILLATT_PORTALGUN:
+	// 		return (emITEM == ITEMATT_PORTAL_GUN);
+	// 		break;
 
-	case SKILLATT_SCYTHE:			
-		return ( emITEM == ITEMATT_SCYTHE );
+	// 	case SKILLATT_SHOTGUN:
+	// 		return (emITEM == ITEMATT_GUN);
+	// 		break;
+	// 	case SKILLATT_RAILPORTALGUN:
+	// 		return (emITEM == ITEMATT_GUN);
+	// 		break;
 
-	case SKILLATT_DUALSPEAR:			
-		return ( emITEM == ITEMATT_DUALSPEAR );
+	// 	case SKILLATT_SCYTHE:
+	// 		return (emITEM == ITEMATT_SCYTHE);
+	// 		break;
+	// 	case SKILLATT_DUALSPEAR:
+	// 		return (emITEM == ITEMATT_DUALSPEAR);
+	// 		break;
+	// 	case SKILLATT_SHURIKEN:
+	// 		return (emITEM == ITEMATT_SHURIKEN);
+	// 		break;
 
-	case SKILLATT_SHURIKEN:			
-		return ( emITEM == ITEMATT_SHURIKEN );
+	// 	case SKILLATT_FIST:
+	// 		return (emITEM == ITEMATT_FIST);
+	// 		break;
+	// 	case SKILLATT_WAND:
+	// 		return (emITEM == ITEMATT_WAND);
+	// 		break;
+	// 	case SKILLATT_CUBE:
+	// 		return (emITEM == ITEMATT_CUBE);
+	// 		break;
+		
+	// 	case SKILLATT_WHIP:
+	// 		return (emITEM == ITEMATT_WHIP);
+	// 		break;
+	// 	case SKILLATT_NOCARE:
+	// 		return (emITEM == ITEMATT_NOCARE);
+	// 		break;
+	// 	};
 
-	case SKILLATT_NOCARE:			
-		return ( emITEM == ITEMATT_NOCARE );
-	};
+	// return	false;
 
-	return	false;
+
+	// if ( emSKILL==ITEMATT_SWORD || emSKILL==ITEMATT_SABER )
+	// {
+	// 	return ( emITEM==ITEMATT_SWORD || emITEM==ITEMATT_SABER );
+	// }
+	// else if ( emSKILL==ITEMATT_GUN )
+	// {
+	// 	return ( emITEM==ITEMATT_RAIL_GUN || emITEM==ITEMATT_PORTAL_GUN || emITEM==ITEMATT_DUAL_GUN );
+	// }
+	// else if ( emSKILL==ITEMATT_FIST )
+	// {
+	// 	return ( emITEM==ITEMATT_SWORD || emITEM==ITEMATT_SABER  || emITEM == ITEMATT_SWORDSABER || 
+	// 			 emITEM==ITEMATT_SPEAR || emITEM==ITEMATT_STICK || emITEM==ITEMATT_GAUNT || emITEM==ITEMATT_BOW || emITEM==ITEMATT_DUAL_GUN ||
+	// 			 emITEM==ITEMATT_RAIL_GUN || emITEM==ITEMATT_PORTAL_GUN || emITEM==ITEMATT_DUALSPEAR || emITEM==ITEMATT_SHURIKEN || emITEM==ITEMATT_SCYTHE ||
+	// 			 emITEM==ITEMATT_WAND || emITEM==ITEMATT_CUBE  || emITEM==ITEMATT_WHIP || emITEM==ITEMATT_FIST || emITEM==ITEMATT_SHIELD || emITEM==ITEMATT_HAMMER || emITEM==ITEMATT_UMBRELLA );
+	// }
+
+	// return (emITEM==emSKILL);
+
+	return true;
+
+
 }
 
 /*vehicle system, Juver, 2017/08/07 */
