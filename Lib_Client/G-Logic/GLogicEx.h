@@ -1209,107 +1209,82 @@ inline void AddDamageLogParty(DAMAGELOGPARTY &cDamageLogParty, DWORD dwPartyID, 
 inline bool CHECHSKILL_ITEM ( GLSKILL_ATT emSKILL, GLITEM_ATT emITEM )
 {
 	//Conditionally Check Skills before execution
-	
-	// 	switch( emSKILL )
-	// 	{
-	// 	case SKILLATT_NOTHING:
-	// 		return (emITEM == ITEMATT_NOTHING);
-	// 		break;
-	// 	case SKILLATT_SWORD:
-	// 		return (emITEM == ITEMATT_SWORD);
-	// 		break;
-	// 	case SKILLATT_BLADE:
-	// 		return (emITEM == ITEMATT_SABER);
-	// 		break;
-	// 	case SKILLATT_SWORDBLADE:
-	// 		return ( emITEM == ITEMATT_SWORD || emITEM == ITEMATT_SABER );
-	// 		break;
-	// 	case SKILLATT_DAGGER:
-	// 		return (emITEM == ITEMATT_DAGGER);
-	// 		break;
-	// 	case SKILLATT_SPEAR:
-	// 		return (emITEM == ITEMATT_SPEAR);
-	// 		break;
-	// 	case SKILLATT_STICK:
-	// 		return (emITEM == ITEMATT_STICK);
-	// 		break;
-	// 	case SKILLATT_GAUNT:
-	// 		return (emITEM == ITEMATT_GAUNT);
-	// 		break;
-	// 	case SKILLATT_BOW:
-	// 		return (emITEM == ITEMATT_BOW);
-	// 		break;
-	// 	case SKILLATT_THROW:
-	// 		return (emITEM == ITEMATT_THROW);
-	// 		break;
+		switch( emSKILL )
+		{
+			case SKILLATT_NOTHING:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_NOTHING);
+				break;
+			case SKILLATT_SWORD:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_SWORD);
+				break;
+			case SKILLATT_BLADE:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_SABER);
+				break;
+			case SKILLATT_SWORDBLADE:
+				return ( emITEM == ITEMATT_FIST || emITEM == ITEMATT_SWORD || emITEM == ITEMATT_SABER );
+				break;
+			case SKILLATT_DAGGER:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_DAGGER);
+				break;
+			case SKILLATT_SPEAR:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_SPEAR);
+				break;
+			case SKILLATT_STICK:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_STICK);
+				break;
+			case SKILLATT_GAUNT:
+					return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_GAUNT);
+				break;
+			case SKILLATT_BOW:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_BOW);
+				break;
+			case SKILLATT_THROW:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_THROW);
+				break;
 
-	// 	case SKILLATT_GUN:
-	// 		return (emITEM == ITEMATT_DUAL_GUN);
-	// 		break;
-	// 	case SKILLATT_RAILGUN:
-	// 		return (emITEM == ITEMATT_RAIL_GUN);
-	// 		break;
-	// 	case SKILLATT_PORTALGUN:
-	// 		return (emITEM == ITEMATT_PORTAL_GUN);
-	// 		break;
+			case SKILLATT_GUN:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_DUAL_GUN);
+				break;
+			case SKILLATT_RAILGUN:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_RAIL_GUN);
+				break;
+			case SKILLATT_PORTALGUN:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_PORTAL_GUN);
+				break;
 
-	// 	case SKILLATT_SHOTGUN:
-	// 		return (emITEM == ITEMATT_GUN);
-	// 		break;
-	// 	case SKILLATT_RAILPORTALGUN:
-	// 		return (emITEM == ITEMATT_GUN);
-	// 		break;
+			case SKILLATT_SHOTGUN:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_GUN);
+				break;
+			case SKILLATT_RAILPORTALGUN:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_GUN);
+				break;
 
-	// 	case SKILLATT_SCYTHE:
-	// 		return (emITEM == ITEMATT_SCYTHE);
-	// 		break;
-	// 	case SKILLATT_DUALSPEAR:
-	// 		return (emITEM == ITEMATT_DUALSPEAR);
-	// 		break;
-	// 	case SKILLATT_SHURIKEN:
-	// 		return (emITEM == ITEMATT_SHURIKEN);
-	// 		break;
-
-	// 	case SKILLATT_FIST:
-	// 		return (emITEM == ITEMATT_FIST);
-	// 		break;
-	// 	case SKILLATT_WAND:
-	// 		return (emITEM == ITEMATT_WAND);
-	// 		break;
-	// 	case SKILLATT_CUBE:
-	// 		return (emITEM == ITEMATT_CUBE);
-	// 		break;
-		
-	// 	case SKILLATT_WHIP:
-	// 		return (emITEM == ITEMATT_WHIP);
-	// 		break;
-	// 	case SKILLATT_NOCARE:
-	// 		return (emITEM == ITEMATT_NOCARE);
-	// 		break;
-	// 	};
-
-	// return	false;
-
-
-	// if ( emSKILL==ITEMATT_SWORD || emSKILL==ITEMATT_SABER )
-	// {
-	// 	return ( emITEM==ITEMATT_SWORD || emITEM==ITEMATT_SABER );
-	// }
-	// else if ( emSKILL==ITEMATT_GUN )
-	// {
-	// 	return ( emITEM==ITEMATT_RAIL_GUN || emITEM==ITEMATT_PORTAL_GUN || emITEM==ITEMATT_DUAL_GUN );
-	// }
-	// else if ( emSKILL==ITEMATT_FIST )
-	// {
-	// 	return ( emITEM==ITEMATT_SWORD || emITEM==ITEMATT_SABER  || emITEM == ITEMATT_SWORDSABER || 
-	// 			 emITEM==ITEMATT_SPEAR || emITEM==ITEMATT_STICK || emITEM==ITEMATT_GAUNT || emITEM==ITEMATT_BOW || emITEM==ITEMATT_DUAL_GUN ||
-	// 			 emITEM==ITEMATT_RAIL_GUN || emITEM==ITEMATT_PORTAL_GUN || emITEM==ITEMATT_DUALSPEAR || emITEM==ITEMATT_SHURIKEN || emITEM==ITEMATT_SCYTHE ||
-	// 			 emITEM==ITEMATT_WAND || emITEM==ITEMATT_CUBE  || emITEM==ITEMATT_WHIP || emITEM==ITEMATT_FIST || emITEM==ITEMATT_SHIELD || emITEM==ITEMATT_HAMMER || emITEM==ITEMATT_UMBRELLA );
-	// }
-
-	// return (emITEM==emSKILL);
-
-	return true;
+			case SKILLATT_SCYTHE:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_SCYTHE);
+				break;
+			case SKILLATT_DUALSPEAR:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_DUALSPEAR);
+				break;
+			case SKILLATT_SHURIKEN:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_SHURIKEN);
+				break;
+			case SKILLATT_FIST:
+				return (emITEM == ITEMATT_FIST);
+				break;
+			case SKILLATT_WAND:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_WAND);
+				break;
+			case SKILLATT_CUBE:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_CUBE);
+				break;
+			case SKILLATT_WHIP:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_WHIP);
+				break;
+			case SKILLATT_NOCARE:
+				return (emITEM == ITEMATT_FIST || emITEM == ITEMATT_NOCARE);
+				break;
+		};
+	return false;
 
 
 }
