@@ -16,7 +16,7 @@
 
 namespace GLOGICEX
 {
-	//	Note : ÁÖÀ§ È¯°æ¿¡ µû¸¥ ºû / ¾îµÒ  Ä³¸¯ÅÍÀÇ ¾îµå/µð½º ÆÇ´Ü.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ È¯ï¿½æ¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ / ï¿½ï¿½ï¿½  Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½/ï¿½ï¿½ ï¿½Ç´ï¿½.
 	EM_BRIGHT_FB GLSPACEGAP ( const EMBRIGHT emACTOR, const EMBRIGHT emRECEP, const EMBRIGHT emSPACE )
 	{
 		if ( emACTOR==emRECEP )		return BFB_AVER;
@@ -35,10 +35,10 @@ namespace GLOGICEX
 		return BFB_AVER;
 	}
 
-	//	Note : °ø°Ý ¼º°øÀ² °è»ê.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	int GLHITRATE ( const int nHit, const int nAvoid, const EM_BRIGHT_FB bFB )
 	{
-		//	Note : ¼º°øÀ² »ó¼ö.
+		//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 		const int nBirght[3] = { -10, 0, 10 };
 		enum { MAX_HIT = 99, MIN_HIT = 20, BASIC = 100,  };
 
@@ -51,7 +51,7 @@ namespace GLOGICEX
 		return hitRate;
 	}
 
-	// Note : Strock TRUE/FALSE »êÃâ.	¿¹) ÀûÀÌ °ø°Ý µ¿ÀÛ½Ã Ãë¼Ò°¡ µÇ¾î ´Ù½Ã µ¿ÀÛÀ» ÃëÇØ¾ß ÇÑ´Ù.
+	// Note : Strock TRUE/FALSE ï¿½ï¿½ï¿½ï¿½.	ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Û½ï¿½ ï¿½ï¿½Ò°ï¿½ ï¿½Ç¾ï¿½ ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¾ï¿½ ï¿½Ñ´ï¿½.
 	BOOL CHECKSHOCK ( const int nACTLEV, const int nDEFLEV, const int nDamage, const bool bCritical )
 	{
 		enum { CLEANHIT_RATE = 1, CRITICALHIT_RATE = 5, MIN_DXLEVEL = 5, MIN_DAMAGE = 6 };
@@ -64,7 +64,7 @@ namespace GLOGICEX
 		return (CLEANHIT_RATE>(RANDOM_POS*100));
 	}
 
-	//	Note : ¹æ¾î·Â , ÁÖÀ§ È¯°æ ¼Ó¼º¿¡ µû¶ó °è»ê.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½ È¯ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½.
 	int GLDEFENSE ( const int nDEFENSE, const EMBRIGHT emACTOR, const EMBRIGHT emRecep, const EMBRIGHT emSPACE )
 	{
 		float fFactor[BFB_SIZE] = { 0.8f, 1.0f, 1.2f };
@@ -73,7 +73,7 @@ namespace GLOGICEX
 		return int(nDEFENSE*fFactor[brightFB]);
 	}
 
-	//	Note : °ø°Ý ¼öÇà½Ã¿¡ ½ÀµæÇÏ´Â °æÇèÄ¡ ½Àµæ·®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½æ·®.
 	int GLATTACKEXP ( int nAttackerLev, int nDefenserLev, DWORD dwDamage, DWORD dwMaxHP, DWORD dwBonusExp )
 	{
 		using namespace GLCONST_CHAR;
@@ -87,7 +87,7 @@ namespace GLOGICEX
 		return ( ( nExp < 0 ) ? 0 : nExp );
 	}
 
-	//	Note : »ó´ë¸¦ Á×¿´À» °æ¿ì °æÇèÄ¡ ½Àµæ·®.
+	//	Note : ï¿½ï¿½ë¸¦ ï¿½×¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½æ·®.
 	int	GLKILLEXP ( int nAttackerLev, int nDefenserLev, DWORD dwBonusExp )
 	{
 		float fExpRate = GLCONST_CHAR::GETEXP_RATE ( nAttackerLev, nDefenserLev );
@@ -96,7 +96,7 @@ namespace GLOGICEX
 		return ( ( nExp < 0 ) ? 0 : nExp );
 	}
 
-	//	Á×¾úÀ»¶§ °æÇèÄ¡ °¨¼Ò.
+	//	ï¿½×¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½.
 	float GLDIE_DECEXP ( WORD wACTLEV )
 	{
 		WORD wSTEP = ( wACTLEV / 10 );
@@ -105,7 +105,7 @@ namespace GLOGICEX
 		return GLCONST_CHAR::fDIE_DECEXP[wSTEP];
 	}
 	
-	//	°æÇèÄ¡ º¹±¸ ºñÀ²
+	//	ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	float GLDIE_RECOVERYEXP ( WORD wACTLEV )
 	{
 		WORD wSTEP = ( wACTLEV / 10 );
@@ -114,7 +114,7 @@ namespace GLOGICEX
 		return GLCONST_CHAR::fDIE_RECOVERYEXP[wSTEP];
 	}
 
-	//  °æÇèÄ¡1´ç µ·
+	//  ï¿½ï¿½ï¿½ï¿½Ä¡1ï¿½ï¿½ ï¿½ï¿½
 	float GLDIE_EXPMONEY ( WORD wACTLEV )
 	{
 		WORD wSTEP = ( wACTLEV / 10 );
@@ -123,7 +123,7 @@ namespace GLOGICEX
 		return GLCONST_CHAR::fEXP_RATE_MONEY[wSTEP];
 	}
 
-	//	Note : ·¡¹ë¾÷ ÇÏ±â À§ÇØ¼­ ÇÊ¿äÇÑ °æÇèÄ¡ ÃÑ·®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½Ñ·ï¿½.
 	LONGLONG GLNEEDEXP ( WORD wLev )
 	{
 		if ( wLev >= MAX_LEVEL )	
@@ -208,7 +208,7 @@ EMANI_SUBTYPE CHECK_ANISUB ( SITEM* pRHAND, SITEM* pLHAND )
 {
 	EMANI_SUBTYPE emANISUBTYPE = AN_SUB_NONE;
 
-	//	Note : Âø¿ë ¾ÆÀÌÅÛ¿¡ µû¸¥ ¿¡´Ï¸ÞÀÌ¼Ç Á¾·ù.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Û¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	GLITEM_ATT emRHAtt = ITEMATT_NOTHING;
 	GLITEM_ATT emLHAtt = ITEMATT_NOTHING;
 
@@ -217,85 +217,114 @@ EMANI_SUBTYPE CHECK_ANISUB ( SITEM* pRHAND, SITEM* pLHAND )
 
 	switch ( emRHAtt )
 	{
-	case ITEMATT_NOTHING:
-		emANISUBTYPE = AN_SUB_NONE;
-		break;
+		case ITEMATT_NOTHING:
+			emANISUBTYPE = AN_SUB_NONE;
+			break;
 
-	case ITEMATT_SWORD:
-		if ( pRHAND->sSuitOp.IsBOTHHAND() )
-		{
-			if ( pRHAND->sSuitOp.IsBIG() )		emANISUBTYPE = AN_SUB_BIGHSWORD;
-			else								emANISUBTYPE = AN_SUB_TWOHSWORD;
-		}
-		else
-		{
-			emANISUBTYPE = AN_SUB_ONEHSWORD;
-			if ( emLHAtt==ITEMATT_SWORD )		emANISUBTYPE = AN_SUB_EITHERSWORD;
-		}
-		break;
+		case ITEMATT_SWORD:
+			if ( pRHAND->sSuitOp.IsBOTHHAND() )
+			{
+				if ( pRHAND->sSuitOp.IsBIG() )		emANISUBTYPE = AN_SUB_BIGHSWORD;
+				else								emANISUBTYPE = AN_SUB_TWOHSWORD;
+			}
+			else
+			{
+				emANISUBTYPE = AN_SUB_ONEHSWORD;
+				if ( emLHAtt==ITEMATT_SWORD )		emANISUBTYPE = AN_SUB_EITHERSWORD;
+			}
+			break;
 
-	case ITEMATT_DAGGER:
-		emANISUBTYPE = AN_SUB_DAGGER;
-		break;
+		case ITEMATT_DAGGER:
+			emANISUBTYPE = AN_SUB_DAGGER;
+			break;
 
-	case ITEMATT_SPEAR:
-		emANISUBTYPE = AN_SUB_SPEAR;
-		break;
+		case ITEMATT_SPEAR:
+			emANISUBTYPE = AN_SUB_SPEAR;
+			break;
 
-	case ITEMATT_BOW:
-		emANISUBTYPE = AN_SUB_BOW;
-		break;
+		case ITEMATT_BOW:
+			emANISUBTYPE = AN_SUB_BOW;
+			break;
 
-	case ITEMATT_THROW:
-		emANISUBTYPE = AN_SUB_THROW;
-		break;
+		case ITEMATT_THROW:
+			emANISUBTYPE = AN_SUB_THROW;
+			break;
 
-	case ITEMATT_STICK:
-		emANISUBTYPE = AN_SUB_STICK;
-		break;
+		case ITEMATT_STICK:
+			emANISUBTYPE = AN_SUB_STICK;
+			break;
 
-	case ITEMATT_BLADE:
-		if ( pRHAND->sSuitOp.IsBOTHHAND() )
-		{
-			if ( pRHAND->sSuitOp.IsBIG() )		emANISUBTYPE = AN_SUB_BIGBLADE;
-			else								emANISUBTYPE = AN_SUB_TWOBLADE;
-		}
-		else
-		{
-			emANISUBTYPE = AN_SUB_ONEBLADE;
-			if ( emLHAtt==ITEMATT_SWORD )		emANISUBTYPE = AN_SUB_EITHERBLADE;
-		}
-		break;
+		case ITEMATT_SABER:
+			if ( pRHAND->sSuitOp.IsBOTHHAND() )
+			{
+				if ( pRHAND->sSuitOp.IsBIG() )		emANISUBTYPE = AN_SUB_BIGSABER;
+				else								emANISUBTYPE = AN_SUB_TWOSABER;
+			}
+			else
+			{
+				emANISUBTYPE = AN_SUB_ONESABER;
+				if ( emLHAtt==ITEMATT_SWORD )		emANISUBTYPE = AN_SUB_EITHERSABER;
+			}
+			break;
 
-	case ITEMATT_GAUNT:
-		emANISUBTYPE = AN_SUB_GAUNT;
-		break;
+		case ITEMATT_GAUNT:
+			emANISUBTYPE = AN_SUB_GAUNT;
+			break;
 
-		/*gun-bullet logic, Juver, 2017/05/27 */
-	case ITEMATT_GUN:
-		emANISUBTYPE = AN_SUB_DUALGUN;
-		break;
+		case ITEMATT_DUAL_GUN:
+				emANISUBTYPE = AN_SUB_DUALGUN;
+			break;
 
-	case ITEMATT_RAILGUN:
-	case ITEMATT_PORTALGUN:
-		emANISUBTYPE = AN_SUB_GUN;
-		break;
+		case ITEMATT_RAIL_GUN:
+		case ITEMATT_PORTAL_GUN:
+			emANISUBTYPE = AN_SUB_GUN;
+			break;
 
-	case ITEMATT_SCYTHE:
-		emANISUBTYPE = AN_SUB_SCYTHE;
-		break;
+		case ITEMATT_DUALSPEAR:
 
-	case ITEMATT_DUALSPEAR:
-		emANISUBTYPE = AN_SUB_DUALSPEAR;
-		break;
+			emANISUBTYPE = AN_SUB_DUALSPEAR;
+			break;
 
-	case ITEMATT_SHURIKEN:
-		emANISUBTYPE = AN_SUB_SHURIKEN;
-		break;
+		case ITEMATT_SHURIKEN:
 
-	default:
-		emANISUBTYPE = AN_SUB_NONE;
-		break;
+			emANISUBTYPE = AN_SUB_SHURIKEN;
+			break;
+		case ITEMATT_SCYTHE:
+
+			emANISUBTYPE = AN_SUB_SCYTHE;
+			break;
+
+		case ITEMATT_FIST:
+			emANISUBTYPE = AN_SUB_EX_FIST;
+			break;
+
+		case ITEMATT_WAND:
+			emANISUBTYPE = AN_SUB_WAND;
+			break;
+
+		case ITEMATT_CUBE:
+			emANISUBTYPE = AN_SUB_BOX;
+			break;
+
+		case ITEMATT_WHIP:
+			emANISUBTYPE = AN_SUB_WHIP;
+			break;
+
+		case ITEMATT_SHIELD:
+			emANISUBTYPE = AN_SUB_SHIELD;
+			break;
+
+		case ITEMATT_HAMMER:
+			emANISUBTYPE = AN_SUB_HAMMER;
+			break;
+
+		case ITEMATT_UMBRELLA:
+			emANISUBTYPE = AN_SUB_UMBRELLA;
+			break;
+
+		default:
+			emANISUBTYPE = AN_SUB_NONE;
+			break;
 	};
 
 	return emANISUBTYPE;
@@ -318,7 +347,7 @@ D3DXVECTOR3 UpdateSkillDirection ( const D3DXVECTOR3 &vMyPos, const D3DXVECTOR3 
 {
 	D3DXVECTOR3 vNextDir = vMyDir;
 
-	//	Note : °ø°Ý ¹æÇâÀ¸·Î È¸Àü.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½.
 	//
 	PGLSKILL pSkill = GLSkillMan::GetInstance().GetData ( sSKILLID.wMainID, sSKILLID.wSubID );
 	if ( !pSkill )
@@ -326,7 +355,7 @@ D3DXVECTOR3 UpdateSkillDirection ( const D3DXVECTOR3 &vMyPos, const D3DXVECTOR3 
 		return vNextDir;
 	}
 
-	//	Note : ¹æÇâ È¸ÀüÀÌ ÇÊ¿äÇÒ °æ¿ì ¹æÇâÀ» Æ°´Ù.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Æ°ï¿½ï¿½.
 	//
 	EMIMPACT_TAR emTARGET = pSkill->m_sBASIC.emIMPACT_TAR;
 	EMIMPACT_REALM emREALM = pSkill->m_sBASIC.emIMPACT_REALM;

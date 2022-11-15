@@ -17,19 +17,19 @@ namespace glold_102
 {
 	enum GLITEM_ATT_102
 	{
-		ITEMATT_NOTHING		= 0,	//	Âø¿ë¹«±â¾øÀ½.
+		ITEMATT_NOTHING		= 0,	//	ï¿½ï¿½ï¿½ë¹«ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_SWORD		= 1,	//	°Ë·ù.
+		ITEMATT_SWORD		= 1,	//	ï¿½Ë·ï¿½.
 		ITEMATT_REV00		= 2,	//	REV00
-		ITEMATT_DAGGER		= 3,	//	´Ü°Ë·ù.
-		ITEMATT_SPEAR		= 4,	//	Ã¢·ù.
-		ITEMATT_BOW			= 5,	//	È°·ù.
-		ITEMATT_THROW		= 6,	//	ÅõÃ´·ù.
+		ITEMATT_DAGGER		= 3,	//	ï¿½Ü°Ë·ï¿½.
+		ITEMATT_SPEAR		= 4,	//	Ã¢ï¿½ï¿½.
+		ITEMATT_BOW			= 5,	//	È°ï¿½ï¿½.
+		ITEMATT_THROW		= 6,	//	ï¿½ï¿½Ã´ï¿½ï¿½.
 
-		ITEMATT_NOCARE		= 7,	//	Å¸ÀÔ »ó°ü ¾ÈÇÔ.	( "GLSKILL" ¿¡¼­ Hand ¹«±â Á¦ÇÑ ¼Ó¼º¿¡¼­ »ç¿ëµÊ. )
-		ITEMATT_NSIZE		= 7,	//	Á¾·ù°¹¼ö.
+		ITEMATT_NOCARE		= 7,	//	Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	( "GLSKILL" ï¿½ï¿½ï¿½ï¿½ Hand ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
+		ITEMATT_NSIZE		= 7,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_NEAR		= 4,	//	±ÙÁ¢ °ø°Ý.
+		ITEMATT_NEAR		= 4,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	};
 };
 
@@ -37,20 +37,20 @@ namespace glold_103
 {
 	enum GLITEM_ATT_103
 	{
-		ITEMATT_NOTHING		= 0,	//	Âø¿ë¹«±â¾øÀ½.
+		ITEMATT_NOTHING		= 0,	//	ï¿½ï¿½ï¿½ë¹«ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_SWORD		= 1,	//	°Ë.
-		ITEMATT_BLADE		= 2,	//	µµ.
-		ITEMATT_DAGGER		= 3,	//	´Ü°Ë.
+		ITEMATT_SWORD		= 1,	//	ï¿½ï¿½.
+		ITEMATT_SABER		= 2,	//	ï¿½ï¿½.
+		ITEMATT_DAGGER		= 3,	//	ï¿½Ü°ï¿½.
 		ITEMATT_SPEAR		= 4,	//	Ã¢.
-		ITEMATT_STICK		= 5,	//	¸ùµÕÀÌ.
+		ITEMATT_STICK		= 5,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 		ITEMATT_BOW			= 6,	//	È°.
-		ITEMATT_THROW		= 7,	//	ÅõÃ´.
+		ITEMATT_THROW		= 7,	//	ï¿½ï¿½Ã´.
 
-		ITEMATT_NOCARE		= 8,	//	Å¸ÀÔ »ó°ü ¾ÈÇÔ.	( "GLSKILL" ¿¡¼­ Hand ¹«±â Á¦ÇÑ ¼Ó¼º¿¡¼­ »ç¿ëµÊ. )
-		ITEMATT_NSIZE		= 8,	//	Á¾·ù°¹¼ö.
+		ITEMATT_NOCARE		= 8,	//	Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	( "GLSKILL" ï¿½ï¿½ï¿½ï¿½ Hand ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
+		ITEMATT_NSIZE		= 8,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_NEAR		= 5,	//	±ÙÁ¢ °ø°Ý.
+		ITEMATT_NEAR		= 5,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	};
 };
 
@@ -58,51 +58,51 @@ namespace glold_108
 {
 	enum GLITEM_ATT_108
 	{
-		ITEMATT_NOTHING		= 0,	//	Âø¿ë¹«±â¾øÀ½.
+		ITEMATT_NOTHING		= 0,	//	ï¿½ï¿½ï¿½ë¹«ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_SWORD		= 1,	//	°Ë.
-		ITEMATT_BLADE		= 2,	//	µµ.
-		ITEMATT_SWORDBLADE	= 3,	//	°Ë/µµ. "°Ë/µµ" ´Â ½ºÅ³¿¡¼­ »ç¿ë¹«±â È®ÀÎ½Ã¿¡¸¸ »ç¿ëµÊ.
+		ITEMATT_SWORD		= 1,	//	ï¿½ï¿½.
+		ITEMATT_REV00		= 2,	//	ï¿½ï¿½.
+		ITEMATT_SWORDBLADE	= 3,	//	ï¿½ï¿½/ï¿½ï¿½. "ï¿½ï¿½/ï¿½ï¿½" ï¿½ï¿½ ï¿½ï¿½Å³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ë¹«ï¿½ï¿½ È®ï¿½Î½Ã¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_DAGGER		= 4,	//	´Ü°Ë.
+		ITEMATT_DAGGER		= 4,	//	ï¿½Ü°ï¿½.
 		ITEMATT_SPEAR		= 5,	//	Ã¢.
-		ITEMATT_STICK		= 6,	//	¸ùµÕÀÌ.
-		ITEMATT_GAUNT		= 7,	//	±Ç.
+		ITEMATT_STICK		= 6,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		ITEMATT_GAUNT		= 7,	//	ï¿½ï¿½.
 		ITEMATT_BOW			= 8,	//	È°.
-		ITEMATT_THROW		= 9,	//	ÅõÃ´.
+		ITEMATT_THROW		= 9,	//	ï¿½ï¿½Ã´.
 
-		ITEMATT_NOCARE		= 10,	//	Å¸ÀÔ »ó°ü ¾ÈÇÔ.	( "GLSKILL" ¿¡¼­ Hand ¹«±â Á¦ÇÑ ¼Ó¼º¿¡¼­ »ç¿ëµÊ. )
-		ITEMATT_NSIZE		= 10,	//	Á¾·ù°¹¼ö.
+		ITEMATT_NOCARE		= 10,	//	Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	( "GLSKILL" ï¿½ï¿½ï¿½ï¿½ Hand ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
+		ITEMATT_NSIZE		= 10,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-		ITEMATT_NEAR		= 7,	//	±ÙÁ¢ °ø°Ý.
+		ITEMATT_NEAR		= 7,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	};
 };
 
 enum EMITEMLEVEL
 {
-	LEVEL_NORMAL	= 0,	//	ÀÏ¹Ý
-	LEVEL_RARE		= 1,	//	Áø±ÍÇÑ
-	LEVEL_UNIQUE	= 2,	//	À¯ÀÏÇÑ
-	LEVEL_INFINITY	= 3,	//	¹«ÇÑ
-	LEVEL_FERVOR	= 4,	//	¹é¿­
+	LEVEL_NORMAL	= 0,	//	ï¿½Ï¹ï¿½
+	LEVEL_RARE		= 1,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	LEVEL_UNIQUE	= 2,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	LEVEL_INFINITY	= 3,	//	ï¿½ï¿½ï¿½ï¿½
+	LEVEL_FERVOR	= 4,	//	ï¿½é¿­
 	
-	LEVEL_NSIZE		= 5		//	Á¾·ù°¹¼ö.
+	LEVEL_NSIZE		= 5		//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 };
 
 enum EMITEM_FLAG
 {
-	TRADE_SALE			= 0x01,	//	»óÁ¡¿¡ ÆÇ¸Å °¡´É.
-	TRADE_EXCHANGE		= 0x02,	//	°³ÀÎ°£ ±³È¯ °¡´É.
-	TRADE_THROW			= 0x04,	//	ÇÊµå¿¡ ¹ö¸®±â °¡´É.
+	TRADE_SALE			= 0x01,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¸ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	TRADE_EXCHANGE		= 0x02,	//	ï¿½ï¿½ï¿½Î°ï¿½ ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½.
+	TRADE_THROW			= 0x04,	//	ï¿½Êµå¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	TRADE_EVENT_SGL		= 0x08,	//	¿©·¯ ÀÌº¥Æ® ¾ÆÀÌÅÛÁß ÇÑ°³ ÀÌ»ó ¸ø ÁÝ°Ô ÇÏ±â À§ÇÑ.
+	TRADE_EVENT_SGL		= 0x08,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ìºï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ°ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ ï¿½Ý°ï¿½ ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	ITEM_DISGUISE		= 0x10,	//	ÄÚ½ºÅù.
-	ITEM_TIMELMT		= 0x20,	//	½ÃÈ¿¼º.
+	ITEM_DISGUISE		= 0x10,	//	ï¿½Ú½ï¿½ï¿½ï¿½.
+	ITEM_TIMELMT		= 0x20,	//	ï¿½ï¿½È¿ï¿½ï¿½.
 	
-	ITEM_CHANNEL_ALL	= 0x40, //	¸ðµç Ã¼³Î.
+	ITEM_CHANNEL_ALL	= 0x40, //	ï¿½ï¿½ï¿½ Ã¼ï¿½ï¿½.
 
-	TRADE_GARBAGE		= 0x80, //	ÆÄ¼â °¡´É
+	TRADE_GARBAGE		= 0x80, //	ï¿½Ä¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 	ITEM_FLAG_EX_1		= 0x100,
 	ITEM_FLAG_EX_2		= 0x200,
@@ -114,43 +114,52 @@ enum EMITEM_FLAG
 
 enum EMITEM_HAND
 {
-	HAND_RIGHT		= 0x0001,	//	¿À¸¥¼Õ ¿ë.
-	HAND_LEFT		= 0x0002,	//	¿Þ¼Õ ¿ë.
-	HAND_BOTH		= 0x0003,	//	¿Þ¼Õ, ¿À¸¥¼Õ ¸ðµÎ °¡´É.
+	HAND_RIGHT		= 0x0001,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
+	HAND_LEFT		= 0x0002,	//	ï¿½Þ¼ï¿½ ï¿½ï¿½.
+	HAND_BOTH		= 0x0003,	//	ï¿½Þ¼ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 };
 
-//	Note : Ä³¸¯ÅÍ ¿¡´Ï¸ÞÀÌ¼Ç Á¦¾î¿Í °ü·ÃÀÌ ÀÖÀ½.
-//		Ä³¸¯ÅÍ ¿¡´Ï¸ÞÀÌ¼Ç ¼±ÅÃÇÒ¶§ Âø¿ë ¾ÆÀÌÅÆ¿¡ µû¶ó ¼±ÅÃÀ» ÇÔ.
+//	Note : Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+//		Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ò¶ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Æ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 //
 enum GLITEM_ATT
 {
-	ITEMATT_NOTHING		= 0,	//	Âø¿ë¹«±â¾øÀ½.
-	ITEMATT_SWORD		= 1,	//	°Ë.
-	ITEMATT_BLADE		= 2,	//	µµ.
-	ITEMATT_DAGGER		= 3,	//	´Ü°Ë.
-	ITEMATT_SPEAR		= 4,	//	Ã¢.
-	ITEMATT_STICK		= 5,	//	¸ùµÕÀÌ.
-	ITEMATT_GAUNT		= 6,	//	±Ç.
-	ITEMATT_BOW			= 7,	//	È°.
-	ITEMATT_THROW		= 8,	//	ÅõÃ´.
-	ITEMATT_GUN			= 9,
-	ITEMATT_RAILGUN		= 10,
-	ITEMATT_PORTALGUN	= 11,
-	ITEMATT_SCYTHE		= 12,
-	ITEMATT_DUALSPEAR	= 13,
-	ITEMATT_SHURIKEN	= 14,
+	ITEMATT_NOTHING			= 0,	
+	ITEMATT_SWORD			= 1,	
+	ITEMATT_SABER			= 2,	
+	ITEMATT_DAGGER			= 3,	
+	ITEMATT_SPEAR			= 4,	
+	ITEMATT_STICK			= 5,	
+	ITEMATT_GAUNT			= 6,	
+	ITEMATT_BOW				= 7,	
+	ITEMATT_THROW			= 8,	
+	ITEMATT_DUAL_GUN		= 9,
+	ITEMATT_RAIL_GUN		= 10,
+	ITEMATT_PORTAL_GUN		= 11,
+	ITEMATT_SCYTHE			= 12,
+	ITEMATT_DUALSPEAR		= 13,
+	ITEMATT_SHURIKEN		= 14,
+	ITEMATT_FIST			= 15,
+	ITEMATT_WAND			= 16,
+	ITEMATT_CUBE			= 17,
+	ITEMATT_WHIP			= 18,
+	ITEMATT_HAMMER			= 19,
+	ITEMATT_SHIELD			= 20,
+	ITEMATT_UMBRELLA		= 21,
+	ITEMATT_NOCARE			= 22,
+	ITEMATT_SWORDSABER		= 23,
+	ITEMATT_GUN				= 24,
 
-	ITEMATT_NOCARE		= 15,
-	ITEMATT_NSIZE		= 15,	//	Á¾·ù°¹¼ö.
-
-	ITEMATT_NEAR		= 6,	//	±ÙÁ¢ °ø°Ý.
+	//
+	ITEMATT_NEAR		= 7,
+	ITEMATT_NSIZE		= 25,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 };
 
 enum GLITEM_CONST
 {
-	ITEM_SZNAME		= 65,	//	item ÀÌ¸§ ±æÀÌ Á¦ÇÑ. (NULL) ¹®ÀÚ Æ÷ÇÔ ±æÀÌ.
-	ITEM_SZCOMMENT	= 256,	//	item "°£·«¼³¸í" ±æÀÌ Á¦ÇÑ. (NULL) ¹®ÀÚ Æ÷ÇÔ ±æÀÌ.
-	ITEM_SKILLS		= 4,	//	"½ºÅ³ Æ÷ÀÎÆ® Áõ°¡Ä¡" °¡ ºÙÀ»¼ö ÀÖ´Â °¹¼ö.
+	ITEM_SZNAME		= 65,	//	item ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. (NULL) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	ITEM_SZCOMMENT	= 256,	//	item "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. (NULL) ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	ITEM_SKILLS		= 4,	//	"ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½Ä¡" ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
 };
 
 enum EMSUIT
@@ -170,13 +179,13 @@ enum EMSUIT
 
 	SUIT_PET_A			= 9,	// PetData
 	SUIT_PET_B			= 10,
-	SUIT_VEHICLE		= 11,	// Å»°Í
+	SUIT_VEHICLE		= 11,	// Å»ï¿½ï¿½
 	
-	SUIT_VEHICLE_SKIN		= 12,	// Å»°Í Áß º¸µå ½ºÅ²
-	SUIT_VEHICLE_PARTS_A	= 13,	// Å»°Í Áß º¸µå ÆÄÃ÷
+	SUIT_VEHICLE_SKIN		= 12,	// Å»ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å²
+	SUIT_VEHICLE_PARTS_A	= 13,	// Å»ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	SUIT_VEHICLE_PARTS_B	= 14,
 	SUIT_VEHICLE_PARTS_C	= 15,
-	SUIT_VEHICLE_PARTS_D	= 16,	// Å»°Í Áß º¸µå ÆÄÃ÷
+	SUIT_VEHICLE_PARTS_D	= 16,	// Å»ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	SUIT_VEHICLE_PARTS_E	= 17,
 	SUIT_VEHICLE_PARTS_F	= 18,
 	SUIT_WING				= 19,//add wing
@@ -187,26 +196,26 @@ enum EMSUIT
 	SUIT_NSIZE				= 23,
 };
 
-//	Note : Âø¿ëÀ§Ä¡.
+//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡.
 enum EMSLOT
 {
-	SLOT_HEADGEAR	= 0,	//	¸Ó¸® ¾µ°Í
-	SLOT_UPPER		= 1,	//	»óÃ¼
-	SLOT_LOWER		= 2,	//	ÇÏÃ¼
-	SLOT_HAND		= 3,	//	¼Õ
-	SLOT_FOOT		= 4,	//	¹ß
+	SLOT_HEADGEAR	= 0,	//	ï¿½Ó¸ï¿½ ï¿½ï¿½ï¿½ï¿½
+	SLOT_UPPER		= 1,	//	ï¿½ï¿½Ã¼
+	SLOT_LOWER		= 2,	//	ï¿½ï¿½Ã¼
+	SLOT_HAND		= 3,	//	ï¿½ï¿½
+	SLOT_FOOT		= 4,	//	ï¿½ï¿½
 
-	SLOT_RHAND		= 5,	//	¿À¸¥¼Õ µµ±¸
-	SLOT_LHAND		= 6,	//	¿Þ¼Õ µµ±¸
+	SLOT_RHAND		= 5,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	SLOT_LHAND		= 6,	//	ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 	
-	SLOT_NECK		= 7,	//	¸ñ°ÉÀÌ
-	SLOT_WRIST		= 8,	//	¼Õ?E
-	SLOT_RFINGER	= 9,	//	¿À¸¥¼Õ ¼Õ°¡?E
-	SLOT_LFINGER	= 10,	//	¿Þ¼Õ ¼Õ°¡?E
-	SLOT_RHAND_S	= 11,	//	¿À¸¥¼Õ µµ±¸, ±Ø°­ºÎ
-	SLOT_LHAND_S	= 12,	//	¿Þ¼Õ µµ±¸, ±Ø°­ºÎ
+	SLOT_NECK		= 7,	//	ï¿½ï¿½ï¿½ï¿½ï¿½
+	SLOT_WRIST		= 8,	//	ï¿½ï¿½?E
+	SLOT_RFINGER	= 9,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Õ°ï¿½?E
+	SLOT_LFINGER	= 10,	//	ï¿½Þ¼ï¿½ ï¿½Õ°ï¿½?E
+	SLOT_RHAND_S	= 11,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½Ø°ï¿½ï¿½ï¿½
+	SLOT_LHAND_S	= 12,	//	ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½Ø°ï¿½ï¿½ï¿½
 
-	SLOT_VEHICLE	= 13,	//  Å»°Í 
+	SLOT_VEHICLE	= 13,	//  Å»ï¿½ï¿½ 
 	SLOT_WING		= 14,
 	SLOT_BELT		= 15,	
 	SLOT_REARRING	= 16,
@@ -333,64 +342,64 @@ enum EMITEM_TYPE
 {
 	ITEM_SUIT				= 0,
 
-	ITEM_ARROW				= 1,	//	È­»ì.
+	ITEM_ARROW				= 1,	//	È­ï¿½ï¿½.
 
-	ITEM_CURE				= 2,	//	¾àÇ°.
-	ITEM_SKILL				= 3,	//	½ºÅ³ ½Àµæ ¼­Àû.
-	ITEM_RECALL				= 4,	//	±ÍÈ¯¼­.
-	ITEM_KEY				= 5,	//	ÀÎÁõ¼­ ( ¿­¼è ).
-	ITEM_GRINDING			= 6,	//	¿¬¸¶Á¦
-	ITEM_CHARM				= 7,	//	ºÎÀû.
-	ITEM_TICKET				= 8,	//	½ÂÂ÷±Ç.
-	ITEM_SKP_RESET			= 9,	//	½ºÅ³ Æ÷ÀÎÆ® ¸®¼Â.
-	ITEM_STAT_RESET			= 10,	//	½ºÅÝ Æ÷ÀÎÆ® ¸®¼Â.
-	ITEM_SKP_STAT_RESET		= 11,	//	½ºÅ³, ½ºÅÝ Æ÷ÀÎÆ® ¸®¼Â.
+	ITEM_CURE				= 2,	//	ï¿½ï¿½Ç°.
+	ITEM_SKILL				= 3,	//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	ITEM_RECALL				= 4,	//	ï¿½ï¿½È¯ï¿½ï¿½.
+	ITEM_KEY				= 5,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ).
+	ITEM_GRINDING			= 6,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	ITEM_CHARM				= 7,	//	ï¿½ï¿½ï¿½ï¿½.
+	ITEM_TICKET				= 8,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	ITEM_SKP_RESET			= 9,	//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½.
+	ITEM_STAT_RESET			= 10,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½.
+	ITEM_SKP_STAT_RESET		= 11,	//	ï¿½ï¿½Å³, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½.
 
-	ITEM_BOX				= 12,	//	¼±¹° »óÀÚ.
-	ITEM_CLEANSER			= 13,	//	¼¼Å¹Á¦.
-	ITEM_LOUDSPEAKER		= 14,	//	È®¼º±â.
-	ITEM_FIRECRACKER		= 15,	//	ÆøÁ×.
-	ITEM_CHARACTER_CARD		= 16,	//	Ä³¸¯ÅÍ Ãß°¡ Ä«µå.
-	ITEM_INVEN_CARD			= 17,	//	ÀÎº¥ È®Àå Ä«µå.
-	ITEM_STORAGE_CARD		= 18,	//	Ã¢°í È®Àå Ä«µå.
-	ITEM_STORAGE_CONNECT	= 19,	//	Ã¢°í ¿¬°á Ä«µå.
-	ITEM_PREMIUMSET			= 20,	//	ÇÁ¸®¹Ì¾ö ¼¼Æ®.
-	ITEM_PRIVATEMARKET		= 21,	//	°³ÀÎ»óÁ¡ °³¼³ ±Ç¸®.
-	ITEM_RANDOMITEM			= 22,	//	·£´ý ¾ÆÀÌÅÆ.
-	ITEM_DISJUNCTION		= 23,	//	ÄÚ½ºÅù ºÐ¸®.
-	ITEM_HAIR				= 24,	//	Çì¾î½ºÅ¸ÀÏ º¯°æ.
-	ITEM_FACE				= 25,	//	¾ó±¼ º¯°æ.
-	ITEM_QITEM				= 26,	//	? ¾ÆÀÌÅÛ.
+	ITEM_BOX				= 12,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	ITEM_CLEANSER			= 13,	//	ï¿½ï¿½Å¹ï¿½ï¿½.
+	ITEM_LOUDSPEAKER		= 14,	//	È®ï¿½ï¿½ï¿½ï¿½.
+	ITEM_FIRECRACKER		= 15,	//	ï¿½ï¿½ï¿½ï¿½.
+	ITEM_CHARACTER_CARD		= 16,	//	Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ Ä«ï¿½ï¿½.
+	ITEM_INVEN_CARD			= 17,	//	ï¿½Îºï¿½ È®ï¿½ï¿½ Ä«ï¿½ï¿½.
+	ITEM_STORAGE_CARD		= 18,	//	Ã¢ï¿½ï¿½ È®ï¿½ï¿½ Ä«ï¿½ï¿½.
+	ITEM_STORAGE_CONNECT	= 19,	//	Ã¢ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½.
+	ITEM_PREMIUMSET			= 20,	//	ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½Æ®.
+	ITEM_PRIVATEMARKET		= 21,	//	ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¸ï¿½.
+	ITEM_RANDOMITEM			= 22,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	ITEM_DISJUNCTION		= 23,	//	ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½Ð¸ï¿½.
+	ITEM_HAIR				= 24,	//	ï¿½ï¿½î½ºÅ¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	ITEM_FACE				= 25,	//	ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	ITEM_QITEM				= 26,	//	? ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	ITEM_CD					= 27,	//	CD.
-	ITEM_2FRIEND			= 28,	//	Ä£±¸¿¡°Ô.
-	ITEM_CLUBCALL			= 29,	//	Å¬·´È£Ãâ.
-	ITEM_HAIRSHOP			= 30,	//	Çì¾î˜?ÀÌ¿ë±Ç.
-	ITEM_RENAME				= 31,   //  ÀÌ¸§º¯°æ Ä«µå.
-	ITEM_HAIR_STYLE			= 32,	//  Çì¾î½ºÅ¸ÀÏ
-	ITEM_HAIR_COLOR			= 33,   //  Çì¾îÄÃ·¯
-	ITEM_REVIVE				= 34,	//  ±ÍÈ¥ÁÖ
-	ITEM_PET_CARD			= 35,	//	Æê Ä«µå	// PetData
-	ITEM_PET_FOOD			= 36,	//	Æê ¸ÔÀÌ
-	ITEM_PET_RENAME			= 37,	//	ÆÖ ÀÌ¸§º¯°æ
-	ITEM_PET_COLOR			= 38,	//	ÆÖ ÄÃ·¯º¯°æ
-	ITEM_PET_STYLE			= 39,	//	ÆÖ ½ºÅ¸ÀÏº¯°æ
-	ITEM_PET_SKILL			= 40,	//	ÆÖ ½ºÅ³
-	ITEM_SMS				= 41,	//	SMS¹®ÀÚ ¹ß¼Û
-	ITEM_PET_REVIVE			= 42,	//	ÆÖ ºÎÈ°Ä«µå
-	ITEM_ANTI_DISAPPEAR 	= 43,	//	¼Ò¹æÁÖ(¼Ò¸ê¹æÁö)
-	ITEM_REMODEL			= 44,	//	°³Á¶ ±â´É
-	ITEM_VEHICLE			= 45,	//	Å»°Í
-	ITEM_VEHICLE_OIL		= 46,	//  Å»°Í ±â¸§
-	ITEM_VIETNAM_ITEMGET	= 47,	//  º£Æ®³² Å½´Ð ¹æÁö ¾ÆÀÌÅÛ È¹µæ
-	ITEM_VIETNAM_EXPGET		= 48,	//  º£Æ®³² Å½´Ð ¹æÁö °æÇèÄ¡ È¹µæ	
-	ITEM_GENDER_CHANGE		= 49,	//  ¼ºº° º¯°æ Ä«µå 
-	ITEM_GARBAGE_CARD		= 50,	//	ÈÞÁöÅë Ä«µå	
-	ITEM_TELEPORT_CARD		= 51,	//	¼ÒÈ¯¼­	
-	ITEM_PET_SKIN_PACK  	= 52,	//  Æê ½ºÅ² ÆÑ
-	ITEM_FACE_STYLE			= 53,	//	¾ó±¼½ºÅ¸ÀÏ
-	ITEM_TAXI_CARD			= 54,	//	ÅÃ½ÃÄ«µå
-	ITEM_MATERIALS			= 55,	//	Àç·á¾ÆÀÌÅÛ
-	ITEM_NPC_RECALL			= 56,	//	NPC¼ÒÈ¯ Ä«µå
+	ITEM_2FRIEND			= 28,	//	Ä£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	ITEM_CLUBCALL			= 29,	//	Å¬ï¿½ï¿½È£ï¿½ï¿½.
+	ITEM_HAIRSHOP			= 30,	//	ï¿½ï¿½ï¿½?ï¿½Ì¿ï¿½ï¿½.
+	ITEM_RENAME				= 31,   //  ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½.
+	ITEM_HAIR_STYLE			= 32,	//  ï¿½ï¿½î½ºÅ¸ï¿½ï¿½
+	ITEM_HAIR_COLOR			= 33,   //  ï¿½ï¿½ï¿½ï¿½Ã·ï¿½
+	ITEM_REVIVE				= 34,	//  ï¿½ï¿½È¥ï¿½ï¿½
+	ITEM_PET_CARD			= 35,	//	ï¿½ï¿½ Ä«ï¿½ï¿½	// PetData
+	ITEM_PET_FOOD			= 36,	//	ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	ITEM_PET_RENAME			= 37,	//	ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½
+	ITEM_PET_COLOR			= 38,	//	ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½
+	ITEM_PET_STYLE			= 39,	//	ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½Ïºï¿½ï¿½ï¿½
+	ITEM_PET_SKILL			= 40,	//	ï¿½ï¿½ ï¿½ï¿½Å³
+	ITEM_SMS				= 41,	//	SMSï¿½ï¿½ï¿½ï¿½ ï¿½ß¼ï¿½
+	ITEM_PET_REVIVE			= 42,	//	ï¿½ï¿½ ï¿½ï¿½È°Ä«ï¿½ï¿½
+	ITEM_ANTI_DISAPPEAR 	= 43,	//	ï¿½Ò¹ï¿½ï¿½ï¿½(ï¿½Ò¸ï¿½ï¿½ï¿½ï¿½)
+	ITEM_REMODEL			= 44,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+	ITEM_VEHICLE			= 45,	//	Å»ï¿½ï¿½
+	ITEM_VEHICLE_OIL		= 46,	//  Å»ï¿½ï¿½ ï¿½â¸§
+	ITEM_VIETNAM_ITEMGET	= 47,	//  ï¿½ï¿½Æ®ï¿½ï¿½ Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½
+	ITEM_VIETNAM_EXPGET		= 48,	//  ï¿½ï¿½Æ®ï¿½ï¿½ Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ È¹ï¿½ï¿½	
+	ITEM_GENDER_CHANGE		= 49,	//  ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ 
+	ITEM_GARBAGE_CARD		= 50,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½	
+	ITEM_TELEPORT_CARD		= 51,	//	ï¿½ï¿½È¯ï¿½ï¿½	
+	ITEM_PET_SKIN_PACK  	= 52,	//  ï¿½ï¿½ ï¿½ï¿½Å² ï¿½ï¿½
+	ITEM_FACE_STYLE			= 53,	//	ï¿½ó±¼½ï¿½Å¸ï¿½ï¿½
+	ITEM_TAXI_CARD			= 54,	//	ï¿½Ã½ï¿½Ä«ï¿½ï¿½
+	ITEM_MATERIALS			= 55,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	ITEM_NPC_RECALL			= 56,	//	NPCï¿½ï¿½È¯ Ä«ï¿½ï¿½
 	ITEM_BULLET				= 57,	/*gun-bullet logic, Juver, 2017/05/27 */
 	ITEM_FOOD				= 58,	/*itemfood system, Juver, 2017/05/26 */
 	ITEM_CARD_DUALPETSKILL	= 59,	/*dual pet skill, Juver, 2017/12/29 */
@@ -421,7 +430,7 @@ enum EMITEM_TYPE
 	
 	ITEM_SEALED_CARD		= 84,		// add sealed card
 
-	ITEM_NSIZE				= 85,	//	Á¾·ù°¹¼ö.
+	ITEM_NSIZE				= 85,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 };
 
 EMITEM_TYPE EXITEM_TO_ITEM( EMEXITEM_TYPE _emTYPE );
@@ -429,24 +438,24 @@ EMITEM_TYPE EXITEM_TO_ITEM( EMEXITEM_TYPE _emTYPE );
 enum EMITEM_DRUG
 {
 	ITEM_DRUG_NONE			= 0,
-	ITEM_DRUG_HP			= 1,	//	Ã¤·Â
-	ITEM_DRUG_MP			= 2,	//	±â·Â
-	ITEM_DRUG_SP			= 3,	//	È°·Â
+	ITEM_DRUG_HP			= 1,	//	Ã¤ï¿½ï¿½
+	ITEM_DRUG_MP			= 2,	//	ï¿½ï¿½ï¿½
+	ITEM_DRUG_SP			= 3,	//	È°ï¿½ï¿½
 
-	ITEM_DRUG_HP_MP			= 4,	//	Ã¼·Â+±â·Â
-	ITEM_DRUG_MP_SP			= 5,	//	Ã¼·Â+È°·Â
-	ITEM_DRUG_HP_MP_SP		= 6,	//	Ã¼·Â+±â·Â+È°·Â
+	ITEM_DRUG_HP_MP			= 4,	//	Ã¼ï¿½ï¿½+ï¿½ï¿½ï¿½
+	ITEM_DRUG_MP_SP			= 5,	//	Ã¼ï¿½ï¿½+È°ï¿½ï¿½
+	ITEM_DRUG_HP_MP_SP		= 6,	//	Ã¼ï¿½ï¿½+ï¿½ï¿½ï¿½+È°ï¿½ï¿½
 	
-	ITEM_DRUG_CURE			= 7,	//	»óÅÂ ÀÌ»ó Ä¡·á.
+	ITEM_DRUG_CURE			= 7,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ Ä¡ï¿½ï¿½.
 
-	ITEM_DRUG_CALL_SCHOOL	= 8,	//	ÇÐ±³±ÍÈ¯.
-	ITEM_DRUG_CALL_REGEN	= 9,	//	½ÃÀÛ±ÍÈ¯.
-	ITEM_DRUG_CALL_LASTCALL	= 10,	//	Á÷Àü±ÍÈ¯.
-	ITEM_DRUG_CALL_REVIVE	= 11,	//	ºÎÈ°±â´É.
+	ITEM_DRUG_CALL_SCHOOL	= 8,	//	ï¿½Ð±ï¿½ï¿½ï¿½È¯.
+	ITEM_DRUG_CALL_REGEN	= 9,	//	ï¿½ï¿½ï¿½Û±ï¿½È¯.
+	ITEM_DRUG_CALL_LASTCALL	= 10,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¯.
+	ITEM_DRUG_CALL_REVIVE	= 11,	//	ï¿½ï¿½È°ï¿½ï¿½ï¿½.
 
-	ITEM_DRUG_HP_CURE		= 12,	// Ã¼·Â+ÀÌ»óÄ¡·á
-	ITEM_DRUG_HP_MP_SP_CURE	= 13,	// Ã¼·Â+±â·Â+È°·Â+ÀÌ»óÄ¡·á
-	ITEM_DRUG_CALL_TELEPORT	= 14,	// Æ¯Á¤°ø°£ÀÌµ¿
+	ITEM_DRUG_HP_CURE		= 12,	// Ã¼ï¿½ï¿½+ï¿½Ì»ï¿½Ä¡ï¿½ï¿½
+	ITEM_DRUG_HP_MP_SP_CURE	= 13,	// Ã¼ï¿½ï¿½+ï¿½ï¿½ï¿½+È°ï¿½ï¿½+ï¿½Ì»ï¿½Ä¡ï¿½ï¿½
+	ITEM_DRUG_CALL_TELEPORT	= 14,	// Æ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½
 
 	ITEM_DRUG_CP			= 15,	/*combatpoint logic, Juver, 2017/05/27 */
 
@@ -456,26 +465,26 @@ enum EMITEM_DRUG
 enum EMITEM_ADDON
 {
 	EMADD_NONE		= 0,
-	EMADD_HITRATE	= 1,	//	¸íÁßÀ²
-	EMADD_AVOIDRATE	= 2,	//	È¸ÇÇÀ².
+	EMADD_HITRATE	= 1,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	EMADD_AVOIDRATE	= 2,	//	È¸ï¿½ï¿½ï¿½ï¿½.
 	
-	EMADD_DAMAGE	= 3,	//	°ø°Ý·Â.
-	EMADD_DEFENSE	= 4,	//	¹æ¾î·Â.
+	EMADD_DAMAGE	= 3,	//	ï¿½ï¿½ï¿½Ý·ï¿½.
+	EMADD_DEFENSE	= 4,	//	ï¿½ï¿½ï¿½ï¿½.
 
-	EMADD_HP		= 5,	//	Ã¤·Â Áõ°¡.
-	EMADD_MP		= 6,	//	¸¶³ª Áõ°¡.
-	EMADD_SP		= 7,	//	½ºÅ×¹Ì³ª Áõ°¡.
+	EMADD_HP		= 5,	//	Ã¤ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	EMADD_MP		= 6,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	EMADD_SP		= 7,	//	ï¿½ï¿½ï¿½×¹Ì³ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	EMADD_STATS_POW	= 8,	//	Èû.
-	EMADD_STATS_STR	= 9,	//	Ã¼·Â.
-	EMADD_STATS_SPI	= 10,	//	Á¤½Å.
-	EMADD_STATS_DEX	= 11,	//	¹ÎÃ¸.
-	EMADD_STATS_INT	= 12,	//	Áö¼º.
-	EMADD_STATS_STA	= 13,	//	±Ù·Â.
+	EMADD_STATS_POW	= 8,	//	ï¿½ï¿½.
+	EMADD_STATS_STR	= 9,	//	Ã¼ï¿½ï¿½.
+	EMADD_STATS_SPI	= 10,	//	ï¿½ï¿½ï¿½ï¿½.
+	EMADD_STATS_DEX	= 11,	//	ï¿½ï¿½Ã¸.
+	EMADD_STATS_INT	= 12,	//	ï¿½ï¿½ï¿½ï¿½.
+	EMADD_STATS_STA	= 13,	//	ï¿½Ù·ï¿½.
 
-	EMADD_PA		= 14,	//	°ÝÅõÄ¡.
-	EMADD_SA		= 15,	//	»ç°ÝÄ¡.
-	EMADD_MA		= 16,	//	¸¶·ÂÄ¡.
+	EMADD_PA		= 14,	//	ï¿½ï¿½ï¿½ï¿½Ä¡.
+	EMADD_SA		= 15,	//	ï¿½ï¿½ï¿½Ä¡.
+	EMADD_MA		= 16,	//	ï¿½ï¿½ï¿½ï¿½Ä¡.
 
 	EMADD_SIZE		= 17,
 };
@@ -518,29 +527,29 @@ enum EMITEM_QUESTION
 enum EMRANDOM_OPT
 {
 	EMR_OPT_NULL			= 0,
-	EMR_OPT_DAMAGE			= 1,	//	°ø°Ý·Â.
-	EMR_OPT_DEFENSE			= 2,	//	¹æ¾ûÓÂ.
+	EMR_OPT_DAMAGE			= 1,	//	ï¿½ï¿½ï¿½Ý·ï¿½.
+	EMR_OPT_DEFENSE			= 2,	//	ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-	EMR_OPT_HITRATE			= 3,	//	¸úÝßÀ².
-	EMR_OPT_AVOIDRATE		= 4,	//	È¸ÇÇÀ².
+	EMR_OPT_HITRATE			= 3,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_AVOIDRATE		= 4,	//	È¸ï¿½ï¿½ï¿½ï¿½.
 
-	EMR_OPT_HP				= 5,	//	hp Áõ°¡.
-	EMR_OPT_MP				= 6,	//	mp Áõ°¡.
-	EMR_OPT_SP				= 7,	//	sp Áõ°¡.
+	EMR_OPT_HP				= 5,	//	hp ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_MP				= 6,	//	mp ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_SP				= 7,	//	sp ï¿½ï¿½ï¿½ï¿½.
 
-	EMR_OPT_HP_INC			= 8,	//	hp Áõ°¡À².
-	EMR_OPT_MP_INC			= 9,	//	mp Áõ°¡À².
-	EMR_OPT_SP_INC			= 10,	//	sp Áõ°¡À².
-	EMR_OPT_HMS_INC			= 11,	//	hp, mp, sp Áõ°¡À².
+	EMR_OPT_HP_INC			= 8,	//	hp ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_MP_INC			= 9,	//	mp ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_SP_INC			= 10,	//	sp ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_HMS_INC			= 11,	//	hp, mp, sp ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-	EMR_OPT_GRIND_DAMAGE	= 12,	//	°ø°Ý·Â ¿¬¸¶.
-	EMR_OPT_GRIND_DEFENSE	= 13,	//	¹æ¾ûÓÂ ¿¬¸¶.
+	EMR_OPT_GRIND_DAMAGE	= 12,	//	ï¿½ï¿½ï¿½Ý·ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_GRIND_DEFENSE	= 13,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-	EMR_OPT_RANGE			= 14,	//	°ø°Ý ¿µ¿ª.
-	EMR_OPT_DIS_SP			= 15,	//	sp ¼Ò¸ð·®.
-	EMR_OPT_RESIST			= 16,	//	ÀúÇ×.
+	EMR_OPT_RANGE			= 14,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	EMR_OPT_DIS_SP			= 15,	//	sp ï¿½Ò¸ï¿½.
+	EMR_OPT_RESIST			= 16,	//	ï¿½ï¿½ï¿½ï¿½.
 
-	EMR_OPT_MOVE_SPEED		= 17,	// ÀÌµ¿¼Óµµ Áõ°¡
+	EMR_OPT_MOVE_SPEED		= 17,	// ï¿½Ìµï¿½ï¿½Óµï¿½ ï¿½ï¿½ï¿½ï¿½
 	
 	// Add latest Random Values
 	// Latest RVs'
@@ -566,8 +575,8 @@ enum EMRANDOM_OPT
 enum EMCOOL_TYPE
 {
 	EMCOOL_ITEMID	= 0,	// MID/SID
-	EMCOOL_ITEMTYPE	= 1,	// ¾ÆÀÌÅÛ Å¸ÀÔ
-	EMCOOL_SIZE		= 2,	// »çÀÌÁî
+	EMCOOL_ITEMTYPE	= 1,	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½
+	EMCOOL_SIZE		= 2,	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 };
 
 struct SRANDOM_OPT
@@ -587,12 +596,12 @@ struct SRANDOM_OPT
 
 #define USAGE_RANDOM_OPT_SE
 #ifdef USAGE_RANDOM_OPT_SE
-//#ifdef DAUMTESTPARAM	// ÇÑ±¹ Å×¼·¿¡¼­¸¸ 2Â÷ ·£´ý ¿É¼Ç ÆÄÀÏ »ç¿ë ( ÁØÇõ )
+//#ifdef DAUMTESTPARAM	// ï¿½Ñ±ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ )
 	struct SRANDOM_OPT_SECTION
 	{
-		float	fRATE;	// ±¸°£º° ¹ß»ý È®·ü
-		float	fHIGH;	// °ª ÃÖ´ë
-		float	fLOW;	// °ª ÃÖ¼Ò
+		float	fRATE;	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ È®ï¿½ï¿½
+		float	fHIGH;	// ï¿½ï¿½ ï¿½Ö´ï¿½
+		float	fLOW;	// ï¿½ï¿½ ï¿½Ö¼ï¿½
 
 		SRANDOM_OPT_SECTION()
 			: fRATE( 0.0f )
@@ -604,10 +613,10 @@ struct SRANDOM_OPT
 
 	struct SRANDOM_OPT_SET
 	{
-		float					fRATE;	// ¼³Á¤µÈ ¿É¼Ç´ç ¹ß»ý È®·ü
-		WORD					wTYPE;	// ¿É¼Ç Á¾·ù
-		WORD					wSECT;	// ±¸°£ ¼ö
-		SRANDOM_OPT_SECTION*	pSECT;	// ±¸°£
+		float					fRATE;	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼Ç´ï¿½ ï¿½ß»ï¿½ È®ï¿½ï¿½
+		WORD					wTYPE;	// ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+		WORD					wSECT;	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+		SRANDOM_OPT_SECTION*	pSECT;	// ï¿½ï¿½ï¿½ï¿½
 
 		SRANDOM_OPT_SET()
 			: fRATE( 0.0f )
@@ -627,12 +636,12 @@ struct SRANDOM_OPT
 	{
 		enum { MAX_SET = 10, MAX_OPT = 4 };
 
-		float			fRATE;				// ·£´ý ¿É¼Ç ¹ß»ý È®·ü
-		DWORD			dwSET_NUM;			// ¼³Á¤µÈ ·£´ý ¿É¼Ç °¹¼ö
-		float			fD_point;			// °³Á¶ ½Ã ¼Ò¸êÇÒ ¼ö ÀÖ´Â È®·ü
-		float			fS_value;			// °³Á¶ ½Ã ÇÊ¿äÇÑ ±Ý¾× ¹èÀ² ( ¾ÆÀÌÅÛ °¡°Ý¿¡ °öÇÔ )
-		SRANDOM_OPT_SET	sSET[ MAX_SET ];	// ¼³Á¤µÈ ¿É¼Ç ( Ã³À½ »ý¼º ½Ã »ç¿ë )
-		SRANDOM_OPT_SET	sSETR[ MAX_SET ];	// ¼³Á¤µÈ ¿É¼Ç ( ÀÌÈÄ °³Á¶ ½Ã »ç¿ë )
+		float			fRATE;				// ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ß»ï¿½ È®ï¿½ï¿½
+		DWORD			dwSET_NUM;			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+		float			fD_point;			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ò¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ È®ï¿½ï¿½
+		float			fS_value;			// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½Ý¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ý¿ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		SRANDOM_OPT_SET	sSET[ MAX_SET ];	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ( Ã³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ )
+		SRANDOM_OPT_SET	sSETR[ MAX_SET ];	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ )
 
 		SRANDOM_GEN()
 			: fRATE( 0.0f )
@@ -646,10 +655,10 @@ struct SRANDOM_OPT
 #else
 	struct SRANDOM_OPT_SET
 	{
-		float	fRATE;	// ¼³Á¤µÈ ¿É¼Ç´ç ¹ß»ý È®À²
-		WORD	wTYPE;	// ¿É¼Ç Á¾·ù
-		float	fLOW;	// °ª ÃÖ´ë
-		float	fHIGH;	// °ª ÃÖ¼Ò
+		float	fRATE;	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼Ç´ï¿½ ï¿½ß»ï¿½ È®ï¿½ï¿½
+		WORD	wTYPE;	// ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+		float	fLOW;	// ï¿½ï¿½ ï¿½Ö´ï¿½
+		float	fHIGH;	// ï¿½ï¿½ ï¿½Ö¼ï¿½
 
 		SRANDOM_OPT_SET()
             : fRATE( 0 )
@@ -664,19 +673,19 @@ struct SRANDOM_OPT
 	{
 		enum { MAX_SET = 10, MAX_OPT = 4 };
 
-		float			fRATE;			// ·£´ý ¿É¼Ç ¹ß»ý È®À²
-		DWORD			dwSET_NUM;		// ¼³Á¤µÈ ·£´ý ¿É¼Ç °¹¼ö
-		SRANDOM_OPT_SET	sSET[MAX_SET];	// ¼³Á¤µÈ ¿É¼Ç
+		float			fRATE;			// ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ß»ï¿½ È®ï¿½ï¿½
+		DWORD			dwSET_NUM;		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½
+		SRANDOM_OPT_SET	sSET[MAX_SET];	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½
 
-		float			fD_point;		// DAUMTESTPARAM ¾Æ´Ï¸é ¾²ÀÌÁö ¾ÊÀ½
-		float			fS_value;		// DAUMTESTPARAM ¾Æ´Ï¸é ¾²ÀÌÁö ¾ÊÀ½
+		float			fD_point;		// DAUMTESTPARAM ï¿½Æ´Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		float			fS_value;		// DAUMTESTPARAM ï¿½Æ´Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 		SRANDOM_GEN()
 			: fRATE( 0 )
 			, dwSET_NUM( 0 )
 
-			, fD_point( 0.0f )			// DAUMTESTPARAM ¾Æ´Ï¸é ¾²ÀÌÁö ¾ÊÀ½
-			, fS_value( 1.0f )			// DAUMTESTPARAM ¾Æ´Ï¸é ¾²ÀÌÁö ¾ÊÀ½
+			, fD_point( 0.0f )			// DAUMTESTPARAM ï¿½Æ´Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+			, fS_value( 1.0f )			// DAUMTESTPARAM ï¿½Æ´Ï¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		{
 		}
 	};
@@ -795,10 +804,10 @@ struct ITEM_COOLTIME
 {
 	enum { VERSION = 0x0001 };
 
-	DWORD		dwID;		//	»ç¿ëÇÑ ¾ÆÀÌÅÛ ID
-	DWORD		dwCoolID;	//	ÄðÅ¸ÀÓ ID ( Å¸ÀÔ¿¡ µû¶ó ´Ù¸§ ) 
-	__time64_t	tUseTime;	//	»ç¿ë½Ã°£
-	__time64_t	tCoolTime;	//	»ç¿ë°¡´ÉÇÑ ½Ã°£
+	DWORD		dwID;		//	ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ID
+	DWORD		dwCoolID;	//	ï¿½ï¿½Å¸ï¿½ï¿½ ID ( Å¸ï¿½Ô¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ ) 
+	__time64_t	tUseTime;	//	ï¿½ï¿½ï¿½Ã°ï¿½
+	__time64_t	tCoolTime;	//	ï¿½ï¿½ë°¡ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
 
 	ITEM_COOLTIME()
 		: dwID( 0 )
@@ -824,7 +833,7 @@ namespace COMMENT
 	
 	extern std::string ITEMVAR[EMVAR_SIZE];
 
-	extern std::string ITEMVOL[EMVAR_SIZE]; // by °æ´ë
+	extern std::string ITEMVOL[EMVAR_SIZE]; // by ï¿½ï¿½ï¿½
 	extern std::string ITEM_QUE_TYPE[QUESTION_SIZE]; // Question Item
 	extern std::string ITEM_QUE_VAR1[QUESTION_SIZE];
 	extern std::string ITEM_QUE_VAR2[QUESTION_SIZE];

@@ -137,36 +137,36 @@ namespace COMMENT
 	//character weapon sub animation
 	TSTRING ANI_SUBTYPE_WEAPON[AN_SUB_00_SIZE] =
 	{
-		_T("(00) None"),
-		_T("(01) Single Handed Sword"),
-		_T("(02) Two Handed Sword"),
-		_T("(03) Two Single Handed Sword"),
-		_T("(04) Dagger"),
-		_T("(05) Spear"),
-		_T("(06) Bow"),
-		_T("(07) Throw"),
-		_T("(08) Magic"),
-		_T("(09) Big Two Handed Sword"),
-		_T("(10) Stick"),
-		_T("(11) Single Handed Blade"),
-		_T("(12) Two Handed Blade"),
-		_T("(13) Big Two Handed Blade"),
-		_T("(14) Two Single Handed Blade"),
-		_T("(15) Guant"),
-		_T("(16) Broom"),
-		_T("(17) HoverBoard"),
-		_T("(18) Gunner Dual Gun"),
-		_T("(19) Gunner Gun"),
-		_T("(20) Assassin Scythe"),
-		_T("(21) Assassin Dual Spear"),
-		_T("(22) Assassin Shuriken"),
-		_T("(23) Extreme Fist"),
-		_T("(24) Magician Wand"),
-		_T("(25) Magician Cube"),
-		_T("(26) Magician Rope"),
-		_T("(27) Shaper Hammer"),
-		_T("(28) Shaper Shield"),
-		_T("(29) Shaper Umbrella"),
+		_T("AN_SUB_NONE"),
+		_T("AN_SUB_ONEHSWORD"),
+		_T("AN_SUB_TWOHSWORD"),
+		_T("AN_SUB_EITHERSWORD"),
+		_T("AN_SUB_DAGGER"),
+		_T("AN_SUB_SPEAR"),
+		_T("AN_SUB_BOW"),
+		_T("AN_SUB_THROW"),
+		_T("AN_SUB_MANA"),
+		_T("AN_SUB_BIGHSWORD"),
+		_T("AN_SUB_STICK"),
+		_T("AN_SUB_ONESABER"),
+		_T("AN_SUB_TWOSABER"),
+		_T("AN_SUB_BIGSABER"),
+		_T("AN_SUB_EITHERSABER"),
+		_T("AN_SUB_GAUNT"),
+		_T("AN_SUB_BROOM"),
+		_T("AN_SUB_HOVERBOARD"),
+		_T("AN_SUB_DUALGUN"),
+		_T("AN_SUB_GUN"),
+		_T("AN_SUB_SCYTHE"),
+		_T("AN_SUB_DUALSPEAR"),
+		_T("AN_SUB_SHURIKEN	"),
+		_T("AN_SUB_EX_FIST"),
+		_T("AN_SUB_MAGICWAND"),
+		_T("AN_SUB_MAGICCUBE"),
+		_T("AN_SUB_MAGICWHIP"),
+		_T("AN_SUB_SHIELD"),
+		_T("AN_SUB_HAMMER"),
+		_T("AN_SUB_UMBRELLA"),
 		_T("SUB_30"),
 		_T("SUB_31"),
 		_T("SUB_32"),
@@ -545,7 +545,7 @@ SAnimContainer* DxSkinAniMan::LoadAnimContainer ( const TCHAR *_szFileName, cons
 	CString strSkeleton(_szSkeleton);
 	strSkeleton.MakeLower();
 
-	//	Note : ÀÌ¹Ì ·ÎµåµÈ °æ¿ì.
+	//	Note : ï¿½Ì¹ï¿½ ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½.
 	//
 	SAnimContainer* pAnim;
 	pAnim = FindAnim ( strFileName.GetString() );
@@ -557,7 +557,7 @@ SAnimContainer* DxSkinAniMan::LoadAnimContainer ( const TCHAR *_szFileName, cons
 
 	//CDebugSet::ToListView ( "SAnimContainer '%s' Load", strFileName.GetString() );
 
-	//	Note : ¼³Á¤ ÆÄÀÏ ÀÐ±â ½Ãµµ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½ ï¿½Ãµï¿½.
 	//
 	bool bValidCfgFile(true);
 	CString strCfgFile;
@@ -570,7 +570,7 @@ SAnimContainer* DxSkinAniMan::LoadAnimContainer ( const TCHAR *_szFileName, cons
 		strINFO_Skeleton.MakeLower();
 		if ( strINFO_Skeleton!=strSkeleton )
 		{
-			CDebugSet::ToLogFile ( _T("º»ÀÌ¸§ ºÒÀÏÄ¡ : %s, %s, %s"), strCfgFile.GetString(), strINFO_Skeleton.GetString(), _szSkeleton );
+			CDebugSet::ToLogFile ( _T("ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ : %s, %s, %s"), strCfgFile.GetString(), strINFO_Skeleton.GetString(), _szSkeleton );
 		}
 	}
 	else
@@ -580,7 +580,7 @@ SAnimContainer* DxSkinAniMan::LoadAnimContainer ( const TCHAR *_szFileName, cons
 		StringCchCopy( AnimInfo.m_szSkeletion, ACF_SZNAME, strSkeleton.GetString() );
 	}
 
-	//	Note : ¿¡´Ï¸ÞÀÌ¼Ç ·Îµå.
+	//	Note : ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Îµï¿½.
 	//
 	pAnim = new SAnimContainer;
 	hr = pAnim->SetInfo ( AnimInfo, pd3dDevice );
@@ -604,7 +604,7 @@ SAnimContainer* DxSkinAniMan::LoadAnimContainer ( const TCHAR *_szFileName, cons
 		pAnim->SANIMCONINFO::SaveFile(strCfgFile.GetString());
 	}
 
-	//	Note : ¸®½ºÆ®¿¡ »ðÀÔ.
+	//	Note : ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	EnterCriticalSection(&m_criticalCONT);
 	{
@@ -619,7 +619,7 @@ BOOL DxSkinAniMan::SaveAnimConInfo ( TCHAR *szFileName )
 {
 	GASSERT(szFileName);
 
-	//	Note : ÀÌ¹Ì ·ÎµåµÈ °æ¿ì.
+	//	Note : ï¿½Ì¹ï¿½ ï¿½Îµï¿½ï¿½ ï¿½ï¿½ï¿½.
 	//
 	SAnimContainer* pAnim;
 	pAnim = FindAnim ( szFileName );
@@ -696,7 +696,7 @@ HRESULT DxSkinAniMan::DoInterimClean ( LPDIRECT3DDEVICEQ pd3dDevice )
 {
 	ANIMCONTLIST listInterimClean;
 	
-	//	Note : Á¦°ÅÇÒ ¸®½ºÆ® ÀÛ¼º.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Û¼ï¿½.
 	//
 	EnterCriticalSection(&m_criticalCONT);
 	{
@@ -705,18 +705,18 @@ HRESULT DxSkinAniMan::DoInterimClean ( LPDIRECT3DDEVICEQ pd3dDevice )
 		ANIMCONTMAP_ITER iter_end = m_mapAnimCont.end();
 		for ( ; iter!=iter_end; ++iter )
 		{
-			//	Note : »çÀü ·Îµù ¸®½ºÆ®¿¡ ÀÖ´Â ÆÄÀÏ Á¦¿Ü.
+			//	Note : ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			//
 			found = m_mapPreLoadAnimCont.find ( (*iter).first );
 			if ( found!=m_mapPreLoadAnimCont.end() )	continue;
 
-			//	Á¦°Å ¸®½ºÆ®¿¡ µî·Ï.
+			//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½.
 			listInterimClean.push_back ( (*iter).second );
 		}
 	}
 	LeaveCriticalSection(&m_criticalCONT);
 
-	//	Note : µ¥ÀÌÅÍ Á¤¸®.
+	//	Note : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	//
 	EnterCriticalSection(&m_criticalCONT);
 	{
@@ -727,10 +727,10 @@ HRESULT DxSkinAniMan::DoInterimClean ( LPDIRECT3DDEVICEQ pd3dDevice )
 			SAnimContainer* pAnimCont = (*iter);
 			TSTRING strname = pAnimCont->m_szName;
 
-			//	µ¥ÀÌÅÍ »èÁ¦.
+			//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			SAFE_DELETE(pAnimCont);
 
-			//	·Îµå ÆÄÀÏ ¸®½ºÆ®¿¡¼­ Á¦°Å.
+			//	ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			ANIMCONTMAP_ITER iter_del = m_mapAnimCont.find ( strname );
 			if ( iter_del!=m_mapAnimCont.end() )	m_mapAnimCont.erase ( iter_del );
 		}

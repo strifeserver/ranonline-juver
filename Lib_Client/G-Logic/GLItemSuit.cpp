@@ -12,15 +12,36 @@ namespace ITEM
 		GLITEM_ATT emAttack;
 		switch ( emOld )
 		{
-		case glold_102::ITEMATT_NOTHING:	emAttack = ITEMATT_NOTHING;	break;
-		case glold_102::ITEMATT_SWORD:		emAttack = ITEMATT_SWORD;	break;
-		case glold_102::ITEMATT_REV00:		emAttack = ITEMATT_SWORD;	break;
-		case glold_102::ITEMATT_DAGGER:		emAttack = ITEMATT_DAGGER;	break;
-		case glold_102::ITEMATT_SPEAR:		emAttack = ITEMATT_SPEAR;	break;
-		case glold_102::ITEMATT_BOW:		emAttack = ITEMATT_BOW;		break;
-		case glold_102::ITEMATT_THROW:		emAttack = ITEMATT_THROW;	break;
-		case glold_102::ITEMATT_NOCARE:		emAttack = ITEMATT_NOCARE;	break;
-		default:	emAttack = ITEMATT_NOTHING;	break;
+		case glold_102::ITEMATT_NOTHING:
+			emAttack = ITEMATT_NOTHING;
+			break;
+
+		case glold_102::ITEMATT_SWORD:
+			emAttack = ITEMATT_SWORD;
+			break;
+		case glold_102::ITEMATT_REV00:
+			emAttack = ITEMATT_SWORD;	//	sword ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯.
+			break;
+		case glold_102::ITEMATT_DAGGER:
+			emAttack = ITEMATT_DAGGER;
+			break;
+		case glold_102::ITEMATT_SPEAR:
+			emAttack = ITEMATT_SPEAR;
+			break;
+		case glold_102::ITEMATT_BOW:
+			emAttack = ITEMATT_BOW; 
+			break;
+		case glold_102::ITEMATT_THROW:
+			emAttack = ITEMATT_THROW;
+			break;
+
+		case glold_102::ITEMATT_NOCARE:
+			emAttack = ITEMATT_NOCARE;
+			break;
+
+		default:
+			emAttack = ITEMATT_NOTHING;
+			break;
 		};
 
 		return emAttack;
@@ -31,16 +52,41 @@ namespace ITEM
 		GLITEM_ATT emAttack;
 		switch ( emOld )
 		{
-		case glold_103::ITEMATT_NOTHING:	emAttack = ITEMATT_NOTHING;	break;
-		case glold_103::ITEMATT_SWORD:		emAttack = ITEMATT_SWORD;	break;
-		case glold_103::ITEMATT_BLADE:		emAttack = ITEMATT_BLADE;	break;
-		case glold_103::ITEMATT_DAGGER:		emAttack = ITEMATT_DAGGER;	break;
-		case glold_103::ITEMATT_SPEAR:		emAttack = ITEMATT_SPEAR;	break;
-		case glold_103::ITEMATT_STICK:		emAttack = ITEMATT_STICK;	break;
-		case glold_103::ITEMATT_BOW:		emAttack = ITEMATT_BOW;		break;
-		case glold_103::ITEMATT_THROW:		emAttack = ITEMATT_THROW;	break;
-		case glold_103::ITEMATT_NOCARE:		emAttack = ITEMATT_NOCARE;	break;
-		default:	emAttack = ITEMATT_NOTHING;		break;
+		case glold_103::ITEMATT_NOTHING:
+			emAttack = ITEMATT_NOTHING;
+			break;
+
+		case glold_103::ITEMATT_SWORD:
+			emAttack = ITEMATT_SWORD;
+			break;
+		case glold_103::ITEMATT_SABER:
+			emAttack = ITEMATT_SABER;
+			break;
+		case glold_103::ITEMATT_DAGGER:
+			emAttack = ITEMATT_DAGGER;
+			break;
+		case glold_103::ITEMATT_SPEAR:
+			emAttack = ITEMATT_SPEAR;
+			break;
+
+		case glold_103::ITEMATT_STICK:
+			emAttack = ITEMATT_STICK;
+			break;
+
+		case glold_103::ITEMATT_BOW:
+			emAttack = ITEMATT_BOW; 
+			break;
+		case glold_103::ITEMATT_THROW:
+			emAttack = ITEMATT_THROW;
+			break;
+
+		case glold_103::ITEMATT_NOCARE:
+			emAttack = ITEMATT_NOCARE;
+			break;
+
+		default:
+			emAttack = ITEMATT_NOTHING;
+			break;
 		};
 
 		return emAttack;
@@ -51,16 +97,32 @@ namespace ITEM
 		GLITEM_ATT emAttack;
 		switch ( emOld )
 		{
-		case glold_108::ITEMATT_NOTHING:	emAttack = ITEMATT_NOTHING;	break;
-		case glold_108::ITEMATT_SWORD:		emAttack = ITEMATT_SWORD;	break;
-		case glold_108::ITEMATT_BLADE:		emAttack = ITEMATT_BLADE;	break;
-		case glold_108::ITEMATT_DAGGER:		emAttack = ITEMATT_DAGGER;	break;
-		case glold_108::ITEMATT_SPEAR:		emAttack = ITEMATT_SPEAR;	break;
-		case glold_108::ITEMATT_STICK:		emAttack = ITEMATT_STICK;	break;
-		case glold_108::ITEMATT_GAUNT:		emAttack = ITEMATT_GAUNT;	break;
-		case glold_108::ITEMATT_BOW:		emAttack = ITEMATT_BOW;		break;
-		case glold_108::ITEMATT_THROW:		emAttack = ITEMATT_THROW;	break;
-		case glold_108::ITEMATT_NOCARE:		emAttack = ITEMATT_NOCARE;	break;
+		case glold_108::ITEMATT_NOTHING:
+			emAttack = ITEMATT_NOTHING;
+			break;
+
+		case glold_108::ITEMATT_SWORD:
+			emAttack = ITEMATT_SWORD;
+			break;
+		case glold_108::ITEMATT_REV00:
+			emAttack = ITEMATT_SWORD;	//	sword ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯.
+			break;
+		case glold_108::ITEMATT_DAGGER:
+			emAttack = ITEMATT_DAGGER;
+			break;
+		case glold_108::ITEMATT_SPEAR:
+			emAttack = ITEMATT_SPEAR;
+			break;
+		case glold_108::ITEMATT_BOW:
+			emAttack = ITEMATT_BOW; 
+			break;
+		case glold_108::ITEMATT_THROW:
+			emAttack = ITEMATT_THROW;
+			break;
+
+		case glold_108::ITEMATT_NOCARE:
+			emAttack = ITEMATT_NOCARE;
+			break;
 
 		default:
 			emAttack = ITEMATT_NOTHING;
@@ -91,7 +153,7 @@ namespace ITEM
 
 		wReModelNum		= Suit100.wReModelNum;
 
-		//	Æ¯¼ö ºÎ°¡ È¿°úµé.
+		//	Æ¯ï¿½ï¿½ ï¿½Î°ï¿½ È¿ï¿½ï¿½ï¿½ï¿½.
 		memcpy( sADDON, Suit100.sADDON, sizeof(SADDON)*ADDON_SIZE);
 
 		sVARIATE		= Suit100.sVARIATE;
@@ -126,7 +188,7 @@ namespace ITEM
 
 		wReModelNum		= Suit101.wReModelNum;
 
-		//	Æ¯¼ö ºÎ°¡ È¿°úµé.
+		//	Æ¯ï¿½ï¿½ ï¿½Î°ï¿½ È¿ï¿½ï¿½ï¿½ï¿½.
 		memcpy( sADDON, Suit101.sADDON, sizeof(SADDON)*ADDON_SIZE);
 
 		sVARIATE		= Suit101.sVARIATE;
@@ -213,7 +275,7 @@ namespace ITEM
 
 		wReModelNum = Suit104.wReModelNum;
 
-		//	Æ¯¼ö ºÎ°¡ È¿°úµé.
+		//	Æ¯ï¿½ï¿½ ï¿½Î°ï¿½ È¿ï¿½ï¿½ï¿½ï¿½.
 		for ( int i=0; i<SSUIT_104::ADDON_SIZE; ++i )		
 			sADDON[i] = Suit104.sADDON[i];
 
@@ -250,7 +312,7 @@ namespace ITEM
 		sBLOW = Suit105.sBLOW;
 	}
 
-	void SSUIT::Assign ( SSUIT_106 &sSuitOld ) // By °æ´ë
+	void SSUIT::Assign ( SSUIT_106 &sSuitOld ) // By ï¿½ï¿½ï¿½
 	{
 		emSuit = sSuitOld.emSuit;
 		//SETBOTHHAND ( sSuitOld.bBothHand );

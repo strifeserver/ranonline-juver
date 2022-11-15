@@ -18,16 +18,16 @@ namespace gloldskill_102
 {
 	enum GLSKILL_ATT_102
 	{
-		SKILLATT_NOTHING	= 0,	//	Âø¿ë¹«±â¾øÀ½.
-		SKILLATT_SWORD		= 1,	//	°Ë·ù.
+		SKILLATT_NOTHING	= 0,	//	ï¿½ï¿½ï¿½ë¹«ï¿½ï¿½ï¿½ï¿½ï¿½.
+		SKILLATT_SWORD		= 1,	//	ï¿½Ë·ï¿½.
 		SKILLATT_REV00		= 2,	//	REV00
-		SKILLATT_DAGGER		= 3,	//	´Ü°Ë·ù.
-		SKILLATT_SPEAR		= 4,	//	Ã¢·ù.
-		SKILLATT_BOW		= 5,	//	È°·ù.
-		SKILLATT_THROW		= 6,	//	ÅõÃ´·ù.
-		SKILLATT_NOCARE		= 7,	//	Å¸ÀÔ »ó°ü ¾ÈÇÔ.	( "GLSKILL" ¿¡¼­ Hand ¹«±â Á¦ÇÑ ¼Ó¼º¿¡¼­ »ç¿ëµÊ. )
-		SKILLATT_NSIZE		= 7,	//	Á¾·ù°¹¼ö.
-		SKILLATT_NEAR		= 4,	//	±ÙÁ¢ °ø°Ý.
+		SKILLATT_DAGGER		= 3,	//	ï¿½Ü°Ë·ï¿½.
+		SKILLATT_SPEAR		= 4,	//	Ã¢ï¿½ï¿½.
+		SKILLATT_BOW		= 5,	//	È°ï¿½ï¿½.
+		SKILLATT_THROW		= 6,	//	ï¿½ï¿½Ã´ï¿½ï¿½.
+		SKILLATT_NOCARE		= 7,	//	Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	( "GLSKILL" ï¿½ï¿½ï¿½ï¿½ Hand ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
+		SKILLATT_NSIZE		= 7,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		SKILLATT_NEAR		= 4,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	};
 };
 
@@ -35,17 +35,17 @@ namespace gloldskill_103
 {
 	enum GLSKILL_ATT_103
 	{
-		SKILLATT_NOTHING	= 0,	//	Âø¿ë¹«±â¾øÀ½.
-		SKILLATT_SWORD		= 1,	//	°Ë.
-		SKILLATT_BLADE		= 2,	//	µµ.
-		SKILLATT_DAGGER		= 3,	//	´Ü°Ë.
+		SKILLATT_NOTHING	= 0,	//	ï¿½ï¿½ï¿½ë¹«ï¿½ï¿½ï¿½ï¿½ï¿½.
+		SKILLATT_SWORD		= 1,	//	ï¿½ï¿½.
+		SKILLATT_BLADE		= 2,	//	ï¿½ï¿½.
+		SKILLATT_DAGGER		= 3,	//	ï¿½Ü°ï¿½.
 		SKILLATT_SPEAR		= 4,	//	Ã¢.
-		SKILLATT_STICK		= 5,	//	¸ùµÕÀÌ.
+		SKILLATT_STICK		= 5,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 		SKILLATT_BOW		= 6,	//	È°.
-		SKILLATT_THROW		= 7,	//	ÅõÃ´.
-		SKILLATT_NOCARE		= 8,	//	Å¸ÀÔ »ó°ü ¾ÈÇÔ.	( "GLSKILL" ¿¡¼­ Hand ¹«±â Á¦ÇÑ ¼Ó¼º¿¡¼­ »ç¿ëµÊ. )
-		SKILLATT_NSIZE		= 8,	//	Á¾·ù°¹¼ö.
-		SKILLATT_NEAR		= 5,	//	±ÙÁ¢ °ø°Ý.
+		SKILLATT_THROW		= 7,	//	ï¿½ï¿½Ã´.
+		SKILLATT_NOCARE		= 8,	//	Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.	( "GLSKILL" ï¿½ï¿½ï¿½ï¿½ Hand ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½. )
+		SKILLATT_NSIZE		= 8,	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		SKILLATT_NEAR		= 5,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	};
 };
 
@@ -73,65 +73,87 @@ namespace gloldskill_110
 {
 	enum GLSKILL_ATT_110
 	{
-		SKILLATT_NOTHING	= 0,	//
-		SKILLATT_SWORD		= 1,	//
-		SKILLATT_BLADE		= 2,	//
-		SKILLATT_SWORDBLADE	= 3,	//
-		SKILLATT_DAGGER		= 4,	//
-		SKILLATT_SPEAR		= 5,	//
-		SKILLATT_STICK		= 6,	//
-		SKILLATT_GAUNT		= 7,	//
-		SKILLATT_BOW		= 8,	//
-		SKILLATT_THROW		= 9,	//
-		SKILLATT_GUN		= 10,	//
-		SKILLATT_RAILGUN	= 11,	//
-		SKILLATT_PORTALGUN	= 12,	//
-		SKILLATT_SHOTGUN	= 13,	//
-		SKILLATT_RAILPORTALGUN	= 14,	//
-		SKILLATT_NOCARE		= 15,	//
-		SKILLATT_NSIZE		= 15,	//
+		SKILLATT_NOTHING	= 0,
+		SKILLATT_SWORD		= 1,
+		SKILLATT_BLADE		= 2,
+		SKILLATT_SWORDBLADE	= 3,
+		SKILLATT_DAGGER		= 4,
+		SKILLATT_SPEAR		= 5,
+		SKILLATT_STICK		= 6,
+		SKILLATT_GAUNT		= 7,
+		SKILLATT_BOW		= 8,
+		SKILLATT_THROW		= 9,
+
+		SKILLATT_GUN		= 10,
+		SKILLATT_RAILGUN	= 11,
+		SKILLATT_PORTALGUN	= 12,
+
+		SKILLATT_SHOTGUN		= 13,
+		SKILLATT_RAILPORTALGUN	= 14,
+
+		SKILLATT_SCYTHE		= 15,
+		SKILLATT_DUALSPEAR	= 16,
+		SKILLATT_SHURIKEN	= 17,
+
+		SKILLATT_FIST	= 18,
+		SKILLATT_WAND	= 19,
+		SKILLATT_CUBE	= 20,
+		SKILLATT_WHIP	= 21,
+
+		SKILLATT_NOCARE		= 22,
+		SKILLATT_NSIZE		= 22,
 	};
 };
 
 
 enum GLSKILL_ATT
 {
-	SKILLATT_NOTHING	= 0,	//
-	SKILLATT_SWORD		= 1,	//
-	SKILLATT_BLADE		= 2,	//
-	SKILLATT_SWORDBLADE	= 3,	//
-	SKILLATT_DAGGER		= 4,	//
-	SKILLATT_SPEAR		= 5,	//
-	SKILLATT_STICK		= 6,	//
-	SKILLATT_GAUNT		= 7,	//
-	SKILLATT_BOW		= 8,	//
-	SKILLATT_THROW		= 9,	//
-	SKILLATT_GUN		= 10,	//
-	SKILLATT_RAILGUN	= 11,	//
-	SKILLATT_PORTALGUN	= 12,	//
-	SKILLATT_SHOTGUN	= 13,	//
-	SKILLATT_RAILPORTALGUN	= 14,	//
+	SKILLATT_NOTHING	= 0,
+	SKILLATT_SWORD		= 1,
+	SKILLATT_BLADE		= 2,
+	SKILLATT_SWORDBLADE	= 3,
+	SKILLATT_DAGGER		= 4,
+	SKILLATT_SPEAR		= 5,
+	SKILLATT_STICK		= 6,
+	SKILLATT_GAUNT		= 7,
+	SKILLATT_BOW		= 8,
+	SKILLATT_THROW		= 9,
+
+	SKILLATT_GUN		= 10,
+	SKILLATT_RAILGUN	= 11,
+	SKILLATT_PORTALGUN	= 12,
+
+	SKILLATT_SHOTGUN		= 13,
+	SKILLATT_RAILPORTALGUN	= 14,
+
 	SKILLATT_SCYTHE		= 15,
 	SKILLATT_DUALSPEAR	= 16,
 	SKILLATT_SHURIKEN	= 17,
-	SKILLATT_NOCARE		= 18,	//
-	SKILLATT_NSIZE		= 18,	//
+
+	SKILLATT_FIST	= 18,
+	SKILLATT_WAND	= 19,
+	SKILLATT_CUBE	= 20,
+	SKILLATT_WHIP	= 21,
+
+	SKILLATT_NOCARE		= 22,
+	SKILLATT_NSIZE		= 22,
+
 };
 
 namespace SKILL
 {
 	enum EMROLE
 	{
-		EMROLE_NORMAL	= 0,		//	Áï½Ã.
-		EMROLE_PASSIVE	= 1,		//	Æä½Ãºê °è¿­. ( »ç¿ëÇÏ´Â °ÍÀº ¾Æ´Ï°í ¹è¿üÀ»¶§ ´Ù¸¥ °ª¿¡ ¿µÇâ )
+		EMROLE_NORMAL	= 0,		//	ï¿½ï¿½ï¿½.
+		EMROLE_PASSIVE	= 1,		//	ï¿½ï¿½Ãºï¿½ ï¿½è¿­. ( ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 		EMROLE_NSIZE	= 2,
 	};
 
-	enum EMAPPLY	//	¹°¸®·Â °¡»ê½Ã È¿´É.
+	enum EMAPPLY	//	ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ È¿ï¿½ï¿½.
 	{
-		EMAPPLY_PHY_SHORT	= 0,	//	¹°¸® Å¸°ÝÇü.
-		EMAPPLY_PHY_LONG	= 1,	//	¹°¸® »ç°ÝÇü.
-		EMAPPLY_MAGIC		= 2,	//	¸¶¹ý ÀÛ¿ëÇü.
+		EMAPPLY_PHY_SHORT	= 0,	//	ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½.
+		EMAPPLY_PHY_LONG	= 1,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
+		EMAPPLY_MAGIC		= 2,	//	ï¿½ï¿½ï¿½ï¿½ ï¿½Û¿ï¿½ï¿½ï¿½.
 
 		EMAPPLY_NSIZE		= 3
 	};
@@ -152,245 +174,245 @@ namespace SKILL
 
 	struct SSKILLBASIC_100
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwGRADE;					//	µî±Þ.
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
 
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 
-		//	Skill ÀÇ ¿µÇâ ¹Þ´Â ¸ñÇ¥.
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
+		//	Skill ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½Ç¥.
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
 
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
 
-		gloldskill_102::GLSKILL_ATT_102	emUSE_LITEM;			//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_102::GLSKILL_ATT_102	emUSE_RITEM;			//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		gloldskill_102::GLSKILL_ATT_102	emUSE_LITEM;			//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_102::GLSKILL_ATT_102	emUSE_RITEM;			//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_101
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwGRADE;					//	µî±Þ.
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
 
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 
-		//	Skill ÀÇ ¿µÇâ ¹Þ´Â ¸ñÇ¥.
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
+		//	Skill ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½Ç¥.
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
 
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
 
-		gloldskill_102::GLSKILL_ATT_102	emUSE_LITEM;			//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_102::GLSKILL_ATT_102	emUSE_RITEM;			//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		gloldskill_102::GLSKILL_ATT_102	emUSE_LITEM;			//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_102::GLSKILL_ATT_102	emUSE_RITEM;			//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_102
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwGRADE;					//	µî±Þ.
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
 
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 
-		//	Skill ÀÇ ¿µÇâ ¹Þ´Â ¸ñÇ¥.
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
+		//	Skill ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½Ç¥.
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
 
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
 
-		gloldskill_103::GLSKILL_ATT_103	emUSE_LITEM;			//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_103::GLSKILL_ATT_103	emUSE_RITEM;			//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		gloldskill_103::GLSKILL_ATT_103	emUSE_LITEM;			//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_103::GLSKILL_ATT_103	emUSE_RITEM;			//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_103
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwGRADE;					//	µî±Þ.
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
 
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 
-		//	Skill ÀÇ ¿µÇâ ¹Þ´Â ¸ñÇ¥.
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
+		//	Skill ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½Ç¥.
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
 
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
 
-		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_105
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 
-		//	Skill ÀÇ ¿µÇâ ¹Þ´Â ¸ñÇ¥.
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
+		//	Skill ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½Ç¥.
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
 
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
 
-		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_106
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
 
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
 
-		//	Skill ÀÇ ¿µÇâ ¹Þ´Â ¸ñÇ¥.
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
+		//	Skill ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½ ï¿½ï¿½Ç¥.
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
 
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
 
-		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
 	};
 
 	struct SSKILLBASIC_107
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;	//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;	//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;	//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;	//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_108
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
 		EMACTION			emACTION;
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;	//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;	//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		gloldskill_108::GLSKILL_ATT_108	emUSE_LITEM;	//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_108::GLSKILL_ATT_108	emUSE_RITEM;	//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_109
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 		WORD				wData;						// official unknown data
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
 		EMACTION			emACTION;
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		gloldskill_110::GLSKILL_ATT_110		emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_110::GLSKILL_ATT_110		emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		gloldskill_110::GLSKILL_ATT_110		emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_110::GLSKILL_ATT_110		emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_110
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 		WORD				wData;						// official unknown data
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
 		EMACTION			emACTION;
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		gloldskill_110::GLSKILL_ATT_110		emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		gloldskill_110::GLSKILL_ATT_110		emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		gloldskill_110::GLSKILL_ATT_110		emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		gloldskill_110::GLSKILL_ATT_110		emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC_111
 	{
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 		WORD				wData;						// official unknown data
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
 		EMACTION			emACTION;
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		GLSKILL_ATT			emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		GLSKILL_ATT			emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		GLSKILL_ATT			emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		GLSKILL_ATT			emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 	};
 
 	struct SSKILLBASIC
 	{
 		enum { VERSION = 0x0112, };
 
-		SNATIVEID			sNATIVEID;					//	°íÀ¯ ID. ( ÃÖÃÊ »ý¼º½Ã¿¡ ºÎ¿©µÇ´Â °íÀ¯ ID )
+		SNATIVEID			sNATIVEID;					//	ï¿½ï¿½ï¿½ï¿½ ID. ( ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Î¿ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ID )
 		WORD				wData;						// official unknown data
-		bool				bLearnView;					//  GM¸¸ º¸ÀÌ´Â ½ºÅ³
-		char				szNAME[MAX_SZNAME];			//	½ºÅ³ÀÇ ÀÌ¸§.
-		DWORD				dwMAXLEVEL;					//	ÃÖ´ë ·¹º§.
-		DWORD				dwGRADE;					//	µî±Þ.
-		EMAPPLY				emAPPLY;					//	½ºÅ³ À¯Çü. ( ¹°¸®°ø°Ý, ¸¶¹ý°ø°Ý, ¸¶¹ý º¸Á¶ )
-		EMROLE				emROLE;						//	½ºÅ³ µ¿ÀÛ Æ¯¼º. ( Áï½Ã, Áö¼Ó, Æä½Ãºê )
+		bool				bLearnView;					//  GMï¿½ï¿½ ï¿½ï¿½ï¿½Ì´ï¿½ ï¿½ï¿½Å³
+		char				szNAME[MAX_SZNAME];			//	ï¿½ï¿½Å³ï¿½ï¿½ ï¿½Ì¸ï¿½.
+		DWORD				dwMAXLEVEL;					//	ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½.
+		DWORD				dwGRADE;					//	ï¿½ï¿½ï¿½.
+		EMAPPLY				emAPPLY;					//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½. ( ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ )
+		EMROLE				emROLE;						//	ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½. ( ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ãºï¿½ )
 		EMACTION			emACTION;
-		WORD				wTARRANGE;					//	¸ñÇ¥ °¡´É °Å¸®.
-		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"Æí" ( ±× ÁÖÀ§ÀÇ ÀÚ±âÆí, ±× ÁÖÀ§ÀÇ »ó´ëÆí )
-		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸°Ù. ( ÀÚ½Å, ´ë»ó, À§Ä¡ ) &&
-		EMIMPACT_REALM		emIMPACT_REALM;				//	¿µ¿ª. ( Å¸°Ù, Å¸°Ù°ú ±× ÁÖÀ§, ±× ÁÖÀ§ ) &&
-		GLSKILL_ATT			emUSE_LITEM;				//	»ç¿ë°¡´É ¿Þ¼Õ µµ±¸ ¼Ó¼º.
-		GLSKILL_ATT			emUSE_RITEM;				//	»ç¿ë°¡´É ¿À¸¥¼Õ µµ±¸ ¼Ó¼º.
+		WORD				wTARRANGE;					//	ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½.
+		EMIMPACT_SIDE		emIMPACT_SIDE;				//	"ï¿½ï¿½" ( ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ )
+		EMIMPACT_TAR		emIMPACT_TAR;				//	Å¸ï¿½ï¿½. ( ï¿½Ú½ï¿½, ï¿½ï¿½ï¿½, ï¿½ï¿½Ä¡ ) &&
+		EMIMPACT_REALM		emIMPACT_REALM;				//	ï¿½ï¿½ï¿½ï¿½. ( Å¸ï¿½ï¿½, Å¸ï¿½Ù°ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ) &&
+		GLSKILL_ATT			emUSE_LITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½Þ¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
+		GLSKILL_ATT			emUSE_RITEM;				//	ï¿½ï¿½ë°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó¼ï¿½.
 		DWORD				dwData;
 
 		SSKILLBASIC (void) :
