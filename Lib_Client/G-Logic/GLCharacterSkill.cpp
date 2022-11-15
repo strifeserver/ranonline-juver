@@ -352,7 +352,8 @@ void GLCharacter::SkillReaction ( const STARGETID &sTargetID, const DWORD dwMR, 
 
 		if ( dwMR&(DXKEY_UP) )
 		{
-			CInnerInterface::GetInstance().PrintMsgText ( NS_UITEXTCOLOR::DISABLE, "DEBUG=",m_sActiveSkill );
+			// Casting SKill Conditions
+			// CInnerInterface::GetInstance().PrintMsgText ( NS_UITEXTCOLOR::DISABLE, "DEBUG=",m_sActiveSkill );
 			switch ( emSkillCheck )
 			{
 			case EMSKILL_DELAYTIME:
