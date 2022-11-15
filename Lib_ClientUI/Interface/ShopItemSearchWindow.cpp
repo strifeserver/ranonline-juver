@@ -239,7 +239,7 @@ void CShopItemSearchWindow::ReqSearch()
 
 		StringCbCopy( NetMsg.sSearchData.szItemName, MAP_NAME_LENGTH, m_pItemNameEdit->GetEditString( ITEMSHOPSEARCH_EDIT ) );
 
-		// бЬ©К ╨н╪╜
+		// О©╫О©╫О©╫О©╫ О©╫н╪О©╫
 		int nIndex;
 		nIndex = m_pComboRollOver[0]->GetSelectIndex();
 		if( nIndex != 0 && nIndex != -1 )
@@ -272,17 +272,17 @@ void CShopItemSearchWindow::ReqSearch()
 				break;
 			}
 		}
-		// ╬фюлеш е╦ют
+		// О©╫О©╫О©╫О©╫О©╫О©╫ е╦О©╫О©╫
 		nIndex = m_pComboRollOver[1]->GetSelectIndex();
 		if( nIndex != 0 && nIndex != -1 )
 		{
 			switch ( nIndex )
 			{
-			case 1: // ╟к
+			case 1: // О©╫О©╫
 				NetMsg.sSearchData.dwSuitType = ITEMATT_SWORD;
 				break;
-			case 2: // ╣╣
-				NetMsg.sSearchData.dwSuitType = ITEMATT_BLADE;
+			case 2: // О©╫О©╫
+				NetMsg.sSearchData.dwSuitType = ITEMATT_SABER;
 				break;
 			case 3: // х╟
 				NetMsg.sSearchData.dwSuitType = ITEMATT_BOW;
@@ -291,16 +291,16 @@ void CShopItemSearchWindow::ReqSearch()
 				NetMsg.sSearchData.dwSuitType = ITEMATT_SPEAR;
 				break;
 
-			case 5: // ╢э╟к
+			case 5: // О©╫э╟О©╫
 				NetMsg.sSearchData.dwSuitType = ITEMATT_DAGGER;
 				break;
-			case 6: // ╦Ы╣уюл
+			case 6: // О©╫О©╫О©╫О©╫О©╫О©╫
 				NetMsg.sSearchData.dwSuitType = ITEMATT_STICK;
 				break;
-			case 7: // ╠г
+			case 7: // О©╫О©╫
 				NetMsg.sSearchData.dwSuitType = ITEMATT_GAUNT;
 				break;
-			case 8: // еУц╢
+			case 8: // О©╫О©╫ц╢
 				NetMsg.sSearchData.dwSuitType = ITEMATT_THROW;
 				break;
 
@@ -309,20 +309,20 @@ void CShopItemSearchWindow::ReqSearch()
 				NetMsg.sSearchData.dwSuitType = ITEMATT_GUN;
 				break;
 			case 10:
-				NetMsg.sSearchData.dwSuitType = ITEMATT_RAILGUN;
+				NetMsg.sSearchData.dwSuitType = ITEMATT_RAIL_GUN;
 				break;
 			case 11:
-				NetMsg.sSearchData.dwSuitType = ITEMATT_PORTALGUN;
+				NetMsg.sSearchData.dwSuitType = ITEMATT_PORTAL_GUN;
 				break;
 			}
 		}
-		// бЬ©К ╥╧╨╖
+		// О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫
 		nIndex = m_pComboRollOver[2]->GetSelectIndex();
 		if( nIndex != 0 && nIndex != -1 )
 		{
 			NetMsg.sSearchData.wReqLevel = nIndex * 10;
 		}
-		// бЬ©К ╫╨ещ
+		// О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫
 		nIndex = m_pComboRollOver[3]->GetSelectIndex();
 		if( nIndex != 0 && nIndex != -1  )
 		{
@@ -454,7 +454,7 @@ void CShopItemSearchWindow::Update ( int x, int y, BYTE LB, BYTE MB, BYTE RB, in
 		CUIControl* pControl = m_ControlContainer.FindControl ( m_RollOverID );
 		if ( !pControl )
 		{
-			GASSERT ( 0 && "╫и╟╒гя ©ю╥Ы, ЁК╣Е╟║ Ёнют╢о╢ы." );
+			GASSERT ( 0 && "О©╫и╟О©╫О©╫О©╫ О©╫О©╫О©╫О©╫, О©╫О©╫Е╟║ О©╫О©╫О©╫т╢о╢О©╫." );
 			return ;
 		}
 
@@ -465,7 +465,7 @@ void CShopItemSearchWindow::Update ( int x, int y, BYTE LB, BYTE MB, BYTE RB, in
 		if ( dwControlMsg ) TranslateUIMessage ( m_RollOverID, dwControlMsg );
 		NS_UIDEBUGSET::BlockEnd ();
 
-		//	╫╨е╘╥я╧ы©║ ╟Э╟Х╣х ╦ч╫цаЖ╟║ ╬ф╢о╟М		
+		//	О©╫О©╫е╘О©╫я╧ы©О©╫ О©╫О©╫О©╫О©╫О©╫ О©╫ч╫О©╫О©╫О©╫О©╫О©╫ О©╫ф╢о╟О©╫		
 		if ( !(dwControlMsg & UI_MSG_COMBOBOX_ROLLOVER_SCROLL) )
 		{
 			DWORD dwMsg = GetMessageEx ();
@@ -548,7 +548,7 @@ void CShopItemSearchWindow::TranslateUIMessage ( UIGUID ControlID, DWORD dwMsg )
 					{
 						if( m_nPageNum > 0 ) 
 						{
-							// юлюЭ фДюлаЖ╥н юл╣©
+							// О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ О©╫л╣О©╫
 							m_nPageNum--;
 							m_nSelectString = 0;
 
@@ -579,7 +579,7 @@ void CShopItemSearchWindow::TranslateUIMessage ( UIGUID ControlID, DWORD dwMsg )
 							m_pComboRollSearchOver->SetSelectIndex( m_nSelectString );
 						}else if( m_nPageNum > 0 ) 
 						{
-							// юлюЭ фДюлаЖ╥н юл╣©
+							// О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ О©╫л╣О©╫
 							m_nPageNum--;
 							m_nSelectString = MAX_ROLLOVER_TEXT-1;
 
@@ -598,7 +598,7 @@ void CShopItemSearchWindow::TranslateUIMessage ( UIGUID ControlID, DWORD dwMsg )
 								m_pItemNameEdit->SetEditString( ITEMSHOPSEARCH_EDIT, m_vecString[m_nSelectString+(m_nPageNum*MAX_ROLLOVER_TEXT)] );
 								m_pComboRollSearchOver->SetSelectIndex( m_nSelectString );
 							}else{
-								// юлхд фДюлаЖ╥н юл╣©
+								// О©╫О©╫О©╫О©╫ О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ О©╫л╣О©╫
 								m_nPageNum++;
 								m_nSelectString = 0;
 

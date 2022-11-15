@@ -16,7 +16,7 @@ EMGRINDING_RS_INDEX GrindRsClassToIndex ( const EMGRINDING_RS_FLAGS emClass )
 	case EMGRINDING_RS_SPIRIT:	return EMGRINDING_RS_SPIRIT_INDEX;
 	};
 
-	GASSERT(0&&"Àß¸øµÈ ÀúÇ×¾ÆÀÌÅÛ Å¬·¡½ºÀÔ´Ï´Ù.");
+	GASSERT(0&&"ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×¾ï¿½ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 	return EMGRINDING_RS_FIRE_INDEX;
 }
 
@@ -31,7 +31,7 @@ EMGRINDING_RS_FLAGS GrindIndexToRsClass ( const EMGRINDING_RS_INDEX emIndex )
 	case EMGRINDING_RS_SPIRIT_INDEX:	return EMGRINDING_RS_SPIRIT;
 	};
 
-	GASSERT(0&&"Àß¸øµÈ ÀúÇ×¾ÆÀÌÅÛ Å¬·¡½ºÀÔ´Ï´Ù.");
+	GASSERT(0&&"ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½×¾ï¿½ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 	return EMGRINDING_RS_FIRE;
 }
 
@@ -185,22 +185,31 @@ namespace COMMENT
 
 	std::string ITEMATTACK[ITEMATT_NSIZE+1] =
 	{
-		"Nothing",
+		"Don't Install",
 		"Sword",
 		"Blade",
 		"Dagger",
 		"Spear",
-		"Stick",
-		"Gaunt",
+		"Club",
+		"Gauntlet",
 		"Bow",
 		"Throw",
-		"Gun",
+		"Dual Gun",
 		"Rail Gun",
 		"Portal Gun",
 		"Scythe",
-		"DualSpear",
+		"Dual Spear",
 		"Shuriken",
-		"No Weapon Requirements",
+		"Fist",
+		"Wand",
+		"Cube",
+		"Whip",
+		"Hammer",
+		"Shield",
+		"Umbrella",
+		"No Type Check",
+		"Sword/Blade",
+		"Portal/Rail Gun",
 	};
 
 	std::string ITEMADDON[EMADD_SIZE] =
